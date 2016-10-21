@@ -1,0 +1,853 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/physical_object_quality_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PO_0000003 ## whole plant
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0000003", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000398>
+ Annotations: rdfs:label "whole plant morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a whole plant."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000003> ## physical object quality and 'inheres in' some whole plant
+
+Class: http://purl.obolibrary.org/obo/PO_0000004 ## in vitro plant structure
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0000004", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000844>
+ Annotations: rdfs:label "in vitro plant structure morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a in vitro plant structure."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000004> ## physical object quality and 'inheres in' some in vitro plant structure
+
+Class: http://purl.obolibrary.org/obo/PO_0000055 ## bud
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0000055", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000789>
+ Annotations: rdfs:label "bud morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a bud."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000055> ## physical object quality and 'inheres in' some bud
+
+Class: http://purl.obolibrary.org/obo/PO_0000282 ## trichome
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0000282", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000911>
+ Annotations: rdfs:label "trichome morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a trichome."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000282> ## physical object quality and 'inheres in' some trichome
+
+Class: http://purl.obolibrary.org/obo/PO_0003023 ## root nodule
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0003023", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000898>
+ Annotations: rdfs:label "root nodule morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a root nodule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0003023> ## physical object quality and 'inheres in' some root nodule
+
+Class: http://purl.obolibrary.org/obo/PO_0004542 ## rhizome
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0004542", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000549>
+ Annotations: rdfs:label "rhizome morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a rhizome."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0004542> ## physical object quality and 'inheres in' some rhizome
+
+Class: http://purl.obolibrary.org/obo/PO_0004547 ## subterranean shoot axis tuber
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0004547", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000742>
+ Annotations: rdfs:label "subterranean shoot axis tuber morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a subterranean shoot axis tuber."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0004547> ## physical object quality and 'inheres in' some subterranean shoot axis tuber
+
+Class: http://purl.obolibrary.org/obo/PO_0004709 ## axillary bud
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0004709", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000790>
+ Annotations: rdfs:label "axillary bud morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a axillary bud."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0004709> ## physical object quality and 'inheres in' some axillary bud
+
+Class: http://purl.obolibrary.org/obo/PO_0005360 ## aleurone layer
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0005360", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000942>
+ Annotations: rdfs:label "aleurone layer morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a aleurone layer."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0005360> ## physical object quality and 'inheres in' some aleurone layer
+
+Class: http://purl.obolibrary.org/obo/PO_0006001 ## phyllome
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0006001", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000747>
+ Annotations: rdfs:label "phyllome morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a phyllome."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0006001> ## physical object quality and 'inheres in' some phyllome
+
+Class: http://purl.obolibrary.org/obo/PO_0006342 ## infructescence
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0006342", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000920>
+ Annotations: rdfs:label "infructescence morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a infructescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0006342> ## physical object quality and 'inheres in' some infructescence
+
+Class: http://purl.obolibrary.org/obo/PO_0009001 ## fruit
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009001", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0002629>
+ Annotations: rdfs:label "fruit morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a fruit."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009001> ## physical object quality and 'inheres in' some fruit
+
+Class: http://purl.obolibrary.org/obo/PO_0009002 ## plant cell
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009002", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0002683>
+ Annotations: rdfs:label "plant cell morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a plant cell."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009002> ## physical object quality and 'inheres in' some plant cell
+
+Class: http://purl.obolibrary.org/obo/PO_0009005 ## root
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009005", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000043>
+ Annotations: rdfs:label "root morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a root."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009005> ## physical object quality and 'inheres in' some root
+
+Class: http://purl.obolibrary.org/obo/PO_0009006 ## shoot system
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009006", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000077>
+ Annotations: rdfs:label "shoot system morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a shoot system."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009006> ## physical object quality and 'inheres in' some shoot system
+
+Class: http://purl.obolibrary.org/obo/PO_0009007 ## portion of plant tissue
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009007", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000843>
+ Annotations: rdfs:label "portion of plant tissue morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a portion of plant tissue."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009007> ## physical object quality and 'inheres in' some portion of plant tissue
+
+Class: http://purl.obolibrary.org/obo/PO_0009008 ## plant organ
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009008", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000736>
+ Annotations: rdfs:label "plant organ morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a plant organ."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009008> ## physical object quality and 'inheres in' some plant organ
+
+Class: http://purl.obolibrary.org/obo/PO_0009009 ## plant embryo
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009009", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000064>
+ Annotations: rdfs:label "plant embryo morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a plant embryo."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009009> ## physical object quality and 'inheres in' some plant embryo
+
+Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009010", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000184>
+ Annotations: rdfs:label "seed morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a seed."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## physical object quality and 'inheres in' some seed
+
+Class: http://purl.obolibrary.org/obo/PO_0009011 ## plant structure
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009011", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000839>
+ Annotations: rdfs:label "plant structure morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a plant structure."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009011> ## physical object quality and 'inheres in' some plant structure
+
+Class: http://purl.obolibrary.org/obo/PO_0009015 ## portion of vascular tissue
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009015", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000470>
+ Annotations: rdfs:label "vascular tissue morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a portion of vascular tissue."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009015> ## physical object quality and 'inheres in' some portion of vascular tissue
+
+Class: http://purl.obolibrary.org/obo/PO_0009025 ## vascular leaf
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009025", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000419>
+ Annotations: rdfs:label "vascular leaf morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a vascular leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009025> ## physical object quality and 'inheres in' some vascular leaf
+
+Class: http://purl.obolibrary.org/obo/PO_0009026 ## sporophyll
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009026", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000866>
+ Annotations: rdfs:label "sporophyll morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a sporophyll."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009026> ## physical object quality and 'inheres in' some sporophyll
+
+Class: http://purl.obolibrary.org/obo/PO_0009027 ## megasporophyll
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009027", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000867>
+ Annotations: rdfs:label "megasporophyll morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a megasporophyll."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009027> ## physical object quality and 'inheres in' some megasporophyll
+
+Class: http://purl.obolibrary.org/obo/PO_0009028 ## microsporophyll
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009028", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000868>
+ Annotations: rdfs:label "microsporophyll morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a microsporophyll."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009028> ## physical object quality and 'inheres in' some microsporophyll
+
+Class: http://purl.obolibrary.org/obo/PO_0009029 ## stamen
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009029", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000215>
+ Annotations: rdfs:label "stamen morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a stamen."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009029> ## physical object quality and 'inheres in' some stamen
+
+Class: http://purl.obolibrary.org/obo/PO_0009030 ## carpel
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009030", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0006012>
+ Annotations: rdfs:label "carpel morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a carpel."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009030> ## physical object quality and 'inheres in' some carpel
+
+Class: http://purl.obolibrary.org/obo/PO_0009031 ## sepal
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009031", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000864>
+ Annotations: rdfs:label "sepal morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a sepal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009031> ## physical object quality and 'inheres in' some sepal
+
+Class: http://purl.obolibrary.org/obo/PO_0009032 ## petal
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009032", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000863>
+ Annotations: rdfs:label "petal morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a petal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009032> ## physical object quality and 'inheres in' some petal
+
+Class: http://purl.obolibrary.org/obo/PO_0009033 ## tepal
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009033", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000865>
+ Annotations: rdfs:label "tepal morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a tepal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009033> ## physical object quality and 'inheres in' some tepal
+
+Class: http://purl.obolibrary.org/obo/PO_0009034 ## flower bract
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009034", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000079>
+ Annotations: rdfs:label "flower bract morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a flower bract."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009034> ## physical object quality and 'inheres in' some flower bract
+
+Class: http://purl.obolibrary.org/obo/PO_0009036 ## lodicule
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009036", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0006009>
+ Annotations: rdfs:label "lodicule morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a lodicule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009036> ## physical object quality and 'inheres in' some lodicule
+
+Class: http://purl.obolibrary.org/obo/PO_0009037 ## lemma
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009037", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_1000023>
+ Annotations: rdfs:label "lemma morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a lemma."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009037> ## physical object quality and 'inheres in' some lemma
+
+Class: http://purl.obolibrary.org/obo/PO_0009038 ## palea
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009038", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_1000024>
+ Annotations: rdfs:label "palea morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a palea."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009038> ## physical object quality and 'inheres in' some palea
+
+Class: http://purl.obolibrary.org/obo/PO_0009039 ## glume
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009039", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000869>
+ Annotations: rdfs:label "glume morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a glume."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009039> ## physical object quality and 'inheres in' some glume
+
+Class: http://purl.obolibrary.org/obo/PO_0009046 ## flower
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009046", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000499>
+ Annotations: rdfs:label "flower morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a flower."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009046> ## physical object quality and 'inheres in' some flower
+
+Class: http://purl.obolibrary.org/obo/PO_0009047 ## stem
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009047", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000361>
+ Annotations: rdfs:label "stem morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a stem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009047> ## physical object quality and 'inheres in' some stem
+
+Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009049", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000373>
+ Annotations: rdfs:label "inflorescence morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## physical object quality and 'inheres in' some inflorescence
+
+Class: http://purl.obolibrary.org/obo/PO_0009051 ## spikelet
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009051", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000657>
+ Annotations: rdfs:label "spikelet morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a spikelet."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009051> ## physical object quality and 'inheres in' some spikelet
+
+Class: http://purl.obolibrary.org/obo/PO_0009053 ## peduncle
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009053", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000776>
+ Annotations: rdfs:label "peduncle morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a peduncle."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009053> ## physical object quality and 'inheres in' some peduncle
+
+Class: http://purl.obolibrary.org/obo/PO_0009054 ## inflorescence bract
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009054", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000816>
+ Annotations: rdfs:label "inflorescence bract morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a inflorescence bract."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009054> ## physical object quality and 'inheres in' some inflorescence bract
+
+Class: http://purl.obolibrary.org/obo/PO_0009055 ## bract
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009055", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000815>
+ Annotations: rdfs:label "bract morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a bract."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009055> ## physical object quality and 'inheres in' some bract
+
+Class: http://purl.obolibrary.org/obo/PO_0009058 ## perianth
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009058", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000275>
+ Annotations: rdfs:label "perianth morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a perianth."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009058> ## physical object quality and 'inheres in' some perianth
+
+Class: http://purl.obolibrary.org/obo/PO_0009059 ## corolla
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009059", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000950>
+ Annotations: rdfs:label "corolla morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a corolla."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009059> ## physical object quality and 'inheres in' some corolla
+
+Class: http://purl.obolibrary.org/obo/PO_0009061 ## androecium
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009061", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000994>
+ Annotations: rdfs:label "androecium morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a androecium."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009061> ## physical object quality and 'inheres in' some androecium
+
+Class: http://purl.obolibrary.org/obo/PO_0009062 ## gynoecium
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009062", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000223>
+ Annotations: rdfs:label "pistil morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a gynoecium."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009062> ## physical object quality and 'inheres in' some gynoecium
+
+Class: http://purl.obolibrary.org/obo/PO_0009066 ## anther
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009066", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_1000022>
+ Annotations: rdfs:label "anther morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a anther."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009066> ## physical object quality and 'inheres in' some anther
+
+Class: http://purl.obolibrary.org/obo/PO_0009072 ## plant ovary
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009072", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_1000021>
+ Annotations: rdfs:label "plant ovary morphology"
+ Annotations: IAO:0000115 "The physical object quality of a plant ovary."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009072> ## physical object quality and 'inheres in' some plant ovary
+
+Class: http://purl.obolibrary.org/obo/PO_0009080 ## spikelet rachilla
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009080", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000954>
+ Annotations: rdfs:label "spikelet rachilla morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a spikelet rachilla."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009080> ## physical object quality and 'inheres in' some spikelet rachilla
+
+Class: http://purl.obolibrary.org/obo/PO_0009081 ## inflorescence branch
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009081", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000784>
+ Annotations: rdfs:label "inflorescence branch morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a inflorescence branch."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009081> ## physical object quality and 'inheres in' some inflorescence branch
+
+Class: http://purl.obolibrary.org/obo/PO_0009082 ## spikelet floret
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009082", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000274>
+ Annotations: rdfs:label "spikelet floret morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a spikelet floret."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009082> ## physical object quality and 'inheres in' some spikelet floret
+
+Class: http://purl.obolibrary.org/obo/PO_0009084 ## pericarp
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009084", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000945>
+ Annotations: rdfs:label "pericarp morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a pericarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009084> ## physical object quality and 'inheres in' some pericarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009085 ## exocarp
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009085", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000906>
+ Annotations: rdfs:label "exocarp morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a exocarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009085> ## physical object quality and 'inheres in' some exocarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009086 ## endocarp
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009086", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000946>
+ Annotations: rdfs:label "endocarp morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a endocarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009086> ## physical object quality and 'inheres in' some endocarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009087 ## mesocarp
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009087", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000948>
+ Annotations: rdfs:label "mesocarp morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a mesocarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009087> ## physical object quality and 'inheres in' some mesocarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009088 ## seed coat
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009088", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000838>
+ Annotations: rdfs:label "seed coat morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a seed coat."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009088> ## physical object quality and 'inheres in' some seed coat
+
+Class: http://purl.obolibrary.org/obo/PO_0009089 ## endosperm
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009089", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000575>
+ Annotations: rdfs:label "endosperm morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a endosperm."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009089> ## physical object quality and 'inheres in' some endosperm
+
+Class: http://purl.obolibrary.org/obo/PO_0009100 ## involucre
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009100", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000979>
+ Annotations: rdfs:label "involucre morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a involucre."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009100> ## physical object quality and 'inheres in' some involucre
+
+Class: http://purl.obolibrary.org/obo/PO_0020030 ## cotyledon
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020030", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000749>
+ Annotations: rdfs:label "cotyledon morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a cotyledon."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020030> ## physical object quality and 'inheres in' some cotyledon
+
+Class: http://purl.obolibrary.org/obo/PO_0020033 ## coleoptile
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020033", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000753>
+ Annotations: rdfs:label "coleoptile morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a coleoptile."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020033> ## physical object quality and 'inheres in' some coleoptile
+
+Class: http://purl.obolibrary.org/obo/PO_0020037 ## mesocotyl
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020037", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000758>
+ Annotations: rdfs:label "mesocotyl morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a mesocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020037> ## physical object quality and 'inheres in' some mesocotyl
+
+Class: http://purl.obolibrary.org/obo/PO_0020038 ## petiole
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020038", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000765>
+ Annotations: rdfs:label "petiole morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a petiole."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020038> ## physical object quality and 'inheres in' some petiole
+
+Class: http://purl.obolibrary.org/obo/PO_0020039 ## leaf lamina
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020039", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000829>
+ Annotations: rdfs:label "leaf lamina morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a leaf lamina."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020039> ## physical object quality and 'inheres in' some leaf lamina
+
+Class: http://purl.obolibrary.org/obo/PO_0020050 ## petiolule
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020050", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000884>
+ Annotations: rdfs:label "petiolule morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a petiolule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020050> ## physical object quality and 'inheres in' some petiolule
+
+Class: http://purl.obolibrary.org/obo/PO_0020063 ## hilum
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020063", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000967>
+ Annotations: rdfs:label "hilum morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a hilum."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020063> ## physical object quality and 'inheres in' some hilum
+
+Class: http://purl.obolibrary.org/obo/PO_0020100 ## hypocotyl
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020100", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000757>
+ Annotations: rdfs:label "hypocotyl morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a hypocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020100> ## physical object quality and 'inheres in' some hypocotyl
+
+Class: http://purl.obolibrary.org/obo/PO_0020103 ## flag leaf
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020103", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000832>
+ Annotations: rdfs:label "flag leaf morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a flag leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020103> ## physical object quality and 'inheres in' some flag leaf
+
+Class: http://purl.obolibrary.org/obo/PO_0020104 ## leaf sheath
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020104", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000835>
+ Annotations: rdfs:label "leaf sheath morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a leaf sheath."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020104> ## physical object quality and 'inheres in' some leaf sheath
+
+Class: http://purl.obolibrary.org/obo/PO_0020105 ## ligule
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020105", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0002748>
+ Annotations: rdfs:label "ligule morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a ligule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020105> ## physical object quality and 'inheres in' some ligule
+
+Class: http://purl.obolibrary.org/obo/PO_0020106 ## leaf sheath auricle
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020106", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0002717>
+ Annotations: rdfs:label "leaf sheath auricle morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a leaf sheath auricle."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020106> ## physical object quality and 'inheres in' some leaf sheath auricle
+
+Class: http://purl.obolibrary.org/obo/PO_0020122 ## inflorescence axis
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020122", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000782>
+ Annotations: rdfs:label "inflorescence axis morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a inflorescence axis."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020122> ## physical object quality and 'inheres in' some inflorescence axis
+
+Class: http://purl.obolibrary.org/obo/PO_0020126 ## tassel inflorescence
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020126", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000788>
+ Annotations: rdfs:label "tassel inflorescence morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a tassel inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020126> ## physical object quality and 'inheres in' some tassel inflorescence
+
+Class: http://purl.obolibrary.org/obo/PO_0020136 ## ear inflorescence
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020136", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000969>
+ Annotations: rdfs:label "ear inflorescence morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a ear inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020136> ## physical object quality and 'inheres in' some ear inflorescence
+
+Class: http://purl.obolibrary.org/obo/PO_0020139 ## leaf midvein
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020139", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000822>
+ Annotations: rdfs:label "leaf midvein morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a leaf midvein."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020139> ## physical object quality and 'inheres in' some leaf midvein
+
+Class: http://purl.obolibrary.org/obo/PO_0020142 ## stem internode
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020142", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000756>
+ Annotations: rdfs:label "stem internode morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a stem internode."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020142> ## physical object quality and 'inheres in' some stem internode
+
+Class: http://purl.obolibrary.org/obo/PO_0025004 ## plant axis
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025004", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000738>
+ Annotations: rdfs:label "plant axis morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a plant axis."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025004> ## physical object quality and 'inheres in' some plant axis
+
+Class: http://purl.obolibrary.org/obo/PO_0025005 ## organ margin
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025005", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000833>
+ Annotations: rdfs:label "organ margin morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a organ margin."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025005> ## physical object quality and 'inheres in' some organ margin
+
+Class: http://purl.obolibrary.org/obo/PO_0025007 ## collective plant organ structure
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025007", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000842>
+ Annotations: rdfs:label "collective plant organ structure morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a collective plant organ structure."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025007> ## physical object quality and 'inheres in' some collective plant organ structure
+
+Class: http://purl.obolibrary.org/obo/PO_0025009 ## leaf lamina margin
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025009", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000830>
+ Annotations: rdfs:label "leaf lamina margin morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a leaf lamina margin."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025009> ## physical object quality and 'inheres in' some leaf lamina margin
+
+Class: http://purl.obolibrary.org/obo/PO_0025023 ## collective phyllome structure
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025023", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000845>
+ Annotations: rdfs:label "collective phyllome structure morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a collective phyllome structure."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025023> ## physical object quality and 'inheres in' some collective phyllome structure
+
+Class: http://purl.obolibrary.org/obo/PO_0025025 ## root system
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025025", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000985>
+ Annotations: rdfs:label "root system morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a root system."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025025> ## physical object quality and 'inheres in' some root system
+
+Class: http://purl.obolibrary.org/obo/PO_0025029 ## shoot axis
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025029", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000739>
+ Annotations: rdfs:label "shoot axis morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a shoot axis."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025029> ## physical object quality and 'inheres in' some shoot axis
+
+Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025034", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000748>
+ Annotations: rdfs:label "leaf morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## physical object quality and 'inheres in' some leaf
+
+Class: http://purl.obolibrary.org/obo/PO_0025066 ## stalk
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025066", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000764>
+ Annotations: rdfs:label "stalk morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a stalk."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025066> ## physical object quality and 'inheres in' some stalk
+
+Class: http://purl.obolibrary.org/obo/PO_0025073 ## branch
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025073", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000740>
+ Annotations: rdfs:label "branch morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a branch."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025073> ## physical object quality and 'inheres in' some branch
+
+Class: http://purl.obolibrary.org/obo/PO_0025075 ## non-vascular leaf
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025075", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000925>
+ Annotations: rdfs:label "non-vascular leaf morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a non-vascular leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025075> ## physical object quality and 'inheres in' some non-vascular leaf
+
+Class: http://purl.obolibrary.org/obo/PO_0025082 ## reproductive shoot system
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025082", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000786>
+ Annotations: rdfs:label "reproductive shoot system morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a reproductive shoot system."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025082> ## physical object quality and 'inheres in' some reproductive shoot system
+
+Class: http://purl.obolibrary.org/obo/PO_0025131 ## plant anatomical entity
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025131", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000017>
+ Annotations: rdfs:label "plant morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a plant anatomical entity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025131> ## physical object quality and 'inheres in' some plant anatomical entity
+
+Class: http://purl.obolibrary.org/obo/PO_0025173 ## spine leaf
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025173", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000876>
+ Annotations: rdfs:label "spine leaf morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a spine leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025173> ## physical object quality and 'inheres in' some spine leaf
+
+Class: http://purl.obolibrary.org/obo/PO_0025242 ## infructescence axis
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025242", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000921>
+ Annotations: rdfs:label "infructescence axis morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a infructescence axis."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025242> ## physical object quality and 'inheres in' some infructescence axis
+
+Class: http://purl.obolibrary.org/obo/PO_0025248 ## pseudostem
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025248", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000807>
+ Annotations: rdfs:label "pseudostem morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a pseudostem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025248> ## physical object quality and 'inheres in' some pseudostem
+
+Class: http://purl.obolibrary.org/obo/PO_0025269 ## collective organ part structure
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025269", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000841>
+ Annotations: rdfs:label "collective organ part structure morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a collective organ part structure."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025269> ## physical object quality and 'inheres in' some collective organ part structure
+
+Class: http://purl.obolibrary.org/obo/PO_0025290 ## embryo hypocotyl
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025290", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000771>
+ Annotations: rdfs:label "embryo hypocotyl morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a embryo hypocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025290> ## physical object quality and 'inheres in' some embryo hypocotyl
+
+Class: http://purl.obolibrary.org/obo/PO_0025291 ## seedling hypocotyl
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025291", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000769>
+ Annotations: rdfs:label "seedling hypocotyl morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a seedling hypocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025291> ## physical object quality and 'inheres in' some seedling hypocotyl
+
+Class: http://purl.obolibrary.org/obo/PO_0025294 ## embryo mesocotyl
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025294", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000773>
+ Annotations: rdfs:label "embryo mesocotyl morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a embryo mesocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025294> ## physical object quality and 'inheres in' some embryo mesocotyl
+
+Class: http://purl.obolibrary.org/obo/PO_0025295 ## seedling mesocotyl
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025295", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000772>
+ Annotations: rdfs:label "seedling mesocotyl morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a seedling mesocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025295> ## physical object quality and 'inheres in' some seedling mesocotyl
+
+Class: http://purl.obolibrary.org/obo/PO_0025349 ## awn
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025349", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0002718>
+ Annotations: rdfs:label "awn morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a awn."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025349> ## physical object quality and 'inheres in' some awn
+
+Class: http://purl.obolibrary.org/obo/PO_0025470 ## plant embryo cotyledon
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025470", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000775>
+ Annotations: rdfs:label "plant embryo cotyledon morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a plant embryo cotyledon."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025470> ## physical object quality and 'inheres in' some plant embryo cotyledon
+
+Class: http://purl.obolibrary.org/obo/PO_0025471 ## seedling cotyledon
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025471", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000774>
+ Annotations: rdfs:label "seedling cotyledon morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a seedling cotyledon."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025471> ## physical object quality and 'inheres in' some seedling cotyledon
+
+Class: http://purl.obolibrary.org/obo/PO_0025476 ## tuberous root tuber
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025476", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_1000007>
+ Annotations: rdfs:label "tuberous root tuber morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a tuberous root tuber."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025476> ## physical object quality and 'inheres in' some tuberous root tuber
+
+Class: http://purl.obolibrary.org/obo/PO_0025496 ## multi-tissue plant structure
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025496", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000836>
+ Annotations: rdfs:label "multi-tissue plant structure morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a multi-tissue plant structure."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025496> ## physical object quality and 'inheres in' some multi-tissue plant structure
+
+Class: http://purl.obolibrary.org/obo/PO_0025497 ## collective plant structure
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025497", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000840>
+ Annotations: rdfs:label "collective plant structure morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a collective plant structure."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025497> ## physical object quality and 'inheres in' some collective plant structure
+
+Class: http://purl.obolibrary.org/obo/PO_0025522 ## tuber
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025522", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000741>
+ Annotations: rdfs:label "tuber morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a tuber."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025522> ## physical object quality and 'inheres in' some tuber
+
+Class: http://purl.obolibrary.org/obo/PO_0025597 ## ear infructescence
+Class: http://purl.obolibrary.org/obo/PATO_0001241 ## physical object quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025597", "attribute": "http://purl.obolibrary.org/obo/PATO_0001241"}
+Class: <http://purl.obolibrary.org/obo/TO_0000976>
+ Annotations: rdfs:label "ear infructescence morphology trait"
+ Annotations: IAO:0000115 "The physical object quality of a ear infructescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001241> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025597> ## physical object quality and 'inheres in' some ear infructescence

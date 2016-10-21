@@ -1,0 +1,53 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/fertility_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PO_0000003 ## whole plant
+Class: http://purl.obolibrary.org/obo/PATO_0000274 ## fertility
+## {"entity": "http://purl.obolibrary.org/obo/PO_0000003", "attribute": "http://purl.obolibrary.org/obo/PATO_0000274"}
+Class: <http://purl.obolibrary.org/obo/TO_0000420>
+ Annotations: rdfs:label "fertility related trait"
+ Annotations: IAO:0000115 "The fertility of a whole plant."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000274> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000003> ## fertility and 'inheres in' some whole plant
+
+Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
+Class: http://purl.obolibrary.org/obo/PATO_0000274 ## fertility
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009010", "attribute": "http://purl.obolibrary.org/obo/PATO_0000274"}
+Class: <http://purl.obolibrary.org/obo/TO_0000639>
+ Annotations: rdfs:label "seed fertility"
+ Annotations: IAO:0000115 "The fertility of a seed."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000274> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## fertility and 'inheres in' some seed
+
+Class: http://purl.obolibrary.org/obo/PO_0009051 ## spikelet
+Class: http://purl.obolibrary.org/obo/PATO_0000274 ## fertility
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009051", "attribute": "http://purl.obolibrary.org/obo/PATO_0000274"}
+Class: <http://purl.obolibrary.org/obo/TO_0000180>
+ Annotations: rdfs:label "spikelet fertility"
+ Annotations: IAO:0000115 "The fertility of a spikelet."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000274> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009051> ## fertility and 'inheres in' some spikelet
+
+Class: http://purl.obolibrary.org/obo/PO_0025281 ## pollen
+Class: http://purl.obolibrary.org/obo/PATO_0000274 ## fertility
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025281", "attribute": "http://purl.obolibrary.org/obo/PATO_0000274"}
+Class: <http://purl.obolibrary.org/obo/TO_0000421>
+ Annotations: rdfs:label "pollen fertility"
+ Annotations: IAO:0000115 "The fertility of a pollen."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000274> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025281> ## fertility and 'inheres in' some pollen

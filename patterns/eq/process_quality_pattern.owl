@@ -1,0 +1,93 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/process_quality_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/GO_0007049 ## cell cycle
+Class: http://purl.obolibrary.org/obo/PATO_0001236 ## process quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0007049", "attribute": "http://purl.obolibrary.org/obo/PATO_0001236"}
+Class: <http://purl.obolibrary.org/obo/TO_0000728>
+ Annotations: rdfs:label "cell cycle trait"
+ Annotations: IAO:0000115 "The process quality of a cell cycle."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001236> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0007049> ## process quality and 'inheres in' some cell cycle
+
+Class: http://purl.obolibrary.org/obo/GO_0008150 ## biological_process
+Class: http://purl.obolibrary.org/obo/PATO_0001236 ## process quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0008150", "attribute": "http://purl.obolibrary.org/obo/PATO_0001236"}
+Class: <http://purl.obolibrary.org/obo/TO_0000283>
+ Annotations: rdfs:label "biological process trait"
+ Annotations: IAO:0000115 "The process quality of a biological_process."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001236> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0008150> ## process quality and 'inheres in' some biological_process
+
+Class: http://purl.obolibrary.org/obo/GO_0009835 ## fruit ripening
+Class: http://purl.obolibrary.org/obo/PATO_0001236 ## process quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0009835", "attribute": "http://purl.obolibrary.org/obo/PATO_0001236"}
+Class: <http://purl.obolibrary.org/obo/TO_0002633>
+ Annotations: rdfs:label "fruit ripening trait"
+ Annotations: IAO:0000115 "The process quality of a fruit ripening."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001236> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0009835> ## process quality and 'inheres in' some fruit ripening
+
+Class: http://purl.obolibrary.org/obo/GO_0009908 ## flower development
+Class: http://purl.obolibrary.org/obo/PATO_0001236 ## process quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0009908", "attribute": "http://purl.obolibrary.org/obo/PATO_0001236"}
+Class: <http://purl.obolibrary.org/obo/TO_0000622>
+ Annotations: rdfs:label "flower development trait"
+ Annotations: IAO:0000115 "The process quality of a flower development."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001236> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0009908> ## process quality and 'inheres in' some flower development
+
+Class: http://purl.obolibrary.org/obo/GO_0010229 ## inflorescence development
+Class: http://purl.obolibrary.org/obo/PATO_0001236 ## process quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0010229", "attribute": "http://purl.obolibrary.org/obo/PATO_0001236"}
+Class: <http://purl.obolibrary.org/obo/TO_0000621>
+ Annotations: rdfs:label "inflorescence development trait"
+ Annotations: IAO:0000115 "The process quality of a inflorescence development."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001236> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0010229> ## process quality and 'inheres in' some inflorescence development
+
+Class: http://purl.obolibrary.org/obo/GO_0048437 ## floral organ development
+Class: http://purl.obolibrary.org/obo/PATO_0001236 ## process quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0048437", "attribute": "http://purl.obolibrary.org/obo/PATO_0001236"}
+Class: <http://purl.obolibrary.org/obo/TO_0006022>
+ Annotations: rdfs:label "floral organ development trait"
+ Annotations: IAO:0000115 "The process quality of a floral organ development."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001236> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0048437> ## process quality and 'inheres in' some floral organ development
+
+Class: http://purl.obolibrary.org/obo/GO_0048467 ## gynoecium development
+Class: http://purl.obolibrary.org/obo/PATO_0001236 ## process quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0048467", "attribute": "http://purl.obolibrary.org/obo/PATO_0001236"}
+Class: <http://purl.obolibrary.org/obo/TO_0020110>
+ Annotations: rdfs:label "gynoecium development trait"
+ Annotations: IAO:0000115 "The process quality of a gynoecium development."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001236> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0048467> ## process quality and 'inheres in' some gynoecium development
+
+Class: http://purl.obolibrary.org/obo/PO_0007520 ## root development stage
+Class: http://purl.obolibrary.org/obo/PATO_0001236 ## process quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0007520", "attribute": "http://purl.obolibrary.org/obo/PATO_0001236"}
+Class: <http://purl.obolibrary.org/obo/TO_0000656>
+ Annotations: rdfs:label "root development trait"
+ Annotations: IAO:0000115 "The process quality of a root development stage."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001236> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0007520> ## process quality and 'inheres in' some root development stage
+
+Class: http://purl.obolibrary.org/obo/PO_0025423 ## plant tissue development stage
+Class: http://purl.obolibrary.org/obo/PATO_0001236 ## process quality
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025423", "attribute": "http://purl.obolibrary.org/obo/PATO_0001236"}
+Class: <http://purl.obolibrary.org/obo/TO_0006015>
+ Annotations: rdfs:label "plant tissue development trait"
+ Annotations: IAO:0000115 "The process quality of a plant tissue development stage."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001236> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025423> ## process quality and 'inheres in' some plant tissue development stage

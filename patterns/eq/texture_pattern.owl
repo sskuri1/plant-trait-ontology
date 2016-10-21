@@ -1,0 +1,69 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/texture_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
+Class: http://purl.obolibrary.org/obo/PATO_0000150 ## texture
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009010", "attribute": "http://purl.obolibrary.org/obo/PATO_0000150"}
+Class: <http://purl.obolibrary.org/obo/TO_0020016>
+ Annotations: rdfs:label "seed texture"
+ Annotations: IAO:0000115 "The texture of a seed."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000150> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## texture and 'inheres in' some seed
+
+Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
+Class: http://purl.obolibrary.org/obo/PATO_0000150 ## texture
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009049", "attribute": "http://purl.obolibrary.org/obo/PATO_0000150"}
+Class: <http://purl.obolibrary.org/obo/TO_0000805>
+ Annotations: rdfs:label "inflorescence texture"
+ Annotations: IAO:0000115 "The texture of a inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000150> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## texture and 'inheres in' some inflorescence
+
+Class: http://purl.obolibrary.org/obo/PO_0009084 ## pericarp
+Class: http://purl.obolibrary.org/obo/PATO_0000150 ## texture
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009084", "attribute": "http://purl.obolibrary.org/obo/PATO_0000150"}
+Class: <http://purl.obolibrary.org/obo/TO_0002623>
+ Annotations: rdfs:label "pericarp texture"
+ Annotations: IAO:0000115 "The texture of a pericarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000150> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009084> ## texture and 'inheres in' some pericarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009085 ## exocarp
+Class: http://purl.obolibrary.org/obo/PATO_0000150 ## texture
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009085", "attribute": "http://purl.obolibrary.org/obo/PATO_0000150"}
+Class: <http://purl.obolibrary.org/obo/TO_0002624>
+ Annotations: rdfs:label "exocarp texture"
+ Annotations: IAO:0000115 "The texture of a exocarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000150> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009085> ## texture and 'inheres in' some exocarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009088 ## seed coat
+Class: http://purl.obolibrary.org/obo/PATO_0000150 ## texture
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009088", "attribute": "http://purl.obolibrary.org/obo/PATO_0000150"}
+Class: <http://purl.obolibrary.org/obo/TO_0000903>
+ Annotations: rdfs:label "seed coat texture"
+ Annotations: IAO:0000115 "The texture of a seed coat."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000150> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009088> ## texture and 'inheres in' some seed coat
+
+Class: http://purl.obolibrary.org/obo/PO_0020122 ## inflorescence axis
+Class: http://purl.obolibrary.org/obo/PATO_0000150 ## texture
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020122", "attribute": "http://purl.obolibrary.org/obo/PATO_0000150"}
+Class: <http://purl.obolibrary.org/obo/TO_0002754>
+ Annotations: rdfs:label "inflorescence axis texture"
+ Annotations: IAO:0000115 "The texture of a inflorescence axis."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000150> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020122> ## texture and 'inheres in' some inflorescence axis

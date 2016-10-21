@@ -1,0 +1,85 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/thickness_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PATO_0000915 ## thickness
+Class: http://purl.obolibrary.org/obo/PO_0009005 ## root
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000915", "entity": "http://purl.obolibrary.org/obo/PO_0009005"}
+Class: <http://purl.obolibrary.org/obo/TO_0000306>
+ Annotations: rdfs:label "root thickness"
+ Annotations: IAO:0000115 "The thickness of a root."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000915> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009005> ## thickness and 'inheres in' some root
+
+Class: http://purl.obolibrary.org/obo/PATO_0000915 ## thickness
+Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000915", "entity": "http://purl.obolibrary.org/obo/PO_0009010"}
+Class: <http://purl.obolibrary.org/obo/TO_0000304>
+ Annotations: rdfs:label "seed thickness"
+ Annotations: IAO:0000115 "The thickness of a seed."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000915> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## thickness and 'inheres in' some seed
+
+Class: http://purl.obolibrary.org/obo/PATO_0000915 ## thickness
+Class: http://purl.obolibrary.org/obo/PO_0009047 ## stem
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000915", "entity": "http://purl.obolibrary.org/obo/PO_0009047"}
+Class: <http://purl.obolibrary.org/obo/TO_0000339>
+ Annotations: rdfs:label "stem thickness"
+ Annotations: IAO:0000115 "The thickness of a stem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000915> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009047> ## thickness and 'inheres in' some stem
+
+Class: http://purl.obolibrary.org/obo/PATO_0000915 ## thickness
+Class: http://purl.obolibrary.org/obo/PO_0009085 ## exocarp
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000915", "entity": "http://purl.obolibrary.org/obo/PO_0009085"}
+Class: <http://purl.obolibrary.org/obo/TO_0000907>
+ Annotations: rdfs:label "exocarp thickness"
+ Annotations: IAO:0000115 "The thickness of a exocarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000915> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009085> ## thickness and 'inheres in' some exocarp
+
+Class: http://purl.obolibrary.org/obo/PATO_0000915 ## thickness
+Class: http://purl.obolibrary.org/obo/PO_0020139 ## leaf midvein
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000915", "entity": "http://purl.obolibrary.org/obo/PO_0020139"}
+Class: <http://purl.obolibrary.org/obo/TO_0000823>
+ Annotations: rdfs:label "leaf midvein thickness"
+ Annotations: IAO:0000115 "The thickness of a leaf midvein."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000915> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020139> ## thickness and 'inheres in' some leaf midvein
+
+Class: http://purl.obolibrary.org/obo/PATO_0000915 ## thickness
+Class: http://purl.obolibrary.org/obo/PO_0025002 ## basal root
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000915", "entity": "http://purl.obolibrary.org/obo/PO_0025002"}
+Class: <http://purl.obolibrary.org/obo/TO_0000094>
+ Annotations: rdfs:label "basal root thickness"
+ Annotations: IAO:0000115 "The thickness of a basal root."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000915> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025002> ## thickness and 'inheres in' some basal root
+
+Class: http://purl.obolibrary.org/obo/PATO_0000915 ## thickness
+Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000915", "entity": "http://purl.obolibrary.org/obo/PO_0025034"}
+Class: <http://purl.obolibrary.org/obo/TO_0000258>
+ Annotations: rdfs:label "leaf thickness"
+ Annotations: IAO:0000115 "The thickness of a leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000915> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## thickness and 'inheres in' some leaf
+
+Class: http://purl.obolibrary.org/obo/PATO_0000915 ## thickness
+Class: http://purl.obolibrary.org/obo/PO_0025349 ## awn
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000915", "entity": "http://purl.obolibrary.org/obo/PO_0025349"}
+Class: <http://purl.obolibrary.org/obo/TO_0002719>
+ Annotations: rdfs:label "awn thickness"
+ Annotations: IAO:0000115 "The thickness of a awn."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000915> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025349> ## thickness and 'inheres in' some awn

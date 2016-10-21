@@ -1,0 +1,29 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/pubescent_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PATO_0000455 ## pubescent
+Class: http://purl.obolibrary.org/obo/PO_0020039 ## leaf lamina
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000455", "entity": "http://purl.obolibrary.org/obo/PO_0020039"}
+Class: <http://purl.obolibrary.org/obo/TO_0000055>
+ Annotations: rdfs:label "leaf lamina pubescence"
+ Annotations: IAO:0000115 "The pubescent of a leaf lamina."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000455> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020039> ## pubescent and 'inheres in' some leaf lamina

@@ -45,3 +45,16 @@ mirror/%.owl: mirror/%.obo
 
 release: $(ONT).owl $(ONT).obo
 
+
+#######PATTERNS
+PATTERNS_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/eq/*.tsv)) 
+#$(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/eq/*.tsv))
+
+all_patterns: $(PATTERNS_OWL)
+
+patterns/eq/%_pattern.owl: patterns/eq/%.tsv
+	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/eq/$*.tsv -p patterns/eq.yaml -n $@ > $@
+
+patterns/eq/%_pattern.obo: patterns/eq/%_pattern.owl
+	$(OWLTOOLS) $< -o -f obo $@
+

@@ -1,0 +1,29 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/perimeter_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PO_0009025 ## vascular leaf
+Class: http://purl.obolibrary.org/obo/PATO_0001711 ## perimeter
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009025", "attribute": "http://purl.obolibrary.org/obo/PATO_0001711"}
+Class: <http://purl.obolibrary.org/obo/TO_0000616>
+ Annotations: rdfs:label "leaf perimeter"
+ Annotations: IAO:0000115 "The perimeter of a vascular leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001711> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009025> ## perimeter and 'inheres in' some vascular leaf

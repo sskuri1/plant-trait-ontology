@@ -1,0 +1,189 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/size_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/GO_0043036 ## starch grain
+## {"entity": "http://purl.obolibrary.org/obo/GO_0043036", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0002655>
+ Annotations: rdfs:label "starch grain size"
+ Annotations: IAO:0000115 "The size of a starch grain."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0043036> ## size and 'inheres in' some starch grain
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0000003 ## whole plant
+## {"entity": "http://purl.obolibrary.org/obo/PO_0000003", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_1000012>
+ Annotations: rdfs:label "whole plant size"
+ Annotations: IAO:0000115 "The size of a whole plant."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000003> ## size and 'inheres in' some whole plant
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0004547 ## subterranean shoot axis tuber
+## {"entity": "http://purl.obolibrary.org/obo/PO_0004547", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000744>
+ Annotations: rdfs:label "subterranean shoot axis tuber size"
+ Annotations: IAO:0000115 "The size of a subterranean shoot axis tuber."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0004547> ## size and 'inheres in' some subterranean shoot axis tuber
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0004709 ## axillary bud
+## {"entity": "http://purl.obolibrary.org/obo/PO_0004709", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000791>
+ Annotations: rdfs:label "axillary bud size"
+ Annotations: IAO:0000115 "The size of a axillary bud."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0004709> ## size and 'inheres in' some axillary bud
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0006503 ## fruit abscission zone
+## {"entity": "http://purl.obolibrary.org/obo/PO_0006503", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0002632>
+ Annotations: rdfs:label "fruit abscission zone size"
+ Annotations: IAO:0000115 "The size of a fruit abscission zone."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0006503> ## size and 'inheres in' some fruit abscission zone
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009001 ## fruit
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009001", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0002625>
+ Annotations: rdfs:label "fruit size"
+ Annotations: IAO:0000115 "The size of a fruit."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009001> ## size and 'inheres in' some fruit
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009002 ## plant cell
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009002", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0002684>
+ Annotations: rdfs:label "plant cell size"
+ Annotations: IAO:0000115 "The size of a plant cell."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009002> ## size and 'inheres in' some plant cell
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009009 ## plant embryo
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009009", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000113>
+ Annotations: rdfs:label "giant embryo"
+ Annotations: IAO:0000115 "The size of a plant embryo."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009009> ## size and 'inheres in' some plant embryo
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009010", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000391>
+ Annotations: rdfs:label "seed size"
+ Annotations: IAO:0000115 "The size of a seed."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## size and 'inheres in' some seed
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009029 ## stamen
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009029", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0002601>
+ Annotations: rdfs:label "stamen size"
+ Annotations: IAO:0000115 "The size of a stamen."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009029> ## size and 'inheres in' some stamen
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009031 ## sepal
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009031", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0002604>
+ Annotations: rdfs:label "sepal size"
+ Annotations: IAO:0000115 "The size of a sepal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009031> ## size and 'inheres in' some sepal
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009032 ## petal
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009032", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0002603>
+ Annotations: rdfs:label "petal size"
+ Annotations: IAO:0000115 "The size of a petal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009032> ## size and 'inheres in' some petal
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009047 ## stem
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009047", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000892>
+ Annotations: rdfs:label "stem size"
+ Annotations: IAO:0000115 "The size of a stem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009047> ## size and 'inheres in' some stem
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009049", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0006031>
+ Annotations: rdfs:label "inflorescence size"
+ Annotations: IAO:0000115 "The size of a inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## size and 'inheres in' some inflorescence
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0009062 ## gynoecium
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009062", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0002602>
+ Annotations: rdfs:label "pistil size"
+ Annotations: IAO:0000115 "The size of a gynoecium."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009062> ## size and 'inheres in' some gynoecium
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0020038 ## petiole
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020038", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000768>
+ Annotations: rdfs:label "petiole size"
+ Annotations: IAO:0000115 "The size of a petiole."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020038> ## size and 'inheres in' some petiole
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0020122 ## inflorescence axis
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020122", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000783>
+ Annotations: rdfs:label "inflorescence axis size"
+ Annotations: IAO:0000115 "The size of a inflorescence axis."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020122> ## size and 'inheres in' some inflorescence axis
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025034", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0002637>
+ Annotations: rdfs:label "leaf size"
+ Annotations: IAO:0000115 "The size of a leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## size and 'inheres in' some leaf
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0025173 ## spine leaf
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025173", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000877>
+ Annotations: rdfs:label "spine leaf size"
+ Annotations: IAO:0000115 "The size of a spine leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025173> ## size and 'inheres in' some spine leaf
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0025291 ## seedling hypocotyl
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025291", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000781>
+ Annotations: rdfs:label "seedling hypocotyl size"
+ Annotations: IAO:0000115 "The size of a seedling hypocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025291> ## size and 'inheres in' some seedling hypocotyl
+
+Class: http://purl.obolibrary.org/obo/PATO_0000117 ## size
+Class: http://purl.obolibrary.org/obo/PO_0025471 ## seedling cotyledon
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025471", "attribute": "http://purl.obolibrary.org/obo/PATO_0000117"}
+Class: <http://purl.obolibrary.org/obo/TO_0000752>
+ Annotations: rdfs:label "seedling cotyledon size"
+ Annotations: IAO:0000115 "The size of a seedling cotyledon."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000117> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025471> ## size and 'inheres in' some seedling cotyledon

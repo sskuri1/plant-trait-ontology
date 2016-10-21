@@ -1,0 +1,69 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/amount_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PATO_0000070 ## amount
+Class: http://purl.obolibrary.org/obo/CHEBI_26130 ## biological pigment
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000070", "entity": "http://purl.obolibrary.org/obo/CHEBI_26130"}
+Class: <http://purl.obolibrary.org/obo/TO_0000494>
+ Annotations: rdfs:label "pigment content"
+ Annotations: IAO:0000115 "The amount of a biological pigment."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000070> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_26130> ## amount and 'inheres in' some biological pigment
+
+Class: http://purl.obolibrary.org/obo/PATO_0000070 ## amount
+Class: http://purl.obolibrary.org/obo/CHEBI_26216 ## potassium atom
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000070", "entity": "http://purl.obolibrary.org/obo/CHEBI_26216"}
+Class: <http://purl.obolibrary.org/obo/TO_0000609>
+ Annotations: rdfs:label "potassium content"
+ Annotations: IAO:0000115 "The amount of a potassium atom."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000070> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_26216> ## amount and 'inheres in' some potassium atom
+
+Class: http://purl.obolibrary.org/obo/PATO_0000070 ## amount
+Class: http://purl.obolibrary.org/obo/CHEBI_26708 ## sodium atom
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000070", "entity": "http://purl.obolibrary.org/obo/CHEBI_26708"}
+Class: <http://purl.obolibrary.org/obo/TO_0000608>
+ Annotations: rdfs:label "sodium content"
+ Annotations: IAO:0000115 "The amount of a sodium atom."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000070> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_26708> ## amount and 'inheres in' some sodium atom
+
+Class: http://purl.obolibrary.org/obo/PATO_0000070 ## amount
+Class: http://purl.obolibrary.org/obo/CHEBI_27594 ## carbon atom
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000070", "entity": "http://purl.obolibrary.org/obo/CHEBI_27594"}
+Class: <http://purl.obolibrary.org/obo/TO_0000466>
+ Annotations: rdfs:label "carbon content"
+ Annotations: IAO:0000115 "The amount of a carbon atom."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000070> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_27594> ## amount and 'inheres in' some carbon atom
+
+Class: http://purl.obolibrary.org/obo/PATO_0000070 ## amount
+Class: http://purl.obolibrary.org/obo/CHEBI_49191 ## momilactone A
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000070", "entity": "http://purl.obolibrary.org/obo/CHEBI_49191"}
+Class: <http://purl.obolibrary.org/obo/TO_0002670>
+ Annotations: rdfs:label "momilactone A content"
+ Annotations: IAO:0000115 "The amount of a momilactone A."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000070> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_49191> ## amount and 'inheres in' some momilactone A
+
+Class: http://purl.obolibrary.org/obo/PATO_0000070 ## amount
+Class: http://purl.obolibrary.org/obo/PO_0025349 ## awn
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000070", "entity": "http://purl.obolibrary.org/obo/PO_0025349"}
+Class: <http://purl.obolibrary.org/obo/TO_0002734>
+ Annotations: rdfs:label "awn presence"
+ Annotations: IAO:0000115 "The amount of a awn."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000070> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025349> ## amount and 'inheres in' some awn

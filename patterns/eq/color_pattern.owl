@@ -1,0 +1,493 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/color_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PO_0000003 ## whole plant
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0000003", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000708>
+ Annotations: rdfs:label "plant color"
+ Annotations: IAO:0000115 "The color of a whole plant."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000003> ## color and 'inheres in' some whole plant
+
+Class: http://purl.obolibrary.org/obo/PO_0004540 ## fruit columella
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0004540", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0002621>
+ Annotations: rdfs:label "fruit columella color"
+ Annotations: IAO:0000115 "The color of a fruit columella."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0004540> ## color and 'inheres in' some fruit columella
+
+Class: http://purl.obolibrary.org/obo/PO_0005004 ## shoot axis node
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0005004", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_1000003>
+ Annotations: rdfs:label "shoot axis node color"
+ Annotations: IAO:0000115 "The color of a shoot axis node."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0005004> ## color and 'inheres in' some shoot axis node
+
+Class: http://purl.obolibrary.org/obo/PO_0005352 ## xylem
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0005352", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0002708>
+ Annotations: rdfs:label "xylem color"
+ Annotations: IAO:0000115 "The color of a xylem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0005352> ## color and 'inheres in' some xylem
+
+Class: http://purl.obolibrary.org/obo/PO_0005360 ## aleurone layer
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0005360", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000943>
+ Annotations: rdfs:label "aleurone layer color"
+ Annotations: IAO:0000115 "The color of a aleurone layer."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0005360> ## color and 'inheres in' some aleurone layer
+
+Class: http://purl.obolibrary.org/obo/PO_0005417 ## phloem
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0005417", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0002709>
+ Annotations: rdfs:label "phloem color"
+ Annotations: IAO:0000115 "The color of a phloem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0005417> ## color and 'inheres in' some phloem
+
+Class: http://purl.obolibrary.org/obo/PO_0006012 ## leaf collar
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0006012", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000364>
+ Annotations: rdfs:label "leaf collar color"
+ Annotations: IAO:0000115 "The color of a leaf collar."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0006012> ## color and 'inheres in' some leaf collar
+
+Class: http://purl.obolibrary.org/obo/PO_0006033 ## palea apiculus
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0006033", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000140>
+ Annotations: rdfs:label "apiculus color"
+ Annotations: IAO:0000115 "The color of a palea apiculus."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0006033> ## color and 'inheres in' some palea apiculus
+
+Class: http://purl.obolibrary.org/obo/PO_0009001 ## fruit
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009001", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0002617>
+ Annotations: rdfs:label "fruit color"
+ Annotations: IAO:0000115 "The color of a fruit."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009001> ## color and 'inheres in' some fruit
+
+Class: http://purl.obolibrary.org/obo/PO_0009005 ## root
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009005", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000065>
+ Annotations: rdfs:label "root color"
+ Annotations: IAO:0000115 "The color of a root."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009005> ## color and 'inheres in' some root
+
+Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009010", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000486>
+ Annotations: rdfs:label "seed color"
+ Annotations: IAO:0000115 "The color of a seed."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## color and 'inheres in' some seed
+
+Class: http://purl.obolibrary.org/obo/PO_0009031 ## sepal
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009031", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000573>
+ Annotations: rdfs:label "sepal color"
+ Annotations: IAO:0000115 "The color of a sepal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009031> ## color and 'inheres in' some sepal
+
+Class: http://purl.obolibrary.org/obo/PO_0009032 ## petal
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009032", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000572>
+ Annotations: rdfs:label "petal color"
+ Annotations: IAO:0000115 "The color of a petal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009032> ## color and 'inheres in' some petal
+
+Class: http://purl.obolibrary.org/obo/PO_0009033 ## tepal
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009033", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000574>
+ Annotations: rdfs:label "tepal color"
+ Annotations: IAO:0000115 "The color of a tepal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009033> ## color and 'inheres in' some tepal
+
+Class: http://purl.obolibrary.org/obo/PO_0009034 ## flower bract
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009034", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000264>
+ Annotations: rdfs:label "lemma and palea color"
+ Annotations: IAO:0000115 "The color of a flower bract."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009034> ## color and 'inheres in' some flower bract
+
+Class: http://purl.obolibrary.org/obo/PO_0009039 ## glume
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009039", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000221>
+ Annotations: rdfs:label "glume color"
+ Annotations: IAO:0000115 "The color of a glume."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009039> ## color and 'inheres in' some glume
+
+Class: http://purl.obolibrary.org/obo/PO_0009040 ## sterile lemma
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009040", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000400>
+ Annotations: rdfs:label "sterile lemma color"
+ Annotations: IAO:0000115 "The color of a sterile lemma."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009040> ## color and 'inheres in' some sterile lemma
+
+Class: http://purl.obolibrary.org/obo/PO_0009046 ## flower
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009046", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000537>
+ Annotations: rdfs:label "flower color"
+ Annotations: IAO:0000115 "The color of a flower."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009046> ## color and 'inheres in' some flower
+
+Class: http://purl.obolibrary.org/obo/PO_0009047 ## stem
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009047", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000056>
+ Annotations: rdfs:label "stem color"
+ Annotations: IAO:0000115 "The color of a stem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009047> ## color and 'inheres in' some stem
+
+Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009049", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000581>
+ Annotations: rdfs:label "inflorescence color"
+ Annotations: IAO:0000115 "The color of a inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## color and 'inheres in' some inflorescence
+
+Class: http://purl.obolibrary.org/obo/PO_0009053 ## peduncle
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009053", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000779>
+ Annotations: rdfs:label "peduncle color"
+ Annotations: IAO:0000115 "The color of a peduncle."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009053> ## color and 'inheres in' some peduncle
+
+Class: http://purl.obolibrary.org/obo/PO_0009054 ## inflorescence bract
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009054", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000819>
+ Annotations: rdfs:label "inflorescence bract color"
+ Annotations: IAO:0000115 "The color of a inflorescence bract."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009054> ## color and 'inheres in' some inflorescence bract
+
+Class: http://purl.obolibrary.org/obo/PO_0009059 ## corolla
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009059", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000951>
+ Annotations: rdfs:label "corolla color"
+ Annotations: IAO:0000115 "The color of a corolla."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009059> ## color and 'inheres in' some corolla
+
+Class: http://purl.obolibrary.org/obo/PO_0009066 ## anther
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009066", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000187>
+ Annotations: rdfs:label "anther color"
+ Annotations: IAO:0000115 "The color of a anther."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009066> ## color and 'inheres in' some anther
+
+Class: http://purl.obolibrary.org/obo/PO_0009072 ## plant ovary
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009072", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_1000016>
+ Annotations: rdfs:label "plant ovary color"
+ Annotations: IAO:0000115 "The color of a plant ovary."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009072> ## color and 'inheres in' some plant ovary
+
+Class: http://purl.obolibrary.org/obo/PO_0009073 ## stigma
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009073", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000185>
+ Annotations: rdfs:label "stigma color"
+ Annotations: IAO:0000115 "The color of a stigma."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009073> ## color and 'inheres in' some stigma
+
+Class: http://purl.obolibrary.org/obo/PO_0009074 ## style
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009074", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000676>
+ Annotations: rdfs:label "style color"
+ Annotations: IAO:0000115 "The color of a style."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009074> ## color and 'inheres in' some style
+
+Class: http://purl.obolibrary.org/obo/PO_0009081 ## inflorescence branch
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009081", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0011004>
+ Annotations: rdfs:label "inflorescence branch color"
+ Annotations: IAO:0000115 "The color of a inflorescence branch."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009081> ## color and 'inheres in' some inflorescence branch
+
+Class: http://purl.obolibrary.org/obo/PO_0009082 ## spikelet floret
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009082", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000536>
+ Annotations: rdfs:label "spikelet floret color"
+ Annotations: IAO:0000115 "The color of a spikelet floret."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009082> ## color and 'inheres in' some spikelet floret
+
+Class: http://purl.obolibrary.org/obo/PO_0009084 ## pericarp
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009084", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000707>
+ Annotations: rdfs:label "pericarp color"
+ Annotations: IAO:0000115 "The color of a pericarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009084> ## color and 'inheres in' some pericarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009085 ## exocarp
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009085", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0002620>
+ Annotations: rdfs:label "exocarp color"
+ Annotations: IAO:0000115 "The color of a exocarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009085> ## color and 'inheres in' some exocarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009086 ## endocarp
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009086", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0002618>
+ Annotations: rdfs:label "endocarp color"
+ Annotations: IAO:0000115 "The color of a endocarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009086> ## color and 'inheres in' some endocarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009087 ## mesocarp
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009087", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0002619>
+ Annotations: rdfs:label "mesocarp color"
+ Annotations: IAO:0000115 "The color of a mesocarp."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009087> ## color and 'inheres in' some mesocarp
+
+Class: http://purl.obolibrary.org/obo/PO_0009088 ## seed coat
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009088", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000190>
+ Annotations: rdfs:label "seed coat color"
+ Annotations: IAO:0000115 "The color of a seed coat."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009088> ## color and 'inheres in' some seed coat
+
+Class: http://purl.obolibrary.org/obo/PO_0009089 ## endosperm
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0009089", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000487>
+ Annotations: rdfs:label "endosperm color"
+ Annotations: IAO:0000115 "The color of a endosperm."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009089> ## color and 'inheres in' some endosperm
+
+Class: http://purl.obolibrary.org/obo/PO_0020033 ## coleoptile
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020033", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000244>
+ Annotations: rdfs:label "coleoptile color"
+ Annotations: IAO:0000115 "The color of a coleoptile."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020033> ## color and 'inheres in' some coleoptile
+
+Class: http://purl.obolibrary.org/obo/PO_0020038 ## petiole
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020038", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0002707>
+ Annotations: rdfs:label "petiole color"
+ Annotations: IAO:0000115 "The color of a petiole."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020038> ## color and 'inheres in' some petiole
+
+Class: http://purl.obolibrary.org/obo/PO_0020039 ## leaf lamina
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020039", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000299>
+ Annotations: rdfs:label "leaf lamina color"
+ Annotations: IAO:0000115 "The color of a leaf lamina."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020039> ## color and 'inheres in' some leaf lamina
+
+Class: http://purl.obolibrary.org/obo/PO_0020050 ## petiolule
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020050", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000885>
+ Annotations: rdfs:label "petiolule color"
+ Annotations: IAO:0000115 "The color of a petiolule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020050> ## color and 'inheres in' some petiolule
+
+Class: http://purl.obolibrary.org/obo/PO_0020060 ## caruncle
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020060", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_1000010>
+ Annotations: rdfs:label "caruncle color"
+ Annotations: IAO:0000115 "The color of a caruncle."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020060> ## color and 'inheres in' some caruncle
+
+Class: http://purl.obolibrary.org/obo/PO_0020063 ## hilum
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020063", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000968>
+ Annotations: rdfs:label "hilum color"
+ Annotations: IAO:0000115 "The color of a hilum."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020063> ## color and 'inheres in' some hilum
+
+Class: http://purl.obolibrary.org/obo/PO_0020104 ## leaf sheath
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020104", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0002724>
+ Annotations: rdfs:label "leaf sheath color"
+ Annotations: IAO:0000115 "The color of a leaf sheath."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020104> ## color and 'inheres in' some leaf sheath
+
+Class: http://purl.obolibrary.org/obo/PO_0020105 ## ligule
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020105", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000197>
+ Annotations: rdfs:label "ligule color"
+ Annotations: IAO:0000115 "The color of a ligule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020105> ## color and 'inheres in' some ligule
+
+Class: http://purl.obolibrary.org/obo/PO_0020106 ## leaf sheath auricle
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020106", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000294>
+ Annotations: rdfs:label "leaf sheath auricle color"
+ Annotations: IAO:0000115 "The color of a leaf sheath auricle."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020106> ## color and 'inheres in' some leaf sheath auricle
+
+Class: http://purl.obolibrary.org/obo/PO_0020122 ## inflorescence axis
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020122", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0011003>
+ Annotations: rdfs:label "inflorescence axis color"
+ Annotations: IAO:0000115 "The color of a inflorescence axis."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020122> ## color and 'inheres in' some inflorescence axis
+
+Class: http://purl.obolibrary.org/obo/PO_0020126 ## tassel inflorescence
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020126", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000795>
+ Annotations: rdfs:label "tassel inflorescence color"
+ Annotations: IAO:0000115 "The color of a tassel inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020126> ## color and 'inheres in' some tassel inflorescence
+
+Class: http://purl.obolibrary.org/obo/PO_0020138 ## leaf lamina vein
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020138", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000719>
+ Annotations: rdfs:label "leaf vein color"
+ Annotations: IAO:0000115 "The color of a leaf lamina vein."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020138> ## color and 'inheres in' some leaf lamina vein
+
+Class: http://purl.obolibrary.org/obo/PO_0020141 ## stem node
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020141", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000059>
+ Annotations: rdfs:label "node color"
+ Annotations: IAO:0000115 "The color of a stem node."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020141> ## color and 'inheres in' some stem node
+
+Class: http://purl.obolibrary.org/obo/PO_0020142 ## stem internode
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0020142", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000534>
+ Annotations: rdfs:label "culm color"
+ Annotations: IAO:0000115 "The color of a stem internode."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020142> ## color and 'inheres in' some stem internode
+
+Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025034", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000326>
+ Annotations: rdfs:label "leaf color"
+ Annotations: IAO:0000115 "The color of a leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## color and 'inheres in' some leaf
+
+Class: http://purl.obolibrary.org/obo/PO_0025173 ## spine leaf
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025173", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000878>
+ Annotations: rdfs:label "spine leaf color"
+ Annotations: IAO:0000115 "The color of a spine leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025173> ## color and 'inheres in' some spine leaf
+
+Class: http://purl.obolibrary.org/obo/PO_0025178 ## stem epidermis
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025178", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_1000018>
+ Annotations: rdfs:label "stem epidermis color"
+ Annotations: IAO:0000115 "The color of a stem epidermis."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025178> ## color and 'inheres in' some stem epidermis
+
+Class: http://purl.obolibrary.org/obo/PO_0025248 ## pseudostem
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025248", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000810>
+ Annotations: rdfs:label "pseudostem color"
+ Annotations: IAO:0000115 "The color of a pseudostem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025248> ## color and 'inheres in' some pseudostem
+
+Class: http://purl.obolibrary.org/obo/PO_0025291 ## seedling hypocotyl
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025291", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000759>
+ Annotations: rdfs:label "seedling hypocotyl color"
+ Annotations: IAO:0000115 "The color of a seedling hypocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025291> ## color and 'inheres in' some seedling hypocotyl
+
+Class: http://purl.obolibrary.org/obo/PO_0025332 ## disk flower
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025332", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_1000019>
+ Annotations: rdfs:label "disk flower color"
+ Annotations: IAO:0000115 "The color of a disk flower."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025332> ## color and 'inheres in' some disk flower
+
+Class: http://purl.obolibrary.org/obo/PO_0025349 ## awn
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025349", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000141>
+ Annotations: rdfs:label "awn color"
+ Annotations: IAO:0000115 "The color of a awn."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025349> ## color and 'inheres in' some awn
+
+Class: http://purl.obolibrary.org/obo/PO_0025471 ## seedling cotyledon
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025471", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000750>
+ Annotations: rdfs:label "seedling cotyledon color"
+ Annotations: IAO:0000115 "The color of a seedling cotyledon."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025471> ## color and 'inheres in' some seedling cotyledon
+
+Class: http://purl.obolibrary.org/obo/PO_0025597 ## ear infructescence
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025597", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_0000963>
+ Annotations: rdfs:label "ear color"
+ Annotations: IAO:0000115 "The color of a ear infructescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025597> ## color and 'inheres in' some ear infructescence
+
+Class: http://purl.obolibrary.org/obo/PO_0025612 ## stem cortex
+Class: http://purl.obolibrary.org/obo/PATO_0000014 ## color
+## {"entity": "http://purl.obolibrary.org/obo/PO_0025612", "attribute": "http://purl.obolibrary.org/obo/PATO_0000014"}
+Class: <http://purl.obolibrary.org/obo/TO_1000017>
+ Annotations: rdfs:label "stem cortex color"
+ Annotations: IAO:0000115 "The color of a stem cortex."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000014> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025612> ## color and 'inheres in' some stem cortex

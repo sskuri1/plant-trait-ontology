@@ -1,0 +1,405 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/length_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0000046 ## seminal root
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0000046"}
+Class: <http://purl.obolibrary.org/obo/TO_0000586>
+ Annotations: rdfs:label "seminal root length"
+ Annotations: IAO:0000115 "The length of a seminal root."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000046> ## length and 'inheres in' some seminal root
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0000256 ## root hair cell
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0000256"}
+Class: <http://purl.obolibrary.org/obo/TO_0002665>
+ Annotations: rdfs:label "root hair length"
+ Annotations: IAO:0000115 "The length of a root hair cell."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000256> ## length and 'inheres in' some root hair cell
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0004542 ## rhizome
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0004542"}
+Class: <http://purl.obolibrary.org/obo/TO_0000553>
+ Annotations: rdfs:label "rhizome length"
+ Annotations: IAO:0000115 "The length of a rhizome."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0004542> ## length and 'inheres in' some rhizome
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0005001 ## basal axillary shoot system
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0005001"}
+Class: <http://purl.obolibrary.org/obo/TO_0001005>
+ Annotations: rdfs:label "basal tiller length"
+ Annotations: IAO:0000115 "The length of a basal axillary shoot system."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0005001> ## length and 'inheres in' some basal axillary shoot system
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009001 ## fruit
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009001"}
+Class: <http://purl.obolibrary.org/obo/TO_0002626>
+ Annotations: rdfs:label "fruit length"
+ Annotations: IAO:0000115 "The length of a fruit."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009001> ## length and 'inheres in' some fruit
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009002 ## plant cell
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009002"}
+Class: <http://purl.obolibrary.org/obo/TO_0020107>
+ Annotations: rdfs:label "plant cell length"
+ Annotations: IAO:0000115 "The length of a plant cell."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009002> ## length and 'inheres in' some plant cell
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009005 ## root
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009005"}
+Class: <http://purl.obolibrary.org/obo/TO_0000227>
+ Annotations: rdfs:label "root length"
+ Annotations: IAO:0000115 "The length of a root."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009005> ## length and 'inheres in' some root
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009010"}
+Class: <http://purl.obolibrary.org/obo/TO_0000146>
+ Annotations: rdfs:label "seed length"
+ Annotations: IAO:0000115 "The length of a seed."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## length and 'inheres in' some seed
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009029 ## stamen
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009029"}
+Class: <http://purl.obolibrary.org/obo/TO_0002609>
+ Annotations: rdfs:label "stamen length"
+ Annotations: IAO:0000115 "The length of a stamen."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009029> ## length and 'inheres in' some stamen
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009031 ## sepal
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009031"}
+Class: <http://purl.obolibrary.org/obo/TO_0002607>
+ Annotations: rdfs:label "sepal length"
+ Annotations: IAO:0000115 "The length of a sepal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009031> ## length and 'inheres in' some sepal
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009032 ## petal
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009032"}
+Class: <http://purl.obolibrary.org/obo/TO_0002605>
+ Annotations: rdfs:label "petal length"
+ Annotations: IAO:0000115 "The length of a petal."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009032> ## length and 'inheres in' some petal
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009036 ## lodicule
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009036"}
+Class: <http://purl.obolibrary.org/obo/TO_0000856>
+ Annotations: rdfs:label "lodicule length"
+ Annotations: IAO:0000115 "The length of a lodicule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009036> ## length and 'inheres in' some lodicule
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009037 ## lemma
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009037"}
+Class: <http://purl.obolibrary.org/obo/TO_0000650>
+ Annotations: rdfs:label "lemma length"
+ Annotations: IAO:0000115 "The length of a lemma."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009037> ## length and 'inheres in' some lemma
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009039 ## glume
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009039"}
+Class: <http://purl.obolibrary.org/obo/TO_0020033>
+ Annotations: rdfs:label "glume length"
+ Annotations: IAO:0000115 "The length of a glume."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009039> ## length and 'inheres in' some glume
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009040 ## sterile lemma
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009040"}
+Class: <http://purl.obolibrary.org/obo/TO_0000240>
+ Annotations: rdfs:label "sterile lemma length"
+ Annotations: IAO:0000115 "The length of a sterile lemma."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009040> ## length and 'inheres in' some sterile lemma
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009046 ## flower
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009046"}
+Class: <http://purl.obolibrary.org/obo/TO_0000860>
+ Annotations: rdfs:label "flower length"
+ Annotations: IAO:0000115 "The length of a flower."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009046> ## length and 'inheres in' some flower
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009047 ## stem
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009047"}
+Class: <http://purl.obolibrary.org/obo/TO_0000576>
+ Annotations: rdfs:label "stem length"
+ Annotations: IAO:0000115 "The length of a stem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009047> ## length and 'inheres in' some stem
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009049"}
+Class: <http://purl.obolibrary.org/obo/TO_0000271>
+ Annotations: rdfs:label "inflorescence length"
+ Annotations: IAO:0000115 "The length of a inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## length and 'inheres in' some inflorescence
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009051 ## spikelet
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009051"}
+Class: <http://purl.obolibrary.org/obo/TO_0002768>
+ Annotations: rdfs:label "spikelet length"
+ Annotations: IAO:0000115 "The length of a spikelet."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009051> ## length and 'inheres in' some spikelet
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009052 ## flower pedicel
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009052"}
+Class: <http://purl.obolibrary.org/obo/TO_0000630>
+ Annotations: rdfs:label "pedicel length"
+ Annotations: IAO:0000115 "The length of a flower pedicel."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009052> ## length and 'inheres in' some flower pedicel
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009053 ## peduncle
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009053"}
+Class: <http://purl.obolibrary.org/obo/TO_0002691>
+ Annotations: rdfs:label "peduncle length"
+ Annotations: IAO:0000115 "The length of a peduncle."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009053> ## length and 'inheres in' some peduncle
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009054 ## inflorescence bract
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009054"}
+Class: <http://purl.obolibrary.org/obo/TO_0000817>
+ Annotations: rdfs:label "inflorescence bract length"
+ Annotations: IAO:0000115 "The length of a inflorescence bract."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009054> ## length and 'inheres in' some inflorescence bract
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009062 ## gynoecium
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009062"}
+Class: <http://purl.obolibrary.org/obo/TO_0002610>
+ Annotations: rdfs:label "pistil length"
+ Annotations: IAO:0000115 "The length of a gynoecium."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009062> ## length and 'inheres in' some gynoecium
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009066 ## anther
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009066"}
+Class: <http://purl.obolibrary.org/obo/TO_0000531>
+ Annotations: rdfs:label "anther length"
+ Annotations: IAO:0000115 "The length of a anther."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009066> ## length and 'inheres in' some anther
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009073 ## stigma
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009073"}
+Class: <http://purl.obolibrary.org/obo/TO_0011008>
+ Annotations: rdfs:label "stigma length"
+ Annotations: IAO:0000115 "The length of a stigma."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009073> ## length and 'inheres in' some stigma
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009074 ## style
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009074"}
+Class: <http://purl.obolibrary.org/obo/TO_0011009>
+ Annotations: rdfs:label "style length"
+ Annotations: IAO:0000115 "The length of a style."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009074> ## length and 'inheres in' some style
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009080 ## spikelet rachilla
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009080"}
+Class: <http://purl.obolibrary.org/obo/TO_0000972>
+ Annotations: rdfs:label "spikelet rachilla length"
+ Annotations: IAO:0000115 "The length of a spikelet rachilla."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009080> ## length and 'inheres in' some spikelet rachilla
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009081 ## inflorescence branch
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009081"}
+Class: <http://purl.obolibrary.org/obo/TO_0000641>
+ Annotations: rdfs:label "inflorescence primary branch length"
+ Annotations: IAO:0000115 "The length of a inflorescence branch."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009081> ## length and 'inheres in' some inflorescence branch
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009088 ## seed coat
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009088"}
+Class: <http://purl.obolibrary.org/obo/TO_0000880>
+ Annotations: rdfs:label "seed coat length"
+ Annotations: IAO:0000115 "The length of a seed coat."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009088> ## length and 'inheres in' some seed coat
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0009100 ## involucre
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0009100"}
+Class: <http://purl.obolibrary.org/obo/TO_0000623>
+ Annotations: rdfs:label "involucre bristle length"
+ Annotations: IAO:0000115 "The length of a involucre."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009100> ## length and 'inheres in' some involucre
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020033 ## coleoptile
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020033"}
+Class: <http://purl.obolibrary.org/obo/TO_0001007>
+ Annotations: rdfs:label "coleoptile length"
+ Annotations: IAO:0000115 "The length of a coleoptile."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020033> ## length and 'inheres in' some coleoptile
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020037 ## mesocotyl
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020037"}
+Class: <http://purl.obolibrary.org/obo/TO_0000544>
+ Annotations: rdfs:label "mesocotyl length"
+ Annotations: IAO:0000115 "The length of a mesocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020037> ## length and 'inheres in' some mesocotyl
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020038 ## petiole
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020038"}
+Class: <http://purl.obolibrary.org/obo/TO_0000766>
+ Annotations: rdfs:label "petiole length"
+ Annotations: IAO:0000115 "The length of a petiole."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020038> ## length and 'inheres in' some petiole
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020039 ## leaf lamina
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020039"}
+Class: <http://purl.obolibrary.org/obo/TO_0002690>
+ Annotations: rdfs:label "leaf lamina length"
+ Annotations: IAO:0000115 "The length of a leaf lamina."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020039> ## length and 'inheres in' some leaf lamina
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020041 ## stipule
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020041"}
+Class: <http://purl.obolibrary.org/obo/TO_1000020>
+ Annotations: rdfs:label "stipule length"
+ Annotations: IAO:0000115 "The length of a stipule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020041> ## length and 'inheres in' some stipule
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020050 ## petiolule
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020050"}
+Class: <http://purl.obolibrary.org/obo/TO_0000887>
+ Annotations: rdfs:label "petiolule length"
+ Annotations: IAO:0000115 "The length of a petiolule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020050> ## length and 'inheres in' some petiolule
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020103 ## flag leaf
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020103"}
+Class: <http://purl.obolibrary.org/obo/TO_0002757>
+ Annotations: rdfs:label "flag leaf length"
+ Annotations: IAO:0000115 "The length of a flag leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020103> ## length and 'inheres in' some flag leaf
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020104 ## leaf sheath
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020104"}
+Class: <http://purl.obolibrary.org/obo/TO_0002689>
+ Annotations: rdfs:label "leaf sheath length"
+ Annotations: IAO:0000115 "The length of a leaf sheath."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020104> ## length and 'inheres in' some leaf sheath
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020105 ## ligule
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020105"}
+Class: <http://purl.obolibrary.org/obo/TO_0000024>
+ Annotations: rdfs:label "ligule length"
+ Annotations: IAO:0000115 "The length of a ligule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020105> ## length and 'inheres in' some ligule
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020121 ## lateral root
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020121"}
+Class: <http://purl.obolibrary.org/obo/TO_0001012>
+ Annotations: rdfs:label "lateral root length"
+ Annotations: IAO:0000115 "The length of a lateral root."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020121> ## length and 'inheres in' some lateral root
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020126 ## tassel inflorescence
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020126"}
+Class: <http://purl.obolibrary.org/obo/TO_0000798>
+ Annotations: rdfs:label "tassel inflorescence length"
+ Annotations: IAO:0000115 "The length of a tassel inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020126> ## length and 'inheres in' some tassel inflorescence
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0020142 ## stem internode
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0020142"}
+Class: <http://purl.obolibrary.org/obo/TO_0000145>
+ Annotations: rdfs:label "internode length"
+ Annotations: IAO:0000115 "The length of a stem internode."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020142> ## length and 'inheres in' some stem internode
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0025034"}
+Class: <http://purl.obolibrary.org/obo/TO_0000135>
+ Annotations: rdfs:label "leaf length"
+ Annotations: IAO:0000115 "The length of a leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## length and 'inheres in' some leaf
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0025204 ## rhizome internode
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0025204"}
+Class: <http://purl.obolibrary.org/obo/TO_0000554>
+ Annotations: rdfs:label "rhizome internode length"
+ Annotations: IAO:0000115 "The length of a rhizome internode."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025204> ## length and 'inheres in' some rhizome internode
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0025248 ## pseudostem
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0025248"}
+Class: <http://purl.obolibrary.org/obo/TO_0000808>
+ Annotations: rdfs:label "pseudostem length"
+ Annotations: IAO:0000115 "The length of a pseudostem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025248> ## length and 'inheres in' some pseudostem
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0025291 ## seedling hypocotyl
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0025291"}
+Class: <http://purl.obolibrary.org/obo/TO_0006065>
+ Annotations: rdfs:label "seedling hypocotyl length"
+ Annotations: IAO:0000115 "The length of a seedling hypocotyl."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025291> ## length and 'inheres in' some seedling hypocotyl
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0025349 ## awn
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0025349"}
+Class: <http://purl.obolibrary.org/obo/TO_0000072>
+ Annotations: rdfs:label "awn length"
+ Annotations: IAO:0000115 "The length of a awn."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025349> ## length and 'inheres in' some awn
+
+Class: http://purl.obolibrary.org/obo/PATO_0000122 ## length
+Class: http://purl.obolibrary.org/obo/PO_0025597 ## ear infructescence
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000122", "entity": "http://purl.obolibrary.org/obo/PO_0025597"}
+Class: <http://purl.obolibrary.org/obo/TO_0000431>
+ Annotations: rdfs:label "ear length"
+ Annotations: IAO:0000115 "The length of a ear infructescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000122> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025597> ## length and 'inheres in' some ear infructescence

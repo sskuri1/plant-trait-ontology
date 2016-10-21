@@ -15,18 +15,6 @@ name:
     - entity
     - attribute
 
-annotations: 
-  - property: oio:hasExactSynonym
-    text: "%s"
-    vars:
-      - synonym
-
-annotations: 
-  - property: oio:hasDefinition
-    text: "%s"
-    vars:
-      - definition
-
 def: 
   text: "The %s of a %s."
   vars:

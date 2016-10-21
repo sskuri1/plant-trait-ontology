@@ -1,0 +1,237 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/shape_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/GO_0043036 ## starch grain
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/GO_0043036"}
+Class: <http://purl.obolibrary.org/obo/TO_0002656>
+ Annotations: rdfs:label "starch grain shape"
+ Annotations: IAO:0000115 "The shape of a starch grain."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0043036> ## shape and 'inheres in' some starch grain
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0004547 ## subterranean shoot axis tuber
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0004547"}
+Class: <http://purl.obolibrary.org/obo/TO_0000743>
+ Annotations: rdfs:label "subterranean shoot axis tuber shape"
+ Annotations: IAO:0000115 "The shape of a subterranean shoot axis tuber."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0004547> ## shape and 'inheres in' some subterranean shoot axis tuber
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0004709 ## axillary bud
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0004709"}
+Class: <http://purl.obolibrary.org/obo/TO_0000793>
+ Annotations: rdfs:label "axillary bud shape"
+ Annotations: IAO:0000115 "The shape of a axillary bud."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0004709> ## shape and 'inheres in' some axillary bud
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0008001 ## fruit distal end
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0008001"}
+Class: <http://purl.obolibrary.org/obo/TO_0002630>
+ Annotations: rdfs:label "fruit distal end shape"
+ Annotations: IAO:0000115 "The shape of a fruit distal end."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0008001> ## shape and 'inheres in' some fruit distal end
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0008002 ## fruit proximal end
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0008002"}
+Class: <http://purl.obolibrary.org/obo/TO_0002631>
+ Annotations: rdfs:label "fruit proximal end shape"
+ Annotations: IAO:0000115 "The shape of a fruit proximal end."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0008002> ## shape and 'inheres in' some fruit proximal end
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009001 ## fruit
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009001"}
+Class: <http://purl.obolibrary.org/obo/TO_0002628>
+ Annotations: rdfs:label "fruit shape"
+ Annotations: IAO:0000115 "The shape of a fruit."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009001> ## shape and 'inheres in' some fruit
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009002 ## plant cell
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009002"}
+Class: <http://purl.obolibrary.org/obo/TO_0002682>
+ Annotations: rdfs:label "plant cell shape"
+ Annotations: IAO:0000115 "The shape of a plant cell."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009002> ## shape and 'inheres in' some plant cell
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009005 ## root
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009005"}
+Class: <http://purl.obolibrary.org/obo/TO_0002710>
+ Annotations: rdfs:label "root shape"
+ Annotations: IAO:0000115 "The shape of a root."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009005> ## shape and 'inheres in' some root
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009009 ## plant embryo
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009009"}
+Class: <http://purl.obolibrary.org/obo/TO_0000193>
+ Annotations: rdfs:label "embryo shape"
+ Annotations: IAO:0000115 "The shape of a plant embryo."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009009> ## shape and 'inheres in' some plant embryo
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009010"}
+Class: <http://purl.obolibrary.org/obo/TO_0000484>
+ Annotations: rdfs:label "seed shape"
+ Annotations: IAO:0000115 "The shape of a seed."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## shape and 'inheres in' some seed
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009030 ## carpel
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009030"}
+Class: <http://purl.obolibrary.org/obo/TO_0006037>
+ Annotations: rdfs:label "carpel shape"
+ Annotations: IAO:0000115 "The shape of a carpel."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009030> ## shape and 'inheres in' some carpel
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009036 ## lodicule
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009036"}
+Class: <http://purl.obolibrary.org/obo/TO_0006011>
+ Annotations: rdfs:label "lodicule shape"
+ Annotations: IAO:0000115 "The shape of a lodicule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009036> ## shape and 'inheres in' some lodicule
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009037 ## lemma
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009037"}
+Class: <http://purl.obolibrary.org/obo/TO_0000614>
+ Annotations: rdfs:label "lemma shape"
+ Annotations: IAO:0000115 "The shape of a lemma."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009037> ## shape and 'inheres in' some lemma
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009039 ## glume
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009039"}
+Class: <http://purl.obolibrary.org/obo/TO_0000978>
+ Annotations: rdfs:label "glume shape"
+ Annotations: IAO:0000115 "The shape of a glume."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009039> ## shape and 'inheres in' some glume
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009040 ## sterile lemma
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009040"}
+Class: <http://purl.obolibrary.org/obo/TO_0002726>
+ Annotations: rdfs:label "sterile lemma shape"
+ Annotations: IAO:0000115 "The shape of a sterile lemma."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009040> ## shape and 'inheres in' some sterile lemma
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009046 ## flower
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009046"}
+Class: <http://purl.obolibrary.org/obo/TO_0000859>
+ Annotations: rdfs:label "flower shape"
+ Annotations: IAO:0000115 "The shape of a flower."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009046> ## shape and 'inheres in' some flower
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009047 ## stem
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009047"}
+Class: <http://purl.obolibrary.org/obo/TO_0000893>
+ Annotations: rdfs:label "stem shape"
+ Annotations: IAO:0000115 "The shape of a stem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009047> ## shape and 'inheres in' some stem
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009049"}
+Class: <http://purl.obolibrary.org/obo/TO_0000268>
+ Annotations: rdfs:label "inflorescence shape"
+ Annotations: IAO:0000115 "The shape of a inflorescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## shape and 'inheres in' some inflorescence
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009066 ## anther
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009066"}
+Class: <http://purl.obolibrary.org/obo/TO_0000214>
+ Annotations: rdfs:label "anther shape"
+ Annotations: IAO:0000115 "The shape of a anther."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009066> ## shape and 'inheres in' some anther
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0009080 ## spikelet rachilla
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0009080"}
+Class: <http://purl.obolibrary.org/obo/TO_0000973>
+ Annotations: rdfs:label "spikelet rachilla shape"
+ Annotations: IAO:0000115 "The shape of a spikelet rachilla."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009080> ## shape and 'inheres in' some spikelet rachilla
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0020038 ## petiole
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0020038"}
+Class: <http://purl.obolibrary.org/obo/TO_0000767>
+ Annotations: rdfs:label "petiole shape"
+ Annotations: IAO:0000115 "The shape of a petiole."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020038> ## shape and 'inheres in' some petiole
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0020050 ## petiolule
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0020050"}
+Class: <http://purl.obolibrary.org/obo/TO_0000886>
+ Annotations: rdfs:label "petiolule shape"
+ Annotations: IAO:0000115 "The shape of a petiolule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020050> ## shape and 'inheres in' some petiolule
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0020105 ## ligule
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0020105"}
+Class: <http://purl.obolibrary.org/obo/TO_0000335>
+ Annotations: rdfs:label "ligule shape"
+ Annotations: IAO:0000115 "The shape of a ligule."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020105> ## shape and 'inheres in' some ligule
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0020142 ## stem internode
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0020142"}
+Class: <http://purl.obolibrary.org/obo/TO_1000000>
+ Annotations: rdfs:label "stem internode bent"
+ Annotations: IAO:0000115 "The shape of a stem internode."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020142> ## shape and 'inheres in' some stem internode
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0025034"}
+Class: <http://purl.obolibrary.org/obo/TO_0000492>
+ Annotations: rdfs:label "leaf shape"
+ Annotations: IAO:0000115 "The shape of a leaf."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## shape and 'inheres in' some leaf
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0025248 ## pseudostem
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0025248"}
+Class: <http://purl.obolibrary.org/obo/TO_0000809>
+ Annotations: rdfs:label "pseudostem shape"
+ Annotations: IAO:0000115 "The shape of a pseudostem."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025248> ## shape and 'inheres in' some pseudostem
+
+Class: http://purl.obolibrary.org/obo/PATO_0000052 ## shape
+Class: http://purl.obolibrary.org/obo/PO_0025597 ## ear infructescence
+## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000052", "entity": "http://purl.obolibrary.org/obo/PO_0025597"}
+Class: <http://purl.obolibrary.org/obo/TO_0000964>
+ Annotations: rdfs:label "ear shape"
+ Annotations: IAO:0000115 "The shape of a ear infructescence."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000052> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025597> ## shape and 'inheres in' some ear infructescence

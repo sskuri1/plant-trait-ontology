@@ -1,0 +1,109 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/eq/quality_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
+AnnotationProperty: DOSDP:applies-pattern
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: http://purl.obolibrary.org/obo/GO_0003824 ## catalytic activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0003824", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000599>
+ Annotations: rdfs:label "enzyme activity trait"
+ Annotations: IAO:0000115 "The quality of a catalytic activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0003824> ## quality and 'inheres in' some catalytic activity
+
+Class: http://purl.obolibrary.org/obo/GO_0003993 ## acid phosphatase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0003993", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000705>
+ Annotations: rdfs:label "acid phosphatase activity trait"
+ Annotations: IAO:0000115 "The quality of a acid phosphatase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0003993> ## quality and 'inheres in' some acid phosphatase activity
+
+Class: http://purl.obolibrary.org/obo/GO_0004556 ## alpha-amylase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0004556", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000288>
+ Annotations: rdfs:label "alpha-amylase activity trait"
+ Annotations: IAO:0000115 "The quality of a alpha-amylase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0004556> ## quality and 'inheres in' some alpha-amylase activity
+
+Class: http://purl.obolibrary.org/obo/GO_0004564 ## beta-fructofuranosidase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0004564", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000311>
+ Annotations: rdfs:label "invertase activity trait"
+ Annotations: IAO:0000115 "The quality of a beta-fructofuranosidase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0004564> ## quality and 'inheres in' some beta-fructofuranosidase activity
+
+Class: http://purl.obolibrary.org/obo/GO_0008878 ## glucose-1-phosphate adenylyltransferase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0008878", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000284>
+ Annotations: rdfs:label "ADP glucose pyrophosphorylase activity trait"
+ Annotations: IAO:0000115 "The quality of a glucose-1-phosphate adenylyltransferase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0008878> ## quality and 'inheres in' some glucose-1-phosphate adenylyltransferase activity
+
+Class: http://purl.obolibrary.org/obo/GO_0016157 ## sucrose synthase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0016157", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000699>
+ Annotations: rdfs:label "sucrose synthase activity trait"
+ Annotations: IAO:0000115 "The quality of a sucrose synthase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0016157> ## quality and 'inheres in' some sucrose synthase activity
+
+Class: http://purl.obolibrary.org/obo/GO_0016160 ## amylase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0016160", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000703>
+ Annotations: rdfs:label "amylase activity trait"
+ Annotations: IAO:0000115 "The quality of a amylase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0016160> ## quality and 'inheres in' some amylase activity
+
+Class: http://purl.obolibrary.org/obo/GO_0016161 ## beta-amylase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0016161", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000338>
+ Annotations: rdfs:label "beta-amylase activity trait"
+ Annotations: IAO:0000115 "The quality of a beta-amylase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0016161> ## quality and 'inheres in' some beta-amylase activity
+
+Class: http://purl.obolibrary.org/obo/GO_0016791 ## phosphatase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0016791", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000704>
+ Annotations: rdfs:label "phosphatase activity trait"
+ Annotations: IAO:0000115 "The quality of a phosphatase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0016791> ## quality and 'inheres in' some phosphatase activity
+
+Class: http://purl.obolibrary.org/obo/GO_0046524 ## sucrose-phosphate synthase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0046524", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0000331>
+ Annotations: rdfs:label "sucrose phosphate synthase activity trait"
+ Annotations: IAO:0000115 "The quality of a sucrose-phosphate synthase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0046524> ## quality and 'inheres in' some sucrose-phosphate synthase activity
+
+Class: http://purl.obolibrary.org/obo/GO_0052736 ## beta-glucanase activity
+Class: http://purl.obolibrary.org/obo/PATO_0000001 ## quality
+## {"entity": "http://purl.obolibrary.org/obo/GO_0052736", "attribute": "http://purl.obolibrary.org/obo/PATO_0000001"}
+Class: <http://purl.obolibrary.org/obo/TO_0020070>
+ Annotations: rdfs:label "beta-glucanase activity trait"
+ Annotations: IAO:0000115 "The quality of a beta-glucanase activity."
+ EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000001> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0052736> ## quality and 'inheres in' some beta-glucanase activity
