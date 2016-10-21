@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/rough_pattern
+
+[Term]
+id: TO:0000717
+name: rough endosperm
+def: "The rough of a endosperm." []
+intersection_of: PATO:0000700
+intersection_of: RO:0000052 PO:0009089
+

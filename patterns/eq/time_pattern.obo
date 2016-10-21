@@ -1,0 +1,17 @@
+format-version: 1.2
+ontology: patterns/eq/time_pattern
+
+[Term]
+id: TO:0000503
+name: leaf rolling time
+def: "The time of a leaf rolling." []
+intersection_of: PATO:0000165
+intersection_of: RO:0000052 TO:0000085
+
+[Term]
+id: TO:0000521
+name: stomatal closure time
+def: "The time of a stomatal closure." []
+intersection_of: PATO:0000165
+intersection_of: RO:0000052 GO:0090332
+

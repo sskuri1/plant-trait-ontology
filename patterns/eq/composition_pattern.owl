@@ -2,12 +2,12 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 
  ## Auto-generated
 
@@ -20,402 +20,402 @@ ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_10022 ## Vomitoxin
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_10022"}
-Class: <http://purl.obolibrary.org/obo/TO_0000669>
+Class: PATO:0000025 ## composition
+Class: CHEBI:10022 ## Vomitoxin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:10022"}
+Class: TO:0000669
  Annotations: rdfs:label "deoxynivalenol content"
  Annotations: IAO:0000115 "The composition of a Vomitoxin."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_10022> ## composition and 'inheres in' some Vomitoxin
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:10022 ## composition and 'inheres in' some Vomitoxin
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_15948 ## lycopene
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_15948"}
-Class: <http://purl.obolibrary.org/obo/TO_0002699>
+Class: PATO:0000025 ## composition
+Class: CHEBI:15948 ## lycopene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:15948"}
+Class: TO:0002699
  Annotations: rdfs:label "lycopene content"
  Annotations: IAO:0000115 "The composition of a lycopene."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_15948> ## composition and 'inheres in' some lycopene
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:15948 ## composition and 'inheres in' some lycopene
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_16196 ## oleic acid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_16196"}
-Class: <http://purl.obolibrary.org/obo/TO_0005002>
+Class: PATO:0000025 ## composition
+Class: CHEBI:16196 ## oleic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:16196"}
+Class: TO:0005002
  Annotations: rdfs:label "oleic acid content"
  Annotations: IAO:0000115 "The composition of a oleic acid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_16196> ## composition and 'inheres in' some oleic acid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:16196 ## composition and 'inheres in' some oleic acid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_16240 ## hydrogen peroxide
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_16240"}
-Class: <http://purl.obolibrary.org/obo/TO_0000605>
+Class: PATO:0000025 ## composition
+Class: CHEBI:16240 ## hydrogen peroxide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:16240"}
+Class: TO:0000605
  Annotations: rdfs:label "hydrogen peroxide content"
  Annotations: IAO:0000115 "The composition of a hydrogen peroxide."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_16240> ## composition and 'inheres in' some hydrogen peroxide
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:16240 ## composition and 'inheres in' some hydrogen peroxide
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_16634 ## raffinose
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_16634"}
-Class: <http://purl.obolibrary.org/obo/TO_0006004>
+Class: PATO:0000025 ## composition
+Class: CHEBI:16634 ## raffinose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:16634"}
+Class: TO:0006004
  Annotations: rdfs:label "raffinose content"
  Annotations: IAO:0000115 "The composition of a raffinose."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_16634> ## composition and 'inheres in' some raffinose
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:16634 ## composition and 'inheres in' some raffinose
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_16646 ## carbohydrate
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_16646"}
-Class: <http://purl.obolibrary.org/obo/TO_0000489>
+Class: PATO:0000025 ## composition
+Class: CHEBI:16646 ## carbohydrate
+## {"attribute": "PATO:0000025", "entity": "CHEBI:16646"}
+Class: TO:0000489
  Annotations: rdfs:label "carbohydrate composition related trait"
  Annotations: IAO:0000115 "The composition of a carbohydrate."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_16646> ## composition and 'inheres in' some carbohydrate
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:16646 ## composition and 'inheres in' some carbohydrate
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_17234 ## glucose
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_17234"}
-Class: <http://purl.obolibrary.org/obo/TO_0000300>
+Class: PATO:0000025 ## composition
+Class: CHEBI:17234 ## glucose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17234"}
+Class: TO:0000300
  Annotations: rdfs:label "glucose content"
  Annotations: IAO:0000115 "The composition of a glucose."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_17234> ## composition and 'inheres in' some glucose
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:17234 ## composition and 'inheres in' some glucose
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_17351 ## linoleic acid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_17351"}
-Class: <http://purl.obolibrary.org/obo/TO_0005001>
+Class: PATO:0000025 ## composition
+Class: CHEBI:17351 ## linoleic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17351"}
+Class: TO:0005001
  Annotations: rdfs:label "linoleic acid content"
  Annotations: IAO:0000115 "The composition of a linoleic acid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_17351> ## composition and 'inheres in' some linoleic acid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:17351 ## composition and 'inheres in' some linoleic acid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_17514 ## cyanide
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_17514"}
-Class: <http://purl.obolibrary.org/obo/TO_0000955>
+Class: PATO:0000025 ## composition
+Class: CHEBI:17514 ## cyanide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17514"}
+Class: TO:0000955
  Annotations: rdfs:label "cyanide content"
  Annotations: IAO:0000115 "The composition of a cyanide."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_17514> ## composition and 'inheres in' some cyanide
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:17514 ## composition and 'inheres in' some cyanide
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_17579 ## beta-carotene
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_17579"}
-Class: <http://purl.obolibrary.org/obo/TO_0002695>
+Class: PATO:0000025 ## composition
+Class: CHEBI:17579 ## beta-carotene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17579"}
+Class: TO:0002695
  Annotations: rdfs:label "beta-carotene content"
  Annotations: IAO:0000115 "The composition of a beta-carotene."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_17579> ## composition and 'inheres in' some beta-carotene
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:17579 ## composition and 'inheres in' some beta-carotene
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_17620 ## ferulic acid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_17620"}
-Class: <http://purl.obolibrary.org/obo/TO_0000675>
+Class: PATO:0000025 ## composition
+Class: CHEBI:17620 ## ferulic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17620"}
+Class: TO:0000675
  Annotations: rdfs:label "ferulic acid content"
  Annotations: IAO:0000115 "The composition of a ferulic acid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_17620> ## composition and 'inheres in' some ferulic acid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:17620 ## composition and 'inheres in' some ferulic acid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_17855 ## triglyceride
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_17855"}
-Class: <http://purl.obolibrary.org/obo/TO_0000602>
+Class: PATO:0000025 ## composition
+Class: CHEBI:17855 ## triglyceride
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17855"}
+Class: TO:0000602
  Annotations: rdfs:label "total fat content"
  Annotations: IAO:0000115 "The composition of a triglyceride."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_17855> ## composition and 'inheres in' some triglyceride
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:17855 ## composition and 'inheres in' some triglyceride
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_17992 ## sucrose
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_17992"}
-Class: <http://purl.obolibrary.org/obo/TO_0000328>
+Class: PATO:0000025 ## composition
+Class: CHEBI:17992 ## sucrose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17992"}
+Class: TO:0000328
  Annotations: rdfs:label "sucrose content"
  Annotations: IAO:0000115 "The composition of a sucrose."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_17992> ## composition and 'inheres in' some sucrose
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:17992 ## composition and 'inheres in' some sucrose
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_18133 ## hexose
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_18133"}
-Class: <http://purl.obolibrary.org/obo/TO_0000307>
+Class: PATO:0000025 ## composition
+Class: CHEBI:18133 ## hexose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18133"}
+Class: TO:0000307
  Annotations: rdfs:label "hexose content"
  Annotations: IAO:0000115 "The composition of a hexose."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_18133> ## composition and 'inheres in' some hexose
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:18133 ## composition and 'inheres in' some hexose
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_18154 ## polysaccharide
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_18154"}
-Class: <http://purl.obolibrary.org/obo/TO_0006007>
+Class: PATO:0000025 ## composition
+Class: CHEBI:18154 ## polysaccharide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18154"}
+Class: TO:0006007
  Annotations: rdfs:label "polysaccharide content"
  Annotations: IAO:0000115 "The composition of a polysaccharide."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_18154> ## composition and 'inheres in' some polysaccharide
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:18154 ## composition and 'inheres in' some polysaccharide
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_18230 ## chlorophyll a
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_18230"}
-Class: <http://purl.obolibrary.org/obo/TO_0000293>
+Class: PATO:0000025 ## composition
+Class: CHEBI:18230 ## chlorophyll a
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18230"}
+Class: TO:0000293
  Annotations: rdfs:label "chlorophyll-a content"
  Annotations: IAO:0000115 "The composition of a chlorophyll a."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_18230> ## composition and 'inheres in' some chlorophyll a
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:18230 ## composition and 'inheres in' some chlorophyll a
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_18246 ## (1->4)-beta-D-glucan
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_18246"}
-Class: <http://purl.obolibrary.org/obo/TO_0000993>
+Class: PATO:0000025 ## composition
+Class: CHEBI:18246 ## (1->4)-beta-D-glucan
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18246"}
+Class: TO:0000993
  Annotations: rdfs:label "cellulose content"
  Annotations: IAO:0000115 "The composition of a (1->4)-beta-D-glucan."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_18246> ## composition and 'inheres in' some (1->4)-beta-D-glucan
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:18246 ## composition and 'inheres in' some (1->4)-beta-D-glucan
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_18292 ## jasmonic acid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_18292"}
-Class: <http://purl.obolibrary.org/obo/TO_0002668>
+Class: PATO:0000025 ## composition
+Class: CHEBI:18292 ## jasmonic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18292"}
+Class: TO:0002668
  Annotations: rdfs:label "jasmonic acid content"
  Annotations: IAO:0000115 "The composition of a jasmonic acid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_18292> ## composition and 'inheres in' some jasmonic acid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:18292 ## composition and 'inheres in' some jasmonic acid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_22921 ## brassinosteroid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_22921"}
-Class: <http://purl.obolibrary.org/obo/TO_0002676>
+Class: PATO:0000025 ## composition
+Class: CHEBI:22921 ## brassinosteroid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:22921"}
+Class: TO:0002676
  Annotations: rdfs:label "brassinosteroid content"
  Annotations: IAO:0000115 "The composition of a brassinosteroid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_22921> ## composition and 'inheres in' some brassinosteroid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:22921 ## composition and 'inheres in' some brassinosteroid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_23044 ## carotenoid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_23044"}
-Class: <http://purl.obolibrary.org/obo/TO_0000496>
+Class: PATO:0000025 ## composition
+Class: CHEBI:23044 ## carotenoid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:23044"}
+Class: TO:0000496
  Annotations: rdfs:label "carotenoid content"
  Annotations: IAO:0000115 "The composition of a carotenoid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_23044> ## composition and 'inheres in' some carotenoid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:23044 ## composition and 'inheres in' some carotenoid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_23530 ## cytokinin
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_23530"}
-Class: <http://purl.obolibrary.org/obo/TO_0002660>
+Class: PATO:0000025 ## composition
+Class: CHEBI:23530 ## cytokinin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:23530"}
+Class: TO:0002660
  Annotations: rdfs:label "cytokinin content"
  Annotations: IAO:0000115 "The composition of a cytokinin."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_23530> ## composition and 'inheres in' some cytokinin
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:23530 ## composition and 'inheres in' some cytokinin
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_25212 ## metabolite
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_25212"}
-Class: <http://purl.obolibrary.org/obo/TO_0000281>
+Class: PATO:0000025 ## composition
+Class: CHEBI:25212 ## metabolite
+## {"attribute": "PATO:0000025", "entity": "CHEBI:25212"}
+Class: TO:0000281
  Annotations: rdfs:label "metabolite content trait"
  Annotations: IAO:0000115 "The composition of a metabolite."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_25212> ## composition and 'inheres in' some metabolite
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:25212 ## composition and 'inheres in' some metabolite
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_25442 ## mycotoxin
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_25442"}
-Class: <http://purl.obolibrary.org/obo/TO_0000668>
+Class: PATO:0000025 ## composition
+Class: CHEBI:25442 ## mycotoxin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:25442"}
+Class: TO:0000668
  Annotations: rdfs:label "mycotoxin content"
  Annotations: IAO:0000115 "The composition of a mycotoxin."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_25442> ## composition and 'inheres in' some mycotoxin
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:25442 ## composition and 'inheres in' some mycotoxin
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_25681 ## omega-3 fatty acid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_25681"}
-Class: <http://purl.obolibrary.org/obo/TO_0005004>
+Class: PATO:0000025 ## composition
+Class: CHEBI:25681 ## omega-3 fatty acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:25681"}
+Class: TO:0005004
  Annotations: rdfs:label "omega-3 fatty acid content"
  Annotations: IAO:0000115 "The composition of a omega-3 fatty acid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_25681> ## composition and 'inheres in' some omega-3 fatty acid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:25681 ## composition and 'inheres in' some omega-3 fatty acid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_26271 ## proline
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_26271"}
-Class: <http://purl.obolibrary.org/obo/TO_0006002>
+Class: PATO:0000025 ## composition
+Class: CHEBI:26271 ## proline
+## {"attribute": "PATO:0000025", "entity": "CHEBI:26271"}
+Class: TO:0006002
  Annotations: rdfs:label "proline content"
  Annotations: IAO:0000115 "The composition of a proline."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_26271> ## composition and 'inheres in' some proline
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:26271 ## composition and 'inheres in' some proline
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_27325 ## xanthophyll
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_27325"}
-Class: <http://purl.obolibrary.org/obo/TO_0000301>
+Class: PATO:0000025 ## composition
+Class: CHEBI:27325 ## xanthophyll
+## {"attribute": "PATO:0000025", "entity": "CHEBI:27325"}
+Class: TO:0000301
  Annotations: rdfs:label "xanthophyll content"
  Annotations: IAO:0000115 "The composition of a xanthophyll."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_27325> ## composition and 'inheres in' some xanthophyll
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:27325 ## composition and 'inheres in' some xanthophyll
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_27432 ## alpha-linolenic acid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_27432"}
-Class: <http://purl.obolibrary.org/obo/TO_0005005>
+Class: PATO:0000025 ## composition
+Class: CHEBI:27432 ## alpha-linolenic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:27432"}
+Class: TO:0005005
  Annotations: rdfs:label "alpha-linolenic acid content"
  Annotations: IAO:0000115 "The composition of a alpha-linolenic acid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_27432> ## composition and 'inheres in' some alpha-linolenic acid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:27432 ## composition and 'inheres in' some alpha-linolenic acid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_27888 ## chlorophyll b
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_27888"}
-Class: <http://purl.obolibrary.org/obo/TO_0000295>
+Class: PATO:0000025 ## composition
+Class: CHEBI:27888 ## chlorophyll b
+## {"attribute": "PATO:0000025", "entity": "CHEBI:27888"}
+Class: TO:0000295
  Annotations: rdfs:label "chlorophyll-b content"
  Annotations: IAO:0000115 "The composition of a chlorophyll b."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_27888> ## composition and 'inheres in' some chlorophyll b
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:27888 ## composition and 'inheres in' some chlorophyll b
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_27897 ## tryptophan
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_27897"}
-Class: <http://purl.obolibrary.org/obo/TO_0002674>
+Class: PATO:0000025 ## composition
+Class: CHEBI:27897 ## tryptophan
+## {"attribute": "PATO:0000025", "entity": "CHEBI:27897"}
+Class: TO:0002674
  Annotations: rdfs:label "tryptophan content"
  Annotations: IAO:0000115 "The composition of a tryptophan."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_27897> ## composition and 'inheres in' some tryptophan
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:27897 ## composition and 'inheres in' some tryptophan
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_28017 ## starch
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_28017"}
-Class: <http://purl.obolibrary.org/obo/TO_0000696>
+Class: PATO:0000025 ## composition
+Class: CHEBI:28017 ## starch
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28017"}
+Class: TO:0000696
  Annotations: rdfs:label "starch content"
  Annotations: IAO:0000115 "The composition of a starch."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_28017> ## composition and 'inheres in' some starch
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:28017 ## composition and 'inheres in' some starch
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_28057 ## amylopectin
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_28057"}
-Class: <http://purl.obolibrary.org/obo/TO_0000097>
+Class: PATO:0000025 ## composition
+Class: CHEBI:28057 ## amylopectin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28057"}
+Class: TO:0000097
  Annotations: rdfs:label "amylopectin content"
  Annotations: IAO:0000115 "The composition of a amylopectin."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_28057> ## composition and 'inheres in' some amylopectin
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:28057 ## composition and 'inheres in' some amylopectin
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_28425 ## alpha-carotene
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_28425"}
-Class: <http://purl.obolibrary.org/obo/TO_0002696>
+Class: PATO:0000025 ## composition
+Class: CHEBI:28425 ## alpha-carotene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28425"}
+Class: TO:0002696
  Annotations: rdfs:label "alpha carotene content"
  Annotations: IAO:0000115 "The composition of a alpha-carotene."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_28425> ## composition and 'inheres in' some alpha-carotene
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:28425 ## composition and 'inheres in' some alpha-carotene
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_28757 ## fructose
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_28757"}
-Class: <http://purl.obolibrary.org/obo/TO_0006005>
+Class: PATO:0000025 ## composition
+Class: CHEBI:28757 ## fructose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28757"}
+Class: TO:0006005
  Annotations: rdfs:label "fructose content"
  Annotations: IAO:0000115 "The composition of a fructose."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_28757> ## composition and 'inheres in' some fructose
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:28757 ## composition and 'inheres in' some fructose
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_28793 ## beta-D-glucan
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_28793"}
-Class: <http://purl.obolibrary.org/obo/TO_0020068>
+Class: PATO:0000025 ## composition
+Class: CHEBI:28793 ## beta-D-glucan
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28793"}
+Class: TO:0020068
  Annotations: rdfs:label "beta-glucan content"
  Annotations: IAO:0000115 "The composition of a beta-D-glucan."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_28793> ## composition and 'inheres in' some beta-D-glucan
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:28793 ## composition and 'inheres in' some beta-D-glucan
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_28833 ## gibberellin A3
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_28833"}
-Class: <http://purl.obolibrary.org/obo/TO_0002675>
+Class: PATO:0000025 ## composition
+Class: CHEBI:28833 ## gibberellin A3
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28833"}
+Class: TO:0002675
  Annotations: rdfs:label "gibberellic acid content"
  Annotations: IAO:0000115 "The composition of a gibberellin A3."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_28833> ## composition and 'inheres in' some gibberellin A3
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:28833 ## composition and 'inheres in' some gibberellin A3
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_28838 ## lutein
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_28838"}
-Class: <http://purl.obolibrary.org/obo/TO_0002701>
+Class: PATO:0000025 ## composition
+Class: CHEBI:28838 ## lutein
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28838"}
+Class: TO:0002701
  Annotations: rdfs:label "lutein content"
  Annotations: IAO:0000115 "The composition of a lutein."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_28838> ## composition and 'inheres in' some lutein
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:28838 ## composition and 'inheres in' some lutein
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_28842 ## stearic acid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_28842"}
-Class: <http://purl.obolibrary.org/obo/TO_0005003>
+Class: PATO:0000025 ## composition
+Class: CHEBI:28842 ## stearic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28842"}
+Class: TO:0005003
  Annotations: rdfs:label "stearic acid content"
  Annotations: IAO:0000115 "The composition of a stearic acid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_28842> ## composition and 'inheres in' some stearic acid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:28842 ## composition and 'inheres in' some stearic acid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_28966 ## chlorophyll
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_28966"}
-Class: <http://purl.obolibrary.org/obo/TO_0000495>
+Class: PATO:0000025 ## composition
+Class: CHEBI:28966 ## chlorophyll
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28966"}
+Class: TO:0000495
  Annotations: rdfs:label "chlorophyll content"
  Annotations: IAO:0000115 "The composition of a chlorophyll."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_28966> ## composition and 'inheres in' some chlorophyll
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:28966 ## composition and 'inheres in' some chlorophyll
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_33709 ## amino acid
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_33709"}
-Class: <http://purl.obolibrary.org/obo/TO_0002673>
+Class: PATO:0000025 ## composition
+Class: CHEBI:33709 ## amino acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:33709"}
+Class: TO:0002673
  Annotations: rdfs:label "amino acid content"
  Annotations: IAO:0000115 "The composition of a amino acid."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_33709> ## composition and 'inheres in' some amino acid
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:33709 ## composition and 'inheres in' some amino acid
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_35162 ## acyclic carotene
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_35162"}
-Class: <http://purl.obolibrary.org/obo/TO_0002698>
+Class: PATO:0000025 ## composition
+Class: CHEBI:35162 ## acyclic carotene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:35162"}
+Class: TO:0002698
  Annotations: rdfs:label "acyclic carotene content"
  Annotations: IAO:0000115 "The composition of a acyclic carotene."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_35162> ## composition and 'inheres in' some acyclic carotene
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:35162 ## composition and 'inheres in' some acyclic carotene
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_35163 ## cyclic carotene
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_35163"}
-Class: <http://purl.obolibrary.org/obo/TO_0002697>
+Class: PATO:0000025 ## composition
+Class: CHEBI:35163 ## cyclic carotene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:35163"}
+Class: TO:0002697
  Annotations: rdfs:label "cyclic carotene content"
  Annotations: IAO:0000115 "The composition of a cyclic carotene."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_35163> ## composition and 'inheres in' some cyclic carotene
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:35163 ## composition and 'inheres in' some cyclic carotene
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_35218 ## anthocyanin cation
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_35218"}
-Class: <http://purl.obolibrary.org/obo/TO_0000071>
+Class: PATO:0000025 ## composition
+Class: CHEBI:35218 ## anthocyanin cation
+## {"attribute": "PATO:0000025", "entity": "CHEBI:35218"}
+Class: TO:0000071
  Annotations: rdfs:label "anthocyanin content"
  Annotations: IAO:0000115 "The composition of a anthocyanin cation."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_35218> ## composition and 'inheres in' some anthocyanin cation
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:35218 ## composition and 'inheres in' some anthocyanin cation
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_35381 ## monosaccharide
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_35381"}
-Class: <http://purl.obolibrary.org/obo/TO_0006006>
+Class: PATO:0000025 ## composition
+Class: CHEBI:35381 ## monosaccharide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:35381"}
+Class: TO:0006006
  Annotations: rdfs:label "monosaccharide content"
  Annotations: IAO:0000115 "The composition of a monosaccharide."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_35381> ## composition and 'inheres in' some monosaccharide
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:35381 ## composition and 'inheres in' some monosaccharide
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_37684 ## mannose
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_37684"}
-Class: <http://purl.obolibrary.org/obo/TO_0000932>
+Class: PATO:0000025 ## composition
+Class: CHEBI:37684 ## mannose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:37684"}
+Class: TO:0000932
  Annotations: rdfs:label "mannose content"
  Annotations: IAO:0000115 "The composition of a mannose."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_37684> ## composition and 'inheres in' some mannose
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:37684 ## composition and 'inheres in' some mannose
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_50699 ## oligosaccharide
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_50699"}
-Class: <http://purl.obolibrary.org/obo/TO_0006003>
+Class: PATO:0000025 ## composition
+Class: CHEBI:50699 ## oligosaccharide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:50699"}
+Class: TO:0006003
  Annotations: rdfs:label "oligosaccharide content"
  Annotations: IAO:0000115 "The composition of a oligosaccharide."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_50699> ## composition and 'inheres in' some oligosaccharide
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:50699 ## composition and 'inheres in' some oligosaccharide
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_60952 ## diterpene phytoalexin
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_60952"}
-Class: <http://purl.obolibrary.org/obo/TO_0002669>
+Class: PATO:0000025 ## composition
+Class: CHEBI:60952 ## diterpene phytoalexin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:60952"}
+Class: TO:0002669
  Annotations: rdfs:label "diterpenoid phytoalexin content"
  Annotations: IAO:0000115 "The composition of a diterpene phytoalexin."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_60952> ## composition and 'inheres in' some diterpene phytoalexin
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:60952 ## composition and 'inheres in' some diterpene phytoalexin
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_6457 ## lignin
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_6457"}
-Class: <http://purl.obolibrary.org/obo/TO_0000731>
+Class: PATO:0000025 ## composition
+Class: CHEBI:6457 ## lignin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:6457"}
+Class: TO:0000731
  Annotations: rdfs:label "lignin content"
  Annotations: IAO:0000115 "The composition of a lignin."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_6457> ## composition and 'inheres in' some lignin
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:6457 ## composition and 'inheres in' some lignin
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_70206 ## maysin
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_70206"}
-Class: <http://purl.obolibrary.org/obo/TO_0000690>
+Class: PATO:0000025 ## composition
+Class: CHEBI:70206 ## maysin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:70206"}
+Class: TO:0000690
  Annotations: rdfs:label "maysin content"
  Annotations: IAO:0000115 "The composition of a maysin."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_70206> ## composition and 'inheres in' some maysin
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:70206 ## composition and 'inheres in' some maysin
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/CHEBI_8027 ## Peroxidase
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/CHEBI_8027"}
-Class: <http://purl.obolibrary.org/obo/TO_0000313>
+Class: PATO:0000025 ## composition
+Class: CHEBI:8027 ## Peroxidase
+## {"attribute": "PATO:0000025", "entity": "CHEBI:8027"}
+Class: TO:0000313
  Annotations: rdfs:label "perodidase-71 content"
  Annotations: IAO:0000115 "The composition of a Peroxidase."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/CHEBI_8027> ## composition and 'inheres in' some Peroxidase
+ EquivalentTo: PATO:0000025 and RO_0000052 some CHEBI:8027 ## composition and 'inheres in' some Peroxidase
 
-Class: http://purl.obolibrary.org/obo/PATO_0000025 ## composition
-Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000025", "entity": "http://purl.obolibrary.org/obo/PO_0025034"}
-Class: <http://purl.obolibrary.org/obo/TO_0000493>
+Class: PATO:0000025 ## composition
+Class: PO:0025034 ## leaf
+## {"attribute": "PATO:0000025", "entity": "PO:0025034"}
+Class: TO:0000493
  Annotations: rdfs:label "leaf composition trait"
  Annotations: IAO:0000115 "The composition of a leaf."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000025> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## composition and 'inheres in' some leaf
+ EquivalentTo: PATO:0000025 and RO_0000052 some PO:0025034 ## composition and 'inheres in' some leaf

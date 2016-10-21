@@ -1,0 +1,353 @@
+format-version: 1.2
+ontology: patterns/eq/composition_pattern
+
+[Term]
+id: TO:0000071
+name: anthocyanin content
+def: "The composition of a anthocyanin cation." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:35218
+
+[Term]
+id: TO:0000097
+name: amylopectin content
+def: "The composition of a amylopectin." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:28057
+
+[Term]
+id: TO:0000281
+name: metabolite content trait
+def: "The composition of a metabolite." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:25212
+
+[Term]
+id: TO:0000293
+name: chlorophyll-a content
+def: "The composition of a chlorophyll a." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:18230
+
+[Term]
+id: TO:0000295
+name: chlorophyll-b content
+def: "The composition of a chlorophyll b." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:27888
+
+[Term]
+id: TO:0000300
+name: glucose content
+def: "The composition of a glucose." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:17234
+
+[Term]
+id: TO:0000301
+name: xanthophyll content
+def: "The composition of a xanthophyll." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:27325
+
+[Term]
+id: TO:0000307
+name: hexose content
+def: "The composition of a hexose." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:18133
+
+[Term]
+id: TO:0000313
+name: perodidase-71 content
+def: "The composition of a Peroxidase." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:8027
+
+[Term]
+id: TO:0000328
+name: sucrose content
+def: "The composition of a sucrose." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:17992
+
+[Term]
+id: TO:0000489
+name: carbohydrate composition related trait
+def: "The composition of a carbohydrate." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:16646
+
+[Term]
+id: TO:0000493
+name: leaf composition trait
+def: "The composition of a leaf." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000495
+name: chlorophyll content
+def: "The composition of a chlorophyll." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:28966
+
+[Term]
+id: TO:0000496
+name: carotenoid content
+def: "The composition of a carotenoid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:23044
+
+[Term]
+id: TO:0000602
+name: total fat content
+def: "The composition of a triglyceride." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:17855
+
+[Term]
+id: TO:0000605
+name: hydrogen peroxide content
+def: "The composition of a hydrogen peroxide." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:16240
+
+[Term]
+id: TO:0000668
+name: mycotoxin content
+def: "The composition of a mycotoxin." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:25442
+
+[Term]
+id: TO:0000669
+name: deoxynivalenol content
+def: "The composition of a Vomitoxin." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:10022
+
+[Term]
+id: TO:0000675
+name: ferulic acid content
+def: "The composition of a ferulic acid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:17620
+
+[Term]
+id: TO:0000690
+name: maysin content
+def: "The composition of a maysin." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:70206
+
+[Term]
+id: TO:0000696
+name: starch content
+def: "The composition of a starch." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:28017
+
+[Term]
+id: TO:0000731
+name: lignin content
+def: "The composition of a lignin." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:6457
+
+[Term]
+id: TO:0000932
+name: mannose content
+def: "The composition of a mannose." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:37684
+
+[Term]
+id: TO:0000955
+name: cyanide content
+def: "The composition of a cyanide." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:17514
+
+[Term]
+id: TO:0000993
+name: cellulose content
+def: "The composition of a (1->4)-beta-D-glucan." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:18246
+
+[Term]
+id: TO:0002660
+name: cytokinin content
+def: "The composition of a cytokinin." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:23530
+
+[Term]
+id: TO:0002668
+name: jasmonic acid content
+def: "The composition of a jasmonic acid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:18292
+
+[Term]
+id: TO:0002669
+name: diterpenoid phytoalexin content
+def: "The composition of a diterpene phytoalexin." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:60952
+
+[Term]
+id: TO:0002673
+name: amino acid content
+def: "The composition of a amino acid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:33709
+
+[Term]
+id: TO:0002674
+name: tryptophan content
+def: "The composition of a tryptophan." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:27897
+
+[Term]
+id: TO:0002675
+name: gibberellic acid content
+def: "The composition of a gibberellin A3." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:28833
+
+[Term]
+id: TO:0002676
+name: brassinosteroid content
+def: "The composition of a brassinosteroid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:22921
+
+[Term]
+id: TO:0002695
+name: beta-carotene content
+def: "The composition of a beta-carotene." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:17579
+
+[Term]
+id: TO:0002696
+name: alpha carotene content
+def: "The composition of a alpha-carotene." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:28425
+
+[Term]
+id: TO:0002697
+name: cyclic carotene content
+def: "The composition of a cyclic carotene." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:35163
+
+[Term]
+id: TO:0002698
+name: acyclic carotene content
+def: "The composition of a acyclic carotene." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:35162
+
+[Term]
+id: TO:0002699
+name: lycopene content
+def: "The composition of a lycopene." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:15948
+
+[Term]
+id: TO:0002701
+name: lutein content
+def: "The composition of a lutein." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:28838
+
+[Term]
+id: TO:0005001
+name: linoleic acid content
+def: "The composition of a linoleic acid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:17351
+
+[Term]
+id: TO:0005002
+name: oleic acid content
+def: "The composition of a oleic acid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:16196
+
+[Term]
+id: TO:0005003
+name: stearic acid content
+def: "The composition of a stearic acid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:28842
+
+[Term]
+id: TO:0005004
+name: omega-3 fatty acid content
+def: "The composition of a omega-3 fatty acid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:25681
+
+[Term]
+id: TO:0005005
+name: alpha-linolenic acid content
+def: "The composition of a alpha-linolenic acid." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:27432
+
+[Term]
+id: TO:0006002
+name: proline content
+def: "The composition of a proline." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:26271
+
+[Term]
+id: TO:0006003
+name: oligosaccharide content
+def: "The composition of a oligosaccharide." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:50699
+
+[Term]
+id: TO:0006004
+name: raffinose content
+def: "The composition of a raffinose." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:16634
+
+[Term]
+id: TO:0006005
+name: fructose content
+def: "The composition of a fructose." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:28757
+
+[Term]
+id: TO:0006006
+name: monosaccharide content
+def: "The composition of a monosaccharide." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:35381
+
+[Term]
+id: TO:0006007
+name: polysaccharide content
+def: "The composition of a polysaccharide." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:18154
+
+[Term]
+id: TO:0020068
+name: beta-glucan content
+def: "The composition of a beta-D-glucan." []
+intersection_of: PATO:0000025
+intersection_of: RO:0000052 CHEBI:28793
+

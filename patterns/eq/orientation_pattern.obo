@@ -1,0 +1,38 @@
+format-version: 1.2
+ontology: patterns/eq/orientation_pattern
+
+[Term]
+id: TO:0000124
+name: flag leaf angle
+def: "The orientation of a flag leaf." []
+intersection_of: PATO:0000133
+intersection_of: RO:0000052 PO:0020103
+
+[Term]
+id: TO:0000206
+name: leaf angle
+def: "The orientation of a vascular leaf." []
+intersection_of: PATO:0000133
+intersection_of: RO:0000052 PO:0009025
+
+[Term]
+id: TO:0000270
+name: inflorescence axis angle
+def: "The orientation of a inflorescence axis." []
+intersection_of: PATO:0000133
+intersection_of: RO:0000052 PO:0020122
+
+[Term]
+id: TO:0000567
+name: tiller angle
+def: "The orientation of a basal axillary shoot system." []
+intersection_of: PATO:0000133
+intersection_of: RO:0000052 PO:0005001
+
+[Term]
+id: TO:0000577
+name: stem angle
+def: "The orientation of a stem." []
+intersection_of: PATO:0000133
+intersection_of: RO:0000052 PO:0009047
+

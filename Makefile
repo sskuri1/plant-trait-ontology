@@ -47,8 +47,7 @@ release: $(ONT).owl $(ONT).obo
 
 
 #######PATTERNS
-PATTERNS_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/eq/*.tsv)) 
-#$(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/eq/*.tsv))
+PATTERNS_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/eq/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/eq/*.tsv))
 
 all_patterns: $(PATTERNS_OWL)
 
@@ -58,3 +57,11 @@ patterns/eq/%_pattern.owl: patterns/eq/%.tsv
 patterns/eq/%_pattern.obo: patterns/eq/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 
+PATTERNS = $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/eq/*.tsv)) 
+
+merge:
+	$(ROBOT) merge $(PATTERNS) --output patterns/merge_patterns.owl
+	$(OWLTOOLS) patterns/merge_patterns.owl -o -f obo patterns/merge_patterns.obo
+
+print-%:
+	@echo $* = $($*)

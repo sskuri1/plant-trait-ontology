@@ -2,12 +2,12 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 
  ## Auto-generated
 
@@ -16,206 +16,206 @@ AnnotationProperty: IAO:0000115
 AnnotationProperty: to/eq/entity
 AnnotationProperty: to/eq/attribute
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PO_0000043 ## crown root
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0000043", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0002685>
+Class: PO:0000043 ## crown root
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0000043", "attribute": "PATO:0001555"}
+Class: TO:0002685
  Annotations: rdfs:label "crown root number"
  Annotations: IAO:0000115 "The has number of of a crown root."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000043> ## has number of and 'inheres in' some crown root
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0000043 ## has number of and 'inheres in' some crown root
 
-Class: http://purl.obolibrary.org/obo/PO_0000431 ## megasporocyte
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0000431", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000725>
+Class: PO:0000431 ## megasporocyte
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0000431", "attribute": "PATO:0001555"}
+Class: TO:0000725
  Annotations: rdfs:label "megasporocyte number"
  Annotations: IAO:0000115 "The has number of of a megasporocyte."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0000431> ## has number of and 'inheres in' some megasporocyte
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0000431 ## has number of and 'inheres in' some megasporocyte
 
-Class: http://purl.obolibrary.org/obo/PO_0005001 ## basal axillary shoot system
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0005001", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0001004>
+Class: PO:0005001 ## basal axillary shoot system
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0005001", "attribute": "PATO:0001555"}
+Class: TO:0001004
  Annotations: rdfs:label "basal tiller number"
  Annotations: IAO:0000115 "The has number of of a basal axillary shoot system."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0005001> ## has number of and 'inheres in' some basal axillary shoot system
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0005001 ## has number of and 'inheres in' some basal axillary shoot system
 
-Class: http://purl.obolibrary.org/obo/PO_0005020 ## vascular bundle
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0005020", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000472>
+Class: PO:0005020 ## vascular bundle
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0005020", "attribute": "PATO:0001555"}
+Class: TO:0000472
  Annotations: rdfs:label "vascular bundle number"
  Annotations: IAO:0000115 "The has number of of a vascular bundle."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0005020> ## has number of and 'inheres in' some vascular bundle
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0005020 ## has number of and 'inheres in' some vascular bundle
 
-Class: http://purl.obolibrary.org/obo/PO_0006321 ## primary inflorescence branch
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0006321", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000557>
+Class: PO:0006321 ## primary inflorescence branch
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0006321", "attribute": "PATO:0001555"}
+Class: TO:0000557
  Annotations: rdfs:label "secondary branch number"
  Annotations: IAO:0000115 "The has number of of a primary inflorescence branch."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0006321> ## has number of and 'inheres in' some primary inflorescence branch
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0006321 ## has number of and 'inheres in' some primary inflorescence branch
 
-Class: http://purl.obolibrary.org/obo/PO_0009030 ## carpel
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009030", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0006013>
+Class: PO:0009030 ## carpel
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009030", "attribute": "PATO:0001555"}
+Class: TO:0006013
  Annotations: rdfs:label "carpel number"
  Annotations: IAO:0000115 "The has number of of a carpel."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009030> ## has number of and 'inheres in' some carpel
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009030 ## has number of and 'inheres in' some carpel
 
-Class: http://purl.obolibrary.org/obo/PO_0009031 ## sepal
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009031", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0006040>
+Class: PO:0009031 ## sepal
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009031", "attribute": "PATO:0001555"}
+Class: TO:0006040
  Annotations: rdfs:label "sepal number"
  Annotations: IAO:0000115 "The has number of of a sepal."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009031> ## has number of and 'inheres in' some sepal
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009031 ## has number of and 'inheres in' some sepal
 
-Class: http://purl.obolibrary.org/obo/PO_0009032 ## petal
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009032", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0006039>
+Class: PO:0009032 ## petal
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009032", "attribute": "PATO:0001555"}
+Class: TO:0006039
  Annotations: rdfs:label "petal number"
  Annotations: IAO:0000115 "The has number of of a petal."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009032> ## has number of and 'inheres in' some petal
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009032 ## has number of and 'inheres in' some petal
 
-Class: http://purl.obolibrary.org/obo/PO_0009033 ## tepal
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009033", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0006041>
+Class: PO:0009033 ## tepal
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009033", "attribute": "PATO:0001555"}
+Class: TO:0006041
  Annotations: rdfs:label "tepal number"
  Annotations: IAO:0000115 "The has number of of a tepal."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009033> ## has number of and 'inheres in' some tepal
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009033 ## has number of and 'inheres in' some tepal
 
-Class: http://purl.obolibrary.org/obo/PO_0009034 ## flower bract
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009034", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0006026>
+Class: PO:0009034 ## flower bract
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009034", "attribute": "PATO:0001555"}
+Class: TO:0006026
  Annotations: rdfs:label "floral bract number"
  Annotations: IAO:0000115 "The has number of of a flower bract."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009034> ## has number of and 'inheres in' some flower bract
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009034 ## has number of and 'inheres in' some flower bract
 
-Class: http://purl.obolibrary.org/obo/PO_0009036 ## lodicule
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009036", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0006010>
+Class: PO:0009036 ## lodicule
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009036", "attribute": "PATO:0001555"}
+Class: TO:0006010
  Annotations: rdfs:label "lodicule number"
  Annotations: IAO:0000115 "The has number of of a lodicule."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009036> ## has number of and 'inheres in' some lodicule
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009036 ## has number of and 'inheres in' some lodicule
 
-Class: http://purl.obolibrary.org/obo/PO_0009037 ## lemma
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009037", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000208>
+Class: PO:0009037 ## lemma
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009037", "attribute": "PATO:0001555"}
+Class: TO:0000208
  Annotations: rdfs:label "lemma number"
  Annotations: IAO:0000115 "The has number of of a lemma."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009037> ## has number of and 'inheres in' some lemma
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009037 ## has number of and 'inheres in' some lemma
 
-Class: http://purl.obolibrary.org/obo/PO_0009038 ## palea
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009038", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000209>
+Class: PO:0009038 ## palea
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009038", "attribute": "PATO:0001555"}
+Class: TO:0000209
  Annotations: rdfs:label "palea number"
  Annotations: IAO:0000115 "The has number of of a palea."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009038> ## has number of and 'inheres in' some palea
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009038 ## has number of and 'inheres in' some palea
 
-Class: http://purl.obolibrary.org/obo/PO_0009039 ## glume
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009039", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0006029>
+Class: PO:0009039 ## glume
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009039", "attribute": "PATO:0001555"}
+Class: TO:0006029
  Annotations: rdfs:label "glume number"
  Annotations: IAO:0000115 "The has number of of a glume."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009039> ## has number of and 'inheres in' some glume
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009039 ## has number of and 'inheres in' some glume
 
-Class: http://purl.obolibrary.org/obo/PO_0009046 ## flower
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009046", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0002736>
+Class: PO:0009046 ## flower
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009046", "attribute": "PATO:0001555"}
+Class: TO:0002736
  Annotations: rdfs:label "flower number trait"
  Annotations: IAO:0000115 "The has number of of a flower."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009046> ## has number of and 'inheres in' some flower
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009046 ## has number of and 'inheres in' some flower
 
-Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009049", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000582>
+Class: PO:0009049 ## inflorescence
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009049", "attribute": "PATO:0001555"}
+Class: TO:0000582
  Annotations: rdfs:label "inflorescence number"
  Annotations: IAO:0000115 "The has number of of a inflorescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## has number of and 'inheres in' some inflorescence
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009049 ## has number of and 'inheres in' some inflorescence
 
-Class: http://purl.obolibrary.org/obo/PO_0009051 ## spikelet
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009051", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000456>
+Class: PO:0009051 ## spikelet
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009051", "attribute": "PATO:0001555"}
+Class: TO:0000456
  Annotations: rdfs:label "spikelet number"
  Annotations: IAO:0000115 "The has number of of a spikelet."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009051> ## has number of and 'inheres in' some spikelet
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009051 ## has number of and 'inheres in' some spikelet
 
-Class: http://purl.obolibrary.org/obo/PO_0009054 ## inflorescence bract
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009054", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0006028>
+Class: PO:0009054 ## inflorescence bract
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009054", "attribute": "PATO:0001555"}
+Class: TO:0006028
  Annotations: rdfs:label "inflorescence bract number"
  Annotations: IAO:0000115 "The has number of of a inflorescence bract."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009054> ## has number of and 'inheres in' some inflorescence bract
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009054 ## has number of and 'inheres in' some inflorescence bract
 
-Class: http://purl.obolibrary.org/obo/PO_0009062 ## gynoecium
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009062", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0002659>
+Class: PO:0009062 ## gynoecium
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009062", "attribute": "PATO:0001555"}
+Class: TO:0002659
  Annotations: rdfs:label "pistil number"
  Annotations: IAO:0000115 "The has number of of a gynoecium."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009062> ## has number of and 'inheres in' some gynoecium
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009062 ## has number of and 'inheres in' some gynoecium
 
-Class: http://purl.obolibrary.org/obo/PO_0009081 ## inflorescence branch
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009081", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000547>
+Class: PO:0009081 ## inflorescence branch
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0009081", "attribute": "PATO:0001555"}
+Class: TO:0000547
  Annotations: rdfs:label "primary branch number"
  Annotations: IAO:0000115 "The has number of of a inflorescence branch."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009081> ## has number of and 'inheres in' some inflorescence branch
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0009081 ## has number of and 'inheres in' some inflorescence branch
 
-Class: http://purl.obolibrary.org/obo/PO_0020047 ## microsporocyte
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0020047", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000726>
+Class: PO:0020047 ## microsporocyte
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0020047", "attribute": "PATO:0001555"}
+Class: TO:0000726
  Annotations: rdfs:label "microsporocyte number"
  Annotations: IAO:0000115 "The has number of of a microsporocyte."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020047> ## has number of and 'inheres in' some microsporocyte
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0020047 ## has number of and 'inheres in' some microsporocyte
 
-Class: http://purl.obolibrary.org/obo/PO_0020049 ## leaflet
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0020049", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0002636>
+Class: PO:0020049 ## leaflet
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0020049", "attribute": "PATO:0001555"}
+Class: TO:0002636
  Annotations: rdfs:label "leaflet number"
  Annotations: IAO:0000115 "The has number of of a leaflet."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020049> ## has number of and 'inheres in' some leaflet
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0020049 ## has number of and 'inheres in' some leaflet
 
-Class: http://purl.obolibrary.org/obo/PO_0020121 ## lateral root
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0020121", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0001013>
+Class: PO:0020121 ## lateral root
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0020121", "attribute": "PATO:0001555"}
+Class: TO:0001013
  Annotations: rdfs:label "lateral root number"
  Annotations: IAO:0000115 "The has number of of a lateral root."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020121> ## has number of and 'inheres in' some lateral root
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0020121 ## has number of and 'inheres in' some lateral root
 
-Class: http://purl.obolibrary.org/obo/PO_0020136 ## ear inflorescence
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0020136", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000443>
+Class: PO:0020136 ## ear inflorescence
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0020136", "attribute": "PATO:0001555"}
+Class: TO:0000443
  Annotations: rdfs:label "ear infructescence number"
  Annotations: IAO:0000115 "The has number of of a ear inflorescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020136> ## has number of and 'inheres in' some ear inflorescence
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0020136 ## has number of and 'inheres in' some ear inflorescence
 
-Class: http://purl.obolibrary.org/obo/PO_0025183 ## leaf stomatal complex
-Class: http://purl.obolibrary.org/obo/PATO_0001555 ## has number of
-## {"entity": "http://purl.obolibrary.org/obo/PO_0025183", "attribute": "http://purl.obolibrary.org/obo/PATO_0001555"}
-Class: <http://purl.obolibrary.org/obo/TO_0000566>
+Class: PO:0025183 ## leaf stomatal complex
+Class: PATO:0001555 ## has number of
+## {"entity": "PO:0025183", "attribute": "PATO:0001555"}
+Class: TO:0000566
  Annotations: rdfs:label "leaf stomatal complex frequency"
  Annotations: IAO:0000115 "The has number of of a leaf stomatal complex."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001555> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025183> ## has number of and 'inheres in' some leaf stomatal complex
+ EquivalentTo: PATO:0001555 and RO_0000052 some PO:0025183 ## has number of and 'inheres in' some leaf stomatal complex

@@ -1,12 +1,12 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000678	cob diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0006505	central spike of ear inflorescence
-http://purl.obolibrary.org/obo/TO_0000848	fruit diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0009001	fruit
-http://purl.obolibrary.org/obo/TO_0000858	flower diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0009046	flower
-http://purl.obolibrary.org/obo/TO_0020083	stem diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0009047	stem
-http://purl.obolibrary.org/obo/TO_0000802	inflorescence diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0009049	inflorescence
-http://purl.obolibrary.org/obo/TO_0000546	peduncle top diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0009053	peduncle
-http://purl.obolibrary.org/obo/TO_0000642	leaf sheath diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0020104	leaf sheath
-http://purl.obolibrary.org/obo/TO_0000799	tassel inflorescence diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0020126	tassel inflorescence
-http://purl.obolibrary.org/obo/TO_0000811	pseudostem diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0025248	pseudostem
-http://purl.obolibrary.org/obo/TO_1000006	tuberous root tuber diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0025476	tuberous root tuber
-http://purl.obolibrary.org/obo/TO_0000433	ear diameter	http://purl.obolibrary.org/obo/PATO_0001334	diameter	http://purl.obolibrary.org/obo/PO_0025597	ear infructescence
+TO:0000678	cob diameter	PATO:0001334	diameter	PO:0006505	central spike of ear inflorescence
+TO:0000848	fruit diameter	PATO:0001334	diameter	PO:0009001	fruit
+TO:0000858	flower diameter	PATO:0001334	diameter	PO:0009046	flower
+TO:0020083	stem diameter	PATO:0001334	diameter	PO:0009047	stem
+TO:0000802	inflorescence diameter	PATO:0001334	diameter	PO:0009049	inflorescence
+TO:0000546	peduncle top diameter	PATO:0001334	diameter	PO:0009053	peduncle
+TO:0000642	leaf sheath diameter	PATO:0001334	diameter	PO:0020104	leaf sheath
+TO:0000799	tassel inflorescence diameter	PATO:0001334	diameter	PO:0020126	tassel inflorescence
+TO:0000811	pseudostem diameter	PATO:0001334	diameter	PO:0025248	pseudostem
+TO:1000006	tuberous root tuber diameter	PATO:0001334	diameter	PO:0025476	tuberous root tuber
+TO:0000433	ear diameter	PATO:0001334	diameter	PO:0025597	ear infructescence

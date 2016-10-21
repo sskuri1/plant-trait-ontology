@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/depth_pattern
+
+[Term]
+id: TO:0000801
+name: inflorescence depth
+def: "The depth of a inflorescence." []
+intersection_of: PATO:0001595
+intersection_of: RO:0000052 PO:0009049
+

@@ -1,0 +1,52 @@
+format-version: 1.2
+ontology: patterns/eq/sensitivity_toward_pattern
+
+[Term]
+id: TO:0000095
+name: osmotic response sensitivity
+def: "The sensitivity toward of a response to osmotic stress." []
+intersection_of: PATO:0000085
+intersection_of: RO:0000052 GO:0006970
+
+[Term]
+id: TO:0000103
+name: deepwater stress
+def: "The sensitivity toward of a flood prone region." []
+intersection_of: PATO:0000085
+intersection_of: RO:0000052 EO:0007396
+
+[Term]
+id: TO:0000177
+name: 2,4-dichlorophenoxyacetic acid sensitivity
+def: "The sensitivity toward of a 2,4-dichlorophenoxyacetic acid treatment." []
+intersection_of: PATO:0000085
+intersection_of: RO:0000052 EO:0007180
+
+[Term]
+id: TO:0000401
+name: plant growth hormone sensitivity
+def: "The sensitivity toward of a plant hormone." []
+intersection_of: PATO:0000085
+intersection_of: RO:0000052 CHEBI:37848
+
+[Term]
+id: TO:0002677
+name: brassinosteroid sensitivity
+def: "The sensitivity toward of a brassinosteroid treatment." []
+intersection_of: PATO:0000085
+intersection_of: RO:0000052 EO:0007409
+
+[Term]
+id: TO:0005006
+name: glyphosate sensitivity
+def: "The sensitivity toward of a glyphosate." []
+intersection_of: PATO:0000085
+intersection_of: RO:0000052 CHEBI:27744
+
+[Term]
+id: TO:0005007
+name: glufosinate sensitivity
+def: "The sensitivity toward of a phosphinothricin." []
+intersection_of: PATO:0000085
+intersection_of: RO:0000052 CHEBI:52136
+

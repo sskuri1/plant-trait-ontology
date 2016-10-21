@@ -1,0 +1,192 @@
+format-version: 1.2
+ontology: patterns/eq/shape_pattern
+
+[Term]
+id: TO:0000193
+name: embryo shape
+def: "The shape of a plant embryo." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009009
+
+[Term]
+id: TO:0000214
+name: anther shape
+def: "The shape of a anther." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009066
+
+[Term]
+id: TO:0000268
+name: inflorescence shape
+def: "The shape of a inflorescence." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000335
+name: ligule shape
+def: "The shape of a ligule." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0020105
+
+[Term]
+id: TO:0000484
+name: seed shape
+def: "The shape of a seed." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009010
+
+[Term]
+id: TO:0000492
+name: leaf shape
+def: "The shape of a leaf." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000614
+name: lemma shape
+def: "The shape of a lemma." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009037
+
+[Term]
+id: TO:0000743
+name: subterranean shoot axis tuber shape
+def: "The shape of a subterranean shoot axis tuber." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0004547
+
+[Term]
+id: TO:0000767
+name: petiole shape
+def: "The shape of a petiole." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0020038
+
+[Term]
+id: TO:0000793
+name: axillary bud shape
+def: "The shape of a axillary bud." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0004709
+
+[Term]
+id: TO:0000809
+name: pseudostem shape
+def: "The shape of a pseudostem." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0025248
+
+[Term]
+id: TO:0000859
+name: flower shape
+def: "The shape of a flower." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009046
+
+[Term]
+id: TO:0000886
+name: petiolule shape
+def: "The shape of a petiolule." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0020050
+
+[Term]
+id: TO:0000893
+name: stem shape
+def: "The shape of a stem." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0000964
+name: ear shape
+def: "The shape of a ear infructescence." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0025597
+
+[Term]
+id: TO:0000973
+name: spikelet rachilla shape
+def: "The shape of a spikelet rachilla." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009080
+
+[Term]
+id: TO:0000978
+name: glume shape
+def: "The shape of a glume." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009039
+
+[Term]
+id: TO:0002628
+name: fruit shape
+def: "The shape of a fruit." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009001
+
+[Term]
+id: TO:0002630
+name: fruit distal end shape
+def: "The shape of a fruit distal end." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0008001
+
+[Term]
+id: TO:0002631
+name: fruit proximal end shape
+def: "The shape of a fruit proximal end." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0008002
+
+[Term]
+id: TO:0002656
+name: starch grain shape
+def: "The shape of a starch grain." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 GO:0043036
+
+[Term]
+id: TO:0002682
+name: plant cell shape
+def: "The shape of a plant cell." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009002
+
+[Term]
+id: TO:0002710
+name: root shape
+def: "The shape of a root." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009005
+
+[Term]
+id: TO:0002726
+name: sterile lemma shape
+def: "The shape of a sterile lemma." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009040
+
+[Term]
+id: TO:0006011
+name: lodicule shape
+def: "The shape of a lodicule." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009036
+
+[Term]
+id: TO:0006037
+name: carpel shape
+def: "The shape of a carpel." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0009030
+
+[Term]
+id: TO:1000000
+name: stem internode bent
+def: "The shape of a stem internode." []
+intersection_of: PATO:0000052
+intersection_of: RO:0000052 PO:0020142
+

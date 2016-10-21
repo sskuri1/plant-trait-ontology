@@ -2,52 +2,52 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/eq/rate_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/attribute
 AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
 AnnotationProperty: DOSDP:applies-pattern
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PATO_0000161 ## rate
-Class: http://purl.obolibrary.org/obo/GO_0007585 ## respiratory gaseous exchange
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000161", "entity": "http://purl.obolibrary.org/obo/GO_0007585"}
-Class: <http://purl.obolibrary.org/obo/TO_0001026>
+Class: GO:0007585 ## respiratory gaseous exchange
+Class: PATO:0000161 ## rate
+## {"entity": "GO:0007585", "attribute": "PATO:0000161"}
+Class: TO:0001026
  Annotations: rdfs:label "respiration rate"
  Annotations: IAO:0000115 "The rate of a respiratory gaseous exchange."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000161> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0007585> ## rate and 'inheres in' some respiratory gaseous exchange
+ EquivalentTo: PATO:0000161 and RO_0000052 some GO:0007585 ## rate and 'inheres in' some respiratory gaseous exchange
 
-Class: http://purl.obolibrary.org/obo/PATO_0000161 ## rate
-Class: http://purl.obolibrary.org/obo/GO_0010148 ## transpiration
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000161", "entity": "http://purl.obolibrary.org/obo/GO_0010148"}
-Class: <http://purl.obolibrary.org/obo/TO_0001018>
+Class: GO:0010148 ## transpiration
+Class: PATO:0000161 ## rate
+## {"entity": "GO:0010148", "attribute": "PATO:0000161"}
+Class: TO:0001018
  Annotations: rdfs:label "transpiration rate"
  Annotations: IAO:0000115 "The rate of a transpiration."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000161> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0010148> ## rate and 'inheres in' some transpiration
+ EquivalentTo: PATO:0000161 and RO_0000052 some GO:0010148 ## rate and 'inheres in' some transpiration
 
-Class: http://purl.obolibrary.org/obo/PATO_0000161 ## rate
-Class: http://purl.obolibrary.org/obo/GO_0010150 ## leaf senescence
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000161", "entity": "http://purl.obolibrary.org/obo/GO_0010150"}
-Class: <http://purl.obolibrary.org/obo/TO_0012011>
+Class: GO:0010150 ## leaf senescence
+Class: PATO:0000161 ## rate
+## {"entity": "GO:0010150", "attribute": "PATO:0000161"}
+Class: TO:0012011
  Annotations: rdfs:label "leaf senescence rate"
  Annotations: IAO:0000115 "The rate of a leaf senescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000161> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0010150> ## rate and 'inheres in' some leaf senescence
+ EquivalentTo: PATO:0000161 and RO_0000052 some GO:0010150 ## rate and 'inheres in' some leaf senescence
 
-Class: http://purl.obolibrary.org/obo/PATO_0000161 ## rate
-Class: http://purl.obolibrary.org/obo/GO_0090332 ## stomatal closure
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000161", "entity": "http://purl.obolibrary.org/obo/GO_0090332"}
-Class: <http://purl.obolibrary.org/obo/TO_0000520>
+Class: GO:0090332 ## stomatal closure
+Class: PATO:0000161 ## rate
+## {"entity": "GO:0090332", "attribute": "PATO:0000161"}
+Class: TO:0000520
  Annotations: rdfs:label "stomatal closure rate"
  Annotations: IAO:0000115 "The rate of a stomatal closure."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000161> and RO_0000052 some <http://purl.obolibrary.org/obo/GO_0090332> ## rate and 'inheres in' some stomatal closure
+ EquivalentTo: PATO:0000161 and RO_0000052 some GO:0090332 ## rate and 'inheres in' some stomatal closure

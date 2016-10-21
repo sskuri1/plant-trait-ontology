@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/perimeter_pattern
+
+[Term]
+id: TO:0000616
+name: leaf perimeter
+def: "The perimeter of a vascular leaf." []
+intersection_of: PATO:0001711
+intersection_of: RO:0000052 PO:0009025
+

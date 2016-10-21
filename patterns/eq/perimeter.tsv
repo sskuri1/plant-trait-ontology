@@ -1,2 +1,2 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000616	leaf perimeter	http://purl.obolibrary.org/obo/PATO_0001711	perimeter	http://purl.obolibrary.org/obo/PO_0009025	vascular leaf
+TO:0000616	leaf perimeter	PATO:0001711	perimeter	PO:0009025	vascular leaf

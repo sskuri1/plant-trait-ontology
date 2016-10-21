@@ -1,2 +1,2 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000055	leaf lamina pubescence	http://purl.obolibrary.org/obo/PATO_0000455	pubescent	http://purl.obolibrary.org/obo/PO_0020039	leaf lamina
+TO:0000055	leaf lamina pubescence	PATO:0000455	pubescent	PO:0020039	leaf lamina

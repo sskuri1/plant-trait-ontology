@@ -1,0 +1,31 @@
+format-version: 1.2
+ontology: patterns/eq/fertility_pattern
+
+[Term]
+id: TO:0000180
+name: spikelet fertility
+def: "The fertility of a spikelet." []
+intersection_of: PATO:0000274
+intersection_of: RO:0000052 PO:0009051
+
+[Term]
+id: TO:0000420
+name: fertility related trait
+def: "The fertility of a whole plant." []
+intersection_of: PATO:0000274
+intersection_of: RO:0000052 PO:0000003
+
+[Term]
+id: TO:0000421
+name: pollen fertility
+def: "The fertility of a pollen." []
+intersection_of: PATO:0000274
+intersection_of: RO:0000052 PO:0025281
+
+[Term]
+id: TO:0000639
+name: seed fertility
+def: "The fertility of a seed." []
+intersection_of: PATO:0000274
+intersection_of: RO:0000052 PO:0009010
+

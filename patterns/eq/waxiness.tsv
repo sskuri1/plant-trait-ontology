@@ -1,4 +1,4 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0020038	glume waxiness	http://purl.obolibrary.org/obo/PATO_0002381	waxiness	http://purl.obolibrary.org/obo/PO_0009039	glume
-http://purl.obolibrary.org/obo/TO_0000787	inflorescence waxiness	http://purl.obolibrary.org/obo/PATO_0002381	waxiness	http://purl.obolibrary.org/obo/PO_0009049	inflorescence
-http://purl.obolibrary.org/obo/TO_0000777	peduncle waxiness	http://purl.obolibrary.org/obo/PATO_0002381	waxiness	http://purl.obolibrary.org/obo/PO_0009053	peduncle
+TO:0020038	glume waxiness	PATO:0002381	waxiness	PO:0009039	glume
+TO:0000787	inflorescence waxiness	PATO:0002381	waxiness	PO:0009049	inflorescence
+TO:0000777	peduncle waxiness	PATO:0002381	waxiness	PO:0009053	peduncle

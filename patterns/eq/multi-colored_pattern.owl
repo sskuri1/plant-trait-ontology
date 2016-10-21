@@ -6,8 +6,8 @@ Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 
  ## Auto-generated
 
@@ -16,14 +16,14 @@ AnnotationProperty: IAO:0000115
 AnnotationProperty: to/eq/attribute
 AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PATO_0001533 ## multi-colored
-Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
-## {"entity": "http://purl.obolibrary.org/obo/PO_0025034", "attribute": "http://purl.obolibrary.org/obo/PATO_0001533"}
-Class: <http://purl.obolibrary.org/obo/TO_0000069>
+Class: PATO:0001533 ## multi-colored
+Class: PO:0025034 ## leaf
+## {"attribute": "PATO:0001533", "entity": "PO:0025034"}
+Class: TO:0000069
  Annotations: rdfs:label "variegated leaf"
  Annotations: IAO:0000115 "The multi-colored of a leaf."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001533> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## multi-colored and 'inheres in' some leaf
+ EquivalentTo: PATO:0001533 and RO_0000052 some PO:0025034 ## multi-colored and 'inheres in' some leaf

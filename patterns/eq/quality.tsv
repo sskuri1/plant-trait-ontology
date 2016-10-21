@@ -1,12 +1,12 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000599	enzyme activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
-http://purl.obolibrary.org/obo/TO_0000705	acid phosphatase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0003993	acid phosphatase activity
-http://purl.obolibrary.org/obo/TO_0000288	alpha-amylase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0004556	alpha-amylase activity
-http://purl.obolibrary.org/obo/TO_0000311	invertase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0004564	beta-fructofuranosidase activity
-http://purl.obolibrary.org/obo/TO_0000284	ADP glucose pyrophosphorylase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0008878	glucose-1-phosphate adenylyltransferase activity
-http://purl.obolibrary.org/obo/TO_0000699	sucrose synthase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0016157	sucrose synthase activity
-http://purl.obolibrary.org/obo/TO_0000703	amylase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0016160	amylase activity
-http://purl.obolibrary.org/obo/TO_0000338	beta-amylase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0016161	beta-amylase activity
-http://purl.obolibrary.org/obo/TO_0000704	phosphatase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0016791	phosphatase activity
-http://purl.obolibrary.org/obo/TO_0000331	sucrose phosphate synthase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0046524	sucrose-phosphate synthase activity
-http://purl.obolibrary.org/obo/TO_0020070	beta-glucanase activity trait	http://purl.obolibrary.org/obo/PATO_0000001	quality	http://purl.obolibrary.org/obo/GO_0052736	beta-glucanase activity
+TO:0000599	enzyme activity trait	PATO:0000001	quality	GO:0003824	catalytic activity
+TO:0000705	acid phosphatase activity trait	PATO:0000001	quality	GO:0003993	acid phosphatase activity
+TO:0000288	alpha-amylase activity trait	PATO:0000001	quality	GO:0004556	alpha-amylase activity
+TO:0000311	invertase activity trait	PATO:0000001	quality	GO:0004564	beta-fructofuranosidase activity
+TO:0000284	ADP glucose pyrophosphorylase activity trait	PATO:0000001	quality	GO:0008878	glucose-1-phosphate adenylyltransferase activity
+TO:0000699	sucrose synthase activity trait	PATO:0000001	quality	GO:0016157	sucrose synthase activity
+TO:0000703	amylase activity trait	PATO:0000001	quality	GO:0016160	amylase activity
+TO:0000338	beta-amylase activity trait	PATO:0000001	quality	GO:0016161	beta-amylase activity
+TO:0000704	phosphatase activity trait	PATO:0000001	quality	GO:0016791	phosphatase activity
+TO:0000331	sucrose phosphate synthase activity trait	PATO:0000001	quality	GO:0046524	sucrose-phosphate synthase activity
+TO:0020070	beta-glucanase activity trait	PATO:0000001	quality	GO:0052736	beta-glucanase activity

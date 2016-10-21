@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/age_pattern
+
+[Term]
+id: TO:0000249
+name: leaf senescence trait
+def: "The age of a vascular leaf." []
+intersection_of: PATO:0000011
+intersection_of: RO:0000052 PO:0009025
+

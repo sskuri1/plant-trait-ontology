@@ -1,0 +1,17 @@
+format-version: 1.2
+ontology: patterns/eq/area_pattern
+
+[Term]
+id: TO:0000540
+name: leaf area trait
+def: "The area of a leaf." []
+intersection_of: PATO:0001323
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000827
+name: leaf lamina area
+def: "The area of a leaf lamina." []
+intersection_of: PATO:0001323
+intersection_of: RO:0000052 PO:0020039
+

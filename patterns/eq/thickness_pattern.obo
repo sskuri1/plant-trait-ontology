@@ -1,0 +1,59 @@
+format-version: 1.2
+ontology: patterns/eq/thickness_pattern
+
+[Term]
+id: TO:0000094
+name: basal root thickness
+def: "The thickness of a basal root." []
+intersection_of: PATO:0000915
+intersection_of: RO:0000052 PO:0025002
+
+[Term]
+id: TO:0000258
+name: leaf thickness
+def: "The thickness of a leaf." []
+intersection_of: PATO:0000915
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000304
+name: seed thickness
+def: "The thickness of a seed." []
+intersection_of: PATO:0000915
+intersection_of: RO:0000052 PO:0009010
+
+[Term]
+id: TO:0000306
+name: root thickness
+def: "The thickness of a root." []
+intersection_of: PATO:0000915
+intersection_of: RO:0000052 PO:0009005
+
+[Term]
+id: TO:0000339
+name: stem thickness
+def: "The thickness of a stem." []
+intersection_of: PATO:0000915
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0000823
+name: leaf midvein thickness
+def: "The thickness of a leaf midvein." []
+intersection_of: PATO:0000915
+intersection_of: RO:0000052 PO:0020139
+
+[Term]
+id: TO:0000907
+name: exocarp thickness
+def: "The thickness of a exocarp." []
+intersection_of: PATO:0000915
+intersection_of: RO:0000052 PO:0009085
+
+[Term]
+id: TO:0002719
+name: awn thickness
+def: "The thickness of a awn." []
+intersection_of: PATO:0000915
+intersection_of: RO:0000052 PO:0025349
+

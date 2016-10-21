@@ -2,12 +2,12 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 
  ## Auto-generated
 
@@ -16,94 +16,94 @@ AnnotationProperty: IAO:0000115
 AnnotationProperty: to/eq/entity
 AnnotationProperty: to/eq/attribute
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: RO_0000052 ## inheres in
 ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PO_0003023 ## root nodule
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0003023", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000899>
+Class: PO:0003023 ## root nodule
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0003023", "attribute": "PATO:0000128"}
+Class: TO:0000899
  Annotations: rdfs:label "root nodule weight"
  Annotations: IAO:0000115 "The weight of a root nodule."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0003023> ## weight and 'inheres in' some root nodule
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0003023 ## weight and 'inheres in' some root nodule
 
-Class: http://purl.obolibrary.org/obo/PO_0006342 ## infructescence
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0006342", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000583>
+Class: PO:0006342 ## infructescence
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0006342", "attribute": "PATO:0000128"}
+Class: TO:0000583
  Annotations: rdfs:label "infructescence weight"
  Annotations: IAO:0000115 "The weight of a infructescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0006342> ## weight and 'inheres in' some infructescence
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0006342 ## weight and 'inheres in' some infructescence
 
-Class: http://purl.obolibrary.org/obo/PO_0009001 ## fruit
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009001", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0002746>
+Class: PO:0009001 ## fruit
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0009001", "attribute": "PATO:0000128"}
+Class: TO:0002746
  Annotations: rdfs:label "fruit weight"
  Annotations: IAO:0000115 "The weight of a fruit."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009001> ## weight and 'inheres in' some fruit
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009001 ## weight and 'inheres in' some fruit
 
-Class: http://purl.obolibrary.org/obo/PO_0009005 ## root
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009005", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000279>
+Class: PO:0009005 ## root
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0009005", "attribute": "PATO:0000128"}
+Class: TO:0000279
  Annotations: rdfs:label "root weight"
  Annotations: IAO:0000115 "The weight of a root."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009005> ## weight and 'inheres in' some root
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009005 ## weight and 'inheres in' some root
 
-Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009010", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000181>
+Class: PO:0009010 ## seed
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0009010", "attribute": "PATO:0000128"}
+Class: TO:0000181
  Annotations: rdfs:label "seed weight"
  Annotations: IAO:0000115 "The weight of a seed."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## weight and 'inheres in' some seed
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009010 ## weight and 'inheres in' some seed
 
-Class: http://purl.obolibrary.org/obo/PO_0009047 ## stem
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009047", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000952>
+Class: PO:0009047 ## stem
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0009047", "attribute": "PATO:0000128"}
+Class: TO:0000952
  Annotations: rdfs:label "stem weight"
  Annotations: IAO:0000115 "The weight of a stem."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009047> ## weight and 'inheres in' some stem
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009047 ## weight and 'inheres in' some stem
 
-Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009049", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000803>
+Class: PO:0009049 ## inflorescence
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0009049", "attribute": "PATO:0000128"}
+Class: TO:0000803
  Annotations: rdfs:label "inflorescence weight"
  Annotations: IAO:0000115 "The weight of a inflorescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## weight and 'inheres in' some inflorescence
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009049 ## weight and 'inheres in' some inflorescence
 
-Class: http://purl.obolibrary.org/obo/PO_0009051 ## spikelet
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009051", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000501>
+Class: PO:0009051 ## spikelet
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0009051", "attribute": "PATO:0000128"}
+Class: TO:0000501
  Annotations: rdfs:label "spikelet weight"
  Annotations: IAO:0000115 "The weight of a spikelet."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009051> ## weight and 'inheres in' some spikelet
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009051 ## weight and 'inheres in' some spikelet
 
-Class: http://purl.obolibrary.org/obo/PO_0025029 ## shoot axis
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0025029", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000568>
+Class: PO:0025029 ## shoot axis
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0025029", "attribute": "PATO:0000128"}
+Class: TO:0000568
  Annotations: rdfs:label "shoot axis weight"
  Annotations: IAO:0000115 "The weight of a shoot axis."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025029> ## weight and 'inheres in' some shoot axis
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0025029 ## weight and 'inheres in' some shoot axis
 
-Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0025034", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000505>
+Class: PO:0025034 ## leaf
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0025034", "attribute": "PATO:0000128"}
+Class: TO:0000505
  Annotations: rdfs:label "leaf weight"
  Annotations: IAO:0000115 "The weight of a leaf."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## weight and 'inheres in' some leaf
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0025034 ## weight and 'inheres in' some leaf
 
-Class: http://purl.obolibrary.org/obo/PO_0025597 ## ear infructescence
-Class: http://purl.obolibrary.org/obo/PATO_0000128 ## weight
-## {"entity": "http://purl.obolibrary.org/obo/PO_0025597", "attribute": "http://purl.obolibrary.org/obo/PATO_0000128"}
-Class: <http://purl.obolibrary.org/obo/TO_0000923>
+Class: PO:0025597 ## ear infructescence
+Class: PATO:0000128 ## weight
+## {"entity": "PO:0025597", "attribute": "PATO:0000128"}
+Class: TO:0000923
  Annotations: rdfs:label "ear weight"
  Annotations: IAO:0000115 "The weight of a ear infructescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000128> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025597> ## weight and 'inheres in' some ear infructescence
+ EquivalentTo: PATO:0000128 and RO_0000052 some PO:0025597 ## weight and 'inheres in' some ear infructescence

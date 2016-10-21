@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/incompatible_pattern
+
+[Term]
+id: TO:0000035
+name: incompatibility trait
+def: "The incompatible of a whole plant." []
+intersection_of: PATO:0000345
+intersection_of: RO:0000052 PO:0000003
+

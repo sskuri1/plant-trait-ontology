@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/strength_pattern
+
+[Term]
+id: TO:0000051
+name: stem strength
+def: "The strength of a stem." []
+intersection_of: PATO:0001230
+intersection_of: RO:0000052 PO:0009047
+

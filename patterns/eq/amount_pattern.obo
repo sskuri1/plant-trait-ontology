@@ -1,0 +1,45 @@
+format-version: 1.2
+ontology: patterns/eq/amount_pattern
+
+[Term]
+id: TO:0000466
+name: carbon content
+def: "The amount of a carbon atom." []
+intersection_of: PATO:0000070
+intersection_of: RO:0000052 CHEBI:27594
+
+[Term]
+id: TO:0000494
+name: pigment content
+def: "The amount of a biological pigment." []
+intersection_of: PATO:0000070
+intersection_of: RO:0000052 CHEBI:26130
+
+[Term]
+id: TO:0000608
+name: sodium content
+def: "The amount of a sodium atom." []
+intersection_of: PATO:0000070
+intersection_of: RO:0000052 CHEBI:26708
+
+[Term]
+id: TO:0000609
+name: potassium content
+def: "The amount of a potassium atom." []
+intersection_of: PATO:0000070
+intersection_of: RO:0000052 CHEBI:26216
+
+[Term]
+id: TO:0002670
+name: momilactone A content
+def: "The amount of a momilactone A." []
+intersection_of: PATO:0000070
+intersection_of: RO:0000052 CHEBI:49191
+
+[Term]
+id: TO:0002734
+name: awn presence
+def: "The amount of a awn." []
+intersection_of: PATO:0000070
+intersection_of: RO:0000052 PO:0025349
+

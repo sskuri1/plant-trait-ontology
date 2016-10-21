@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/hardness_pattern
+
+[Term]
+id: TO:0000889
+name: seed coat hardness
+def: "The hardness of a seed coat." []
+intersection_of: PATO:0000048
+intersection_of: RO:0000052 PO:0009088
+

@@ -1,3 +1,3 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000827	leaf lamina area	http://purl.obolibrary.org/obo/PATO_0001323	area	http://purl.obolibrary.org/obo/PO_0020039	leaf lamina
-http://purl.obolibrary.org/obo/TO_0000540	leaf area trait	http://purl.obolibrary.org/obo/PATO_0001323	area	http://purl.obolibrary.org/obo/PO_0025034	leaf
+TO:0000827	leaf lamina area	PATO:0001323	area	PO:0020039	leaf lamina
+TO:0000540	leaf area trait	PATO:0001323	area	PO:0025034	leaf

@@ -1,0 +1,31 @@
+format-version: 1.2
+ontology: patterns/eq/rate_pattern
+
+[Term]
+id: TO:0000520
+name: stomatal closure rate
+def: "The rate of a stomatal closure." []
+intersection_of: PATO:0000161
+intersection_of: RO:0000052 GO:0090332
+
+[Term]
+id: TO:0001018
+name: transpiration rate
+def: "The rate of a transpiration." []
+intersection_of: PATO:0000161
+intersection_of: RO:0000052 GO:0010148
+
+[Term]
+id: TO:0001026
+name: respiration rate
+def: "The rate of a respiratory gaseous exchange." []
+intersection_of: PATO:0000161
+intersection_of: RO:0000052 GO:0007585
+
+[Term]
+id: TO:0012011
+name: leaf senescence rate
+def: "The rate of a leaf senescence." []
+intersection_of: PATO:0000161
+intersection_of: RO:0000052 GO:0010150
+

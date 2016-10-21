@@ -1,2 +1,2 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000345	seed viability	http://purl.obolibrary.org/obo/PATO_0000169	viability	http://purl.obolibrary.org/obo/PO_0009010	seed
+TO:0000345	seed viability	PATO:0000169	viability	PO:0009010	seed

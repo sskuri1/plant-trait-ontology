@@ -3,43 +3,43 @@ Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/eq/circumference_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/attribute
 AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PATO_0001648 ## circumference
-Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009049", "attribute": "http://purl.obolibrary.org/obo/PATO_0001648"}
-Class: <http://purl.obolibrary.org/obo/TO_0000680>
+Class: PO:0009049 ## inflorescence
+Class: PATO:0001648 ## circumference
+## {"entity": "PO:0009049", "attribute": "PATO:0001648"}
+Class: TO:0000680
  Annotations: rdfs:label "inflorescence circumference"
  Annotations: IAO:0000115 "The circumference of a inflorescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001648> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## circumference and 'inheres in' some inflorescence
+ EquivalentTo: PATO:0001648 and RO_0000052 some PO:0009049 ## circumference and 'inheres in' some inflorescence
 
-Class: http://purl.obolibrary.org/obo/PATO_0001648 ## circumference
-Class: http://purl.obolibrary.org/obo/PO_0020126 ## tassel inflorescence
-## {"entity": "http://purl.obolibrary.org/obo/PO_0020126", "attribute": "http://purl.obolibrary.org/obo/PATO_0001648"}
-Class: <http://purl.obolibrary.org/obo/TO_0000796>
+Class: PO:0020126 ## tassel inflorescence
+Class: PATO:0001648 ## circumference
+## {"entity": "PO:0020126", "attribute": "PATO:0001648"}
+Class: TO:0000796
  Annotations: rdfs:label "tassel inflorescence circumference"
  Annotations: IAO:0000115 "The circumference of a tassel inflorescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001648> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020126> ## circumference and 'inheres in' some tassel inflorescence
+ EquivalentTo: PATO:0001648 and RO_0000052 some PO:0020126 ## circumference and 'inheres in' some tassel inflorescence
 
-Class: http://purl.obolibrary.org/obo/PATO_0001648 ## circumference
-Class: http://purl.obolibrary.org/obo/PO_0025597 ## ear infructescence
-## {"entity": "http://purl.obolibrary.org/obo/PO_0025597", "attribute": "http://purl.obolibrary.org/obo/PATO_0001648"}
-Class: <http://purl.obolibrary.org/obo/TO_0000681>
+Class: PO:0025597 ## ear infructescence
+Class: PATO:0001648 ## circumference
+## {"entity": "PO:0025597", "attribute": "PATO:0001648"}
+Class: TO:0000681
  Annotations: rdfs:label "ear circumference"
  Annotations: IAO:0000115 "The circumference of a ear infructescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0001648> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025597> ## circumference and 'inheres in' some ear infructescence
+ EquivalentTo: PATO:0001648 and RO_0000052 some PO:0025597 ## circumference and 'inheres in' some ear infructescence

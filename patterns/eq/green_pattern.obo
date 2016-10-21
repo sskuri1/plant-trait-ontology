@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/green_pattern
+
+[Term]
+id: TO:0000760
+name: seedling hypocotyl green
+def: "The green of a seedling hypocotyl." []
+intersection_of: PATO:0000320
+intersection_of: RO:0000052 PO:0025291
+

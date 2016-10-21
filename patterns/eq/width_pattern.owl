@@ -3,11 +3,11 @@ Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 
  ## Auto-generated
 
@@ -16,118 +16,118 @@ AnnotationProperty: IAO:0000115
 AnnotationProperty: to/eq/attribute
 AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: RO_0000052 ## inheres in
 ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009001 ## fruit
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009001"}
-Class: <http://purl.obolibrary.org/obo/TO_0002627>
+Class: PATO:0000921 ## width
+Class: PO:0009001 ## fruit
+## {"attribute": "PATO:0000921", "entity": "PO:0009001"}
+Class: TO:0002627
  Annotations: rdfs:label "fruit width"
  Annotations: IAO:0000115 "The width of a fruit."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009001> ## width and 'inheres in' some fruit
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009001 ## width and 'inheres in' some fruit
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009010 ## seed
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009010"}
-Class: <http://purl.obolibrary.org/obo/TO_0000149>
+Class: PATO:0000921 ## width
+Class: PO:0009010 ## seed
+## {"attribute": "PATO:0000921", "entity": "PO:0009010"}
+Class: TO:0000149
  Annotations: rdfs:label "seed width"
  Annotations: IAO:0000115 "The width of a seed."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009010> ## width and 'inheres in' some seed
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009010 ## width and 'inheres in' some seed
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009031 ## sepal
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009031"}
-Class: <http://purl.obolibrary.org/obo/TO_0002608>
+Class: PATO:0000921 ## width
+Class: PO:0009031 ## sepal
+## {"attribute": "PATO:0000921", "entity": "PO:0009031"}
+Class: TO:0002608
  Annotations: rdfs:label "sepal width"
  Annotations: IAO:0000115 "The width of a sepal."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009031> ## width and 'inheres in' some sepal
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009031 ## width and 'inheres in' some sepal
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009032 ## petal
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009032"}
-Class: <http://purl.obolibrary.org/obo/TO_0002606>
+Class: PATO:0000921 ## width
+Class: PO:0009032 ## petal
+## {"attribute": "PATO:0000921", "entity": "PO:0009032"}
+Class: TO:0002606
  Annotations: rdfs:label "petal width"
  Annotations: IAO:0000115 "The width of a petal."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009032> ## width and 'inheres in' some petal
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009032 ## width and 'inheres in' some petal
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009039 ## glume
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009039"}
-Class: <http://purl.obolibrary.org/obo/TO_0020034>
+Class: PATO:0000921 ## width
+Class: PO:0009039 ## glume
+## {"attribute": "PATO:0000921", "entity": "PO:0009039"}
+Class: TO:0020034
  Annotations: rdfs:label "glume width"
  Annotations: IAO:0000115 "The width of a glume."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009039> ## width and 'inheres in' some glume
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009039 ## width and 'inheres in' some glume
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009040 ## sterile lemma
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009040"}
-Class: <http://purl.obolibrary.org/obo/TO_0002727>
+Class: PATO:0000921 ## width
+Class: PO:0009040 ## sterile lemma
+## {"attribute": "PATO:0000921", "entity": "PO:0009040"}
+Class: TO:0002727
  Annotations: rdfs:label "sterile lemma width"
  Annotations: IAO:0000115 "The width of a sterile lemma."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009040> ## width and 'inheres in' some sterile lemma
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009040 ## width and 'inheres in' some sterile lemma
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009047 ## stem
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009047"}
-Class: <http://purl.obolibrary.org/obo/TO_0001035>
+Class: PATO:0000921 ## width
+Class: PO:0009047 ## stem
+## {"attribute": "PATO:0000921", "entity": "PO:0009047"}
+Class: TO:0001035
  Annotations: rdfs:label "stem width"
  Annotations: IAO:0000115 "The width of a stem."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009047> ## width and 'inheres in' some stem
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009047 ## width and 'inheres in' some stem
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009049 ## inflorescence
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009049"}
-Class: <http://purl.obolibrary.org/obo/TO_0000804>
+Class: PATO:0000921 ## width
+Class: PO:0009049 ## inflorescence
+## {"attribute": "PATO:0000921", "entity": "PO:0009049"}
+Class: TO:0000804
  Annotations: rdfs:label "inflorescence width"
  Annotations: IAO:0000115 "The width of a inflorescence."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009049> ## width and 'inheres in' some inflorescence
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009049 ## width and 'inheres in' some inflorescence
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009051 ## spikelet
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009051"}
-Class: <http://purl.obolibrary.org/obo/TO_0000564>
+Class: PATO:0000921 ## width
+Class: PO:0009051 ## spikelet
+## {"attribute": "PATO:0000921", "entity": "PO:0009051"}
+Class: TO:0000564
  Annotations: rdfs:label "spikelet width"
  Annotations: IAO:0000115 "The width of a spikelet."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009051> ## width and 'inheres in' some spikelet
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009051 ## width and 'inheres in' some spikelet
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0009053 ## peduncle
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0009053"}
-Class: <http://purl.obolibrary.org/obo/TO_0000649>
+Class: PATO:0000921 ## width
+Class: PO:0009053 ## peduncle
+## {"attribute": "PATO:0000921", "entity": "PO:0009053"}
+Class: TO:0000649
  Annotations: rdfs:label "peduncle width"
  Annotations: IAO:0000115 "The width of a peduncle."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009053> ## width and 'inheres in' some peduncle
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009053 ## width and 'inheres in' some peduncle
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0020039 ## leaf lamina
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0020039"}
-Class: <http://purl.obolibrary.org/obo/TO_0002720>
+Class: PATO:0000921 ## width
+Class: PO:0020039 ## leaf lamina
+## {"attribute": "PATO:0000921", "entity": "PO:0020039"}
+Class: TO:0002720
  Annotations: rdfs:label "leaf lamina width"
  Annotations: IAO:0000115 "The width of a leaf lamina."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020039> ## width and 'inheres in' some leaf lamina
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0020039 ## width and 'inheres in' some leaf lamina
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0020104 ## leaf sheath
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0020104"}
-Class: <http://purl.obolibrary.org/obo/TO_0002721>
+Class: PATO:0000921 ## width
+Class: PO:0020104 ## leaf sheath
+## {"attribute": "PATO:0000921", "entity": "PO:0020104"}
+Class: TO:0002721
  Annotations: rdfs:label "leaf sheath width"
  Annotations: IAO:0000115 "The width of a leaf sheath."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020104> ## width and 'inheres in' some leaf sheath
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0020104 ## width and 'inheres in' some leaf sheath
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0025034"}
-Class: <http://purl.obolibrary.org/obo/TO_0000370>
+Class: PATO:0000921 ## width
+Class: PO:0025034 ## leaf
+## {"attribute": "PATO:0000921", "entity": "PO:0025034"}
+Class: TO:0000370
  Annotations: rdfs:label "leaf width"
  Annotations: IAO:0000115 "The width of a leaf."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## width and 'inheres in' some leaf
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0025034 ## width and 'inheres in' some leaf
 
-Class: http://purl.obolibrary.org/obo/PATO_0000921 ## width
-Class: http://purl.obolibrary.org/obo/PO_0025349 ## awn
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000921", "entity": "http://purl.obolibrary.org/obo/PO_0025349"}
-Class: <http://purl.obolibrary.org/obo/TO_0011007>
+Class: PATO:0000921 ## width
+Class: PO:0025349 ## awn
+## {"attribute": "PATO:0000921", "entity": "PO:0025349"}
+Class: TO:0011007
  Annotations: rdfs:label "awn width"
  Annotations: IAO:0000115 "The width of a awn."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000921> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025349> ## width and 'inheres in' some awn
+ EquivalentTo: PATO:0000921 and RO_0000052 some PO:0025349 ## width and 'inheres in' some awn

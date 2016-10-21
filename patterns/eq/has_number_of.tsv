@@ -1,26 +1,26 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0002685	crown root number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0000043	crown root
-http://purl.obolibrary.org/obo/TO_0000725	megasporocyte number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0000431	megasporocyte
-http://purl.obolibrary.org/obo/TO_0001004	basal tiller number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0005001	basal axillary shoot system
-http://purl.obolibrary.org/obo/TO_0000472	vascular bundle number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0005020	vascular bundle
-http://purl.obolibrary.org/obo/TO_0000557	secondary branch number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0006321	primary inflorescence branch
-http://purl.obolibrary.org/obo/TO_0006013	carpel number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009030	carpel
-http://purl.obolibrary.org/obo/TO_0006040	sepal number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009031	sepal
-http://purl.obolibrary.org/obo/TO_0006039	petal number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009032	petal
-http://purl.obolibrary.org/obo/TO_0006041	tepal number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009033	tepal
-http://purl.obolibrary.org/obo/TO_0006026	floral bract number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009034	flower bract
-http://purl.obolibrary.org/obo/TO_0006010	lodicule number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009036	lodicule
-http://purl.obolibrary.org/obo/TO_0000208	lemma number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009037	lemma
-http://purl.obolibrary.org/obo/TO_0000209	palea number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009038	palea
-http://purl.obolibrary.org/obo/TO_0006029	glume number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009039	glume
-http://purl.obolibrary.org/obo/TO_0002736	flower number trait	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009046	flower
-http://purl.obolibrary.org/obo/TO_0000582	inflorescence number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009049	inflorescence
-http://purl.obolibrary.org/obo/TO_0000456	spikelet number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009051	spikelet
-http://purl.obolibrary.org/obo/TO_0006028	inflorescence bract number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009054	inflorescence bract
-http://purl.obolibrary.org/obo/TO_0002659	pistil number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009062	gynoecium
-http://purl.obolibrary.org/obo/TO_0000547	primary branch number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0009081	inflorescence branch
-http://purl.obolibrary.org/obo/TO_0000726	microsporocyte number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0020047	microsporocyte
-http://purl.obolibrary.org/obo/TO_0002636	leaflet number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0020049	leaflet
-http://purl.obolibrary.org/obo/TO_0001013	lateral root number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0020121	lateral root
-http://purl.obolibrary.org/obo/TO_0000443	ear infructescence number	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0020136	ear inflorescence
-http://purl.obolibrary.org/obo/TO_0000566	leaf stomatal complex frequency	http://purl.obolibrary.org/obo/PATO_0001555	has number of	http://purl.obolibrary.org/obo/PO_0025183	leaf stomatal complex
+TO:0002685	crown root number	PATO:0001555	has number of	PO:0000043	crown root
+TO:0000725	megasporocyte number	PATO:0001555	has number of	PO:0000431	megasporocyte
+TO:0001004	basal tiller number	PATO:0001555	has number of	PO:0005001	basal axillary shoot system
+TO:0000472	vascular bundle number	PATO:0001555	has number of	PO:0005020	vascular bundle
+TO:0000557	secondary branch number	PATO:0001555	has number of	PO:0006321	primary inflorescence branch
+TO:0006013	carpel number	PATO:0001555	has number of	PO:0009030	carpel
+TO:0006040	sepal number	PATO:0001555	has number of	PO:0009031	sepal
+TO:0006039	petal number	PATO:0001555	has number of	PO:0009032	petal
+TO:0006041	tepal number	PATO:0001555	has number of	PO:0009033	tepal
+TO:0006026	floral bract number	PATO:0001555	has number of	PO:0009034	flower bract
+TO:0006010	lodicule number	PATO:0001555	has number of	PO:0009036	lodicule
+TO:0000208	lemma number	PATO:0001555	has number of	PO:0009037	lemma
+TO:0000209	palea number	PATO:0001555	has number of	PO:0009038	palea
+TO:0006029	glume number	PATO:0001555	has number of	PO:0009039	glume
+TO:0002736	flower number trait	PATO:0001555	has number of	PO:0009046	flower
+TO:0000582	inflorescence number	PATO:0001555	has number of	PO:0009049	inflorescence
+TO:0000456	spikelet number	PATO:0001555	has number of	PO:0009051	spikelet
+TO:0006028	inflorescence bract number	PATO:0001555	has number of	PO:0009054	inflorescence bract
+TO:0002659	pistil number	PATO:0001555	has number of	PO:0009062	gynoecium
+TO:0000547	primary branch number	PATO:0001555	has number of	PO:0009081	inflorescence branch
+TO:0000726	microsporocyte number	PATO:0001555	has number of	PO:0020047	microsporocyte
+TO:0002636	leaflet number	PATO:0001555	has number of	PO:0020049	leaflet
+TO:0001013	lateral root number	PATO:0001555	has number of	PO:0020121	lateral root
+TO:0000443	ear infructescence number	PATO:0001555	has number of	PO:0020136	ear inflorescence
+TO:0000566	leaf stomatal complex frequency	PATO:0001555	has number of	PO:0025183	leaf stomatal complex

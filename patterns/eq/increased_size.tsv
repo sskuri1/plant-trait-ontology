@@ -1,2 +1,2 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000113	giant embryo	http://purl.obolibrary.org/obo/PATO_0000586	increased size	http://purl.obolibrary.org/obo/PO_0009009	plant embryo
+TO:0000113	giant embryo	PATO:0000586	increased size	PO:0009009	plant embryo

@@ -1,0 +1,24 @@
+format-version: 1.2
+ontology: patterns/eq/height_pattern
+
+[Term]
+id: TO:0000207
+name: plant height
+def: "The height of a whole plant." []
+intersection_of: PATO:0000119
+intersection_of: RO:0000052 PO:0000003
+
+[Term]
+id: TO:0000682
+name: inflorescence height
+def: "The height of a inflorescence." []
+intersection_of: PATO:0000119
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000797
+name: tassel inflorescence height
+def: "The height of a tassel inflorescence." []
+intersection_of: PATO:0000119
+intersection_of: RO:0000052 PO:0020126
+

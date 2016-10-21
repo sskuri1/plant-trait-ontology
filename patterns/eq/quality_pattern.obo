@@ -1,0 +1,80 @@
+format-version: 1.2
+ontology: patterns/eq/quality_pattern
+
+[Term]
+id: TO:0000284
+name: ADP glucose pyrophosphorylase activity trait
+def: "The quality of a glucose-1-phosphate adenylyltransferase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0008878
+
+[Term]
+id: TO:0000288
+name: alpha-amylase activity trait
+def: "The quality of a alpha-amylase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0004556
+
+[Term]
+id: TO:0000311
+name: invertase activity trait
+def: "The quality of a beta-fructofuranosidase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0004564
+
+[Term]
+id: TO:0000331
+name: sucrose phosphate synthase activity trait
+def: "The quality of a sucrose-phosphate synthase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0046524
+
+[Term]
+id: TO:0000338
+name: beta-amylase activity trait
+def: "The quality of a beta-amylase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0016161
+
+[Term]
+id: TO:0000599
+name: enzyme activity trait
+def: "The quality of a catalytic activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0003824
+
+[Term]
+id: TO:0000699
+name: sucrose synthase activity trait
+def: "The quality of a sucrose synthase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0016157
+
+[Term]
+id: TO:0000703
+name: amylase activity trait
+def: "The quality of a amylase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0016160
+
+[Term]
+id: TO:0000704
+name: phosphatase activity trait
+def: "The quality of a phosphatase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0016791
+
+[Term]
+id: TO:0000705
+name: acid phosphatase activity trait
+def: "The quality of a acid phosphatase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0003993
+
+[Term]
+id: TO:0020070
+name: beta-glucanase activity trait
+def: "The quality of a beta-glucanase activity." []
+intersection_of: PATO:0000001
+intersection_of: RO:0000052 GO:0052736
+

@@ -1,0 +1,101 @@
+format-version: 1.2
+ontology: patterns/eq/width_pattern
+
+[Term]
+id: TO:0000149
+name: seed width
+def: "The width of a seed." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009010
+
+[Term]
+id: TO:0000370
+name: leaf width
+def: "The width of a leaf." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000564
+name: spikelet width
+def: "The width of a spikelet." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009051
+
+[Term]
+id: TO:0000649
+name: peduncle width
+def: "The width of a peduncle." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009053
+
+[Term]
+id: TO:0000804
+name: inflorescence width
+def: "The width of a inflorescence." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0001035
+name: stem width
+def: "The width of a stem." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0002606
+name: petal width
+def: "The width of a petal." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009032
+
+[Term]
+id: TO:0002608
+name: sepal width
+def: "The width of a sepal." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009031
+
+[Term]
+id: TO:0002627
+name: fruit width
+def: "The width of a fruit." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009001
+
+[Term]
+id: TO:0002720
+name: leaf lamina width
+def: "The width of a leaf lamina." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0020039
+
+[Term]
+id: TO:0002721
+name: leaf sheath width
+def: "The width of a leaf sheath." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0020104
+
+[Term]
+id: TO:0002727
+name: sterile lemma width
+def: "The width of a sterile lemma." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009040
+
+[Term]
+id: TO:0011007
+name: awn width
+def: "The width of a awn." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0025349
+
+[Term]
+id: TO:0020034
+name: glume width
+def: "The width of a glume." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0009039
+

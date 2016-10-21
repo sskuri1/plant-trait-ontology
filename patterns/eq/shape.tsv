@@ -1,28 +1,28 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0002656	starch grain shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/GO_0043036	starch grain
-http://purl.obolibrary.org/obo/TO_0000743	subterranean shoot axis tuber shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0004547	subterranean shoot axis tuber
-http://purl.obolibrary.org/obo/TO_0000793	axillary bud shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0004709	axillary bud
-http://purl.obolibrary.org/obo/TO_0002630	fruit distal end shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0008001	fruit distal end
-http://purl.obolibrary.org/obo/TO_0002631	fruit proximal end shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0008002	fruit proximal end
-http://purl.obolibrary.org/obo/TO_0002628	fruit shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009001	fruit
-http://purl.obolibrary.org/obo/TO_0002682	plant cell shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009002	plant cell
-http://purl.obolibrary.org/obo/TO_0002710	root shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009005	root
-http://purl.obolibrary.org/obo/TO_0000193	embryo shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009009	plant embryo
-http://purl.obolibrary.org/obo/TO_0000484	seed shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009010	seed
-http://purl.obolibrary.org/obo/TO_0006037	carpel shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009030	carpel
-http://purl.obolibrary.org/obo/TO_0006011	lodicule shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009036	lodicule
-http://purl.obolibrary.org/obo/TO_0000614	lemma shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009037	lemma
-http://purl.obolibrary.org/obo/TO_0000978	glume shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009039	glume
-http://purl.obolibrary.org/obo/TO_0002726	sterile lemma shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009040	sterile lemma
-http://purl.obolibrary.org/obo/TO_0000859	flower shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009046	flower
-http://purl.obolibrary.org/obo/TO_0000893	stem shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009047	stem
-http://purl.obolibrary.org/obo/TO_0000268	inflorescence shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009049	inflorescence
-http://purl.obolibrary.org/obo/TO_0000214	anther shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009066	anther
-http://purl.obolibrary.org/obo/TO_0000973	spikelet rachilla shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0009080	spikelet rachilla
-http://purl.obolibrary.org/obo/TO_0000767	petiole shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0020038	petiole
-http://purl.obolibrary.org/obo/TO_0000886	petiolule shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0020050	petiolule
-http://purl.obolibrary.org/obo/TO_0000335	ligule shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0020105	ligule
-http://purl.obolibrary.org/obo/TO_1000000	stem internode bent	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0020142	stem internode
-http://purl.obolibrary.org/obo/TO_0000492	leaf shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0025034	leaf
-http://purl.obolibrary.org/obo/TO_0000809	pseudostem shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0025248	pseudostem
-http://purl.obolibrary.org/obo/TO_0000964	ear shape	http://purl.obolibrary.org/obo/PATO_0000052	shape	http://purl.obolibrary.org/obo/PO_0025597	ear infructescence
+TO:0002656	starch grain shape	PATO:0000052	shape	GO:0043036	starch grain
+TO:0000743	subterranean shoot axis tuber shape	PATO:0000052	shape	PO:0004547	subterranean shoot axis tuber
+TO:0000793	axillary bud shape	PATO:0000052	shape	PO:0004709	axillary bud
+TO:0002630	fruit distal end shape	PATO:0000052	shape	PO:0008001	fruit distal end
+TO:0002631	fruit proximal end shape	PATO:0000052	shape	PO:0008002	fruit proximal end
+TO:0002628	fruit shape	PATO:0000052	shape	PO:0009001	fruit
+TO:0002682	plant cell shape	PATO:0000052	shape	PO:0009002	plant cell
+TO:0002710	root shape	PATO:0000052	shape	PO:0009005	root
+TO:0000193	embryo shape	PATO:0000052	shape	PO:0009009	plant embryo
+TO:0000484	seed shape	PATO:0000052	shape	PO:0009010	seed
+TO:0006037	carpel shape	PATO:0000052	shape	PO:0009030	carpel
+TO:0006011	lodicule shape	PATO:0000052	shape	PO:0009036	lodicule
+TO:0000614	lemma shape	PATO:0000052	shape	PO:0009037	lemma
+TO:0000978	glume shape	PATO:0000052	shape	PO:0009039	glume
+TO:0002726	sterile lemma shape	PATO:0000052	shape	PO:0009040	sterile lemma
+TO:0000859	flower shape	PATO:0000052	shape	PO:0009046	flower
+TO:0000893	stem shape	PATO:0000052	shape	PO:0009047	stem
+TO:0000268	inflorescence shape	PATO:0000052	shape	PO:0009049	inflorescence
+TO:0000214	anther shape	PATO:0000052	shape	PO:0009066	anther
+TO:0000973	spikelet rachilla shape	PATO:0000052	shape	PO:0009080	spikelet rachilla
+TO:0000767	petiole shape	PATO:0000052	shape	PO:0020038	petiole
+TO:0000886	petiolule shape	PATO:0000052	shape	PO:0020050	petiolule
+TO:0000335	ligule shape	PATO:0000052	shape	PO:0020105	ligule
+TO:1000000	stem internode bent	PATO:0000052	shape	PO:0020142	stem internode
+TO:0000492	leaf shape	PATO:0000052	shape	PO:0025034	leaf
+TO:0000809	pseudostem shape	PATO:0000052	shape	PO:0025248	pseudostem
+TO:0000964	ear shape	PATO:0000052	shape	PO:0025597	ear infructescence

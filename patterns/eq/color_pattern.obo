@@ -1,0 +1,416 @@
+format-version: 1.2
+ontology: patterns/eq/color_pattern
+
+[Term]
+id: TO:0000056
+name: stem color
+def: "The color of a stem." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0000059
+name: node color
+def: "The color of a stem node." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020141
+
+[Term]
+id: TO:0000065
+name: root color
+def: "The color of a root." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009005
+
+[Term]
+id: TO:0000140
+name: apiculus color
+def: "The color of a palea apiculus." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0006033
+
+[Term]
+id: TO:0000141
+name: awn color
+def: "The color of a awn." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025349
+
+[Term]
+id: TO:0000185
+name: stigma color
+def: "The color of a stigma." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009073
+
+[Term]
+id: TO:0000187
+name: anther color
+def: "The color of a anther." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009066
+
+[Term]
+id: TO:0000190
+name: seed coat color
+def: "The color of a seed coat." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009088
+
+[Term]
+id: TO:0000197
+name: ligule color
+def: "The color of a ligule." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020105
+
+[Term]
+id: TO:0000221
+name: glume color
+def: "The color of a glume." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009039
+
+[Term]
+id: TO:0000244
+name: coleoptile color
+def: "The color of a coleoptile." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020033
+
+[Term]
+id: TO:0000264
+name: lemma and palea color
+def: "The color of a flower bract." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009034
+
+[Term]
+id: TO:0000294
+name: leaf sheath auricle color
+def: "The color of a leaf sheath auricle." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020106
+
+[Term]
+id: TO:0000299
+name: leaf lamina color
+def: "The color of a leaf lamina." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020039
+
+[Term]
+id: TO:0000326
+name: leaf color
+def: "The color of a leaf." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000364
+name: leaf collar color
+def: "The color of a leaf collar." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0006012
+
+[Term]
+id: TO:0000400
+name: sterile lemma color
+def: "The color of a sterile lemma." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009040
+
+[Term]
+id: TO:0000486
+name: seed color
+def: "The color of a seed." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009010
+
+[Term]
+id: TO:0000487
+name: endosperm color
+def: "The color of a endosperm." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009089
+
+[Term]
+id: TO:0000534
+name: culm color
+def: "The color of a stem internode." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020142
+
+[Term]
+id: TO:0000536
+name: spikelet floret color
+def: "The color of a spikelet floret." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009082
+
+[Term]
+id: TO:0000537
+name: flower color
+def: "The color of a flower." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009046
+
+[Term]
+id: TO:0000572
+name: petal color
+def: "The color of a petal." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009032
+
+[Term]
+id: TO:0000573
+name: sepal color
+def: "The color of a sepal." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009031
+
+[Term]
+id: TO:0000574
+name: tepal color
+def: "The color of a tepal." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009033
+
+[Term]
+id: TO:0000581
+name: inflorescence color
+def: "The color of a inflorescence." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000676
+name: style color
+def: "The color of a style." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009074
+
+[Term]
+id: TO:0000707
+name: pericarp color
+def: "The color of a pericarp." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009084
+
+[Term]
+id: TO:0000708
+name: plant color
+def: "The color of a whole plant." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0000003
+
+[Term]
+id: TO:0000719
+name: leaf vein color
+def: "The color of a leaf lamina vein." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020138
+
+[Term]
+id: TO:0000750
+name: seedling cotyledon color
+def: "The color of a seedling cotyledon." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025471
+
+[Term]
+id: TO:0000759
+name: seedling hypocotyl color
+def: "The color of a seedling hypocotyl." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025291
+
+[Term]
+id: TO:0000779
+name: peduncle color
+def: "The color of a peduncle." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009053
+
+[Term]
+id: TO:0000795
+name: tassel inflorescence color
+def: "The color of a tassel inflorescence." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020126
+
+[Term]
+id: TO:0000810
+name: pseudostem color
+def: "The color of a pseudostem." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025248
+
+[Term]
+id: TO:0000819
+name: inflorescence bract color
+def: "The color of a inflorescence bract." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009054
+
+[Term]
+id: TO:0000878
+name: spine leaf color
+def: "The color of a spine leaf." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025173
+
+[Term]
+id: TO:0000885
+name: petiolule color
+def: "The color of a petiolule." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020050
+
+[Term]
+id: TO:0000943
+name: aleurone layer color
+def: "The color of a aleurone layer." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0005360
+
+[Term]
+id: TO:0000951
+name: corolla color
+def: "The color of a corolla." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009059
+
+[Term]
+id: TO:0000963
+name: ear color
+def: "The color of a ear infructescence." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025597
+
+[Term]
+id: TO:0000968
+name: hilum color
+def: "The color of a hilum." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020063
+
+[Term]
+id: TO:0002617
+name: fruit color
+def: "The color of a fruit." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009001
+
+[Term]
+id: TO:0002618
+name: endocarp color
+def: "The color of a endocarp." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009086
+
+[Term]
+id: TO:0002619
+name: mesocarp color
+def: "The color of a mesocarp." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009087
+
+[Term]
+id: TO:0002620
+name: exocarp color
+def: "The color of a exocarp." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009085
+
+[Term]
+id: TO:0002621
+name: fruit columella color
+def: "The color of a fruit columella." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0004540
+
+[Term]
+id: TO:0002707
+name: petiole color
+def: "The color of a petiole." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020038
+
+[Term]
+id: TO:0002708
+name: xylem color
+def: "The color of a xylem." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0005352
+
+[Term]
+id: TO:0002709
+name: phloem color
+def: "The color of a phloem." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0005417
+
+[Term]
+id: TO:0002724
+name: leaf sheath color
+def: "The color of a leaf sheath." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020104
+
+[Term]
+id: TO:0011003
+name: inflorescence axis color
+def: "The color of a inflorescence axis." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020122
+
+[Term]
+id: TO:0011004
+name: inflorescence branch color
+def: "The color of a inflorescence branch." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009081
+
+[Term]
+id: TO:1000003
+name: shoot axis node color
+def: "The color of a shoot axis node." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0005004
+
+[Term]
+id: TO:1000010
+name: caruncle color
+def: "The color of a caruncle." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020060
+
+[Term]
+id: TO:1000016
+name: plant ovary color
+def: "The color of a plant ovary." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0009072
+
+[Term]
+id: TO:1000017
+name: stem cortex color
+def: "The color of a stem cortex." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025612
+
+[Term]
+id: TO:1000018
+name: stem epidermis color
+def: "The color of a stem epidermis." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025178
+
+[Term]
+id: TO:1000019
+name: disk flower color
+def: "The color of a disk flower." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0025332
+

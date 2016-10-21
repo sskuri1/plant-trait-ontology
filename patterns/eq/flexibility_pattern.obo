@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/flexibility_pattern
+
+[Term]
+id: TO:0000825
+name: leaf flexibility
+def: "The flexibility of a leaf." []
+intersection_of: PATO:0001543
+intersection_of: RO:0000052 PO:0025034
+

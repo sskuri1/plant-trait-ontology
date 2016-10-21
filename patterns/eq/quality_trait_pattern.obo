@@ -1,0 +1,24 @@
+format-version: 1.2
+ontology: patterns/eq/quality_trait_pattern
+
+[Term]
+id: TO:0000587
+name: endosperm quality
+def: "The quality trait of a endosperm." []
+intersection_of: TO:0000597
+intersection_of: RO:0000052 PO:0009089
+
+[Term]
+id: TO:0002728
+name: fruit quality trait
+def: "The quality trait of a fruit." []
+intersection_of: TO:0000597
+intersection_of: RO:0000052 PO:0009001
+
+[Term]
+id: http://purl.obolibrary.org/obo/iri
+name: iri label
+def: "The attribute label of a entity label." []
+intersection_of: http://purl.obolibrary.org/obo/attribute
+intersection_of: RO:0000052 http://purl.obolibrary.org/obo/entity
+

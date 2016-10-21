@@ -1,7 +1,7 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0020016	seed texture	http://purl.obolibrary.org/obo/PATO_0000150	texture	http://purl.obolibrary.org/obo/PO_0009010	seed
-http://purl.obolibrary.org/obo/TO_0000805	inflorescence texture	http://purl.obolibrary.org/obo/PATO_0000150	texture	http://purl.obolibrary.org/obo/PO_0009049	inflorescence
-http://purl.obolibrary.org/obo/TO_0002623	pericarp texture	http://purl.obolibrary.org/obo/PATO_0000150	texture	http://purl.obolibrary.org/obo/PO_0009084	pericarp
-http://purl.obolibrary.org/obo/TO_0002624	exocarp texture	http://purl.obolibrary.org/obo/PATO_0000150	texture	http://purl.obolibrary.org/obo/PO_0009085	exocarp
-http://purl.obolibrary.org/obo/TO_0000903	seed coat texture	http://purl.obolibrary.org/obo/PATO_0000150	texture	http://purl.obolibrary.org/obo/PO_0009088	seed coat
-http://purl.obolibrary.org/obo/TO_0002754	inflorescence axis texture	http://purl.obolibrary.org/obo/PATO_0000150	texture	http://purl.obolibrary.org/obo/PO_0020122	inflorescence axis
+TO:0020016	seed texture	PATO:0000150	texture	PO:0009010	seed
+TO:0000805	inflorescence texture	PATO:0000150	texture	PO:0009049	inflorescence
+TO:0002623	pericarp texture	PATO:0000150	texture	PO:0009084	pericarp
+TO:0002624	exocarp texture	PATO:0000150	texture	PO:0009085	exocarp
+TO:0000903	seed coat texture	PATO:0000150	texture	PO:0009088	seed coat
+TO:0002754	inflorescence axis texture	PATO:0000150	texture	PO:0020122	inflorescence axis

@@ -1,0 +1,17 @@
+format-version: 1.2
+ontology: patterns/eq/mass_density_pattern
+
+[Term]
+id: TO:0000612
+name: grain density
+def: "The mass density of a seed." []
+intersection_of: PATO:0001019
+intersection_of: RO:0000052 PO:0009010
+
+[Term]
+id: TO:0000625
+name: spikelet density
+def: "The mass density of a spikelet." []
+intersection_of: PATO:0001019
+intersection_of: RO:0000052 PO:0009051
+

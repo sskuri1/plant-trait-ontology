@@ -1,0 +1,24 @@
+format-version: 1.2
+ontology: patterns/eq/volume_pattern
+
+[Term]
+id: TO:0000233
+name: root volume
+def: "The volume of a root." []
+intersection_of: PATO:0000918
+intersection_of: RO:0000052 PO:0009005
+
+[Term]
+id: TO:0000826
+name: leaf volume
+def: "The volume of a leaf." []
+intersection_of: PATO:0000918
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0002742
+name: fruit volume
+def: "The volume of a fruit." []
+intersection_of: PATO:0000918
+intersection_of: RO:0000052 PO:0009001
+

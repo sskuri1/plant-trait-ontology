@@ -2,12 +2,12 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 
  ## Auto-generated
 
@@ -16,46 +16,46 @@ AnnotationProperty: IAO:0000115
 AnnotationProperty: to/eq/attribute
 AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PATO_0000133 ## orientation
-Class: http://purl.obolibrary.org/obo/PO_0005001 ## basal axillary shoot system
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000133", "entity": "http://purl.obolibrary.org/obo/PO_0005001"}
-Class: <http://purl.obolibrary.org/obo/TO_0000567>
+Class: PATO:0000133 ## orientation
+Class: PO:0005001 ## basal axillary shoot system
+## {"attribute": "PATO:0000133", "entity": "PO:0005001"}
+Class: TO:0000567
  Annotations: rdfs:label "tiller angle"
  Annotations: IAO:0000115 "The orientation of a basal axillary shoot system."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000133> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0005001> ## orientation and 'inheres in' some basal axillary shoot system
+ EquivalentTo: PATO:0000133 and RO_0000052 some PO:0005001 ## orientation and 'inheres in' some basal axillary shoot system
 
-Class: http://purl.obolibrary.org/obo/PATO_0000133 ## orientation
-Class: http://purl.obolibrary.org/obo/PO_0009025 ## vascular leaf
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000133", "entity": "http://purl.obolibrary.org/obo/PO_0009025"}
-Class: <http://purl.obolibrary.org/obo/TO_0000206>
+Class: PATO:0000133 ## orientation
+Class: PO:0009025 ## vascular leaf
+## {"attribute": "PATO:0000133", "entity": "PO:0009025"}
+Class: TO:0000206
  Annotations: rdfs:label "leaf angle"
  Annotations: IAO:0000115 "The orientation of a vascular leaf."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000133> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009025> ## orientation and 'inheres in' some vascular leaf
+ EquivalentTo: PATO:0000133 and RO_0000052 some PO:0009025 ## orientation and 'inheres in' some vascular leaf
 
-Class: http://purl.obolibrary.org/obo/PATO_0000133 ## orientation
-Class: http://purl.obolibrary.org/obo/PO_0009047 ## stem
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000133", "entity": "http://purl.obolibrary.org/obo/PO_0009047"}
-Class: <http://purl.obolibrary.org/obo/TO_0000577>
+Class: PATO:0000133 ## orientation
+Class: PO:0009047 ## stem
+## {"attribute": "PATO:0000133", "entity": "PO:0009047"}
+Class: TO:0000577
  Annotations: rdfs:label "stem angle"
  Annotations: IAO:0000115 "The orientation of a stem."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000133> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009047> ## orientation and 'inheres in' some stem
+ EquivalentTo: PATO:0000133 and RO_0000052 some PO:0009047 ## orientation and 'inheres in' some stem
 
-Class: http://purl.obolibrary.org/obo/PATO_0000133 ## orientation
-Class: http://purl.obolibrary.org/obo/PO_0020103 ## flag leaf
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000133", "entity": "http://purl.obolibrary.org/obo/PO_0020103"}
-Class: <http://purl.obolibrary.org/obo/TO_0000124>
+Class: PATO:0000133 ## orientation
+Class: PO:0020103 ## flag leaf
+## {"attribute": "PATO:0000133", "entity": "PO:0020103"}
+Class: TO:0000124
  Annotations: rdfs:label "flag leaf angle"
  Annotations: IAO:0000115 "The orientation of a flag leaf."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000133> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020103> ## orientation and 'inheres in' some flag leaf
+ EquivalentTo: PATO:0000133 and RO_0000052 some PO:0020103 ## orientation and 'inheres in' some flag leaf
 
-Class: http://purl.obolibrary.org/obo/PATO_0000133 ## orientation
-Class: http://purl.obolibrary.org/obo/PO_0020122 ## inflorescence axis
-## {"attribute": "http://purl.obolibrary.org/obo/PATO_0000133", "entity": "http://purl.obolibrary.org/obo/PO_0020122"}
-Class: <http://purl.obolibrary.org/obo/TO_0000270>
+Class: PATO:0000133 ## orientation
+Class: PO:0020122 ## inflorescence axis
+## {"attribute": "PATO:0000133", "entity": "PO:0020122"}
+Class: TO:0000270
  Annotations: rdfs:label "inflorescence axis angle"
  Annotations: IAO:0000115 "The orientation of a inflorescence axis."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000133> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0020122> ## orientation and 'inheres in' some inflorescence axis
+ EquivalentTo: PATO:0000133 and RO_0000052 some PO:0020122 ## orientation and 'inheres in' some inflorescence axis

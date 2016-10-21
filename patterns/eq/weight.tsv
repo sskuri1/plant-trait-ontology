@@ -1,12 +1,12 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000899	root nodule weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0003023	root nodule
-http://purl.obolibrary.org/obo/TO_0000583	infructescence weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0006342	infructescence
-http://purl.obolibrary.org/obo/TO_0002746	fruit weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0009001	fruit
-http://purl.obolibrary.org/obo/TO_0000279	root weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0009005	root
-http://purl.obolibrary.org/obo/TO_0000181	seed weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0009010	seed
-http://purl.obolibrary.org/obo/TO_0000952	stem weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0009047	stem
-http://purl.obolibrary.org/obo/TO_0000803	inflorescence weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0009049	inflorescence
-http://purl.obolibrary.org/obo/TO_0000501	spikelet weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0009051	spikelet
-http://purl.obolibrary.org/obo/TO_0000568	shoot axis weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0025029	shoot axis
-http://purl.obolibrary.org/obo/TO_0000505	leaf weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0025034	leaf
-http://purl.obolibrary.org/obo/TO_0000923	ear weight	http://purl.obolibrary.org/obo/PATO_0000128	weight	http://purl.obolibrary.org/obo/PO_0025597	ear infructescence
+TO:0000899	root nodule weight	PATO:0000128	weight	PO:0003023	root nodule
+TO:0000583	infructescence weight	PATO:0000128	weight	PO:0006342	infructescence
+TO:0002746	fruit weight	PATO:0000128	weight	PO:0009001	fruit
+TO:0000279	root weight	PATO:0000128	weight	PO:0009005	root
+TO:0000181	seed weight	PATO:0000128	weight	PO:0009010	seed
+TO:0000952	stem weight	PATO:0000128	weight	PO:0009047	stem
+TO:0000803	inflorescence weight	PATO:0000128	weight	PO:0009049	inflorescence
+TO:0000501	spikelet weight	PATO:0000128	weight	PO:0009051	spikelet
+TO:0000568	shoot axis weight	PATO:0000128	weight	PO:0025029	shoot axis
+TO:0000505	leaf weight	PATO:0000128	weight	PO:0025034	leaf
+TO:0000923	ear weight	PATO:0000128	weight	PO:0025597	ear infructescence

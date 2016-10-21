@@ -1,0 +1,38 @@
+format-version: 1.2
+ontology: patterns/eq/tolerant_to_pattern
+
+[Term]
+id: TO:0000259
+name: heat tolerance
+def: "The tolerant to of a warm/hot temperature regimen." []
+intersection_of: PATO:0000515
+intersection_of: RO:0000052 EO:0007173
+
+[Term]
+id: TO:0000303
+name: cold tolerance
+def: "The tolerant to of a cold temperature regimen." []
+intersection_of: PATO:0000515
+intersection_of: RO:0000052 EO:0007174
+
+[Term]
+id: TO:0002662
+name: leaf rolling tolerance
+def: "The tolerant to of a leaf rolling." []
+intersection_of: PATO:0000515
+intersection_of: RO:0000052 TO:0000085
+
+[Term]
+id: TO:0002663
+name: leaf necrosis tolerance
+def: "The tolerant to of a leaf necrosis." []
+intersection_of: PATO:0000515
+intersection_of: RO:0000052 TO:0000652
+
+[Term]
+id: TO:0006001
+name: salt tolerance
+def: "The tolerant to of a salt." []
+intersection_of: PATO:0000515
+intersection_of: RO:0000052 CHEBI:24866
+

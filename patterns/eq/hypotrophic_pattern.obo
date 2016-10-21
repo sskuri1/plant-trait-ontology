@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/hypotrophic_pattern
+
+[Term]
+id: TO:0000100
+name: shrunken endosperm
+def: "The hypotrophic of a endosperm." []
+intersection_of: PATO:0000585
+intersection_of: RO:0000052 PO:0009089
+

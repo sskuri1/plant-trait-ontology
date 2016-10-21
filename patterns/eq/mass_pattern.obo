@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/mass_pattern
+
+[Term]
+id: TO:0000746
+name: subterranean shoot axis tuber mass
+def: "The mass of a subterranean shoot axis tuber." []
+intersection_of: PATO:0000125
+intersection_of: RO:0000052 PO:0004547
+

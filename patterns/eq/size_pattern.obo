@@ -1,0 +1,143 @@
+format-version: 1.2
+ontology: patterns/eq/size_pattern
+
+[Term]
+id: TO:0000391
+name: seed size
+def: "The size of a seed." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0009010
+
+[Term]
+id: TO:0000744
+name: subterranean shoot axis tuber size
+def: "The size of a subterranean shoot axis tuber." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0004547
+
+[Term]
+id: TO:0000752
+name: seedling cotyledon size
+def: "The size of a seedling cotyledon." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0025471
+
+[Term]
+id: TO:0000768
+name: petiole size
+def: "The size of a petiole." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0020038
+
+[Term]
+id: TO:0000781
+name: seedling hypocotyl size
+def: "The size of a seedling hypocotyl." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0025291
+
+[Term]
+id: TO:0000783
+name: inflorescence axis size
+def: "The size of a inflorescence axis." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0020122
+
+[Term]
+id: TO:0000791
+name: axillary bud size
+def: "The size of a axillary bud." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0004709
+
+[Term]
+id: TO:0000877
+name: spine leaf size
+def: "The size of a spine leaf." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0025173
+
+[Term]
+id: TO:0000892
+name: stem size
+def: "The size of a stem." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0002601
+name: stamen size
+def: "The size of a stamen." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0009029
+
+[Term]
+id: TO:0002602
+name: pistil size
+def: "The size of a gynoecium." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0009062
+
+[Term]
+id: TO:0002603
+name: petal size
+def: "The size of a petal." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0009032
+
+[Term]
+id: TO:0002604
+name: sepal size
+def: "The size of a sepal." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0009031
+
+[Term]
+id: TO:0002625
+name: fruit size
+def: "The size of a fruit." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0009001
+
+[Term]
+id: TO:0002632
+name: fruit abscission zone size
+def: "The size of a fruit abscission zone." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0006503
+
+[Term]
+id: TO:0002637
+name: leaf size
+def: "The size of a leaf." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0002655
+name: starch grain size
+def: "The size of a starch grain." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 GO:0043036
+
+[Term]
+id: TO:0002684
+name: plant cell size
+def: "The size of a plant cell." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0009002
+
+[Term]
+id: TO:0006031
+name: inflorescence size
+def: "The size of a inflorescence." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:1000012
+name: whole plant size
+def: "The size of a whole plant." []
+intersection_of: PATO:0000117
+intersection_of: RO:0000052 PO:0000003
+

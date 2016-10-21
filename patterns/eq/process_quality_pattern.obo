@@ -1,0 +1,66 @@
+format-version: 1.2
+ontology: patterns/eq/process_quality_pattern
+
+[Term]
+id: TO:0000283
+name: biological process trait
+def: "The process quality of a biological_process." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0008150
+
+[Term]
+id: TO:0000621
+name: inflorescence development trait
+def: "The process quality of a inflorescence development." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0010229
+
+[Term]
+id: TO:0000622
+name: flower development trait
+def: "The process quality of a flower development." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0009908
+
+[Term]
+id: TO:0000656
+name: root development trait
+def: "The process quality of a root development stage." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 PO:0007520
+
+[Term]
+id: TO:0000728
+name: cell cycle trait
+def: "The process quality of a cell cycle." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0007049
+
+[Term]
+id: TO:0002633
+name: fruit ripening trait
+def: "The process quality of a fruit ripening." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0009835
+
+[Term]
+id: TO:0006015
+name: plant tissue development trait
+def: "The process quality of a plant tissue development stage." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 PO:0025423
+
+[Term]
+id: TO:0006022
+name: floral organ development trait
+def: "The process quality of a floral organ development." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0048437
+
+[Term]
+id: TO:0020110
+name: gynoecium development trait
+def: "The process quality of a gynoecium development." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0048467
+

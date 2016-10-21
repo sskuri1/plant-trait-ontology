@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/prostrate_pattern
+
+[Term]
+id: TO:0000873
+name: leaf prostrate
+def: "The prostrate of a leaf." []
+intersection_of: PATO:0000631
+intersection_of: RO:0000052 PO:0025034
+

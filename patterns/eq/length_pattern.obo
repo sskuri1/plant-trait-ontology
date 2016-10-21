@@ -1,0 +1,339 @@
+format-version: 1.2
+ontology: patterns/eq/length_pattern
+
+[Term]
+id: TO:0000024
+name: ligule length
+def: "The length of a ligule." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020105
+
+[Term]
+id: TO:0000072
+name: awn length
+def: "The length of a awn." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0025349
+
+[Term]
+id: TO:0000135
+name: leaf length
+def: "The length of a leaf." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000145
+name: internode length
+def: "The length of a stem internode." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020142
+
+[Term]
+id: TO:0000146
+name: seed length
+def: "The length of a seed." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009010
+
+[Term]
+id: TO:0000227
+name: root length
+def: "The length of a root." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009005
+
+[Term]
+id: TO:0000240
+name: sterile lemma length
+def: "The length of a sterile lemma." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009040
+
+[Term]
+id: TO:0000271
+name: inflorescence length
+def: "The length of a inflorescence." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000431
+name: ear length
+def: "The length of a ear infructescence." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0025597
+
+[Term]
+id: TO:0000531
+name: anther length
+def: "The length of a anther." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009066
+
+[Term]
+id: TO:0000544
+name: mesocotyl length
+def: "The length of a mesocotyl." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020037
+
+[Term]
+id: TO:0000553
+name: rhizome length
+def: "The length of a rhizome." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0004542
+
+[Term]
+id: TO:0000554
+name: rhizome internode length
+def: "The length of a rhizome internode." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0025204
+
+[Term]
+id: TO:0000576
+name: stem length
+def: "The length of a stem." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0000586
+name: seminal root length
+def: "The length of a seminal root." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0000046
+
+[Term]
+id: TO:0000623
+name: involucre bristle length
+def: "The length of a involucre." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009100
+
+[Term]
+id: TO:0000630
+name: pedicel length
+def: "The length of a flower pedicel." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009052
+
+[Term]
+id: TO:0000641
+name: inflorescence primary branch length
+def: "The length of a inflorescence branch." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009081
+
+[Term]
+id: TO:0000650
+name: lemma length
+def: "The length of a lemma." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009037
+
+[Term]
+id: TO:0000766
+name: petiole length
+def: "The length of a petiole." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020038
+
+[Term]
+id: TO:0000798
+name: tassel inflorescence length
+def: "The length of a tassel inflorescence." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020126
+
+[Term]
+id: TO:0000808
+name: pseudostem length
+def: "The length of a pseudostem." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0025248
+
+[Term]
+id: TO:0000817
+name: inflorescence bract length
+def: "The length of a inflorescence bract." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009054
+
+[Term]
+id: TO:0000856
+name: lodicule length
+def: "The length of a lodicule." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009036
+
+[Term]
+id: TO:0000860
+name: flower length
+def: "The length of a flower." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009046
+
+[Term]
+id: TO:0000880
+name: seed coat length
+def: "The length of a seed coat." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009088
+
+[Term]
+id: TO:0000887
+name: petiolule length
+def: "The length of a petiolule." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020050
+
+[Term]
+id: TO:0000972
+name: spikelet rachilla length
+def: "The length of a spikelet rachilla." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009080
+
+[Term]
+id: TO:0001005
+name: basal tiller length
+def: "The length of a basal axillary shoot system." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0005001
+
+[Term]
+id: TO:0001007
+name: coleoptile length
+def: "The length of a coleoptile." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020033
+
+[Term]
+id: TO:0001012
+name: lateral root length
+def: "The length of a lateral root." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020121
+
+[Term]
+id: TO:0002605
+name: petal length
+def: "The length of a petal." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009032
+
+[Term]
+id: TO:0002607
+name: sepal length
+def: "The length of a sepal." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009031
+
+[Term]
+id: TO:0002609
+name: stamen length
+def: "The length of a stamen." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009029
+
+[Term]
+id: TO:0002610
+name: pistil length
+def: "The length of a gynoecium." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009062
+
+[Term]
+id: TO:0002626
+name: fruit length
+def: "The length of a fruit." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009001
+
+[Term]
+id: TO:0002665
+name: root hair length
+def: "The length of a root hair cell." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0000256
+
+[Term]
+id: TO:0002689
+name: leaf sheath length
+def: "The length of a leaf sheath." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020104
+
+[Term]
+id: TO:0002690
+name: leaf lamina length
+def: "The length of a leaf lamina." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020039
+
+[Term]
+id: TO:0002691
+name: peduncle length
+def: "The length of a peduncle." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009053
+
+[Term]
+id: TO:0002757
+name: flag leaf length
+def: "The length of a flag leaf." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020103
+
+[Term]
+id: TO:0002768
+name: spikelet length
+def: "The length of a spikelet." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009051
+
+[Term]
+id: TO:0006065
+name: seedling hypocotyl length
+def: "The length of a seedling hypocotyl." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0025291
+
+[Term]
+id: TO:0011008
+name: stigma length
+def: "The length of a stigma." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009073
+
+[Term]
+id: TO:0011009
+name: style length
+def: "The length of a style." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009074
+
+[Term]
+id: TO:0020033
+name: glume length
+def: "The length of a glume." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009039
+
+[Term]
+id: TO:0020107
+name: plant cell length
+def: "The length of a plant cell." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0009002
+
+[Term]
+id: TO:1000020
+name: stipule length
+def: "The length of a stipule." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0020041
+

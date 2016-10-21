@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/glutinous_pattern
+
+[Term]
+id: TO:0000098
+name: glutinous endosperm
+def: "The glutinous of a endosperm." []
+intersection_of: PATO:0001540
+intersection_of: RO:0000052 PO:0009089
+

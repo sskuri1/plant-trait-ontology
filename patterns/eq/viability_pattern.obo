@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/viability_pattern
+
+[Term]
+id: TO:0000345
+name: seed viability
+def: "The viability of a seed." []
+intersection_of: PATO:0000169
+intersection_of: RO:0000052 PO:0009010
+

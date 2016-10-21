@@ -1,3 +1,3 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000521	stomatal closure time	http://purl.obolibrary.org/obo/PATO_0000165	time	http://purl.obolibrary.org/obo/GO_0090332	stomatal closure
-http://purl.obolibrary.org/obo/TO_0000503	leaf rolling time	http://purl.obolibrary.org/obo/PATO_0000165	time	http://purl.obolibrary.org/obo/TO_0000085	leaf rolling
+TO:0000521	stomatal closure time	PATO:0000165	time	GO:0090332	stomatal closure
+TO:0000503	leaf rolling time	PATO:0000165	time	TO:0000085	leaf rolling

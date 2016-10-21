@@ -1,0 +1,80 @@
+format-version: 1.2
+ontology: patterns/eq/diameter_pattern
+
+[Term]
+id: TO:0000433
+name: ear diameter
+def: "The diameter of a ear infructescence." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0025597
+
+[Term]
+id: TO:0000546
+name: peduncle top diameter
+def: "The diameter of a peduncle." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0009053
+
+[Term]
+id: TO:0000642
+name: leaf sheath diameter
+def: "The diameter of a leaf sheath." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0020104
+
+[Term]
+id: TO:0000678
+name: cob diameter
+def: "The diameter of a central spike of ear inflorescence." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0006505
+
+[Term]
+id: TO:0000799
+name: tassel inflorescence diameter
+def: "The diameter of a tassel inflorescence." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0020126
+
+[Term]
+id: TO:0000802
+name: inflorescence diameter
+def: "The diameter of a inflorescence." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000811
+name: pseudostem diameter
+def: "The diameter of a pseudostem." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0025248
+
+[Term]
+id: TO:0000848
+name: fruit diameter
+def: "The diameter of a fruit." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0009001
+
+[Term]
+id: TO:0000858
+name: flower diameter
+def: "The diameter of a flower." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0009046
+
+[Term]
+id: TO:0020083
+name: stem diameter
+def: "The diameter of a stem." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:1000006
+name: tuberous root tuber diameter
+def: "The diameter of a tuberous root tuber." []
+intersection_of: PATO:0001334
+intersection_of: RO:0000052 PO:0025476
+

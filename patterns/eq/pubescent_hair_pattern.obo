@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/pubescent_hair_pattern
+
+[Term]
+id: TO:0000417
+name: lemma and palea pubescence
+def: "The pubescent hair of a flower bract." []
+intersection_of: PATO:0001320
+intersection_of: RO:0000052 PO:0009034
+

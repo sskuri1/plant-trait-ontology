@@ -1,0 +1,17 @@
+format-version: 1.2
+ontology: patterns/eq/fragility_pattern
+
+[Term]
+id: TO:0000061
+name: node shattering
+def: "The fragility of a stem node." []
+intersection_of: PATO:0001662
+intersection_of: RO:0000052 PO:0020141
+
+[Term]
+id: TO:0000108
+name: leaf shattering
+def: "The fragility of a vascular leaf." []
+intersection_of: PATO:0001662
+intersection_of: RO:0000052 PO:0009025
+

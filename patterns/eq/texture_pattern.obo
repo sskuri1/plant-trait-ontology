@@ -1,0 +1,45 @@
+format-version: 1.2
+ontology: patterns/eq/texture_pattern
+
+[Term]
+id: TO:0000805
+name: inflorescence texture
+def: "The texture of a inflorescence." []
+intersection_of: PATO:0000150
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000903
+name: seed coat texture
+def: "The texture of a seed coat." []
+intersection_of: PATO:0000150
+intersection_of: RO:0000052 PO:0009088
+
+[Term]
+id: TO:0002623
+name: pericarp texture
+def: "The texture of a pericarp." []
+intersection_of: PATO:0000150
+intersection_of: RO:0000052 PO:0009084
+
+[Term]
+id: TO:0002624
+name: exocarp texture
+def: "The texture of a exocarp." []
+intersection_of: PATO:0000150
+intersection_of: RO:0000052 PO:0009085
+
+[Term]
+id: TO:0002754
+name: inflorescence axis texture
+def: "The texture of a inflorescence axis." []
+intersection_of: PATO:0000150
+intersection_of: RO:0000052 PO:0020122
+
+[Term]
+id: TO:0020016
+name: seed texture
+def: "The texture of a seed." []
+intersection_of: PATO:0000150
+intersection_of: RO:0000052 PO:0009010
+

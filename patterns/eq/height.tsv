@@ -1,4 +1,4 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000207	plant height	http://purl.obolibrary.org/obo/PATO_0000119	height	http://purl.obolibrary.org/obo/PO_0000003	whole plant
-http://purl.obolibrary.org/obo/TO_0000682	inflorescence height	http://purl.obolibrary.org/obo/PATO_0000119	height	http://purl.obolibrary.org/obo/PO_0009049	inflorescence
-http://purl.obolibrary.org/obo/TO_0000797	tassel inflorescence height	http://purl.obolibrary.org/obo/PATO_0000119	height	http://purl.obolibrary.org/obo/PO_0020126	tassel inflorescence
+TO:0000207	plant height	PATO:0000119	height	PO:0000003	whole plant
+TO:0000682	inflorescence height	PATO:0000119	height	PO:0009049	inflorescence
+TO:0000797	tassel inflorescence height	PATO:0000119	height	PO:0020126	tassel inflorescence

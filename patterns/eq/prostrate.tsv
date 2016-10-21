@@ -1,2 +1,2 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000873	leaf prostrate	http://purl.obolibrary.org/obo/PATO_0000631	prostrate	http://purl.obolibrary.org/obo/PO_0025034	leaf
+TO:0000873	leaf prostrate	PATO:0000631	prostrate	PO:0025034	leaf

@@ -2,28 +2,28 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/eq/erect_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/entity
 AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PO_0025034 ## leaf
-Class: http://purl.obolibrary.org/obo/PATO_0000622 ## erect
-## {"entity": "http://purl.obolibrary.org/obo/PO_0025034", "attribute": "http://purl.obolibrary.org/obo/PATO_0000622"}
-Class: <http://purl.obolibrary.org/obo/TO_0000872>
+Class: PATO:0000622 ## erect
+Class: PO:0025034 ## leaf
+## {"entity": "PO:0025034", "attribute": "PATO:0000622"}
+Class: TO:0000872
  Annotations: rdfs:label "leaf erect"
  Annotations: IAO:0000115 "The erect of a leaf."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000622> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0025034> ## erect and 'inheres in' some leaf
+ EquivalentTo: PATO:0000622 and RO_0000052 some PO:0025034 ## erect and 'inheres in' some leaf

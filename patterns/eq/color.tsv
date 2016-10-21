@@ -1,60 +1,60 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000708	plant color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0000003	whole plant
-http://purl.obolibrary.org/obo/TO_0002621	fruit columella color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0004540	fruit columella
-http://purl.obolibrary.org/obo/TO_1000003	shoot axis node color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0005004	shoot axis node
-http://purl.obolibrary.org/obo/TO_0002708	xylem color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0005352	xylem
-http://purl.obolibrary.org/obo/TO_0000943	aleurone layer color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0005360	aleurone layer
-http://purl.obolibrary.org/obo/TO_0002709	phloem color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0005417	phloem
-http://purl.obolibrary.org/obo/TO_0000364	leaf collar color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0006012	leaf collar
-http://purl.obolibrary.org/obo/TO_0000140	apiculus color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0006033	palea apiculus
-http://purl.obolibrary.org/obo/TO_0002617	fruit color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009001	fruit
-http://purl.obolibrary.org/obo/TO_0000065	root color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009005	root
-http://purl.obolibrary.org/obo/TO_0000486	seed color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009010	seed
-http://purl.obolibrary.org/obo/TO_0000573	sepal color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009031	sepal
-http://purl.obolibrary.org/obo/TO_0000572	petal color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009032	petal
-http://purl.obolibrary.org/obo/TO_0000574	tepal color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009033	tepal
-http://purl.obolibrary.org/obo/TO_0000264	lemma and palea color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009034	flower bract
-http://purl.obolibrary.org/obo/TO_0000221	glume color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009039	glume
-http://purl.obolibrary.org/obo/TO_0000400	sterile lemma color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009040	sterile lemma
-http://purl.obolibrary.org/obo/TO_0000537	flower color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009046	flower
-http://purl.obolibrary.org/obo/TO_0000056	stem color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009047	stem
-http://purl.obolibrary.org/obo/TO_0000581	inflorescence color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009049	inflorescence
-http://purl.obolibrary.org/obo/TO_0000779	peduncle color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009053	peduncle
-http://purl.obolibrary.org/obo/TO_0000819	inflorescence bract color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009054	inflorescence bract
-http://purl.obolibrary.org/obo/TO_0000951	corolla color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009059	corolla
-http://purl.obolibrary.org/obo/TO_0000187	anther color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009066	anther
-http://purl.obolibrary.org/obo/TO_1000016	plant ovary color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009072	plant ovary
-http://purl.obolibrary.org/obo/TO_0000185	stigma color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009073	stigma
-http://purl.obolibrary.org/obo/TO_0000676	style color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009074	style
-http://purl.obolibrary.org/obo/TO_0011004	inflorescence branch color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009081	inflorescence branch
-http://purl.obolibrary.org/obo/TO_0000536	spikelet floret color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009082	spikelet floret
-http://purl.obolibrary.org/obo/TO_0000707	pericarp color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009084	pericarp
-http://purl.obolibrary.org/obo/TO_0002620	exocarp color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009085	exocarp
-http://purl.obolibrary.org/obo/TO_0002618	endocarp color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009086	endocarp
-http://purl.obolibrary.org/obo/TO_0002619	mesocarp color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009087	mesocarp
-http://purl.obolibrary.org/obo/TO_0000190	seed coat color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009088	seed coat
-http://purl.obolibrary.org/obo/TO_0000487	endosperm color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0009089	endosperm
-http://purl.obolibrary.org/obo/TO_0000244	coleoptile color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020033	coleoptile
-http://purl.obolibrary.org/obo/TO_0002707	petiole color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020038	petiole
-http://purl.obolibrary.org/obo/TO_0000299	leaf lamina color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020039	leaf lamina
-http://purl.obolibrary.org/obo/TO_0000885	petiolule color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020050	petiolule
-http://purl.obolibrary.org/obo/TO_1000010	caruncle color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020060	caruncle
-http://purl.obolibrary.org/obo/TO_0000968	hilum color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020063	hilum
-http://purl.obolibrary.org/obo/TO_0002724	leaf sheath color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020104	leaf sheath
-http://purl.obolibrary.org/obo/TO_0000197	ligule color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020105	ligule
-http://purl.obolibrary.org/obo/TO_0000294	leaf sheath auricle color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020106	leaf sheath auricle
-http://purl.obolibrary.org/obo/TO_0011003	inflorescence axis color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020122	inflorescence axis
-http://purl.obolibrary.org/obo/TO_0000795	tassel inflorescence color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020126	tassel inflorescence
-http://purl.obolibrary.org/obo/TO_0000719	leaf vein color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020138	leaf lamina vein
-http://purl.obolibrary.org/obo/TO_0000059	node color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020141	stem node
-http://purl.obolibrary.org/obo/TO_0000534	culm color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0020142	stem internode
-http://purl.obolibrary.org/obo/TO_0000326	leaf color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025034	leaf
-http://purl.obolibrary.org/obo/TO_0000878	spine leaf color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025173	spine leaf
-http://purl.obolibrary.org/obo/TO_1000018	stem epidermis color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025178	stem epidermis
-http://purl.obolibrary.org/obo/TO_0000810	pseudostem color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025248	pseudostem
-http://purl.obolibrary.org/obo/TO_0000759	seedling hypocotyl color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025291	seedling hypocotyl
-http://purl.obolibrary.org/obo/TO_1000019	disk flower color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025332	disk flower
-http://purl.obolibrary.org/obo/TO_0000141	awn color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025349	awn
-http://purl.obolibrary.org/obo/TO_0000750	seedling cotyledon color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025471	seedling cotyledon
-http://purl.obolibrary.org/obo/TO_0000963	ear color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025597	ear infructescence
-http://purl.obolibrary.org/obo/TO_1000017	stem cortex color	http://purl.obolibrary.org/obo/PATO_0000014	color	http://purl.obolibrary.org/obo/PO_0025612	stem cortex
+TO:0000708	plant color	PATO:0000014	color	PO:0000003	whole plant
+TO:0002621	fruit columella color	PATO:0000014	color	PO:0004540	fruit columella
+TO:1000003	shoot axis node color	PATO:0000014	color	PO:0005004	shoot axis node
+TO:0002708	xylem color	PATO:0000014	color	PO:0005352	xylem
+TO:0000943	aleurone layer color	PATO:0000014	color	PO:0005360	aleurone layer
+TO:0002709	phloem color	PATO:0000014	color	PO:0005417	phloem
+TO:0000364	leaf collar color	PATO:0000014	color	PO:0006012	leaf collar
+TO:0000140	apiculus color	PATO:0000014	color	PO:0006033	palea apiculus
+TO:0002617	fruit color	PATO:0000014	color	PO:0009001	fruit
+TO:0000065	root color	PATO:0000014	color	PO:0009005	root
+TO:0000486	seed color	PATO:0000014	color	PO:0009010	seed
+TO:0000573	sepal color	PATO:0000014	color	PO:0009031	sepal
+TO:0000572	petal color	PATO:0000014	color	PO:0009032	petal
+TO:0000574	tepal color	PATO:0000014	color	PO:0009033	tepal
+TO:0000264	lemma and palea color	PATO:0000014	color	PO:0009034	flower bract
+TO:0000221	glume color	PATO:0000014	color	PO:0009039	glume
+TO:0000400	sterile lemma color	PATO:0000014	color	PO:0009040	sterile lemma
+TO:0000537	flower color	PATO:0000014	color	PO:0009046	flower
+TO:0000056	stem color	PATO:0000014	color	PO:0009047	stem
+TO:0000581	inflorescence color	PATO:0000014	color	PO:0009049	inflorescence
+TO:0000779	peduncle color	PATO:0000014	color	PO:0009053	peduncle
+TO:0000819	inflorescence bract color	PATO:0000014	color	PO:0009054	inflorescence bract
+TO:0000951	corolla color	PATO:0000014	color	PO:0009059	corolla
+TO:0000187	anther color	PATO:0000014	color	PO:0009066	anther
+TO:1000016	plant ovary color	PATO:0000014	color	PO:0009072	plant ovary
+TO:0000185	stigma color	PATO:0000014	color	PO:0009073	stigma
+TO:0000676	style color	PATO:0000014	color	PO:0009074	style
+TO:0011004	inflorescence branch color	PATO:0000014	color	PO:0009081	inflorescence branch
+TO:0000536	spikelet floret color	PATO:0000014	color	PO:0009082	spikelet floret
+TO:0000707	pericarp color	PATO:0000014	color	PO:0009084	pericarp
+TO:0002620	exocarp color	PATO:0000014	color	PO:0009085	exocarp
+TO:0002618	endocarp color	PATO:0000014	color	PO:0009086	endocarp
+TO:0002619	mesocarp color	PATO:0000014	color	PO:0009087	mesocarp
+TO:0000190	seed coat color	PATO:0000014	color	PO:0009088	seed coat
+TO:0000487	endosperm color	PATO:0000014	color	PO:0009089	endosperm
+TO:0000244	coleoptile color	PATO:0000014	color	PO:0020033	coleoptile
+TO:0002707	petiole color	PATO:0000014	color	PO:0020038	petiole
+TO:0000299	leaf lamina color	PATO:0000014	color	PO:0020039	leaf lamina
+TO:0000885	petiolule color	PATO:0000014	color	PO:0020050	petiolule
+TO:1000010	caruncle color	PATO:0000014	color	PO:0020060	caruncle
+TO:0000968	hilum color	PATO:0000014	color	PO:0020063	hilum
+TO:0002724	leaf sheath color	PATO:0000014	color	PO:0020104	leaf sheath
+TO:0000197	ligule color	PATO:0000014	color	PO:0020105	ligule
+TO:0000294	leaf sheath auricle color	PATO:0000014	color	PO:0020106	leaf sheath auricle
+TO:0011003	inflorescence axis color	PATO:0000014	color	PO:0020122	inflorescence axis
+TO:0000795	tassel inflorescence color	PATO:0000014	color	PO:0020126	tassel inflorescence
+TO:0000719	leaf vein color	PATO:0000014	color	PO:0020138	leaf lamina vein
+TO:0000059	node color	PATO:0000014	color	PO:0020141	stem node
+TO:0000534	culm color	PATO:0000014	color	PO:0020142	stem internode
+TO:0000326	leaf color	PATO:0000014	color	PO:0025034	leaf
+TO:0000878	spine leaf color	PATO:0000014	color	PO:0025173	spine leaf
+TO:1000018	stem epidermis color	PATO:0000014	color	PO:0025178	stem epidermis
+TO:0000810	pseudostem color	PATO:0000014	color	PO:0025248	pseudostem
+TO:0000759	seedling hypocotyl color	PATO:0000014	color	PO:0025291	seedling hypocotyl
+TO:1000019	disk flower color	PATO:0000014	color	PO:0025332	disk flower
+TO:0000141	awn color	PATO:0000014	color	PO:0025349	awn
+TO:0000750	seedling cotyledon color	PATO:0000014	color	PO:0025471	seedling cotyledon
+TO:0000963	ear color	PATO:0000014	color	PO:0025597	ear infructescence
+TO:1000017	stem cortex color	PATO:0000014	color	PO:0025612	stem cortex

@@ -1,51 +1,51 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000669	deoxynivalenol content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_10022	Vomitoxin
-http://purl.obolibrary.org/obo/TO_0002699	lycopene content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_15948	lycopene
-http://purl.obolibrary.org/obo/TO_0005002	oleic acid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_16196	oleic acid
-http://purl.obolibrary.org/obo/TO_0000605	hydrogen peroxide content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_16240	hydrogen peroxide
-http://purl.obolibrary.org/obo/TO_0006004	raffinose content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_16634	raffinose
-http://purl.obolibrary.org/obo/TO_0000489	carbohydrate composition related trait	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_16646	carbohydrate
-http://purl.obolibrary.org/obo/TO_0000300	glucose content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_17234	glucose
-http://purl.obolibrary.org/obo/TO_0005001	linoleic acid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_17351	linoleic acid
-http://purl.obolibrary.org/obo/TO_0000955	cyanide content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_17514	cyanide
-http://purl.obolibrary.org/obo/TO_0002695	beta-carotene content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_17579	beta-carotene
-http://purl.obolibrary.org/obo/TO_0000675	ferulic acid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_17620	ferulic acid
-http://purl.obolibrary.org/obo/TO_0000602	total fat content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_17855	triglyceride
-http://purl.obolibrary.org/obo/TO_0000328	sucrose content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_17992	sucrose
-http://purl.obolibrary.org/obo/TO_0000307	hexose content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_18133	hexose
-http://purl.obolibrary.org/obo/TO_0006007	polysaccharide content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_18154	polysaccharide
-http://purl.obolibrary.org/obo/TO_0000293	chlorophyll-a content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_18230	chlorophyll a
-http://purl.obolibrary.org/obo/TO_0000993	cellulose content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_18246	(1->4)-beta-D-glucan
-http://purl.obolibrary.org/obo/TO_0002668	jasmonic acid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_18292	jasmonic acid
-http://purl.obolibrary.org/obo/TO_0002676	brassinosteroid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_22921	brassinosteroid
-http://purl.obolibrary.org/obo/TO_0000496	carotenoid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_23044	carotenoid
-http://purl.obolibrary.org/obo/TO_0002660	cytokinin content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_23530	cytokinin
-http://purl.obolibrary.org/obo/TO_0000281	metabolite content trait	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_25212	metabolite
-http://purl.obolibrary.org/obo/TO_0000668	mycotoxin content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_25442	mycotoxin
-http://purl.obolibrary.org/obo/TO_0005004	omega-3 fatty acid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_25681	omega-3 fatty acid
-http://purl.obolibrary.org/obo/TO_0006002	proline content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_26271	proline
-http://purl.obolibrary.org/obo/TO_0000301	xanthophyll content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_27325	xanthophyll
-http://purl.obolibrary.org/obo/TO_0005005	alpha-linolenic acid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_27432	alpha-linolenic acid
-http://purl.obolibrary.org/obo/TO_0000295	chlorophyll-b content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_27888	chlorophyll b
-http://purl.obolibrary.org/obo/TO_0002674	tryptophan content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_27897	tryptophan
-http://purl.obolibrary.org/obo/TO_0000696	starch content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_28017	starch
-http://purl.obolibrary.org/obo/TO_0000097	amylopectin content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_28057	amylopectin
-http://purl.obolibrary.org/obo/TO_0002696	alpha carotene content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_28425	alpha-carotene
-http://purl.obolibrary.org/obo/TO_0006005	fructose content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_28757	fructose
-http://purl.obolibrary.org/obo/TO_0020068	beta-glucan content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_28793	beta-D-glucan
-http://purl.obolibrary.org/obo/TO_0002675	gibberellic acid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_28833	gibberellin A3
-http://purl.obolibrary.org/obo/TO_0002701	lutein content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_28838	lutein
-http://purl.obolibrary.org/obo/TO_0005003	stearic acid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_28842	stearic acid
-http://purl.obolibrary.org/obo/TO_0000495	chlorophyll content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_28966	chlorophyll
-http://purl.obolibrary.org/obo/TO_0002673	amino acid content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_33709	amino acid
-http://purl.obolibrary.org/obo/TO_0002698	acyclic carotene content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_35162	acyclic carotene
-http://purl.obolibrary.org/obo/TO_0002697	cyclic carotene content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_35163	cyclic carotene
-http://purl.obolibrary.org/obo/TO_0000071	anthocyanin content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_35218	anthocyanin cation
-http://purl.obolibrary.org/obo/TO_0006006	monosaccharide content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_35381	monosaccharide
-http://purl.obolibrary.org/obo/TO_0000932	mannose content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_37684	mannose
-http://purl.obolibrary.org/obo/TO_0006003	oligosaccharide content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_50699	oligosaccharide
-http://purl.obolibrary.org/obo/TO_0002669	diterpenoid phytoalexin content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_60952	diterpene phytoalexin
-http://purl.obolibrary.org/obo/TO_0000731	lignin content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_6457	lignin
-http://purl.obolibrary.org/obo/TO_0000690	maysin content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_70206	maysin
-http://purl.obolibrary.org/obo/TO_0000313	perodidase-71 content	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/CHEBI_8027	Peroxidase
-http://purl.obolibrary.org/obo/TO_0000493	leaf composition trait	http://purl.obolibrary.org/obo/PATO_0000025	composition	http://purl.obolibrary.org/obo/PO_0025034	leaf
+TO:0000669	deoxynivalenol content	PATO:0000025	composition	CHEBI:10022	Vomitoxin
+TO:0002699	lycopene content	PATO:0000025	composition	CHEBI:15948	lycopene
+TO:0005002	oleic acid content	PATO:0000025	composition	CHEBI:16196	oleic acid
+TO:0000605	hydrogen peroxide content	PATO:0000025	composition	CHEBI:16240	hydrogen peroxide
+TO:0006004	raffinose content	PATO:0000025	composition	CHEBI:16634	raffinose
+TO:0000489	carbohydrate composition related trait	PATO:0000025	composition	CHEBI:16646	carbohydrate
+TO:0000300	glucose content	PATO:0000025	composition	CHEBI:17234	glucose
+TO:0005001	linoleic acid content	PATO:0000025	composition	CHEBI:17351	linoleic acid
+TO:0000955	cyanide content	PATO:0000025	composition	CHEBI:17514	cyanide
+TO:0002695	beta-carotene content	PATO:0000025	composition	CHEBI:17579	beta-carotene
+TO:0000675	ferulic acid content	PATO:0000025	composition	CHEBI:17620	ferulic acid
+TO:0000602	total fat content	PATO:0000025	composition	CHEBI:17855	triglyceride
+TO:0000328	sucrose content	PATO:0000025	composition	CHEBI:17992	sucrose
+TO:0000307	hexose content	PATO:0000025	composition	CHEBI:18133	hexose
+TO:0006007	polysaccharide content	PATO:0000025	composition	CHEBI:18154	polysaccharide
+TO:0000293	chlorophyll-a content	PATO:0000025	composition	CHEBI:18230	chlorophyll a
+TO:0000993	cellulose content	PATO:0000025	composition	CHEBI:18246	(1->4)-beta-D-glucan
+TO:0002668	jasmonic acid content	PATO:0000025	composition	CHEBI:18292	jasmonic acid
+TO:0002676	brassinosteroid content	PATO:0000025	composition	CHEBI:22921	brassinosteroid
+TO:0000496	carotenoid content	PATO:0000025	composition	CHEBI:23044	carotenoid
+TO:0002660	cytokinin content	PATO:0000025	composition	CHEBI:23530	cytokinin
+TO:0000281	metabolite content trait	PATO:0000025	composition	CHEBI:25212	metabolite
+TO:0000668	mycotoxin content	PATO:0000025	composition	CHEBI:25442	mycotoxin
+TO:0005004	omega-3 fatty acid content	PATO:0000025	composition	CHEBI:25681	omega-3 fatty acid
+TO:0006002	proline content	PATO:0000025	composition	CHEBI:26271	proline
+TO:0000301	xanthophyll content	PATO:0000025	composition	CHEBI:27325	xanthophyll
+TO:0005005	alpha-linolenic acid content	PATO:0000025	composition	CHEBI:27432	alpha-linolenic acid
+TO:0000295	chlorophyll-b content	PATO:0000025	composition	CHEBI:27888	chlorophyll b
+TO:0002674	tryptophan content	PATO:0000025	composition	CHEBI:27897	tryptophan
+TO:0000696	starch content	PATO:0000025	composition	CHEBI:28017	starch
+TO:0000097	amylopectin content	PATO:0000025	composition	CHEBI:28057	amylopectin
+TO:0002696	alpha carotene content	PATO:0000025	composition	CHEBI:28425	alpha-carotene
+TO:0006005	fructose content	PATO:0000025	composition	CHEBI:28757	fructose
+TO:0020068	beta-glucan content	PATO:0000025	composition	CHEBI:28793	beta-D-glucan
+TO:0002675	gibberellic acid content	PATO:0000025	composition	CHEBI:28833	gibberellin A3
+TO:0002701	lutein content	PATO:0000025	composition	CHEBI:28838	lutein
+TO:0005003	stearic acid content	PATO:0000025	composition	CHEBI:28842	stearic acid
+TO:0000495	chlorophyll content	PATO:0000025	composition	CHEBI:28966	chlorophyll
+TO:0002673	amino acid content	PATO:0000025	composition	CHEBI:33709	amino acid
+TO:0002698	acyclic carotene content	PATO:0000025	composition	CHEBI:35162	acyclic carotene
+TO:0002697	cyclic carotene content	PATO:0000025	composition	CHEBI:35163	cyclic carotene
+TO:0000071	anthocyanin content	PATO:0000025	composition	CHEBI:35218	anthocyanin cation
+TO:0006006	monosaccharide content	PATO:0000025	composition	CHEBI:35381	monosaccharide
+TO:0000932	mannose content	PATO:0000025	composition	CHEBI:37684	mannose
+TO:0006003	oligosaccharide content	PATO:0000025	composition	CHEBI:50699	oligosaccharide
+TO:0002669	diterpenoid phytoalexin content	PATO:0000025	composition	CHEBI:60952	diterpene phytoalexin
+TO:0000731	lignin content	PATO:0000025	composition	CHEBI:6457	lignin
+TO:0000690	maysin content	PATO:0000025	composition	CHEBI:70206	maysin
+TO:0000313	perodidase-71 content	PATO:0000025	composition	CHEBI:8027	Peroxidase
+TO:0000493	leaf composition trait	PATO:0000025	composition	PO:0025034	leaf

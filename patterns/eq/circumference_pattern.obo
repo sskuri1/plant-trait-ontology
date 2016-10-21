@@ -1,0 +1,24 @@
+format-version: 1.2
+ontology: patterns/eq/circumference_pattern
+
+[Term]
+id: TO:0000680
+name: inflorescence circumference
+def: "The circumference of a inflorescence." []
+intersection_of: PATO:0001648
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000681
+name: ear circumference
+def: "The circumference of a ear infructescence." []
+intersection_of: PATO:0001648
+intersection_of: RO:0000052 PO:0025597
+
+[Term]
+id: TO:0000796
+name: tassel inflorescence circumference
+def: "The circumference of a tassel inflorescence." []
+intersection_of: PATO:0001648
+intersection_of: RO:0000052 PO:0020126
+

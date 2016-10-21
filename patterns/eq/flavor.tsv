@@ -1,2 +1,2 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0002694	fruit flavor trait	http://purl.obolibrary.org/obo/PATO_0000043	flavor	http://purl.obolibrary.org/obo/PO_0009011	plant structure
+TO:0002694	fruit flavor trait	PATO:0000043	flavor	PO:0009011	plant structure

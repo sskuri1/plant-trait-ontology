@@ -1,5 +1,5 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000478	abscisic acid concentration	http://purl.obolibrary.org/obo/PATO_0000033	concentration of	http://purl.obolibrary.org/obo/CHEBI_22152	2-cis-abscisic acid
-http://purl.obolibrary.org/obo/TO_0000513	potassium concentration	http://purl.obolibrary.org/obo/PATO_0000033	concentration of	http://purl.obolibrary.org/obo/CHEBI_26216	potassium atom
-http://purl.obolibrary.org/obo/TO_0000526	sodium concentration	http://purl.obolibrary.org/obo/PATO_0000033	concentration of	http://purl.obolibrary.org/obo/CHEBI_26708	sodium atom
-http://purl.obolibrary.org/obo/TO_0000702	starch concentration	http://purl.obolibrary.org/obo/PATO_0000033	concentration of	http://purl.obolibrary.org/obo/CHEBI_28017	starch
+TO:0000478	abscisic acid concentration	PATO:0000033	concentration of	CHEBI:22152	2-cis-abscisic acid
+TO:0000513	potassium concentration	PATO:0000033	concentration of	CHEBI:26216	potassium atom
+TO:0000526	sodium concentration	PATO:0000033	concentration of	CHEBI:26708	sodium atom
+TO:0000702	starch concentration	PATO:0000033	concentration of	CHEBI:28017	starch

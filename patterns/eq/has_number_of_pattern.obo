@@ -1,0 +1,178 @@
+format-version: 1.2
+ontology: patterns/eq/has_number_of_pattern
+
+[Term]
+id: TO:0000208
+name: lemma number
+def: "The has number of of a lemma." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009037
+
+[Term]
+id: TO:0000209
+name: palea number
+def: "The has number of of a palea." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009038
+
+[Term]
+id: TO:0000443
+name: ear infructescence number
+def: "The has number of of a ear inflorescence." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0020136
+
+[Term]
+id: TO:0000456
+name: spikelet number
+def: "The has number of of a spikelet." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009051
+
+[Term]
+id: TO:0000472
+name: vascular bundle number
+def: "The has number of of a vascular bundle." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0005020
+
+[Term]
+id: TO:0000547
+name: primary branch number
+def: "The has number of of a inflorescence branch." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009081
+
+[Term]
+id: TO:0000557
+name: secondary branch number
+def: "The has number of of a primary inflorescence branch." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0006321
+
+[Term]
+id: TO:0000566
+name: leaf stomatal complex frequency
+def: "The has number of of a leaf stomatal complex." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0025183
+
+[Term]
+id: TO:0000582
+name: inflorescence number
+def: "The has number of of a inflorescence." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000725
+name: megasporocyte number
+def: "The has number of of a megasporocyte." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0000431
+
+[Term]
+id: TO:0000726
+name: microsporocyte number
+def: "The has number of of a microsporocyte." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0020047
+
+[Term]
+id: TO:0001004
+name: basal tiller number
+def: "The has number of of a basal axillary shoot system." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0005001
+
+[Term]
+id: TO:0001013
+name: lateral root number
+def: "The has number of of a lateral root." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0020121
+
+[Term]
+id: TO:0002636
+name: leaflet number
+def: "The has number of of a leaflet." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0020049
+
+[Term]
+id: TO:0002659
+name: pistil number
+def: "The has number of of a gynoecium." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009062
+
+[Term]
+id: TO:0002685
+name: crown root number
+def: "The has number of of a crown root." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0000043
+
+[Term]
+id: TO:0002736
+name: flower number trait
+def: "The has number of of a flower." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009046
+
+[Term]
+id: TO:0006010
+name: lodicule number
+def: "The has number of of a lodicule." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009036
+
+[Term]
+id: TO:0006013
+name: carpel number
+def: "The has number of of a carpel." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009030
+
+[Term]
+id: TO:0006026
+name: floral bract number
+def: "The has number of of a flower bract." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009034
+
+[Term]
+id: TO:0006028
+name: inflorescence bract number
+def: "The has number of of a inflorescence bract." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009054
+
+[Term]
+id: TO:0006029
+name: glume number
+def: "The has number of of a glume." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009039
+
+[Term]
+id: TO:0006039
+name: petal number
+def: "The has number of of a petal." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009032
+
+[Term]
+id: TO:0006040
+name: sepal number
+def: "The has number of of a sepal." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009031
+
+[Term]
+id: TO:0006041
+name: tepal number
+def: "The has number of of a tepal." []
+intersection_of: PATO:0001555
+intersection_of: RO:0000052 PO:0009033
+

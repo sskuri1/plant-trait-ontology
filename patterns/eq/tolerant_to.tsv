@@ -1,6 +1,6 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0006001	salt tolerance	http://purl.obolibrary.org/obo/PATO_0000515	tolerant to	http://purl.obolibrary.org/obo/CHEBI_24866	salt
-http://purl.obolibrary.org/obo/TO_0000259	heat tolerance	http://purl.obolibrary.org/obo/PATO_0000515	tolerant to	http://purl.obolibrary.org/obo/EO_0007173	warm/hot temperature regimen
-http://purl.obolibrary.org/obo/TO_0000303	cold tolerance	http://purl.obolibrary.org/obo/PATO_0000515	tolerant to	http://purl.obolibrary.org/obo/EO_0007174	cold temperature regimen
-http://purl.obolibrary.org/obo/TO_0002662	leaf rolling tolerance	http://purl.obolibrary.org/obo/PATO_0000515	tolerant to	http://purl.obolibrary.org/obo/TO_0000085	leaf rolling
-http://purl.obolibrary.org/obo/TO_0002663	leaf necrosis tolerance	http://purl.obolibrary.org/obo/PATO_0000515	tolerant to	http://purl.obolibrary.org/obo/TO_0000652	leaf necrosis
+TO:0006001	salt tolerance	PATO:0000515	tolerant to	CHEBI:24866	salt
+TO:0000259	heat tolerance	PATO:0000515	tolerant to	EO:0007173	warm/hot temperature regimen
+TO:0000303	cold tolerance	PATO:0000515	tolerant to	EO:0007174	cold temperature regimen
+TO:0002662	leaf rolling tolerance	PATO:0000515	tolerant to	TO:0000085	leaf rolling
+TO:0002663	leaf necrosis tolerance	PATO:0000515	tolerant to	TO:0000652	leaf necrosis

@@ -1,0 +1,17 @@
+format-version: 1.2
+ontology: patterns/eq/volumetric_density_pattern
+
+[Term]
+id: TO:0000115
+name: root mass density
+def: "The volumetric density of a root." []
+intersection_of: PATO:0001353
+intersection_of: RO:0000052 PO:0009005
+
+[Term]
+id: TO:1000002
+name: secondary xylem volumetric density
+def: "The volumetric density of a secondary xylem." []
+intersection_of: PATO:0001353
+intersection_of: RO:0000052 PO:0005848
+

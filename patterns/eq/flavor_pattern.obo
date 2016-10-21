@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/flavor_pattern
+
+[Term]
+id: TO:0002694
+name: fruit flavor trait
+def: "The flavor of a plant structure." []
+intersection_of: PATO:0000043
+intersection_of: RO:0000052 PO:0009011
+

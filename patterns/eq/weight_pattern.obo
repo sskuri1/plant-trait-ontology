@@ -1,0 +1,80 @@
+format-version: 1.2
+ontology: patterns/eq/weight_pattern
+
+[Term]
+id: TO:0000181
+name: seed weight
+def: "The weight of a seed." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0009010
+
+[Term]
+id: TO:0000279
+name: root weight
+def: "The weight of a root." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0009005
+
+[Term]
+id: TO:0000501
+name: spikelet weight
+def: "The weight of a spikelet." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0009051
+
+[Term]
+id: TO:0000505
+name: leaf weight
+def: "The weight of a leaf." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000568
+name: shoot axis weight
+def: "The weight of a shoot axis." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0025029
+
+[Term]
+id: TO:0000583
+name: infructescence weight
+def: "The weight of a infructescence." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0006342
+
+[Term]
+id: TO:0000803
+name: inflorescence weight
+def: "The weight of a inflorescence." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000899
+name: root nodule weight
+def: "The weight of a root nodule." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0003023
+
+[Term]
+id: TO:0000923
+name: ear weight
+def: "The weight of a ear infructescence." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0025597
+
+[Term]
+id: TO:0000952
+name: stem weight
+def: "The weight of a stem." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0002746
+name: fruit weight
+def: "The weight of a fruit." []
+intersection_of: PATO:0000128
+intersection_of: RO:0000052 PO:0009001
+

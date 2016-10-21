@@ -1,2 +1,2 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000035	incompatibility trait	http://purl.obolibrary.org/obo/PATO_0000345	incompatible	http://purl.obolibrary.org/obo/PO_0000003	whole plant
+TO:0000035	incompatibility trait	PATO:0000345	incompatible	PO:0000003	whole plant

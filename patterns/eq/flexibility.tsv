@@ -1,2 +1,2 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000825	leaf flexibility	http://purl.obolibrary.org/obo/PATO_0001543	flexibility	http://purl.obolibrary.org/obo/PO_0025034	leaf
+TO:0000825	leaf flexibility	PATO:0001543	flexibility	PO:0025034	leaf

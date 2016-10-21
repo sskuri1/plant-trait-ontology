@@ -2,12 +2,12 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 
  ## Auto-generated
 
@@ -20,10 +20,10 @@ ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: http://purl.obolibrary.org/obo/PO_0009025 ## vascular leaf
-Class: http://purl.obolibrary.org/obo/PATO_0000011 ## age
-## {"entity": "http://purl.obolibrary.org/obo/PO_0009025", "attribute": "http://purl.obolibrary.org/obo/PATO_0000011"}
-Class: <http://purl.obolibrary.org/obo/TO_0000249>
+Class: PO:0009025 ## vascular leaf
+Class: PATO:0000011 ## age
+## {"entity": "PO:0009025", "attribute": "PATO:0000011"}
+Class: TO:0000249
  Annotations: rdfs:label "leaf senescence trait"
  Annotations: IAO:0000115 "The age of a vascular leaf."
- EquivalentTo: <http://purl.obolibrary.org/obo/PATO_0000011> and RO_0000052 some <http://purl.obolibrary.org/obo/PO_0009025> ## age and 'inheres in' some vascular leaf
+ EquivalentTo: PATO:0000011 and RO_0000052 some PO:0009025 ## age and 'inheres in' some vascular leaf

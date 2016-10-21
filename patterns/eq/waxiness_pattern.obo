@@ -1,0 +1,24 @@
+format-version: 1.2
+ontology: patterns/eq/waxiness_pattern
+
+[Term]
+id: TO:0000777
+name: peduncle waxiness
+def: "The waxiness of a peduncle." []
+intersection_of: PATO:0002381
+intersection_of: RO:0000052 PO:0009053
+
+[Term]
+id: TO:0000787
+name: inflorescence waxiness
+def: "The waxiness of a inflorescence." []
+intersection_of: PATO:0002381
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0020038
+name: glume waxiness
+def: "The waxiness of a glume." []
+intersection_of: PATO:0002381
+intersection_of: RO:0000052 PO:0009039
+

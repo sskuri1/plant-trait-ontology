@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/eq/angle_pattern
+
+[Term]
+id: TO:1000009
+name: branch angle
+def: "The angle of a branch." []
+intersection_of: PATO:0002326
+intersection_of: RO:0000052 PO:0025073
+

@@ -1,0 +1,38 @@
+format-version: 1.2
+ontology: patterns/eq/position_pattern
+
+[Term]
+id: TO:0000541
+name: leaf position
+def: "The position of a leaf." []
+intersection_of: PATO:0000140
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000683
+name: ear infructescence position
+def: "The position of a ear infructescence." []
+intersection_of: PATO:0000140
+intersection_of: RO:0000052 PO:0025597
+
+[Term]
+id: TO:1000004
+name: infructescence position
+def: "The position of a infructescence." []
+intersection_of: PATO:0000140
+intersection_of: RO:0000052 PO:0006342
+
+[Term]
+id: TO:1000008
+name: branch position
+def: "The position of a branch." []
+intersection_of: PATO:0000140
+intersection_of: RO:0000052 PO:0025073
+
+[Term]
+id: TO:1000011
+name: fruit position
+def: "The position of a fruit." []
+intersection_of: PATO:0000140
+intersection_of: RO:0000052 PO:0009001
+
