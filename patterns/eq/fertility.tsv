@@ -1,5 +1,5 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000420	fertility related trait	http://purl.obolibrary.org/obo/PATO_0000274	fertility	http://purl.obolibrary.org/obo/PO_0000003	
-http://purl.obolibrary.org/obo/TO_0000639	seed fertility	http://purl.obolibrary.org/obo/PATO_0000274	fertility	http://purl.obolibrary.org/obo/PO_0009010	
-http://purl.obolibrary.org/obo/TO_0000180	spikelet fertility	http://purl.obolibrary.org/obo/PATO_0000274	fertility	http://purl.obolibrary.org/obo/PO_0009051	
-http://purl.obolibrary.org/obo/TO_0000421	pollen fertility	http://purl.obolibrary.org/obo/PATO_0000274	fertility	http://purl.obolibrary.org/obo/PO_0025281	
+http://purl.obolibrary.org/obo/TO_0000420	fertility related trait	http://purl.obolibrary.org/obo/PATO_0000274	fertility	http://purl.obolibrary.org/obo/PO_0000003	whole plant
+http://purl.obolibrary.org/obo/TO_0000639	seed fertility	http://purl.obolibrary.org/obo/PATO_0000274	fertility	http://purl.obolibrary.org/obo/PO_0009010	seed
+http://purl.obolibrary.org/obo/TO_0000180	spikelet fertility	http://purl.obolibrary.org/obo/PATO_0000274	fertility	http://purl.obolibrary.org/obo/PO_0009051	spikelet
+http://purl.obolibrary.org/obo/TO_0000421	pollen fertility	http://purl.obolibrary.org/obo/PATO_0000274	fertility	http://purl.obolibrary.org/obo/PO_0025281	pollen

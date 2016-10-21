@@ -1,50 +1,49 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0000586	seminal root length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0000046	
-http://purl.obolibrary.org/obo/TO_0002665	root hair length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0000256	
-http://purl.obolibrary.org/obo/TO_0000553	rhizome length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0004542	
-http://purl.obolibrary.org/obo/TO_0001005	basal tiller length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0005001	
-http://purl.obolibrary.org/obo/TO_0002626	fruit length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009001	
-http://purl.obolibrary.org/obo/TO_0020107	plant cell length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009002	
-http://purl.obolibrary.org/obo/TO_0000227	root length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009005	
-http://purl.obolibrary.org/obo/TO_0000146	seed length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009010	
-http://purl.obolibrary.org/obo/TO_0002609	stamen length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009029	
-http://purl.obolibrary.org/obo/TO_0002607	sepal length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009031	
-http://purl.obolibrary.org/obo/TO_0002605	petal length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009032	
-http://purl.obolibrary.org/obo/TO_0000856	lodicule length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009036	
-http://purl.obolibrary.org/obo/TO_0000650	lemma length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009037	
-http://purl.obolibrary.org/obo/TO_0020033	glume length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009039	
-http://purl.obolibrary.org/obo/TO_0000240	sterile lemma length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009040	
-http://purl.obolibrary.org/obo/TO_0000860	flower length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009046	
-http://purl.obolibrary.org/obo/TO_0000576	stem length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009047	
-http://purl.obolibrary.org/obo/TO_0000271	inflorescence length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009049	
-http://purl.obolibrary.org/obo/TO_0002768	spikelet length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009051	
-http://purl.obolibrary.org/obo/TO_0000630	pedicel length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009052	
-http://purl.obolibrary.org/obo/TO_0002691	peduncle length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009053	
-http://purl.obolibrary.org/obo/TO_0000817	inflorescence bract length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009054	
-http://purl.obolibrary.org/obo/TO_0002610	pistil length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009062	
-http://purl.obolibrary.org/obo/TO_0000531	anther length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009066	
-http://purl.obolibrary.org/obo/TO_0011008	stigma length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009073	
-http://purl.obolibrary.org/obo/TO_0011009	style length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009074	
-http://purl.obolibrary.org/obo/TO_0000972	spikelet rachilla length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009080	
-http://purl.obolibrary.org/obo/TO_0000641	inflorescence primary branch length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009081	
-http://purl.obolibrary.org/obo/TO_0000880	seed coat length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009088	
-http://purl.obolibrary.org/obo/TO_0000623	involucre bristle length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009100	
-http://purl.obolibrary.org/obo/TO_0001007	coleoptile length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020033	
-http://purl.obolibrary.org/obo/TO_0000544	mesocotyl length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020037	
-http://purl.obolibrary.org/obo/TO_0000766	petiole length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020038	
-http://purl.obolibrary.org/obo/TO_0002690	leaf lamina length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020039	
-http://purl.obolibrary.org/obo/TO_1000020	stipule length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020041	
-http://purl.obolibrary.org/obo/TO_0000887	petiolule length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020050	
-http://purl.obolibrary.org/obo/TO_0002757	flag leaf length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020103	
-http://purl.obolibrary.org/obo/TO_0002689	leaf sheath length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020104	
-http://purl.obolibrary.org/obo/TO_0000024	ligule length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020105	
-http://purl.obolibrary.org/obo/TO_0001012	lateral root length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020121	
-http://purl.obolibrary.org/obo/TO_0000798	tassel inflorescence length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020126	
-http://purl.obolibrary.org/obo/TO_0000145	internode length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020142	
-http://purl.obolibrary.org/obo/TO_0000135	leaf length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025034	
-http://purl.obolibrary.org/obo/TO_0000554	rhizome internode length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025204	
-http://purl.obolibrary.org/obo/TO_0000808	pseudostem length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025248	
-http://purl.obolibrary.org/obo/TO_0006065	seedling hypocotyl length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025291	
-http://purl.obolibrary.org/obo/TO_0000072	awn length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025349	
-http://purl.obolibrary.org/obo/TO_1000014	leaf lamina lobe length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025517	
-http://purl.obolibrary.org/obo/TO_0000431	ear length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025597	
+http://purl.obolibrary.org/obo/TO_0000586	seminal root length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0000046	seminal root
+http://purl.obolibrary.org/obo/TO_0002665	root hair length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0000256	root hair cell
+http://purl.obolibrary.org/obo/TO_0000553	rhizome length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0004542	rhizome
+http://purl.obolibrary.org/obo/TO_0001005	basal tiller length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0005001	basal axillary shoot system
+http://purl.obolibrary.org/obo/TO_0002626	fruit length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009001	fruit
+http://purl.obolibrary.org/obo/TO_0020107	plant cell length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009002	plant cell
+http://purl.obolibrary.org/obo/TO_0000227	root length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009005	root
+http://purl.obolibrary.org/obo/TO_0000146	seed length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009010	seed
+http://purl.obolibrary.org/obo/TO_0002609	stamen length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009029	stamen
+http://purl.obolibrary.org/obo/TO_0002607	sepal length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009031	sepal
+http://purl.obolibrary.org/obo/TO_0002605	petal length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009032	petal
+http://purl.obolibrary.org/obo/TO_0000856	lodicule length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009036	lodicule
+http://purl.obolibrary.org/obo/TO_0000650	lemma length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009037	lemma
+http://purl.obolibrary.org/obo/TO_0020033	glume length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009039	glume
+http://purl.obolibrary.org/obo/TO_0000240	sterile lemma length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009040	sterile lemma
+http://purl.obolibrary.org/obo/TO_0000860	flower length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009046	flower
+http://purl.obolibrary.org/obo/TO_0000576	stem length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009047	stem
+http://purl.obolibrary.org/obo/TO_0000271	inflorescence length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009049	inflorescence
+http://purl.obolibrary.org/obo/TO_0002768	spikelet length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009051	spikelet
+http://purl.obolibrary.org/obo/TO_0000630	pedicel length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009052	flower pedicel
+http://purl.obolibrary.org/obo/TO_0002691	peduncle length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009053	peduncle
+http://purl.obolibrary.org/obo/TO_0000817	inflorescence bract length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009054	inflorescence bract
+http://purl.obolibrary.org/obo/TO_0002610	pistil length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009062	gynoecium
+http://purl.obolibrary.org/obo/TO_0000531	anther length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009066	anther
+http://purl.obolibrary.org/obo/TO_0011008	stigma length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009073	stigma
+http://purl.obolibrary.org/obo/TO_0011009	style length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009074	style
+http://purl.obolibrary.org/obo/TO_0000972	spikelet rachilla length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009080	spikelet rachilla
+http://purl.obolibrary.org/obo/TO_0000641	inflorescence primary branch length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009081	inflorescence branch
+http://purl.obolibrary.org/obo/TO_0000880	seed coat length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009088	seed coat
+http://purl.obolibrary.org/obo/TO_0000623	involucre bristle length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0009100	involucre
+http://purl.obolibrary.org/obo/TO_0001007	coleoptile length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020033	coleoptile
+http://purl.obolibrary.org/obo/TO_0000544	mesocotyl length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020037	mesocotyl
+http://purl.obolibrary.org/obo/TO_0000766	petiole length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020038	petiole
+http://purl.obolibrary.org/obo/TO_0002690	leaf lamina length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020039	leaf lamina
+http://purl.obolibrary.org/obo/TO_1000020	stipule length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020041	stipule
+http://purl.obolibrary.org/obo/TO_0000887	petiolule length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020050	petiolule
+http://purl.obolibrary.org/obo/TO_0002757	flag leaf length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020103	flag leaf
+http://purl.obolibrary.org/obo/TO_0002689	leaf sheath length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020104	leaf sheath
+http://purl.obolibrary.org/obo/TO_0000024	ligule length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020105	ligule
+http://purl.obolibrary.org/obo/TO_0001012	lateral root length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020121	lateral root
+http://purl.obolibrary.org/obo/TO_0000798	tassel inflorescence length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020126	tassel inflorescence
+http://purl.obolibrary.org/obo/TO_0000145	internode length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0020142	stem internode
+http://purl.obolibrary.org/obo/TO_0000135	leaf length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025034	leaf
+http://purl.obolibrary.org/obo/TO_0000554	rhizome internode length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025204	rhizome internode
+http://purl.obolibrary.org/obo/TO_0000808	pseudostem length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025248	pseudostem
+http://purl.obolibrary.org/obo/TO_0006065	seedling hypocotyl length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025291	seedling hypocotyl
+http://purl.obolibrary.org/obo/TO_0000072	awn length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025349	awn
+http://purl.obolibrary.org/obo/TO_0000431	ear length	http://purl.obolibrary.org/obo/PATO_0000122	length	http://purl.obolibrary.org/obo/PO_0025597	ear infructescence

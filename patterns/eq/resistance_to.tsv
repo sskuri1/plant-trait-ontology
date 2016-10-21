@@ -1,3 +1,3 @@
 iri	iri label	attribute	attribute label	entity	entity label	
-http://purl.obolibrary.org/obo/TO_0002706	Meloidogyne javanica resistance	http://purl.obolibrary.org/obo/PATO_0001046	resistance to	http://purl.obolibrary.org/obo/EO_0007371	
-http://purl.obolibrary.org/obo/TO_0002704	Meloidogyne incognita resistance	http://purl.obolibrary.org/obo/PATO_0001046	resistance to	http://purl.obolibrary.org/obo/EO_0007372	
+http://purl.obolibrary.org/obo/TO_0002706	Meloidogyne javanica resistance	http://purl.obolibrary.org/obo/PATO_0001046	resistance to	http://purl.obolibrary.org/obo/EO_0007371	Meloidogyne javanica
+http://purl.obolibrary.org/obo/TO_0002704	Meloidogyne incognita resistance	http://purl.obolibrary.org/obo/PATO_0001046	resistance to	http://purl.obolibrary.org/obo/EO_0007372	Meloidogyne incognita
