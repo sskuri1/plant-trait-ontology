@@ -1,0 +1,9 @@
+iri	iri label	attribute	attribute label	entity	entity label	
+http://purl.obolibrary.org/obo/TO_0000306	root thickness	http://purl.obolibrary.org/obo/PATO_0000915	thickness	http://purl.obolibrary.org/obo/PO_0009005	
+http://purl.obolibrary.org/obo/TO_0000304	seed thickness	http://purl.obolibrary.org/obo/PATO_0000915	thickness	http://purl.obolibrary.org/obo/PO_0009010	
+http://purl.obolibrary.org/obo/TO_0000339	stem thickness	http://purl.obolibrary.org/obo/PATO_0000915	thickness	http://purl.obolibrary.org/obo/PO_0009047	
+http://purl.obolibrary.org/obo/TO_0000907	exocarp thickness	http://purl.obolibrary.org/obo/PATO_0000915	thickness	http://purl.obolibrary.org/obo/PO_0009085	
+http://purl.obolibrary.org/obo/TO_0000823	leaf midvein thickness	http://purl.obolibrary.org/obo/PATO_0000915	thickness	http://purl.obolibrary.org/obo/PO_0020139	
+http://purl.obolibrary.org/obo/TO_0000094	basal root thickness	http://purl.obolibrary.org/obo/PATO_0000915	thickness	http://purl.obolibrary.org/obo/PO_0025002	
+http://purl.obolibrary.org/obo/TO_0000258	leaf thickness	http://purl.obolibrary.org/obo/PATO_0000915	thickness	http://purl.obolibrary.org/obo/PO_0025034	
+http://purl.obolibrary.org/obo/TO_0002719	awn thickness	http://purl.obolibrary.org/obo/PATO_0000915	thickness	http://purl.obolibrary.org/obo/PO_0025349	

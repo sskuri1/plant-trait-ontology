@@ -1,0 +1,22 @@
+iri	iri label	attribute	attribute label	entity	entity label	
+http://purl.obolibrary.org/obo/TO_0002655	starch grain size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/GO_0043036	
+http://purl.obolibrary.org/obo/TO_1000012	whole plant size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0000003	
+http://purl.obolibrary.org/obo/TO_0000744	subterranean shoot axis tuber size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0004547	
+http://purl.obolibrary.org/obo/TO_0000791	axillary bud size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0004709	
+http://purl.obolibrary.org/obo/TO_0002632	fruit abscission zone size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0006503	
+http://purl.obolibrary.org/obo/TO_0002625	fruit size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009001	
+http://purl.obolibrary.org/obo/TO_0002684	plant cell size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009002	
+http://purl.obolibrary.org/obo/TO_0000113	giant embryo	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009009	
+http://purl.obolibrary.org/obo/TO_0000391	seed size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009010	
+http://purl.obolibrary.org/obo/TO_0002601	stamen size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009029	
+http://purl.obolibrary.org/obo/TO_0002604	sepal size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009031	
+http://purl.obolibrary.org/obo/TO_0002603	petal size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009032	
+http://purl.obolibrary.org/obo/TO_0000892	stem size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009047	
+http://purl.obolibrary.org/obo/TO_0006031	inflorescence size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009049	
+http://purl.obolibrary.org/obo/TO_0002602	pistil size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0009062	
+http://purl.obolibrary.org/obo/TO_0000768	petiole size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0020038	
+http://purl.obolibrary.org/obo/TO_0000783	inflorescence axis size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0020122	
+http://purl.obolibrary.org/obo/TO_0002637	leaf size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0025034	
+http://purl.obolibrary.org/obo/TO_0000877	spine leaf size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0025173	
+http://purl.obolibrary.org/obo/TO_0000781	seedling hypocotyl size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0025291	
+http://purl.obolibrary.org/obo/TO_0000752	seedling cotyledon size	http://purl.obolibrary.org/obo/PATO_0000117	size	http://purl.obolibrary.org/obo/PO_0025471	

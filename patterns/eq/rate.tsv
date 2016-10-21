@@ -1,0 +1,5 @@
+iri	iri label	attribute	attribute label	entity	entity label	
+http://purl.obolibrary.org/obo/TO_0001026	respiration rate	http://purl.obolibrary.org/obo/PATO_0000161	rate	http://purl.obolibrary.org/obo/GO_0007585	
+http://purl.obolibrary.org/obo/TO_0001018	transpiration rate	http://purl.obolibrary.org/obo/PATO_0000161	rate	http://purl.obolibrary.org/obo/GO_0010148	
+http://purl.obolibrary.org/obo/TO_0012011	leaf senescence rate	http://purl.obolibrary.org/obo/PATO_0000161	rate	http://purl.obolibrary.org/obo/GO_0010150	
+http://purl.obolibrary.org/obo/TO_0000520	stomatal closure rate	http://purl.obolibrary.org/obo/PATO_0000161	rate	http://purl.obolibrary.org/obo/GO_0090332	

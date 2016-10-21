@@ -1,0 +1,4 @@
+iri	iri label	attribute	attribute label	entity	entity label	
+http://purl.obolibrary.org/obo/TO_0002742	fruit volume	http://purl.obolibrary.org/obo/PATO_0000918	volume	http://purl.obolibrary.org/obo/PO_0009001	
+http://purl.obolibrary.org/obo/TO_0000233	root volume	http://purl.obolibrary.org/obo/PATO_0000918	volume	http://purl.obolibrary.org/obo/PO_0009005	
+http://purl.obolibrary.org/obo/TO_0000826	leaf volume	http://purl.obolibrary.org/obo/PATO_0000918	volume	http://purl.obolibrary.org/obo/PO_0025034	

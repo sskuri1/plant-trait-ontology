@@ -1,0 +1,12 @@
+iri	iri label	attribute	attribute label	entity	entity label	
+http://purl.obolibrary.org/obo/TO_0000730	mitotic cell cycle trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/GO_0000278	
+http://purl.obolibrary.org/obo/TO_0000728	cell cycle trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/GO_0007049	
+http://purl.obolibrary.org/obo/TO_0000283	biological process trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/GO_0008150	
+http://purl.obolibrary.org/obo/TO_0002633	fruit ripening trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/GO_0009835	
+http://purl.obolibrary.org/obo/TO_0000622	flower development trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/GO_0009908	
+http://purl.obolibrary.org/obo/TO_0000621	inflorescence development trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/GO_0010229	
+http://purl.obolibrary.org/obo/TO_0006022	floral organ development trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/GO_0048437	
+http://purl.obolibrary.org/obo/TO_0020110	gynoecium development trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/GO_0048467	
+http://purl.obolibrary.org/obo/TO_0000729	meiotic cell cycle trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/GO_0051321	
+http://purl.obolibrary.org/obo/TO_0000656	root development trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/PO_0007520	
+http://purl.obolibrary.org/obo/TO_0006015	plant tissue development trait	http://purl.obolibrary.org/obo/PATO_0001236	process quality	http://purl.obolibrary.org/obo/PO_0025423	

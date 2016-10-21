@@ -1,0 +1,7 @@
+iri	iri label	attribute	attribute label	entity	entity label	
+http://purl.obolibrary.org/obo/TO_0000494	pigment content	http://purl.obolibrary.org/obo/PATO_0000070	amount	http://purl.obolibrary.org/obo/CHEBI_26130	
+http://purl.obolibrary.org/obo/TO_0000609	potassium content	http://purl.obolibrary.org/obo/PATO_0000070	amount	http://purl.obolibrary.org/obo/CHEBI_26216	
+http://purl.obolibrary.org/obo/TO_0000608	sodium content	http://purl.obolibrary.org/obo/PATO_0000070	amount	http://purl.obolibrary.org/obo/CHEBI_26708	
+http://purl.obolibrary.org/obo/TO_0000466	carbon content	http://purl.obolibrary.org/obo/PATO_0000070	amount	http://purl.obolibrary.org/obo/CHEBI_27594	
+http://purl.obolibrary.org/obo/TO_0002670	momilactone A content	http://purl.obolibrary.org/obo/PATO_0000070	amount	http://purl.obolibrary.org/obo/CHEBI_49191	
+http://purl.obolibrary.org/obo/TO_0002734	awn presence	http://purl.obolibrary.org/obo/PATO_0000070	amount	http://purl.obolibrary.org/obo/PO_0025349	

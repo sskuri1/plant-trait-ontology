@@ -1,0 +1,4 @@
+iri	iri label	attribute	attribute label	entity	entity label	
+http://purl.obolibrary.org/obo/TO_0000680	inflorescence circumference	http://purl.obolibrary.org/obo/PATO_0001648	circumference	http://purl.obolibrary.org/obo/PO_0009049	
+http://purl.obolibrary.org/obo/TO_0000796	tassel inflorescence circumference	http://purl.obolibrary.org/obo/PATO_0001648	circumference	http://purl.obolibrary.org/obo/PO_0020126	
+http://purl.obolibrary.org/obo/TO_0000681	ear circumference	http://purl.obolibrary.org/obo/PATO_0001648	circumference	http://purl.obolibrary.org/obo/PO_0025597	

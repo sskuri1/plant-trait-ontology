@@ -1,0 +1,8 @@
+iri	iri label	attribute	attribute label	entity	entity label	
+http://purl.obolibrary.org/obo/TO_0005006	glyphosate sensitivity	http://purl.obolibrary.org/obo/PATO_0000085	sensitivity toward	http://purl.obolibrary.org/obo/CHEBI_27744	
+http://purl.obolibrary.org/obo/TO_0000401	plant growth hormone sensitivity	http://purl.obolibrary.org/obo/PATO_0000085	sensitivity toward	http://purl.obolibrary.org/obo/CHEBI_37848	
+http://purl.obolibrary.org/obo/TO_0005007	glufosinate sensitivity	http://purl.obolibrary.org/obo/PATO_0000085	sensitivity toward	http://purl.obolibrary.org/obo/CHEBI_52136	
+http://purl.obolibrary.org/obo/TO_0000177	2,4-dichlorophenoxyacetic acid sensitivity	http://purl.obolibrary.org/obo/PATO_0000085	sensitivity toward	http://purl.obolibrary.org/obo/EO_0007180	
+http://purl.obolibrary.org/obo/TO_0000103	deepwater stress	http://purl.obolibrary.org/obo/PATO_0000085	sensitivity toward	http://purl.obolibrary.org/obo/EO_0007396	
+http://purl.obolibrary.org/obo/TO_0002677	brassinosteroid sensitivity	http://purl.obolibrary.org/obo/PATO_0000085	sensitivity toward	http://purl.obolibrary.org/obo/EO_0007409	
+http://purl.obolibrary.org/obo/TO_0000095	osmotic response sensitivity	http://purl.obolibrary.org/obo/PATO_0000085	sensitivity toward	http://purl.obolibrary.org/obo/GO_0006970	
