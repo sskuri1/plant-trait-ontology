@@ -1,0 +1,4 @@
+iri	iri name	attribute	attribute label	entity	entity label	
+TO:0006001	salt tolerance	PATO:0000515	tolerant to	CHEBI:24866	salt
+TO:0000259	heat tolerance	PATO:0000515	tolerant to	EO:0007173	warm/hot temperature regimen
+TO:0000303	cold tolerance	PATO:0000515	tolerant to	EO:0007174	cold temperature regimen

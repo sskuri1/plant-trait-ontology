@@ -47,9 +47,13 @@ release: $(ONT).owl $(ONT).obo
 
 
 #######PATTERNS
-PATTERNS_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/eq/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/eq/*.tsv))
+PATTERNS_EQ_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/eq/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/eq/*.tsv))
+PATTERNS_MORPH_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/morphology/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/morphology/*.tsv))
+PATTERNS_RESPONSE_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/response/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/response/*.tsv))
 
-all_patterns: $(PATTERNS_OWL)
+
+
+all_patterns: $(PATTERNS_MORPH_OWL) $(PATTERNS_EQ_OWL) $(PATTERNS_RESPONSE_OWL) 
 
 patterns/eq/%_pattern.owl: patterns/eq/%.tsv
 	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/eq/$*.tsv -p patterns/eq.yaml -n $@ > $@
@@ -57,7 +61,23 @@ patterns/eq/%_pattern.owl: patterns/eq/%.tsv
 patterns/eq/%_pattern.obo: patterns/eq/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 
+patterns/morphology/%_pattern.owl: patterns/morphology/%.tsv
+	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/morphology/$*.tsv -p patterns/morphology.yaml -n $@ > $@
+
+patterns/morphology/%_pattern.obo: patterns/morphology/%_pattern.owl
+	$(OWLTOOLS) $< -o -f obo $@
+
+patterns/response/%_pattern.owl: patterns/response/%.tsv
+	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/response/$*.tsv -p patterns/response.yaml -n $@ > $@
+
+patterns/response/%_pattern.obo: patterns/response/%_pattern.owl
+	$(OWLTOOLS) $< -o -f obo $@
+
+
+#merge
 PATTERNS = $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/eq/*.tsv)) 
+PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/morphology/*.tsv)) 
+PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/response/*.tsv)) 
 
 merge:
 	$(ROBOT) merge $(PATTERNS) --output patterns/merge_patterns.owl

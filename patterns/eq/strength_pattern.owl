@@ -3,11 +3,11 @@ Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 
  ## Auto-generated
 
@@ -22,7 +22,7 @@ ObjectProperty: RO_0000052 ## inheres in
 
 Class: PATO:0001230 ## strength
 Class: PO:0009047 ## stem
-## {"attribute": "PATO:0001230", "entity": "PO:0009047"}
+## {"entity": "PO:0009047", "attribute": "PATO:0001230"}
 Class: TO:0000051
  Annotations: rdfs:label "stem strength"
  Annotations: IAO:0000115 "The strength of a stem."

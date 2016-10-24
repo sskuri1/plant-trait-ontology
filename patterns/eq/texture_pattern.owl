@@ -2,67 +2,67 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/eq/texture_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/entity
 AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: PO:0009010 ## seed
 Class: PATO:0000150 ## texture
-## {"entity": "PO:0009010", "attribute": "PATO:0000150"}
+Class: PO:0009010 ## seed
+## {"attribute": "PATO:0000150", "entity": "PO:0009010"}
 Class: TO:0020016
  Annotations: rdfs:label "seed texture"
  Annotations: IAO:0000115 "The texture of a seed."
  EquivalentTo: PATO:0000150 and RO_0000052 some PO:0009010 ## texture and 'inheres in' some seed
 
-Class: PO:0009049 ## inflorescence
 Class: PATO:0000150 ## texture
-## {"entity": "PO:0009049", "attribute": "PATO:0000150"}
+Class: PO:0009049 ## inflorescence
+## {"attribute": "PATO:0000150", "entity": "PO:0009049"}
 Class: TO:0000805
  Annotations: rdfs:label "inflorescence texture"
  Annotations: IAO:0000115 "The texture of a inflorescence."
  EquivalentTo: PATO:0000150 and RO_0000052 some PO:0009049 ## texture and 'inheres in' some inflorescence
 
-Class: PO:0009084 ## pericarp
 Class: PATO:0000150 ## texture
-## {"entity": "PO:0009084", "attribute": "PATO:0000150"}
+Class: PO:0009084 ## pericarp
+## {"attribute": "PATO:0000150", "entity": "PO:0009084"}
 Class: TO:0002623
  Annotations: rdfs:label "pericarp texture"
  Annotations: IAO:0000115 "The texture of a pericarp."
  EquivalentTo: PATO:0000150 and RO_0000052 some PO:0009084 ## texture and 'inheres in' some pericarp
 
-Class: PO:0009085 ## exocarp
 Class: PATO:0000150 ## texture
-## {"entity": "PO:0009085", "attribute": "PATO:0000150"}
+Class: PO:0009085 ## exocarp
+## {"attribute": "PATO:0000150", "entity": "PO:0009085"}
 Class: TO:0002624
  Annotations: rdfs:label "exocarp texture"
  Annotations: IAO:0000115 "The texture of a exocarp."
  EquivalentTo: PATO:0000150 and RO_0000052 some PO:0009085 ## texture and 'inheres in' some exocarp
 
-Class: PO:0009088 ## seed coat
 Class: PATO:0000150 ## texture
-## {"entity": "PO:0009088", "attribute": "PATO:0000150"}
+Class: PO:0009088 ## seed coat
+## {"attribute": "PATO:0000150", "entity": "PO:0009088"}
 Class: TO:0000903
  Annotations: rdfs:label "seed coat texture"
  Annotations: IAO:0000115 "The texture of a seed coat."
  EquivalentTo: PATO:0000150 and RO_0000052 some PO:0009088 ## texture and 'inheres in' some seed coat
 
-Class: PO:0020122 ## inflorescence axis
 Class: PATO:0000150 ## texture
-## {"entity": "PO:0020122", "attribute": "PATO:0000150"}
+Class: PO:0020122 ## inflorescence axis
+## {"attribute": "PATO:0000150", "entity": "PO:0020122"}
 Class: TO:0002754
  Annotations: rdfs:label "inflorescence axis texture"
  Annotations: IAO:0000115 "The texture of a inflorescence axis."

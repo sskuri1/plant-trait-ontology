@@ -3,6 +3,7 @@
      xml:base="http://purl.obolibrary.org/obo/patterns/eq/age_pattern.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:foo="http://geneontology.org/foo/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -45,6 +46,12 @@
     <!-- http://purl.obolibrary.org/obo/to/eq/entity -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/eq/entity"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
     
 
 
@@ -1884,7 +1891,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a plant anatomical entity.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a plant anatomical entity.</obo:IAO_0000115>
         <rdfs:label>plant morphology trait</rdfs:label>
     </owl:Class>
     
@@ -1944,7 +1951,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a root.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a root.</obo:IAO_0000115>
         <rdfs:label>root morphology trait</rdfs:label>
     </owl:Class>
     
@@ -2084,7 +2091,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a plant embryo.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a plant embryo.</obo:IAO_0000115>
         <rdfs:label>plant embryo morphology trait</rdfs:label>
     </owl:Class>
     
@@ -2184,7 +2191,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a shoot system.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a shoot system.</obo:IAO_0000115>
         <rdfs:label>shoot system morphology trait</rdfs:label>
     </owl:Class>
     
@@ -2204,7 +2211,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a flower bract.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a flower bract.</obo:IAO_0000115>
         <rdfs:label>flower bract morphology trait</rdfs:label>
     </owl:Class>
     
@@ -2250,8 +2257,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The sensitivity toward of a response to osmotic stress.</obo:IAO_0000115>
-        <rdfs:label>osmotic response sensitivity</rdfs:label>
+        <obo:IAO_0000115>The response to response to osmotic stress stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>osmotic response sensitivity</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to osmotic stress response trait</rdfs:label>
     </owl:Class>
     
 
@@ -2330,8 +2338,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The sensitivity toward of a flood prone region.</obo:IAO_0000115>
-        <rdfs:label>deepwater stress</rdfs:label>
+        <obo:IAO_0000115>The response to flood prone region stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>deepwater stress</oboInOwl:hasExactSynonym>
+        <rdfs:label>flood prone region response trait</rdfs:label>
     </owl:Class>
     
 
@@ -2576,8 +2585,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The sensitivity toward of a 2,4-dichlorophenoxyacetic acid treatment.</obo:IAO_0000115>
-        <rdfs:label>2,4-dichlorophenoxyacetic acid sensitivity</rdfs:label>
+        <obo:IAO_0000115>The response to 2,4-dichlorophenoxyacetic acid treatment stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>2,4-dichlorophenoxyacetic acid sensitivity</oboInOwl:hasExactSynonym>
+        <rdfs:label>2,4-dichlorophenoxyacetic acid treatment response trait</rdfs:label>
     </owl:Class>
     
 
@@ -2636,7 +2646,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a seed.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a seed.</obo:IAO_0000115>
         <rdfs:label>seed morphology trait</rdfs:label>
     </owl:Class>
     
@@ -2896,7 +2906,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a stamen.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a stamen.</obo:IAO_0000115>
         <rdfs:label>stamen morphology trait</rdfs:label>
     </owl:Class>
     
@@ -2936,7 +2946,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a gynoecium.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a gynoecium.</obo:IAO_0000115>
         <rdfs:label>pistil morphology trait</rdfs:label>
     </owl:Class>
     
@@ -2996,8 +3006,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The stress trait of a water.</obo:IAO_0000115>
-        <rdfs:label>water stress trait</rdfs:label>
+        <obo:IAO_0000115>The response to water stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>water stress trait</oboInOwl:hasExactSynonym>
+        <rdfs:label>water response trait</rdfs:label>
     </owl:Class>
     
 
@@ -3116,8 +3127,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The tolerant to of a warm/hot temperature regimen.</obo:IAO_0000115>
-        <rdfs:label>heat tolerance</rdfs:label>
+        <obo:IAO_0000115>The response to warm/hot temperature regimen stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>heat tolerance</oboInOwl:hasExactSynonym>
+        <rdfs:label>warm/hot temperature regimen response trait</rdfs:label>
     </owl:Class>
     
 
@@ -3216,7 +3228,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a spikelet floret.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a spikelet floret.</obo:IAO_0000115>
         <rdfs:label>spikelet floret morphology trait</rdfs:label>
     </owl:Class>
     
@@ -3236,7 +3248,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a perianth.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a perianth.</obo:IAO_0000115>
         <rdfs:label>perianth morphology trait</rdfs:label>
     </owl:Class>
     
@@ -3476,8 +3488,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The tolerant to of a cold temperature regimen.</obo:IAO_0000115>
-        <rdfs:label>cold tolerance</rdfs:label>
+        <obo:IAO_0000115>The response to cold temperature regimen stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cold tolerance</oboInOwl:hasExactSynonym>
+        <rdfs:label>cold temperature regimen response trait</rdfs:label>
     </owl:Class>
     
 
@@ -3736,7 +3749,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a stem.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a stem.</obo:IAO_0000115>
         <rdfs:label>stem morphology trait</rdfs:label>
     </owl:Class>
     
@@ -3796,7 +3809,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a inflorescence.</obo:IAO_0000115>
         <rdfs:label>inflorescence morphology trait</rdfs:label>
     </owl:Class>
     
@@ -3836,7 +3849,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a whole plant.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a whole plant.</obo:IAO_0000115>
         <rdfs:label>whole plant morphology trait</rdfs:label>
     </owl:Class>
     
@@ -3876,8 +3889,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The sensitivity toward of a plant hormone.</obo:IAO_0000115>
-        <rdfs:label>plant growth hormone sensitivity</rdfs:label>
+        <obo:IAO_0000115>The response to plant hormone stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>plant growth hormone sensitivity</oboInOwl:hasExactSynonym>
+        <rdfs:label>plant hormone response trait</rdfs:label>
     </owl:Class>
     
 
@@ -3916,7 +3930,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a vascular leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a vascular leaf.</obo:IAO_0000115>
         <rdfs:label>vascular leaf morphology trait</rdfs:label>
     </owl:Class>
     
@@ -4076,7 +4090,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a portion of vascular tissue.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a portion of vascular tissue.</obo:IAO_0000115>
         <rdfs:label>vascular tissue morphology trait</rdfs:label>
     </owl:Class>
     
@@ -4316,7 +4330,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a flower.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a flower.</obo:IAO_0000115>
         <rdfs:label>flower morphology trait</rdfs:label>
     </owl:Class>
     
@@ -4676,7 +4690,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a rhizome.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a rhizome.</obo:IAO_0000115>
         <rdfs:label>rhizome morphology trait</rdfs:label>
     </owl:Class>
     
@@ -4896,7 +4910,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a endosperm.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a endosperm.</obo:IAO_0000115>
         <rdfs:label>endosperm morphology trait</rdfs:label>
     </owl:Class>
     
@@ -5408,12 +5422,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/TO_0000652 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000652"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/TO_0000656 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000656">
@@ -5448,7 +5456,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a spikelet.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a spikelet.</obo:IAO_0000115>
         <rdfs:label>spikelet morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6008,7 +6016,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a plant organ.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a plant organ.</obo:IAO_0000115>
         <rdfs:label>plant organ morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6028,7 +6036,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a plant axis.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a plant axis.</obo:IAO_0000115>
         <rdfs:label>plant axis morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6048,7 +6056,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a shoot axis.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a shoot axis.</obo:IAO_0000115>
         <rdfs:label>shoot axis morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6068,7 +6076,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a branch.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a branch.</obo:IAO_0000115>
         <rdfs:label>branch morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6088,7 +6096,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a tuber.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a tuber.</obo:IAO_0000115>
         <rdfs:label>tuber morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6108,7 +6116,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a subterranean shoot axis tuber.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a subterranean shoot axis tuber.</obo:IAO_0000115>
         <rdfs:label>subterranean shoot axis tuber morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6188,7 +6196,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a phyllome.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a phyllome.</obo:IAO_0000115>
         <rdfs:label>phyllome morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6208,7 +6216,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a leaf.</obo:IAO_0000115>
         <rdfs:label>leaf morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6228,7 +6236,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a cotyledon.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a cotyledon.</obo:IAO_0000115>
         <rdfs:label>cotyledon morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6288,7 +6296,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a coleoptile.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a coleoptile.</obo:IAO_0000115>
         <rdfs:label>coleoptile morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6308,7 +6316,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a stem internode.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a stem internode.</obo:IAO_0000115>
         <rdfs:label>stem internode morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6328,7 +6336,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a hypocotyl.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a hypocotyl.</obo:IAO_0000115>
         <rdfs:label>hypocotyl morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6348,7 +6356,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a mesocotyl.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a mesocotyl.</obo:IAO_0000115>
         <rdfs:label>mesocotyl morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6448,7 +6456,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a stalk.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a stalk.</obo:IAO_0000115>
         <rdfs:label>stalk morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6468,7 +6476,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a petiole.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a petiole.</obo:IAO_0000115>
         <rdfs:label>petiole morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6548,7 +6556,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a seedling hypocotyl.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a seedling hypocotyl.</obo:IAO_0000115>
         <rdfs:label>seedling hypocotyl morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6568,7 +6576,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a embryo hypocotyl.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a embryo hypocotyl.</obo:IAO_0000115>
         <rdfs:label>embryo hypocotyl morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6588,7 +6596,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a seedling mesocotyl.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a seedling mesocotyl.</obo:IAO_0000115>
         <rdfs:label>seedling mesocotyl morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6608,7 +6616,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a embryo mesocotyl.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a embryo mesocotyl.</obo:IAO_0000115>
         <rdfs:label>embryo mesocotyl morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6628,7 +6636,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a seedling cotyledon.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a seedling cotyledon.</obo:IAO_0000115>
         <rdfs:label>seedling cotyledon morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6648,7 +6656,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a plant embryo cotyledon.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a plant embryo cotyledon.</obo:IAO_0000115>
         <rdfs:label>plant embryo cotyledon morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6668,7 +6676,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a peduncle.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a peduncle.</obo:IAO_0000115>
         <rdfs:label>peduncle morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6748,7 +6756,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a inflorescence axis.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a inflorescence axis.</obo:IAO_0000115>
         <rdfs:label>inflorescence axis morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6788,7 +6796,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a inflorescence branch.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a inflorescence branch.</obo:IAO_0000115>
         <rdfs:label>inflorescence branch morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6808,7 +6816,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a reproductive shoot system.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a reproductive shoot system.</obo:IAO_0000115>
         <rdfs:label>reproductive shoot system morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6848,7 +6856,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a tassel inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a tassel inflorescence.</obo:IAO_0000115>
         <rdfs:label>tassel inflorescence morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6868,7 +6876,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a bud.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a bud.</obo:IAO_0000115>
         <rdfs:label>bud morphology trait</rdfs:label>
     </owl:Class>
     
@@ -6888,7 +6896,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a axillary bud.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a axillary bud.</obo:IAO_0000115>
         <rdfs:label>axillary bud morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7148,7 +7156,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a pseudostem.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a pseudostem.</obo:IAO_0000115>
         <rdfs:label>pseudostem morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7248,7 +7256,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a bract.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a bract.</obo:IAO_0000115>
         <rdfs:label>bract morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7268,7 +7276,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a inflorescence bract.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a inflorescence bract.</obo:IAO_0000115>
         <rdfs:label>inflorescence bract morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7328,7 +7336,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a leaf midvein.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a leaf midvein.</obo:IAO_0000115>
         <rdfs:label>leaf midvein morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7428,7 +7436,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a leaf lamina.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a leaf lamina.</obo:IAO_0000115>
         <rdfs:label>leaf lamina morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7448,7 +7456,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a leaf lamina margin.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a leaf lamina margin.</obo:IAO_0000115>
         <rdfs:label>leaf lamina margin morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7468,7 +7476,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a flag leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a flag leaf.</obo:IAO_0000115>
         <rdfs:label>flag leaf morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7488,7 +7496,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a organ margin.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a organ margin.</obo:IAO_0000115>
         <rdfs:label>organ margin morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7508,7 +7516,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a leaf sheath.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a leaf sheath.</obo:IAO_0000115>
         <rdfs:label>leaf sheath morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7528,7 +7536,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a multi-tissue plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a multi-tissue plant structure.</obo:IAO_0000115>
         <rdfs:label>multi-tissue plant structure morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7548,7 +7556,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a seed coat.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a seed coat.</obo:IAO_0000115>
         <rdfs:label>seed coat morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7568,7 +7576,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a plant structure.</obo:IAO_0000115>
         <rdfs:label>plant structure morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7588,7 +7596,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a collective plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a collective plant structure.</obo:IAO_0000115>
         <rdfs:label>collective plant structure morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7608,7 +7616,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a collective organ part structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a collective organ part structure.</obo:IAO_0000115>
         <rdfs:label>collective organ part structure morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7628,7 +7636,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a collective plant organ structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a collective plant organ structure.</obo:IAO_0000115>
         <rdfs:label>collective plant organ structure morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7648,7 +7656,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a portion of plant tissue.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a portion of plant tissue.</obo:IAO_0000115>
         <rdfs:label>portion of plant tissue morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7668,7 +7676,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a in vitro plant structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a in vitro plant structure.</obo:IAO_0000115>
         <rdfs:label>in vitro plant structure morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7688,7 +7696,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a collective phyllome structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a collective phyllome structure.</obo:IAO_0000115>
         <rdfs:label>collective phyllome structure morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7808,7 +7816,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a petal.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a petal.</obo:IAO_0000115>
         <rdfs:label>petal morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7828,7 +7836,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a sepal.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a sepal.</obo:IAO_0000115>
         <rdfs:label>sepal morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7848,7 +7856,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a tepal.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a tepal.</obo:IAO_0000115>
         <rdfs:label>tepal morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7868,7 +7876,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a sporophyll.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a sporophyll.</obo:IAO_0000115>
         <rdfs:label>sporophyll morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7888,7 +7896,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a megasporophyll.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a megasporophyll.</obo:IAO_0000115>
         <rdfs:label>megasporophyll morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7908,7 +7916,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a microsporophyll.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a microsporophyll.</obo:IAO_0000115>
         <rdfs:label>microsporophyll morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7928,7 +7936,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a glume.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a glume.</obo:IAO_0000115>
         <rdfs:label>glume morphology trait</rdfs:label>
     </owl:Class>
     
@@ -7988,7 +7996,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a spine leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a spine leaf.</obo:IAO_0000115>
         <rdfs:label>spine leaf morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8068,7 +8076,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a petiolule.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a petiolule.</obo:IAO_0000115>
         <rdfs:label>petiolule morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8208,7 +8216,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a root nodule.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a root nodule.</obo:IAO_0000115>
         <rdfs:label>root nodule morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8268,7 +8276,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a exocarp.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a exocarp.</obo:IAO_0000115>
         <rdfs:label>exocarp morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8308,7 +8316,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a trichome.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a trichome.</obo:IAO_0000115>
         <rdfs:label>trichome morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8348,7 +8356,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a infructescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a infructescence.</obo:IAO_0000115>
         <rdfs:label>infructescence morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8368,7 +8376,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a infructescence axis.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a infructescence axis.</obo:IAO_0000115>
         <rdfs:label>infructescence axis morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8408,7 +8416,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a non-vascular leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a non-vascular leaf.</obo:IAO_0000115>
         <rdfs:label>non-vascular leaf morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8448,7 +8456,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a aleurone layer.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a aleurone layer.</obo:IAO_0000115>
         <rdfs:label>aleurone layer morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8488,7 +8496,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a pericarp.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a pericarp.</obo:IAO_0000115>
         <rdfs:label>pericarp morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8508,7 +8516,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a endocarp.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a endocarp.</obo:IAO_0000115>
         <rdfs:label>endocarp morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8528,7 +8536,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a mesocarp.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a mesocarp.</obo:IAO_0000115>
         <rdfs:label>mesocarp morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8548,7 +8556,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a corolla.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a corolla.</obo:IAO_0000115>
         <rdfs:label>corolla morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8608,7 +8616,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a spikelet rachilla.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a spikelet rachilla.</obo:IAO_0000115>
         <rdfs:label>spikelet rachilla morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8688,7 +8696,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a hilum.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a hilum.</obo:IAO_0000115>
         <rdfs:label>hilum morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8728,7 +8736,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a ear inflorescence.</obo:IAO_0000115>
         <rdfs:label>ear inflorescence morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8788,7 +8796,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a ear infructescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a ear infructescence.</obo:IAO_0000115>
         <rdfs:label>ear infructescence morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8828,7 +8836,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a involucre.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a involucre.</obo:IAO_0000115>
         <rdfs:label>involucre morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8848,7 +8856,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a root system.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a root system.</obo:IAO_0000115>
         <rdfs:label>root system morphology trait</rdfs:label>
     </owl:Class>
     
@@ -8888,7 +8896,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a androecium.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a androecium.</obo:IAO_0000115>
         <rdfs:label>androecium morphology trait</rdfs:label>
     </owl:Class>
     
@@ -9488,7 +9496,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a fruit.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a fruit.</obo:IAO_0000115>
         <rdfs:label>fruit morphology trait</rdfs:label>
     </owl:Class>
     
@@ -9714,46 +9722,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/TO_0002662 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002662">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000515"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TO_0000085"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>The tolerant to of a leaf rolling.</obo:IAO_0000115>
-        <rdfs:label>leaf rolling tolerance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TO_0002663 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002663">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000515"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TO_0000652"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115>The tolerant to of a leaf necrosis.</obo:IAO_0000115>
-        <rdfs:label>leaf necrosis tolerance</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/TO_0002665 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002665">
@@ -9928,8 +9896,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The sensitivity toward of a brassinosteroid treatment.</obo:IAO_0000115>
-        <rdfs:label>brassinosteroid sensitivity</rdfs:label>
+        <obo:IAO_0000115>The response to brassinosteroid treatment stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>brassinosteroid sensitivity</oboInOwl:hasExactSynonym>
+        <rdfs:label>brassinosteroid treatment response trait</rdfs:label>
     </owl:Class>
     
 
@@ -9968,7 +9937,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a plant cell.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a plant cell.</obo:IAO_0000115>
         <rdfs:label>plant cell morphology trait</rdfs:label>
     </owl:Class>
     
@@ -10228,8 +10197,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The resistance to of a Meloidogyne incognita.</obo:IAO_0000115>
-        <rdfs:label>Meloidogyne incognita resistance</rdfs:label>
+        <obo:IAO_0000115>The response to Meloidogyne incognita stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Meloidogyne incognita resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>Meloidogyne incognita response trait</rdfs:label>
     </owl:Class>
     
 
@@ -10248,8 +10218,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The resistance to of a Meloidogyne javanica.</obo:IAO_0000115>
-        <rdfs:label>Meloidogyne javanica resistance</rdfs:label>
+        <obo:IAO_0000115>The response to Meloidogyne javanica stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Meloidogyne javanica resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>Meloidogyne javanica response trait</rdfs:label>
     </owl:Class>
     
 
@@ -10348,7 +10319,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a leaf sheath auricle.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a leaf sheath auricle.</obo:IAO_0000115>
         <rdfs:label>leaf sheath auricle morphology trait</rdfs:label>
     </owl:Class>
     
@@ -10368,7 +10339,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a awn.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a awn.</obo:IAO_0000115>
         <rdfs:label>awn morphology trait</rdfs:label>
     </owl:Class>
     
@@ -10608,7 +10579,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a ligule.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a ligule.</obo:IAO_0000115>
         <rdfs:label>ligule morphology trait</rdfs:label>
     </owl:Class>
     
@@ -10788,8 +10759,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The sensitivity toward of a glyphosate.</obo:IAO_0000115>
-        <rdfs:label>glyphosate sensitivity</rdfs:label>
+        <obo:IAO_0000115>The response to glyphosate stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>glyphosate sensitivity</oboInOwl:hasExactSynonym>
+        <rdfs:label>glyphosate response trait</rdfs:label>
     </owl:Class>
     
 
@@ -10808,8 +10780,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The sensitivity toward of a phosphinothricin.</obo:IAO_0000115>
-        <rdfs:label>glufosinate sensitivity</rdfs:label>
+        <obo:IAO_0000115>The response to phosphinothricin stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>glufosinate sensitivity</oboInOwl:hasExactSynonym>
+        <rdfs:label>phosphinothricin response trait</rdfs:label>
     </owl:Class>
     
 
@@ -10828,8 +10801,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The tolerant to of a salt.</obo:IAO_0000115>
-        <rdfs:label>salt tolerance</rdfs:label>
+        <obo:IAO_0000115>The response to salt stress.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>salt tolerance</oboInOwl:hasExactSynonym>
+        <rdfs:label>salt response trait</rdfs:label>
     </owl:Class>
     
 
@@ -10968,7 +10942,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a lodicule.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a lodicule.</obo:IAO_0000115>
         <rdfs:label>lodicule morphology trait</rdfs:label>
     </owl:Class>
     
@@ -11028,7 +11002,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a carpel.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a carpel.</obo:IAO_0000115>
         <rdfs:label>carpel morphology trait</rdfs:label>
     </owl:Class>
     
@@ -11708,7 +11682,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a tuberous root tuber.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a tuberous root tuber.</obo:IAO_0000115>
         <rdfs:label>tuberous root tuber morphology trait</rdfs:label>
     </owl:Class>
     
@@ -11928,7 +11902,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a plant ovary.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a plant ovary.</obo:IAO_0000115>
         <rdfs:label>plant ovary morphology</rdfs:label>
     </owl:Class>
     
@@ -11948,7 +11922,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a anther.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a anther.</obo:IAO_0000115>
         <rdfs:label>anther morphology trait</rdfs:label>
     </owl:Class>
     
@@ -11968,7 +11942,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a lemma.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a lemma.</obo:IAO_0000115>
         <rdfs:label>lemma morphology trait</rdfs:label>
     </owl:Class>
     
@@ -11988,7 +11962,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The physical object quality of a palea.</obo:IAO_0000115>
+        <obo:IAO_0000115>The morphological quality of a palea.</obo:IAO_0000115>
         <rdfs:label>palea morphology trait</rdfs:label>
     </owl:Class>
     

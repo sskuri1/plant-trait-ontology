@@ -16,8 +16,8 @@ AnnotationProperty: IAO:0000115
 AnnotationProperty: to/eq/attribute
 AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: RO_0000052 ## inheres in
 ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
 Class: PATO:0001540 ## glutinous

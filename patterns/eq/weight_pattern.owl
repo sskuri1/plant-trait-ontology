@@ -4,105 +4,105 @@ Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/eq/weight_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/entity
 AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: PO:0003023 ## root nodule
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0003023", "attribute": "PATO:0000128"}
+Class: PO:0003023 ## root nodule
+## {"attribute": "PATO:0000128", "entity": "PO:0003023"}
 Class: TO:0000899
  Annotations: rdfs:label "root nodule weight"
  Annotations: IAO:0000115 "The weight of a root nodule."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0003023 ## weight and 'inheres in' some root nodule
 
-Class: PO:0006342 ## infructescence
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0006342", "attribute": "PATO:0000128"}
+Class: PO:0006342 ## infructescence
+## {"attribute": "PATO:0000128", "entity": "PO:0006342"}
 Class: TO:0000583
  Annotations: rdfs:label "infructescence weight"
  Annotations: IAO:0000115 "The weight of a infructescence."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0006342 ## weight and 'inheres in' some infructescence
 
-Class: PO:0009001 ## fruit
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0009001", "attribute": "PATO:0000128"}
+Class: PO:0009001 ## fruit
+## {"attribute": "PATO:0000128", "entity": "PO:0009001"}
 Class: TO:0002746
  Annotations: rdfs:label "fruit weight"
  Annotations: IAO:0000115 "The weight of a fruit."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009001 ## weight and 'inheres in' some fruit
 
-Class: PO:0009005 ## root
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0009005", "attribute": "PATO:0000128"}
+Class: PO:0009005 ## root
+## {"attribute": "PATO:0000128", "entity": "PO:0009005"}
 Class: TO:0000279
  Annotations: rdfs:label "root weight"
  Annotations: IAO:0000115 "The weight of a root."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009005 ## weight and 'inheres in' some root
 
-Class: PO:0009010 ## seed
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0009010", "attribute": "PATO:0000128"}
+Class: PO:0009010 ## seed
+## {"attribute": "PATO:0000128", "entity": "PO:0009010"}
 Class: TO:0000181
  Annotations: rdfs:label "seed weight"
  Annotations: IAO:0000115 "The weight of a seed."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009010 ## weight and 'inheres in' some seed
 
-Class: PO:0009047 ## stem
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0009047", "attribute": "PATO:0000128"}
+Class: PO:0009047 ## stem
+## {"attribute": "PATO:0000128", "entity": "PO:0009047"}
 Class: TO:0000952
  Annotations: rdfs:label "stem weight"
  Annotations: IAO:0000115 "The weight of a stem."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009047 ## weight and 'inheres in' some stem
 
-Class: PO:0009049 ## inflorescence
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0009049", "attribute": "PATO:0000128"}
+Class: PO:0009049 ## inflorescence
+## {"attribute": "PATO:0000128", "entity": "PO:0009049"}
 Class: TO:0000803
  Annotations: rdfs:label "inflorescence weight"
  Annotations: IAO:0000115 "The weight of a inflorescence."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009049 ## weight and 'inheres in' some inflorescence
 
-Class: PO:0009051 ## spikelet
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0009051", "attribute": "PATO:0000128"}
+Class: PO:0009051 ## spikelet
+## {"attribute": "PATO:0000128", "entity": "PO:0009051"}
 Class: TO:0000501
  Annotations: rdfs:label "spikelet weight"
  Annotations: IAO:0000115 "The weight of a spikelet."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0009051 ## weight and 'inheres in' some spikelet
 
-Class: PO:0025029 ## shoot axis
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0025029", "attribute": "PATO:0000128"}
+Class: PO:0025029 ## shoot axis
+## {"attribute": "PATO:0000128", "entity": "PO:0025029"}
 Class: TO:0000568
  Annotations: rdfs:label "shoot axis weight"
  Annotations: IAO:0000115 "The weight of a shoot axis."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0025029 ## weight and 'inheres in' some shoot axis
 
-Class: PO:0025034 ## leaf
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0025034", "attribute": "PATO:0000128"}
+Class: PO:0025034 ## leaf
+## {"attribute": "PATO:0000128", "entity": "PO:0025034"}
 Class: TO:0000505
  Annotations: rdfs:label "leaf weight"
  Annotations: IAO:0000115 "The weight of a leaf."
  EquivalentTo: PATO:0000128 and RO_0000052 some PO:0025034 ## weight and 'inheres in' some leaf
 
-Class: PO:0025597 ## ear infructescence
 Class: PATO:0000128 ## weight
-## {"entity": "PO:0025597", "attribute": "PATO:0000128"}
+Class: PO:0025597 ## ear infructescence
+## {"attribute": "PATO:0000128", "entity": "PO:0025597"}
 Class: TO:0000923
  Annotations: rdfs:label "ear weight"
  Annotations: IAO:0000115 "The weight of a ear infructescence."

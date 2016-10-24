@@ -3,234 +3,234 @@ Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/eq/shape_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/entity
 AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
 ## Auto-generated classes
 
-Class: GO:0043036 ## starch grain
 Class: PATO:0000052 ## shape
-## {"entity": "GO:0043036", "attribute": "PATO:0000052"}
+Class: GO:0043036 ## starch grain
+## {"attribute": "PATO:0000052", "entity": "GO:0043036"}
 Class: TO:0002656
  Annotations: rdfs:label "starch grain shape"
  Annotations: IAO:0000115 "The shape of a starch grain."
  EquivalentTo: PATO:0000052 and RO_0000052 some GO:0043036 ## shape and 'inheres in' some starch grain
 
-Class: PO:0004547 ## subterranean shoot axis tuber
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0004547", "attribute": "PATO:0000052"}
+Class: PO:0004547 ## subterranean shoot axis tuber
+## {"attribute": "PATO:0000052", "entity": "PO:0004547"}
 Class: TO:0000743
  Annotations: rdfs:label "subterranean shoot axis tuber shape"
  Annotations: IAO:0000115 "The shape of a subterranean shoot axis tuber."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0004547 ## shape and 'inheres in' some subterranean shoot axis tuber
 
-Class: PO:0004709 ## axillary bud
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0004709", "attribute": "PATO:0000052"}
+Class: PO:0004709 ## axillary bud
+## {"attribute": "PATO:0000052", "entity": "PO:0004709"}
 Class: TO:0000793
  Annotations: rdfs:label "axillary bud shape"
  Annotations: IAO:0000115 "The shape of a axillary bud."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0004709 ## shape and 'inheres in' some axillary bud
 
-Class: PO:0008001 ## fruit distal end
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0008001", "attribute": "PATO:0000052"}
+Class: PO:0008001 ## fruit distal end
+## {"attribute": "PATO:0000052", "entity": "PO:0008001"}
 Class: TO:0002630
  Annotations: rdfs:label "fruit distal end shape"
  Annotations: IAO:0000115 "The shape of a fruit distal end."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0008001 ## shape and 'inheres in' some fruit distal end
 
-Class: PO:0008002 ## fruit proximal end
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0008002", "attribute": "PATO:0000052"}
+Class: PO:0008002 ## fruit proximal end
+## {"attribute": "PATO:0000052", "entity": "PO:0008002"}
 Class: TO:0002631
  Annotations: rdfs:label "fruit proximal end shape"
  Annotations: IAO:0000115 "The shape of a fruit proximal end."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0008002 ## shape and 'inheres in' some fruit proximal end
 
-Class: PO:0009001 ## fruit
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009001", "attribute": "PATO:0000052"}
+Class: PO:0009001 ## fruit
+## {"attribute": "PATO:0000052", "entity": "PO:0009001"}
 Class: TO:0002628
  Annotations: rdfs:label "fruit shape"
  Annotations: IAO:0000115 "The shape of a fruit."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009001 ## shape and 'inheres in' some fruit
 
-Class: PO:0009002 ## plant cell
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009002", "attribute": "PATO:0000052"}
+Class: PO:0009002 ## plant cell
+## {"attribute": "PATO:0000052", "entity": "PO:0009002"}
 Class: TO:0002682
  Annotations: rdfs:label "plant cell shape"
  Annotations: IAO:0000115 "The shape of a plant cell."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009002 ## shape and 'inheres in' some plant cell
 
-Class: PO:0009005 ## root
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009005", "attribute": "PATO:0000052"}
+Class: PO:0009005 ## root
+## {"attribute": "PATO:0000052", "entity": "PO:0009005"}
 Class: TO:0002710
  Annotations: rdfs:label "root shape"
  Annotations: IAO:0000115 "The shape of a root."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009005 ## shape and 'inheres in' some root
 
-Class: PO:0009009 ## plant embryo
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009009", "attribute": "PATO:0000052"}
+Class: PO:0009009 ## plant embryo
+## {"attribute": "PATO:0000052", "entity": "PO:0009009"}
 Class: TO:0000193
  Annotations: rdfs:label "embryo shape"
  Annotations: IAO:0000115 "The shape of a plant embryo."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009009 ## shape and 'inheres in' some plant embryo
 
-Class: PO:0009010 ## seed
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009010", "attribute": "PATO:0000052"}
+Class: PO:0009010 ## seed
+## {"attribute": "PATO:0000052", "entity": "PO:0009010"}
 Class: TO:0000484
  Annotations: rdfs:label "seed shape"
  Annotations: IAO:0000115 "The shape of a seed."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009010 ## shape and 'inheres in' some seed
 
-Class: PO:0009030 ## carpel
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009030", "attribute": "PATO:0000052"}
+Class: PO:0009030 ## carpel
+## {"attribute": "PATO:0000052", "entity": "PO:0009030"}
 Class: TO:0006037
  Annotations: rdfs:label "carpel shape"
  Annotations: IAO:0000115 "The shape of a carpel."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009030 ## shape and 'inheres in' some carpel
 
-Class: PO:0009036 ## lodicule
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009036", "attribute": "PATO:0000052"}
+Class: PO:0009036 ## lodicule
+## {"attribute": "PATO:0000052", "entity": "PO:0009036"}
 Class: TO:0006011
  Annotations: rdfs:label "lodicule shape"
  Annotations: IAO:0000115 "The shape of a lodicule."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009036 ## shape and 'inheres in' some lodicule
 
-Class: PO:0009037 ## lemma
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009037", "attribute": "PATO:0000052"}
+Class: PO:0009037 ## lemma
+## {"attribute": "PATO:0000052", "entity": "PO:0009037"}
 Class: TO:0000614
  Annotations: rdfs:label "lemma shape"
  Annotations: IAO:0000115 "The shape of a lemma."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009037 ## shape and 'inheres in' some lemma
 
-Class: PO:0009039 ## glume
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009039", "attribute": "PATO:0000052"}
+Class: PO:0009039 ## glume
+## {"attribute": "PATO:0000052", "entity": "PO:0009039"}
 Class: TO:0000978
  Annotations: rdfs:label "glume shape"
  Annotations: IAO:0000115 "The shape of a glume."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009039 ## shape and 'inheres in' some glume
 
-Class: PO:0009040 ## sterile lemma
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009040", "attribute": "PATO:0000052"}
+Class: PO:0009040 ## sterile lemma
+## {"attribute": "PATO:0000052", "entity": "PO:0009040"}
 Class: TO:0002726
  Annotations: rdfs:label "sterile lemma shape"
  Annotations: IAO:0000115 "The shape of a sterile lemma."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009040 ## shape and 'inheres in' some sterile lemma
 
-Class: PO:0009046 ## flower
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009046", "attribute": "PATO:0000052"}
+Class: PO:0009046 ## flower
+## {"attribute": "PATO:0000052", "entity": "PO:0009046"}
 Class: TO:0000859
  Annotations: rdfs:label "flower shape"
  Annotations: IAO:0000115 "The shape of a flower."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009046 ## shape and 'inheres in' some flower
 
-Class: PO:0009047 ## stem
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009047", "attribute": "PATO:0000052"}
+Class: PO:0009047 ## stem
+## {"attribute": "PATO:0000052", "entity": "PO:0009047"}
 Class: TO:0000893
  Annotations: rdfs:label "stem shape"
  Annotations: IAO:0000115 "The shape of a stem."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009047 ## shape and 'inheres in' some stem
 
-Class: PO:0009049 ## inflorescence
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009049", "attribute": "PATO:0000052"}
+Class: PO:0009049 ## inflorescence
+## {"attribute": "PATO:0000052", "entity": "PO:0009049"}
 Class: TO:0000268
  Annotations: rdfs:label "inflorescence shape"
  Annotations: IAO:0000115 "The shape of a inflorescence."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009049 ## shape and 'inheres in' some inflorescence
 
-Class: PO:0009066 ## anther
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009066", "attribute": "PATO:0000052"}
+Class: PO:0009066 ## anther
+## {"attribute": "PATO:0000052", "entity": "PO:0009066"}
 Class: TO:0000214
  Annotations: rdfs:label "anther shape"
  Annotations: IAO:0000115 "The shape of a anther."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009066 ## shape and 'inheres in' some anther
 
-Class: PO:0009080 ## spikelet rachilla
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0009080", "attribute": "PATO:0000052"}
+Class: PO:0009080 ## spikelet rachilla
+## {"attribute": "PATO:0000052", "entity": "PO:0009080"}
 Class: TO:0000973
  Annotations: rdfs:label "spikelet rachilla shape"
  Annotations: IAO:0000115 "The shape of a spikelet rachilla."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0009080 ## shape and 'inheres in' some spikelet rachilla
 
-Class: PO:0020038 ## petiole
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0020038", "attribute": "PATO:0000052"}
+Class: PO:0020038 ## petiole
+## {"attribute": "PATO:0000052", "entity": "PO:0020038"}
 Class: TO:0000767
  Annotations: rdfs:label "petiole shape"
  Annotations: IAO:0000115 "The shape of a petiole."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0020038 ## shape and 'inheres in' some petiole
 
-Class: PO:0020050 ## petiolule
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0020050", "attribute": "PATO:0000052"}
+Class: PO:0020050 ## petiolule
+## {"attribute": "PATO:0000052", "entity": "PO:0020050"}
 Class: TO:0000886
  Annotations: rdfs:label "petiolule shape"
  Annotations: IAO:0000115 "The shape of a petiolule."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0020050 ## shape and 'inheres in' some petiolule
 
-Class: PO:0020105 ## ligule
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0020105", "attribute": "PATO:0000052"}
+Class: PO:0020105 ## ligule
+## {"attribute": "PATO:0000052", "entity": "PO:0020105"}
 Class: TO:0000335
  Annotations: rdfs:label "ligule shape"
  Annotations: IAO:0000115 "The shape of a ligule."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0020105 ## shape and 'inheres in' some ligule
 
-Class: PO:0020142 ## stem internode
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0020142", "attribute": "PATO:0000052"}
+Class: PO:0020142 ## stem internode
+## {"attribute": "PATO:0000052", "entity": "PO:0020142"}
 Class: TO:1000000
  Annotations: rdfs:label "stem internode bent"
  Annotations: IAO:0000115 "The shape of a stem internode."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0020142 ## shape and 'inheres in' some stem internode
 
-Class: PO:0025034 ## leaf
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0025034", "attribute": "PATO:0000052"}
+Class: PO:0025034 ## leaf
+## {"attribute": "PATO:0000052", "entity": "PO:0025034"}
 Class: TO:0000492
  Annotations: rdfs:label "leaf shape"
  Annotations: IAO:0000115 "The shape of a leaf."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0025034 ## shape and 'inheres in' some leaf
 
-Class: PO:0025248 ## pseudostem
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0025248", "attribute": "PATO:0000052"}
+Class: PO:0025248 ## pseudostem
+## {"attribute": "PATO:0000052", "entity": "PO:0025248"}
 Class: TO:0000809
  Annotations: rdfs:label "pseudostem shape"
  Annotations: IAO:0000115 "The shape of a pseudostem."
  EquivalentTo: PATO:0000052 and RO_0000052 some PO:0025248 ## shape and 'inheres in' some pseudostem
 
-Class: PO:0025597 ## ear infructescence
 Class: PATO:0000052 ## shape
-## {"entity": "PO:0025597", "attribute": "PATO:0000052"}
+Class: PO:0025597 ## ear infructescence
+## {"attribute": "PATO:0000052", "entity": "PO:0025597"}
 Class: TO:0000964
  Annotations: rdfs:label "ear shape"
  Annotations: IAO:0000115 "The shape of a ear infructescence."

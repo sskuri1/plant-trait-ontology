@@ -4,7 +4,7 @@ ontology: patterns/eq/age_pattern
 [Term]
 id: TO:0000017
 name: plant morphology trait
-def: "The physical object quality of a plant anatomical entity." []
+def: "The morphological quality of a plant anatomical entity." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025131
 
@@ -25,7 +25,7 @@ intersection_of: RO:0000052 PO:0000003
 [Term]
 id: TO:0000043
 name: root morphology trait
-def: "The physical object quality of a root." []
+def: "The morphological quality of a root." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009005
 
@@ -74,7 +74,7 @@ intersection_of: RO:0000052 PO:0020141
 [Term]
 id: TO:0000064
 name: plant embryo morphology trait
-def: "The physical object quality of a plant embryo." []
+def: "The morphological quality of a plant embryo." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009009
 
@@ -109,14 +109,14 @@ intersection_of: RO:0000052 PO:0025349
 [Term]
 id: TO:0000077
 name: shoot system morphology trait
-def: "The physical object quality of a shoot system." []
+def: "The morphological quality of a shoot system." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009006
 
 [Term]
 id: TO:0000079
 name: flower bract morphology trait
-def: "The physical object quality of a flower bract." []
+def: "The morphological quality of a flower bract." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009034
 
@@ -129,8 +129,9 @@ intersection_of: RO:0000052 PO:0025002
 
 [Term]
 id: TO:0000095
-name: osmotic response sensitivity
-def: "The sensitivity toward of a response to osmotic stress." []
+name: response to osmotic stress response trait
+def: "The response to response to osmotic stress stress." []
+synonym: "osmotic response sensitivity" EXACT []
 intersection_of: PATO:0000085
 intersection_of: RO:0000052 GO:0006970
 
@@ -157,8 +158,9 @@ intersection_of: RO:0000052 PO:0009089
 
 [Term]
 id: TO:0000103
-name: deepwater stress
-def: "The sensitivity toward of a flood prone region." []
+name: flood prone region response trait
+def: "The response to flood prone region stress." []
+synonym: "deepwater stress" EXACT []
 intersection_of: PATO:0000085
 intersection_of: RO:0000052 EO:0007396
 
@@ -241,8 +243,9 @@ intersection_of: RO:0000052 PO:0009010
 
 [Term]
 id: TO:0000177
-name: 2,4-dichlorophenoxyacetic acid sensitivity
-def: "The sensitivity toward of a 2,4-dichlorophenoxyacetic acid treatment." []
+name: 2,4-dichlorophenoxyacetic acid treatment response trait
+def: "The response to 2,4-dichlorophenoxyacetic acid treatment stress." []
+synonym: "2,4-dichlorophenoxyacetic acid sensitivity" EXACT []
 intersection_of: PATO:0000085
 intersection_of: RO:0000052 EO:0007180
 
@@ -263,7 +266,7 @@ intersection_of: RO:0000052 PO:0009010
 [Term]
 id: TO:0000184
 name: seed morphology trait
-def: "The physical object quality of a seed." []
+def: "The morphological quality of a seed." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009010
 
@@ -354,7 +357,7 @@ intersection_of: RO:0000052 PO:0009066
 [Term]
 id: TO:0000215
 name: stamen morphology trait
-def: "The physical object quality of a stamen." []
+def: "The morphological quality of a stamen." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009029
 
@@ -368,7 +371,7 @@ intersection_of: RO:0000052 PO:0009039
 [Term]
 id: TO:0000223
 name: pistil morphology trait
-def: "The physical object quality of a gynoecium." []
+def: "The morphological quality of a gynoecium." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009062
 
@@ -388,8 +391,9 @@ intersection_of: RO:0000052 PO:0009005
 
 [Term]
 id: TO:0000237
-name: water stress trait
-def: "The stress trait of a water." []
+name: water response trait
+def: "The response to water stress." []
+synonym: "water stress trait" EXACT []
 intersection_of: TO:0000164
 intersection_of: RO:0000052 CHEBI:15377
 
@@ -430,8 +434,9 @@ intersection_of: RO:0000052 PO:0025034
 
 [Term]
 id: TO:0000259
-name: heat tolerance
-def: "The tolerant to of a warm/hot temperature regimen." []
+name: warm/hot temperature regimen response trait
+def: "The response to warm/hot temperature regimen stress." []
+synonym: "heat tolerance" EXACT []
 intersection_of: PATO:0000515
 intersection_of: RO:0000052 EO:0007173
 
@@ -466,14 +471,14 @@ intersection_of: RO:0000052 PO:0009049
 [Term]
 id: TO:0000274
 name: spikelet floret morphology trait
-def: "The physical object quality of a spikelet floret." []
+def: "The morphological quality of a spikelet floret." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009082
 
 [Term]
 id: TO:0000275
 name: perianth morphology trait
-def: "The physical object quality of a perianth." []
+def: "The morphological quality of a perianth." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009058
 
@@ -556,8 +561,9 @@ intersection_of: RO:0000052 CHEBI:27325
 
 [Term]
 id: TO:0000303
-name: cold tolerance
-def: "The tolerant to of a cold temperature regimen." []
+name: cold temperature regimen response trait
+def: "The response to cold temperature regimen stress." []
+synonym: "cold tolerance" EXACT []
 intersection_of: PATO:0000515
 intersection_of: RO:0000052 EO:0007174
 
@@ -648,7 +654,7 @@ intersection_of: RO:0000052 PO:0009010
 [Term]
 id: TO:0000361
 name: stem morphology trait
-def: "The physical object quality of a stem." []
+def: "The morphological quality of a stem." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009047
 
@@ -669,7 +675,7 @@ intersection_of: RO:0000052 PO:0025034
 [Term]
 id: TO:0000373
 name: inflorescence morphology trait
-def: "The physical object quality of a inflorescence." []
+def: "The morphological quality of a inflorescence." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009049
 
@@ -683,7 +689,7 @@ intersection_of: RO:0000052 PO:0009010
 [Term]
 id: TO:0000398
 name: whole plant morphology trait
-def: "The physical object quality of a whole plant." []
+def: "The morphological quality of a whole plant." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0000003
 
@@ -696,8 +702,9 @@ intersection_of: RO:0000052 PO:0009040
 
 [Term]
 id: TO:0000401
-name: plant growth hormone sensitivity
-def: "The sensitivity toward of a plant hormone." []
+name: plant hormone response trait
+def: "The response to plant hormone stress." []
+synonym: "plant growth hormone sensitivity" EXACT []
 intersection_of: PATO:0000085
 intersection_of: RO:0000052 CHEBI:37848
 
@@ -711,7 +718,7 @@ intersection_of: RO:0000052 PO:0009034
 [Term]
 id: TO:0000419
 name: vascular leaf morphology trait
-def: "The physical object quality of a vascular leaf." []
+def: "The morphological quality of a vascular leaf." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009025
 
@@ -767,7 +774,7 @@ intersection_of: RO:0000052 CHEBI:27594
 [Term]
 id: TO:0000470
 name: vascular tissue morphology trait
-def: "The physical object quality of a portion of vascular tissue." []
+def: "The morphological quality of a portion of vascular tissue." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009015
 
@@ -851,7 +858,7 @@ intersection_of: RO:0000052 CHEBI:23044
 [Term]
 id: TO:0000499
 name: flower morphology trait
-def: "The physical object quality of a flower." []
+def: "The morphological quality of a flower." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009046
 
@@ -977,7 +984,7 @@ intersection_of: RO:0000052 PO:0009081
 [Term]
 id: TO:0000549
 name: rhizome morphology trait
-def: "The physical object quality of a rhizome." []
+def: "The morphological quality of a rhizome." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0004542
 
@@ -1054,7 +1061,7 @@ intersection_of: RO:0000052 PO:0009033
 [Term]
 id: TO:0000575
 name: endosperm morphology trait
-def: "The physical object quality of a endosperm." []
+def: "The morphological quality of a endosperm." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009089
 
@@ -1243,7 +1250,7 @@ intersection_of: RO:0000052 PO:0007520
 [Term]
 id: TO:0000657
 name: spikelet morphology trait
-def: "The physical object quality of a spikelet." []
+def: "The morphological quality of a spikelet." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009051
 
@@ -1439,42 +1446,42 @@ intersection_of: RO:0000052 CHEBI:6457
 [Term]
 id: TO:0000736
 name: plant organ morphology trait
-def: "The physical object quality of a plant organ." []
+def: "The morphological quality of a plant organ." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009008
 
 [Term]
 id: TO:0000738
 name: plant axis morphology trait
-def: "The physical object quality of a plant axis." []
+def: "The morphological quality of a plant axis." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025004
 
 [Term]
 id: TO:0000739
 name: shoot axis morphology trait
-def: "The physical object quality of a shoot axis." []
+def: "The morphological quality of a shoot axis." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025029
 
 [Term]
 id: TO:0000740
 name: branch morphology trait
-def: "The physical object quality of a branch." []
+def: "The morphological quality of a branch." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025073
 
 [Term]
 id: TO:0000741
 name: tuber morphology trait
-def: "The physical object quality of a tuber." []
+def: "The morphological quality of a tuber." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025522
 
 [Term]
 id: TO:0000742
 name: subterranean shoot axis tuber morphology trait
-def: "The physical object quality of a subterranean shoot axis tuber." []
+def: "The morphological quality of a subterranean shoot axis tuber." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0004547
 
@@ -1502,21 +1509,21 @@ intersection_of: RO:0000052 PO:0004547
 [Term]
 id: TO:0000747
 name: phyllome morphology trait
-def: "The physical object quality of a phyllome." []
+def: "The morphological quality of a phyllome." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0006001
 
 [Term]
 id: TO:0000748
 name: leaf morphology trait
-def: "The physical object quality of a leaf." []
+def: "The morphological quality of a leaf." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025034
 
 [Term]
 id: TO:0000749
 name: cotyledon morphology trait
-def: "The physical object quality of a cotyledon." []
+def: "The morphological quality of a cotyledon." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020030
 
@@ -1537,28 +1544,28 @@ intersection_of: RO:0000052 PO:0025471
 [Term]
 id: TO:0000753
 name: coleoptile morphology trait
-def: "The physical object quality of a coleoptile." []
+def: "The morphological quality of a coleoptile." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020033
 
 [Term]
 id: TO:0000756
 name: stem internode morphology trait
-def: "The physical object quality of a stem internode." []
+def: "The morphological quality of a stem internode." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020142
 
 [Term]
 id: TO:0000757
 name: hypocotyl morphology trait
-def: "The physical object quality of a hypocotyl." []
+def: "The morphological quality of a hypocotyl." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020100
 
 [Term]
 id: TO:0000758
 name: mesocotyl morphology trait
-def: "The physical object quality of a mesocotyl." []
+def: "The morphological quality of a mesocotyl." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020037
 
@@ -1593,14 +1600,14 @@ intersection_of: RO:0000052 PO:0025291
 [Term]
 id: TO:0000764
 name: stalk morphology trait
-def: "The physical object quality of a stalk." []
+def: "The morphological quality of a stalk." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025066
 
 [Term]
 id: TO:0000765
 name: petiole morphology trait
-def: "The physical object quality of a petiole." []
+def: "The morphological quality of a petiole." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020038
 
@@ -1628,49 +1635,49 @@ intersection_of: RO:0000052 PO:0020038
 [Term]
 id: TO:0000769
 name: seedling hypocotyl morphology trait
-def: "The physical object quality of a seedling hypocotyl." []
+def: "The morphological quality of a seedling hypocotyl." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025291
 
 [Term]
 id: TO:0000771
 name: embryo hypocotyl morphology trait
-def: "The physical object quality of a embryo hypocotyl." []
+def: "The morphological quality of a embryo hypocotyl." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025290
 
 [Term]
 id: TO:0000772
 name: seedling mesocotyl morphology trait
-def: "The physical object quality of a seedling mesocotyl." []
+def: "The morphological quality of a seedling mesocotyl." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025295
 
 [Term]
 id: TO:0000773
 name: embryo mesocotyl morphology trait
-def: "The physical object quality of a embryo mesocotyl." []
+def: "The morphological quality of a embryo mesocotyl." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025294
 
 [Term]
 id: TO:0000774
 name: seedling cotyledon morphology trait
-def: "The physical object quality of a seedling cotyledon." []
+def: "The morphological quality of a seedling cotyledon." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025471
 
 [Term]
 id: TO:0000775
 name: plant embryo cotyledon morphology trait
-def: "The physical object quality of a plant embryo cotyledon." []
+def: "The morphological quality of a plant embryo cotyledon." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025470
 
 [Term]
 id: TO:0000776
 name: peduncle morphology trait
-def: "The physical object quality of a peduncle." []
+def: "The morphological quality of a peduncle." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009053
 
@@ -1698,7 +1705,7 @@ intersection_of: RO:0000052 PO:0025291
 [Term]
 id: TO:0000782
 name: inflorescence axis morphology trait
-def: "The physical object quality of a inflorescence axis." []
+def: "The morphological quality of a inflorescence axis." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020122
 
@@ -1712,14 +1719,14 @@ intersection_of: RO:0000052 PO:0020122
 [Term]
 id: TO:0000784
 name: inflorescence branch morphology trait
-def: "The physical object quality of a inflorescence branch." []
+def: "The morphological quality of a inflorescence branch." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009081
 
 [Term]
 id: TO:0000786
 name: reproductive shoot system morphology trait
-def: "The physical object quality of a reproductive shoot system." []
+def: "The morphological quality of a reproductive shoot system." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025082
 
@@ -1733,21 +1740,21 @@ intersection_of: RO:0000052 PO:0009049
 [Term]
 id: TO:0000788
 name: tassel inflorescence morphology trait
-def: "The physical object quality of a tassel inflorescence." []
+def: "The morphological quality of a tassel inflorescence." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020126
 
 [Term]
 id: TO:0000789
 name: bud morphology trait
-def: "The physical object quality of a bud." []
+def: "The morphological quality of a bud." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0000055
 
 [Term]
 id: TO:0000790
 name: axillary bud morphology trait
-def: "The physical object quality of a axillary bud." []
+def: "The morphological quality of a axillary bud." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0004709
 
@@ -1838,7 +1845,7 @@ intersection_of: RO:0000052 PO:0009049
 [Term]
 id: TO:0000807
 name: pseudostem morphology trait
-def: "The physical object quality of a pseudostem." []
+def: "The morphological quality of a pseudostem." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025248
 
@@ -1873,14 +1880,14 @@ intersection_of: RO:0000052 PO:0025248
 [Term]
 id: TO:0000815
 name: bract morphology trait
-def: "The physical object quality of a bract." []
+def: "The morphological quality of a bract." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009055
 
 [Term]
 id: TO:0000816
 name: inflorescence bract morphology trait
-def: "The physical object quality of a inflorescence bract." []
+def: "The morphological quality of a inflorescence bract." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009054
 
@@ -1901,7 +1908,7 @@ intersection_of: RO:0000052 PO:0009054
 [Term]
 id: TO:0000822
 name: leaf midvein morphology trait
-def: "The physical object quality of a leaf midvein." []
+def: "The morphological quality of a leaf midvein." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020139
 
@@ -1936,98 +1943,98 @@ intersection_of: RO:0000052 PO:0020039
 [Term]
 id: TO:0000829
 name: leaf lamina morphology trait
-def: "The physical object quality of a leaf lamina." []
+def: "The morphological quality of a leaf lamina." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020039
 
 [Term]
 id: TO:0000830
 name: leaf lamina margin morphology trait
-def: "The physical object quality of a leaf lamina margin." []
+def: "The morphological quality of a leaf lamina margin." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025009
 
 [Term]
 id: TO:0000832
 name: flag leaf morphology trait
-def: "The physical object quality of a flag leaf." []
+def: "The morphological quality of a flag leaf." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020103
 
 [Term]
 id: TO:0000833
 name: organ margin morphology trait
-def: "The physical object quality of a organ margin." []
+def: "The morphological quality of a organ margin." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025005
 
 [Term]
 id: TO:0000835
 name: leaf sheath morphology trait
-def: "The physical object quality of a leaf sheath." []
+def: "The morphological quality of a leaf sheath." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020104
 
 [Term]
 id: TO:0000836
 name: multi-tissue plant structure morphology trait
-def: "The physical object quality of a multi-tissue plant structure." []
+def: "The morphological quality of a multi-tissue plant structure." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025496
 
 [Term]
 id: TO:0000838
 name: seed coat morphology trait
-def: "The physical object quality of a seed coat." []
+def: "The morphological quality of a seed coat." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009088
 
 [Term]
 id: TO:0000839
 name: plant structure morphology trait
-def: "The physical object quality of a plant structure." []
+def: "The morphological quality of a plant structure." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009011
 
 [Term]
 id: TO:0000840
 name: collective plant structure morphology trait
-def: "The physical object quality of a collective plant structure." []
+def: "The morphological quality of a collective plant structure." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025497
 
 [Term]
 id: TO:0000841
 name: collective organ part structure morphology trait
-def: "The physical object quality of a collective organ part structure." []
+def: "The morphological quality of a collective organ part structure." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025269
 
 [Term]
 id: TO:0000842
 name: collective plant organ structure morphology trait
-def: "The physical object quality of a collective plant organ structure." []
+def: "The morphological quality of a collective plant organ structure." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025007
 
 [Term]
 id: TO:0000843
 name: portion of plant tissue morphology trait
-def: "The physical object quality of a portion of plant tissue." []
+def: "The morphological quality of a portion of plant tissue." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009007
 
 [Term]
 id: TO:0000844
 name: in vitro plant structure morphology trait
-def: "The physical object quality of a in vitro plant structure." []
+def: "The morphological quality of a in vitro plant structure." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0000004
 
 [Term]
 id: TO:0000845
 name: collective phyllome structure morphology trait
-def: "The physical object quality of a collective phyllome structure." []
+def: "The morphological quality of a collective phyllome structure." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025023
 
@@ -2069,49 +2076,49 @@ intersection_of: RO:0000052 PO:0009046
 [Term]
 id: TO:0000863
 name: petal morphology trait
-def: "The physical object quality of a petal." []
+def: "The morphological quality of a petal." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009032
 
 [Term]
 id: TO:0000864
 name: sepal morphology trait
-def: "The physical object quality of a sepal." []
+def: "The morphological quality of a sepal." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009031
 
 [Term]
 id: TO:0000865
 name: tepal morphology trait
-def: "The physical object quality of a tepal." []
+def: "The morphological quality of a tepal." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009033
 
 [Term]
 id: TO:0000866
 name: sporophyll morphology trait
-def: "The physical object quality of a sporophyll." []
+def: "The morphological quality of a sporophyll." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009026
 
 [Term]
 id: TO:0000867
 name: megasporophyll morphology trait
-def: "The physical object quality of a megasporophyll." []
+def: "The morphological quality of a megasporophyll." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009027
 
 [Term]
 id: TO:0000868
 name: microsporophyll morphology trait
-def: "The physical object quality of a microsporophyll." []
+def: "The morphological quality of a microsporophyll." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009028
 
 [Term]
 id: TO:0000869
 name: glume morphology trait
-def: "The physical object quality of a glume." []
+def: "The morphological quality of a glume." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009039
 
@@ -2132,7 +2139,7 @@ intersection_of: RO:0000052 PO:0025034
 [Term]
 id: TO:0000876
 name: spine leaf morphology trait
-def: "The physical object quality of a spine leaf." []
+def: "The morphological quality of a spine leaf." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025173
 
@@ -2160,7 +2167,7 @@ intersection_of: RO:0000052 PO:0009088
 [Term]
 id: TO:0000884
 name: petiolule morphology trait
-def: "The physical object quality of a petiolule." []
+def: "The morphological quality of a petiolule." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020050
 
@@ -2209,7 +2216,7 @@ intersection_of: RO:0000052 PO:0009047
 [Term]
 id: TO:0000898
 name: root nodule morphology trait
-def: "The physical object quality of a root nodule." []
+def: "The morphological quality of a root nodule." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0003023
 
@@ -2230,7 +2237,7 @@ intersection_of: RO:0000052 PO:0009088
 [Term]
 id: TO:0000906
 name: exocarp morphology trait
-def: "The physical object quality of a exocarp." []
+def: "The morphological quality of a exocarp." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009085
 
@@ -2244,7 +2251,7 @@ intersection_of: RO:0000052 PO:0009085
 [Term]
 id: TO:0000911
 name: trichome morphology trait
-def: "The physical object quality of a trichome." []
+def: "The morphological quality of a trichome." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0000282
 
@@ -2258,14 +2265,14 @@ intersection_of: RO:0000052 PO:0000282
 [Term]
 id: TO:0000920
 name: infructescence morphology trait
-def: "The physical object quality of a infructescence." []
+def: "The morphological quality of a infructescence." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0006342
 
 [Term]
 id: TO:0000921
 name: infructescence axis morphology trait
-def: "The physical object quality of a infructescence axis." []
+def: "The morphological quality of a infructescence axis." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025242
 
@@ -2279,7 +2286,7 @@ intersection_of: RO:0000052 PO:0025597
 [Term]
 id: TO:0000925
 name: non-vascular leaf morphology trait
-def: "The physical object quality of a non-vascular leaf." []
+def: "The morphological quality of a non-vascular leaf." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025075
 
@@ -2293,7 +2300,7 @@ intersection_of: RO:0000052 CHEBI:37684
 [Term]
 id: TO:0000942
 name: aleurone layer morphology trait
-def: "The physical object quality of a aleurone layer." []
+def: "The morphological quality of a aleurone layer." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0005360
 
@@ -2307,28 +2314,28 @@ intersection_of: RO:0000052 PO:0005360
 [Term]
 id: TO:0000945
 name: pericarp morphology trait
-def: "The physical object quality of a pericarp." []
+def: "The morphological quality of a pericarp." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009084
 
 [Term]
 id: TO:0000946
 name: endocarp morphology trait
-def: "The physical object quality of a endocarp." []
+def: "The morphological quality of a endocarp." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009086
 
 [Term]
 id: TO:0000948
 name: mesocarp morphology trait
-def: "The physical object quality of a mesocarp." []
+def: "The morphological quality of a mesocarp." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009087
 
 [Term]
 id: TO:0000950
 name: corolla morphology trait
-def: "The physical object quality of a corolla." []
+def: "The morphological quality of a corolla." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009059
 
@@ -2349,7 +2356,7 @@ intersection_of: RO:0000052 PO:0009047
 [Term]
 id: TO:0000954
 name: spikelet rachilla morphology trait
-def: "The physical object quality of a spikelet rachilla." []
+def: "The morphological quality of a spikelet rachilla." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009080
 
@@ -2377,7 +2384,7 @@ intersection_of: RO:0000052 PO:0025597
 [Term]
 id: TO:0000967
 name: hilum morphology trait
-def: "The physical object quality of a hilum." []
+def: "The morphological quality of a hilum." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020063
 
@@ -2391,7 +2398,7 @@ intersection_of: RO:0000052 PO:0020063
 [Term]
 id: TO:0000969
 name: ear inflorescence morphology trait
-def: "The physical object quality of a ear inflorescence." []
+def: "The morphological quality of a ear inflorescence." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020136
 
@@ -2412,7 +2419,7 @@ intersection_of: RO:0000052 PO:0009080
 [Term]
 id: TO:0000976
 name: ear infructescence morphology trait
-def: "The physical object quality of a ear infructescence." []
+def: "The morphological quality of a ear infructescence." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025597
 
@@ -2426,14 +2433,14 @@ intersection_of: RO:0000052 PO:0009039
 [Term]
 id: TO:0000979
 name: involucre morphology trait
-def: "The physical object quality of a involucre." []
+def: "The morphological quality of a involucre." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009100
 
 [Term]
 id: TO:0000985
 name: root system morphology trait
-def: "The physical object quality of a root system." []
+def: "The morphological quality of a root system." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025025
 
@@ -2447,7 +2454,7 @@ intersection_of: RO:0000052 CHEBI:18246
 [Term]
 id: TO:0000994
 name: androecium morphology trait
-def: "The physical object quality of a androecium." []
+def: "The morphological quality of a androecium." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009061
 
@@ -2657,7 +2664,7 @@ intersection_of: RO:0000052 PO:0009001
 [Term]
 id: TO:0002629
 name: fruit morphology trait
-def: "The physical object quality of a fruit." []
+def: "The morphological quality of a fruit." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009001
 
@@ -2739,20 +2746,6 @@ intersection_of: PATO:0000025
 intersection_of: RO:0000052 CHEBI:23530
 
 [Term]
-id: TO:0002662
-name: leaf rolling tolerance
-def: "The tolerant to of a leaf rolling." []
-intersection_of: PATO:0000515
-intersection_of: RO:0000052 TO:0000085
-
-[Term]
-id: TO:0002663
-name: leaf necrosis tolerance
-def: "The tolerant to of a leaf necrosis." []
-intersection_of: PATO:0000515
-intersection_of: RO:0000052 TO:0000652
-
-[Term]
 id: TO:0002665
 name: root hair length
 def: "The length of a root hair cell." []
@@ -2810,8 +2803,9 @@ intersection_of: RO:0000052 CHEBI:22921
 
 [Term]
 id: TO:0002677
-name: brassinosteroid sensitivity
-def: "The sensitivity toward of a brassinosteroid treatment." []
+name: brassinosteroid treatment response trait
+def: "The response to brassinosteroid treatment stress." []
+synonym: "brassinosteroid sensitivity" EXACT []
 intersection_of: PATO:0000085
 intersection_of: RO:0000052 EO:0007409
 
@@ -2825,7 +2819,7 @@ intersection_of: RO:0000052 PO:0009002
 [Term]
 id: TO:0002683
 name: plant cell morphology trait
-def: "The physical object quality of a plant cell." []
+def: "The morphological quality of a plant cell." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009002
 
@@ -2915,15 +2909,17 @@ intersection_of: RO:0000052 CHEBI:28838
 
 [Term]
 id: TO:0002704
-name: Meloidogyne incognita resistance
-def: "The resistance to of a Meloidogyne incognita." []
+name: Meloidogyne incognita response trait
+def: "The response to Meloidogyne incognita stress." []
+synonym: "Meloidogyne incognita resistance" EXACT []
 intersection_of: PATO:0001046
 intersection_of: RO:0000052 EO:0007372
 
 [Term]
 id: TO:0002706
-name: Meloidogyne javanica resistance
-def: "The resistance to of a Meloidogyne javanica." []
+name: Meloidogyne javanica response trait
+def: "The response to Meloidogyne javanica stress." []
+synonym: "Meloidogyne javanica resistance" EXACT []
 intersection_of: PATO:0001046
 intersection_of: RO:0000052 EO:0007371
 
@@ -2958,14 +2954,14 @@ intersection_of: RO:0000052 PO:0009005
 [Term]
 id: TO:0002717
 name: leaf sheath auricle morphology trait
-def: "The physical object quality of a leaf sheath auricle." []
+def: "The morphological quality of a leaf sheath auricle." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020106
 
 [Term]
 id: TO:0002718
 name: awn morphology trait
-def: "The physical object quality of a awn." []
+def: "The morphological quality of a awn." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025349
 
@@ -3049,7 +3045,7 @@ intersection_of: RO:0000052 PO:0009001
 [Term]
 id: TO:0002748
 name: ligule morphology trait
-def: "The physical object quality of a ligule." []
+def: "The morphological quality of a ligule." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020105
 
@@ -3111,22 +3107,25 @@ intersection_of: RO:0000052 CHEBI:27432
 
 [Term]
 id: TO:0005006
-name: glyphosate sensitivity
-def: "The sensitivity toward of a glyphosate." []
+name: glyphosate response trait
+def: "The response to glyphosate stress." []
+synonym: "glyphosate sensitivity" EXACT []
 intersection_of: PATO:0000085
 intersection_of: RO:0000052 CHEBI:27744
 
 [Term]
 id: TO:0005007
-name: glufosinate sensitivity
-def: "The sensitivity toward of a phosphinothricin." []
+name: phosphinothricin response trait
+def: "The response to phosphinothricin stress." []
+synonym: "glufosinate sensitivity" EXACT []
 intersection_of: PATO:0000085
 intersection_of: RO:0000052 CHEBI:52136
 
 [Term]
 id: TO:0006001
-name: salt tolerance
-def: "The tolerant to of a salt." []
+name: salt response trait
+def: "The response to salt stress." []
+synonym: "salt tolerance" EXACT []
 intersection_of: PATO:0000515
 intersection_of: RO:0000052 CHEBI:24866
 
@@ -3175,7 +3174,7 @@ intersection_of: RO:0000052 CHEBI:18154
 [Term]
 id: TO:0006009
 name: lodicule morphology trait
-def: "The physical object quality of a lodicule." []
+def: "The morphological quality of a lodicule." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009036
 
@@ -3196,7 +3195,7 @@ intersection_of: RO:0000052 PO:0009036
 [Term]
 id: TO:0006012
 name: carpel morphology trait
-def: "The physical object quality of a carpel." []
+def: "The morphological quality of a carpel." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009030
 
@@ -3434,7 +3433,7 @@ intersection_of: RO:0000052 PO:0025476
 [Term]
 id: TO:1000007
 name: tuberous root tuber morphology trait
-def: "The physical object quality of a tuberous root tuber." []
+def: "The morphological quality of a tuberous root tuber." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025476
 
@@ -3511,28 +3510,28 @@ intersection_of: RO:0000052 PO:0020041
 [Term]
 id: TO:1000021
 name: plant ovary morphology
-def: "The physical object quality of a plant ovary." []
+def: "The morphological quality of a plant ovary." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009072
 
 [Term]
 id: TO:1000022
 name: anther morphology trait
-def: "The physical object quality of a anther." []
+def: "The morphological quality of a anther." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009066
 
 [Term]
 id: TO:1000023
 name: lemma morphology trait
-def: "The physical object quality of a lemma." []
+def: "The morphological quality of a lemma." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009037
 
 [Term]
 id: TO:1000024
 name: palea morphology trait
-def: "The physical object quality of a palea." []
+def: "The morphological quality of a palea." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009038
 

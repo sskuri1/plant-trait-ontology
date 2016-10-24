@@ -2,12 +2,12 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 
  ## Auto-generated
 
@@ -16,13 +16,13 @@ AnnotationProperty: IAO:0000115
 AnnotationProperty: to/eq/attribute
 AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
 ## Auto-generated classes
 
 Class: PATO:0000070 ## amount
 Class: CHEBI:26130 ## biological pigment
-## {"attribute": "PATO:0000070", "entity": "CHEBI:26130"}
+## {"entity": "CHEBI:26130", "attribute": "PATO:0000070"}
 Class: TO:0000494
  Annotations: rdfs:label "pigment content"
  Annotations: IAO:0000115 "The amount of a biological pigment."
@@ -30,7 +30,7 @@ Class: TO:0000494
 
 Class: PATO:0000070 ## amount
 Class: CHEBI:26216 ## potassium atom
-## {"attribute": "PATO:0000070", "entity": "CHEBI:26216"}
+## {"entity": "CHEBI:26216", "attribute": "PATO:0000070"}
 Class: TO:0000609
  Annotations: rdfs:label "potassium content"
  Annotations: IAO:0000115 "The amount of a potassium atom."
@@ -38,7 +38,7 @@ Class: TO:0000609
 
 Class: PATO:0000070 ## amount
 Class: CHEBI:26708 ## sodium atom
-## {"attribute": "PATO:0000070", "entity": "CHEBI:26708"}
+## {"entity": "CHEBI:26708", "attribute": "PATO:0000070"}
 Class: TO:0000608
  Annotations: rdfs:label "sodium content"
  Annotations: IAO:0000115 "The amount of a sodium atom."
@@ -46,7 +46,7 @@ Class: TO:0000608
 
 Class: PATO:0000070 ## amount
 Class: CHEBI:27594 ## carbon atom
-## {"attribute": "PATO:0000070", "entity": "CHEBI:27594"}
+## {"entity": "CHEBI:27594", "attribute": "PATO:0000070"}
 Class: TO:0000466
  Annotations: rdfs:label "carbon content"
  Annotations: IAO:0000115 "The amount of a carbon atom."
@@ -54,7 +54,7 @@ Class: TO:0000466
 
 Class: PATO:0000070 ## amount
 Class: CHEBI:49191 ## momilactone A
-## {"attribute": "PATO:0000070", "entity": "CHEBI:49191"}
+## {"entity": "CHEBI:49191", "attribute": "PATO:0000070"}
 Class: TO:0002670
  Annotations: rdfs:label "momilactone A content"
  Annotations: IAO:0000115 "The amount of a momilactone A."
@@ -62,7 +62,7 @@ Class: TO:0002670
 
 Class: PATO:0000070 ## amount
 Class: PO:0025349 ## awn
-## {"attribute": "PATO:0000070", "entity": "PO:0025349"}
+## {"entity": "PO:0025349", "attribute": "PATO:0000070"}
 Class: TO:0002734
  Annotations: rdfs:label "awn presence"
  Annotations: IAO:0000115 "The amount of a awn."

@@ -2,10 +2,10 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 
@@ -13,120 +13,120 @@ Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/eq/width_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/attribute
 AnnotationProperty: to/eq/entity
+AnnotationProperty: to/eq/attribute
 AnnotationProperty: DOSDP:applies-pattern
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: PATO:0000921 ## width
 Class: PO:0009001 ## fruit
-## {"attribute": "PATO:0000921", "entity": "PO:0009001"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009001", "attribute": "PATO:0000921"}
 Class: TO:0002627
  Annotations: rdfs:label "fruit width"
  Annotations: IAO:0000115 "The width of a fruit."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009001 ## width and 'inheres in' some fruit
 
-Class: PATO:0000921 ## width
 Class: PO:0009010 ## seed
-## {"attribute": "PATO:0000921", "entity": "PO:0009010"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009010", "attribute": "PATO:0000921"}
 Class: TO:0000149
  Annotations: rdfs:label "seed width"
  Annotations: IAO:0000115 "The width of a seed."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009010 ## width and 'inheres in' some seed
 
-Class: PATO:0000921 ## width
 Class: PO:0009031 ## sepal
-## {"attribute": "PATO:0000921", "entity": "PO:0009031"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009031", "attribute": "PATO:0000921"}
 Class: TO:0002608
  Annotations: rdfs:label "sepal width"
  Annotations: IAO:0000115 "The width of a sepal."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009031 ## width and 'inheres in' some sepal
 
-Class: PATO:0000921 ## width
 Class: PO:0009032 ## petal
-## {"attribute": "PATO:0000921", "entity": "PO:0009032"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009032", "attribute": "PATO:0000921"}
 Class: TO:0002606
  Annotations: rdfs:label "petal width"
  Annotations: IAO:0000115 "The width of a petal."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009032 ## width and 'inheres in' some petal
 
-Class: PATO:0000921 ## width
 Class: PO:0009039 ## glume
-## {"attribute": "PATO:0000921", "entity": "PO:0009039"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009039", "attribute": "PATO:0000921"}
 Class: TO:0020034
  Annotations: rdfs:label "glume width"
  Annotations: IAO:0000115 "The width of a glume."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009039 ## width and 'inheres in' some glume
 
-Class: PATO:0000921 ## width
 Class: PO:0009040 ## sterile lemma
-## {"attribute": "PATO:0000921", "entity": "PO:0009040"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009040", "attribute": "PATO:0000921"}
 Class: TO:0002727
  Annotations: rdfs:label "sterile lemma width"
  Annotations: IAO:0000115 "The width of a sterile lemma."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009040 ## width and 'inheres in' some sterile lemma
 
-Class: PATO:0000921 ## width
 Class: PO:0009047 ## stem
-## {"attribute": "PATO:0000921", "entity": "PO:0009047"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009047", "attribute": "PATO:0000921"}
 Class: TO:0001035
  Annotations: rdfs:label "stem width"
  Annotations: IAO:0000115 "The width of a stem."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009047 ## width and 'inheres in' some stem
 
-Class: PATO:0000921 ## width
 Class: PO:0009049 ## inflorescence
-## {"attribute": "PATO:0000921", "entity": "PO:0009049"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009049", "attribute": "PATO:0000921"}
 Class: TO:0000804
  Annotations: rdfs:label "inflorescence width"
  Annotations: IAO:0000115 "The width of a inflorescence."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009049 ## width and 'inheres in' some inflorescence
 
-Class: PATO:0000921 ## width
 Class: PO:0009051 ## spikelet
-## {"attribute": "PATO:0000921", "entity": "PO:0009051"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009051", "attribute": "PATO:0000921"}
 Class: TO:0000564
  Annotations: rdfs:label "spikelet width"
  Annotations: IAO:0000115 "The width of a spikelet."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009051 ## width and 'inheres in' some spikelet
 
-Class: PATO:0000921 ## width
 Class: PO:0009053 ## peduncle
-## {"attribute": "PATO:0000921", "entity": "PO:0009053"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0009053", "attribute": "PATO:0000921"}
 Class: TO:0000649
  Annotations: rdfs:label "peduncle width"
  Annotations: IAO:0000115 "The width of a peduncle."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0009053 ## width and 'inheres in' some peduncle
 
-Class: PATO:0000921 ## width
 Class: PO:0020039 ## leaf lamina
-## {"attribute": "PATO:0000921", "entity": "PO:0020039"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0020039", "attribute": "PATO:0000921"}
 Class: TO:0002720
  Annotations: rdfs:label "leaf lamina width"
  Annotations: IAO:0000115 "The width of a leaf lamina."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0020039 ## width and 'inheres in' some leaf lamina
 
-Class: PATO:0000921 ## width
 Class: PO:0020104 ## leaf sheath
-## {"attribute": "PATO:0000921", "entity": "PO:0020104"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0020104", "attribute": "PATO:0000921"}
 Class: TO:0002721
  Annotations: rdfs:label "leaf sheath width"
  Annotations: IAO:0000115 "The width of a leaf sheath."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0020104 ## width and 'inheres in' some leaf sheath
 
-Class: PATO:0000921 ## width
 Class: PO:0025034 ## leaf
-## {"attribute": "PATO:0000921", "entity": "PO:0025034"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0025034", "attribute": "PATO:0000921"}
 Class: TO:0000370
  Annotations: rdfs:label "leaf width"
  Annotations: IAO:0000115 "The width of a leaf."
  EquivalentTo: PATO:0000921 and RO_0000052 some PO:0025034 ## width and 'inheres in' some leaf
 
-Class: PATO:0000921 ## width
 Class: PO:0025349 ## awn
-## {"attribute": "PATO:0000921", "entity": "PO:0025349"}
+Class: PATO:0000921 ## width
+## {"entity": "PO:0025349", "attribute": "PATO:0000921"}
 Class: TO:0011007
  Annotations: rdfs:label "awn width"
  Annotations: IAO:0000115 "The width of a awn."

@@ -1,0 +1,11 @@
+format-version: 1.2
+ontology: patterns/response/stress_trait_pattern
+
+[Term]
+id: TO:0000237
+name: water response trait
+def: "The response to water stress." []
+synonym: "water stress trait" EXACT []
+intersection_of: TO:0000164
+intersection_of: RO:0000052 CHEBI:15377
+

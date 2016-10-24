@@ -4,105 +4,105 @@ Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/eq/diameter_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/entity
 AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: PO:0006505 ## central spike of ear inflorescence
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0006505", "attribute": "PATO:0001334"}
+Class: PO:0006505 ## central spike of ear inflorescence
+## {"attribute": "PATO:0001334", "entity": "PO:0006505"}
 Class: TO:0000678
  Annotations: rdfs:label "cob diameter"
  Annotations: IAO:0000115 "The diameter of a central spike of ear inflorescence."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0006505 ## diameter and 'inheres in' some central spike of ear inflorescence
 
-Class: PO:0009001 ## fruit
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0009001", "attribute": "PATO:0001334"}
+Class: PO:0009001 ## fruit
+## {"attribute": "PATO:0001334", "entity": "PO:0009001"}
 Class: TO:0000848
  Annotations: rdfs:label "fruit diameter"
  Annotations: IAO:0000115 "The diameter of a fruit."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0009001 ## diameter and 'inheres in' some fruit
 
-Class: PO:0009046 ## flower
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0009046", "attribute": "PATO:0001334"}
+Class: PO:0009046 ## flower
+## {"attribute": "PATO:0001334", "entity": "PO:0009046"}
 Class: TO:0000858
  Annotations: rdfs:label "flower diameter"
  Annotations: IAO:0000115 "The diameter of a flower."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0009046 ## diameter and 'inheres in' some flower
 
-Class: PO:0009047 ## stem
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0009047", "attribute": "PATO:0001334"}
+Class: PO:0009047 ## stem
+## {"attribute": "PATO:0001334", "entity": "PO:0009047"}
 Class: TO:0020083
  Annotations: rdfs:label "stem diameter"
  Annotations: IAO:0000115 "The diameter of a stem."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0009047 ## diameter and 'inheres in' some stem
 
-Class: PO:0009049 ## inflorescence
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0009049", "attribute": "PATO:0001334"}
+Class: PO:0009049 ## inflorescence
+## {"attribute": "PATO:0001334", "entity": "PO:0009049"}
 Class: TO:0000802
  Annotations: rdfs:label "inflorescence diameter"
  Annotations: IAO:0000115 "The diameter of a inflorescence."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0009049 ## diameter and 'inheres in' some inflorescence
 
-Class: PO:0009053 ## peduncle
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0009053", "attribute": "PATO:0001334"}
+Class: PO:0009053 ## peduncle
+## {"attribute": "PATO:0001334", "entity": "PO:0009053"}
 Class: TO:0000546
  Annotations: rdfs:label "peduncle top diameter"
  Annotations: IAO:0000115 "The diameter of a peduncle."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0009053 ## diameter and 'inheres in' some peduncle
 
-Class: PO:0020104 ## leaf sheath
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0020104", "attribute": "PATO:0001334"}
+Class: PO:0020104 ## leaf sheath
+## {"attribute": "PATO:0001334", "entity": "PO:0020104"}
 Class: TO:0000642
  Annotations: rdfs:label "leaf sheath diameter"
  Annotations: IAO:0000115 "The diameter of a leaf sheath."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0020104 ## diameter and 'inheres in' some leaf sheath
 
-Class: PO:0020126 ## tassel inflorescence
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0020126", "attribute": "PATO:0001334"}
+Class: PO:0020126 ## tassel inflorescence
+## {"attribute": "PATO:0001334", "entity": "PO:0020126"}
 Class: TO:0000799
  Annotations: rdfs:label "tassel inflorescence diameter"
  Annotations: IAO:0000115 "The diameter of a tassel inflorescence."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0020126 ## diameter and 'inheres in' some tassel inflorescence
 
-Class: PO:0025248 ## pseudostem
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0025248", "attribute": "PATO:0001334"}
+Class: PO:0025248 ## pseudostem
+## {"attribute": "PATO:0001334", "entity": "PO:0025248"}
 Class: TO:0000811
  Annotations: rdfs:label "pseudostem diameter"
  Annotations: IAO:0000115 "The diameter of a pseudostem."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0025248 ## diameter and 'inheres in' some pseudostem
 
-Class: PO:0025476 ## tuberous root tuber
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0025476", "attribute": "PATO:0001334"}
+Class: PO:0025476 ## tuberous root tuber
+## {"attribute": "PATO:0001334", "entity": "PO:0025476"}
 Class: TO:1000006
  Annotations: rdfs:label "tuberous root tuber diameter"
  Annotations: IAO:0000115 "The diameter of a tuberous root tuber."
  EquivalentTo: PATO:0001334 and RO_0000052 some PO:0025476 ## diameter and 'inheres in' some tuberous root tuber
 
-Class: PO:0025597 ## ear infructescence
 Class: PATO:0001334 ## diameter
-## {"entity": "PO:0025597", "attribute": "PATO:0001334"}
+Class: PO:0025597 ## ear infructescence
+## {"attribute": "PATO:0001334", "entity": "PO:0025597"}
 Class: TO:0000433
  Annotations: rdfs:label "ear diameter"
  Annotations: IAO:0000115 "The diameter of a ear infructescence."

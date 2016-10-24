@@ -2,12 +2,12 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 
  ## Auto-generated
 
@@ -22,7 +22,7 @@ ObjectProperty: RO_0000052 ## inheres in
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:10022 ## Vomitoxin
-## {"attribute": "PATO:0000025", "entity": "CHEBI:10022"}
+## {"entity": "CHEBI:10022", "attribute": "PATO:0000025"}
 Class: TO:0000669
  Annotations: rdfs:label "deoxynivalenol content"
  Annotations: IAO:0000115 "The composition of a Vomitoxin."
@@ -30,7 +30,7 @@ Class: TO:0000669
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:15948 ## lycopene
-## {"attribute": "PATO:0000025", "entity": "CHEBI:15948"}
+## {"entity": "CHEBI:15948", "attribute": "PATO:0000025"}
 Class: TO:0002699
  Annotations: rdfs:label "lycopene content"
  Annotations: IAO:0000115 "The composition of a lycopene."
@@ -38,7 +38,7 @@ Class: TO:0002699
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:16196 ## oleic acid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:16196"}
+## {"entity": "CHEBI:16196", "attribute": "PATO:0000025"}
 Class: TO:0005002
  Annotations: rdfs:label "oleic acid content"
  Annotations: IAO:0000115 "The composition of a oleic acid."
@@ -46,7 +46,7 @@ Class: TO:0005002
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:16240 ## hydrogen peroxide
-## {"attribute": "PATO:0000025", "entity": "CHEBI:16240"}
+## {"entity": "CHEBI:16240", "attribute": "PATO:0000025"}
 Class: TO:0000605
  Annotations: rdfs:label "hydrogen peroxide content"
  Annotations: IAO:0000115 "The composition of a hydrogen peroxide."
@@ -54,7 +54,7 @@ Class: TO:0000605
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:16634 ## raffinose
-## {"attribute": "PATO:0000025", "entity": "CHEBI:16634"}
+## {"entity": "CHEBI:16634", "attribute": "PATO:0000025"}
 Class: TO:0006004
  Annotations: rdfs:label "raffinose content"
  Annotations: IAO:0000115 "The composition of a raffinose."
@@ -62,7 +62,7 @@ Class: TO:0006004
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:16646 ## carbohydrate
-## {"attribute": "PATO:0000025", "entity": "CHEBI:16646"}
+## {"entity": "CHEBI:16646", "attribute": "PATO:0000025"}
 Class: TO:0000489
  Annotations: rdfs:label "carbohydrate composition related trait"
  Annotations: IAO:0000115 "The composition of a carbohydrate."
@@ -70,7 +70,7 @@ Class: TO:0000489
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:17234 ## glucose
-## {"attribute": "PATO:0000025", "entity": "CHEBI:17234"}
+## {"entity": "CHEBI:17234", "attribute": "PATO:0000025"}
 Class: TO:0000300
  Annotations: rdfs:label "glucose content"
  Annotations: IAO:0000115 "The composition of a glucose."
@@ -78,7 +78,7 @@ Class: TO:0000300
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:17351 ## linoleic acid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:17351"}
+## {"entity": "CHEBI:17351", "attribute": "PATO:0000025"}
 Class: TO:0005001
  Annotations: rdfs:label "linoleic acid content"
  Annotations: IAO:0000115 "The composition of a linoleic acid."
@@ -86,7 +86,7 @@ Class: TO:0005001
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:17514 ## cyanide
-## {"attribute": "PATO:0000025", "entity": "CHEBI:17514"}
+## {"entity": "CHEBI:17514", "attribute": "PATO:0000025"}
 Class: TO:0000955
  Annotations: rdfs:label "cyanide content"
  Annotations: IAO:0000115 "The composition of a cyanide."
@@ -94,7 +94,7 @@ Class: TO:0000955
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:17579 ## beta-carotene
-## {"attribute": "PATO:0000025", "entity": "CHEBI:17579"}
+## {"entity": "CHEBI:17579", "attribute": "PATO:0000025"}
 Class: TO:0002695
  Annotations: rdfs:label "beta-carotene content"
  Annotations: IAO:0000115 "The composition of a beta-carotene."
@@ -102,7 +102,7 @@ Class: TO:0002695
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:17620 ## ferulic acid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:17620"}
+## {"entity": "CHEBI:17620", "attribute": "PATO:0000025"}
 Class: TO:0000675
  Annotations: rdfs:label "ferulic acid content"
  Annotations: IAO:0000115 "The composition of a ferulic acid."
@@ -110,7 +110,7 @@ Class: TO:0000675
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:17855 ## triglyceride
-## {"attribute": "PATO:0000025", "entity": "CHEBI:17855"}
+## {"entity": "CHEBI:17855", "attribute": "PATO:0000025"}
 Class: TO:0000602
  Annotations: rdfs:label "total fat content"
  Annotations: IAO:0000115 "The composition of a triglyceride."
@@ -118,7 +118,7 @@ Class: TO:0000602
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:17992 ## sucrose
-## {"attribute": "PATO:0000025", "entity": "CHEBI:17992"}
+## {"entity": "CHEBI:17992", "attribute": "PATO:0000025"}
 Class: TO:0000328
  Annotations: rdfs:label "sucrose content"
  Annotations: IAO:0000115 "The composition of a sucrose."
@@ -126,7 +126,7 @@ Class: TO:0000328
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:18133 ## hexose
-## {"attribute": "PATO:0000025", "entity": "CHEBI:18133"}
+## {"entity": "CHEBI:18133", "attribute": "PATO:0000025"}
 Class: TO:0000307
  Annotations: rdfs:label "hexose content"
  Annotations: IAO:0000115 "The composition of a hexose."
@@ -134,7 +134,7 @@ Class: TO:0000307
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:18154 ## polysaccharide
-## {"attribute": "PATO:0000025", "entity": "CHEBI:18154"}
+## {"entity": "CHEBI:18154", "attribute": "PATO:0000025"}
 Class: TO:0006007
  Annotations: rdfs:label "polysaccharide content"
  Annotations: IAO:0000115 "The composition of a polysaccharide."
@@ -142,7 +142,7 @@ Class: TO:0006007
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:18230 ## chlorophyll a
-## {"attribute": "PATO:0000025", "entity": "CHEBI:18230"}
+## {"entity": "CHEBI:18230", "attribute": "PATO:0000025"}
 Class: TO:0000293
  Annotations: rdfs:label "chlorophyll-a content"
  Annotations: IAO:0000115 "The composition of a chlorophyll a."
@@ -150,7 +150,7 @@ Class: TO:0000293
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:18246 ## (1->4)-beta-D-glucan
-## {"attribute": "PATO:0000025", "entity": "CHEBI:18246"}
+## {"entity": "CHEBI:18246", "attribute": "PATO:0000025"}
 Class: TO:0000993
  Annotations: rdfs:label "cellulose content"
  Annotations: IAO:0000115 "The composition of a (1->4)-beta-D-glucan."
@@ -158,7 +158,7 @@ Class: TO:0000993
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:18292 ## jasmonic acid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:18292"}
+## {"entity": "CHEBI:18292", "attribute": "PATO:0000025"}
 Class: TO:0002668
  Annotations: rdfs:label "jasmonic acid content"
  Annotations: IAO:0000115 "The composition of a jasmonic acid."
@@ -166,7 +166,7 @@ Class: TO:0002668
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:22921 ## brassinosteroid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:22921"}
+## {"entity": "CHEBI:22921", "attribute": "PATO:0000025"}
 Class: TO:0002676
  Annotations: rdfs:label "brassinosteroid content"
  Annotations: IAO:0000115 "The composition of a brassinosteroid."
@@ -174,7 +174,7 @@ Class: TO:0002676
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:23044 ## carotenoid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:23044"}
+## {"entity": "CHEBI:23044", "attribute": "PATO:0000025"}
 Class: TO:0000496
  Annotations: rdfs:label "carotenoid content"
  Annotations: IAO:0000115 "The composition of a carotenoid."
@@ -182,7 +182,7 @@ Class: TO:0000496
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:23530 ## cytokinin
-## {"attribute": "PATO:0000025", "entity": "CHEBI:23530"}
+## {"entity": "CHEBI:23530", "attribute": "PATO:0000025"}
 Class: TO:0002660
  Annotations: rdfs:label "cytokinin content"
  Annotations: IAO:0000115 "The composition of a cytokinin."
@@ -190,7 +190,7 @@ Class: TO:0002660
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:25212 ## metabolite
-## {"attribute": "PATO:0000025", "entity": "CHEBI:25212"}
+## {"entity": "CHEBI:25212", "attribute": "PATO:0000025"}
 Class: TO:0000281
  Annotations: rdfs:label "metabolite content trait"
  Annotations: IAO:0000115 "The composition of a metabolite."
@@ -198,7 +198,7 @@ Class: TO:0000281
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:25442 ## mycotoxin
-## {"attribute": "PATO:0000025", "entity": "CHEBI:25442"}
+## {"entity": "CHEBI:25442", "attribute": "PATO:0000025"}
 Class: TO:0000668
  Annotations: rdfs:label "mycotoxin content"
  Annotations: IAO:0000115 "The composition of a mycotoxin."
@@ -206,7 +206,7 @@ Class: TO:0000668
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:25681 ## omega-3 fatty acid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:25681"}
+## {"entity": "CHEBI:25681", "attribute": "PATO:0000025"}
 Class: TO:0005004
  Annotations: rdfs:label "omega-3 fatty acid content"
  Annotations: IAO:0000115 "The composition of a omega-3 fatty acid."
@@ -214,7 +214,7 @@ Class: TO:0005004
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:26271 ## proline
-## {"attribute": "PATO:0000025", "entity": "CHEBI:26271"}
+## {"entity": "CHEBI:26271", "attribute": "PATO:0000025"}
 Class: TO:0006002
  Annotations: rdfs:label "proline content"
  Annotations: IAO:0000115 "The composition of a proline."
@@ -222,7 +222,7 @@ Class: TO:0006002
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:27325 ## xanthophyll
-## {"attribute": "PATO:0000025", "entity": "CHEBI:27325"}
+## {"entity": "CHEBI:27325", "attribute": "PATO:0000025"}
 Class: TO:0000301
  Annotations: rdfs:label "xanthophyll content"
  Annotations: IAO:0000115 "The composition of a xanthophyll."
@@ -230,7 +230,7 @@ Class: TO:0000301
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:27432 ## alpha-linolenic acid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:27432"}
+## {"entity": "CHEBI:27432", "attribute": "PATO:0000025"}
 Class: TO:0005005
  Annotations: rdfs:label "alpha-linolenic acid content"
  Annotations: IAO:0000115 "The composition of a alpha-linolenic acid."
@@ -238,7 +238,7 @@ Class: TO:0005005
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:27888 ## chlorophyll b
-## {"attribute": "PATO:0000025", "entity": "CHEBI:27888"}
+## {"entity": "CHEBI:27888", "attribute": "PATO:0000025"}
 Class: TO:0000295
  Annotations: rdfs:label "chlorophyll-b content"
  Annotations: IAO:0000115 "The composition of a chlorophyll b."
@@ -246,7 +246,7 @@ Class: TO:0000295
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:27897 ## tryptophan
-## {"attribute": "PATO:0000025", "entity": "CHEBI:27897"}
+## {"entity": "CHEBI:27897", "attribute": "PATO:0000025"}
 Class: TO:0002674
  Annotations: rdfs:label "tryptophan content"
  Annotations: IAO:0000115 "The composition of a tryptophan."
@@ -254,7 +254,7 @@ Class: TO:0002674
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:28017 ## starch
-## {"attribute": "PATO:0000025", "entity": "CHEBI:28017"}
+## {"entity": "CHEBI:28017", "attribute": "PATO:0000025"}
 Class: TO:0000696
  Annotations: rdfs:label "starch content"
  Annotations: IAO:0000115 "The composition of a starch."
@@ -262,7 +262,7 @@ Class: TO:0000696
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:28057 ## amylopectin
-## {"attribute": "PATO:0000025", "entity": "CHEBI:28057"}
+## {"entity": "CHEBI:28057", "attribute": "PATO:0000025"}
 Class: TO:0000097
  Annotations: rdfs:label "amylopectin content"
  Annotations: IAO:0000115 "The composition of a amylopectin."
@@ -270,7 +270,7 @@ Class: TO:0000097
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:28425 ## alpha-carotene
-## {"attribute": "PATO:0000025", "entity": "CHEBI:28425"}
+## {"entity": "CHEBI:28425", "attribute": "PATO:0000025"}
 Class: TO:0002696
  Annotations: rdfs:label "alpha carotene content"
  Annotations: IAO:0000115 "The composition of a alpha-carotene."
@@ -278,7 +278,7 @@ Class: TO:0002696
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:28757 ## fructose
-## {"attribute": "PATO:0000025", "entity": "CHEBI:28757"}
+## {"entity": "CHEBI:28757", "attribute": "PATO:0000025"}
 Class: TO:0006005
  Annotations: rdfs:label "fructose content"
  Annotations: IAO:0000115 "The composition of a fructose."
@@ -286,7 +286,7 @@ Class: TO:0006005
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:28793 ## beta-D-glucan
-## {"attribute": "PATO:0000025", "entity": "CHEBI:28793"}
+## {"entity": "CHEBI:28793", "attribute": "PATO:0000025"}
 Class: TO:0020068
  Annotations: rdfs:label "beta-glucan content"
  Annotations: IAO:0000115 "The composition of a beta-D-glucan."
@@ -294,7 +294,7 @@ Class: TO:0020068
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:28833 ## gibberellin A3
-## {"attribute": "PATO:0000025", "entity": "CHEBI:28833"}
+## {"entity": "CHEBI:28833", "attribute": "PATO:0000025"}
 Class: TO:0002675
  Annotations: rdfs:label "gibberellic acid content"
  Annotations: IAO:0000115 "The composition of a gibberellin A3."
@@ -302,7 +302,7 @@ Class: TO:0002675
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:28838 ## lutein
-## {"attribute": "PATO:0000025", "entity": "CHEBI:28838"}
+## {"entity": "CHEBI:28838", "attribute": "PATO:0000025"}
 Class: TO:0002701
  Annotations: rdfs:label "lutein content"
  Annotations: IAO:0000115 "The composition of a lutein."
@@ -310,7 +310,7 @@ Class: TO:0002701
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:28842 ## stearic acid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:28842"}
+## {"entity": "CHEBI:28842", "attribute": "PATO:0000025"}
 Class: TO:0005003
  Annotations: rdfs:label "stearic acid content"
  Annotations: IAO:0000115 "The composition of a stearic acid."
@@ -318,7 +318,7 @@ Class: TO:0005003
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:28966 ## chlorophyll
-## {"attribute": "PATO:0000025", "entity": "CHEBI:28966"}
+## {"entity": "CHEBI:28966", "attribute": "PATO:0000025"}
 Class: TO:0000495
  Annotations: rdfs:label "chlorophyll content"
  Annotations: IAO:0000115 "The composition of a chlorophyll."
@@ -326,7 +326,7 @@ Class: TO:0000495
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:33709 ## amino acid
-## {"attribute": "PATO:0000025", "entity": "CHEBI:33709"}
+## {"entity": "CHEBI:33709", "attribute": "PATO:0000025"}
 Class: TO:0002673
  Annotations: rdfs:label "amino acid content"
  Annotations: IAO:0000115 "The composition of a amino acid."
@@ -334,7 +334,7 @@ Class: TO:0002673
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:35162 ## acyclic carotene
-## {"attribute": "PATO:0000025", "entity": "CHEBI:35162"}
+## {"entity": "CHEBI:35162", "attribute": "PATO:0000025"}
 Class: TO:0002698
  Annotations: rdfs:label "acyclic carotene content"
  Annotations: IAO:0000115 "The composition of a acyclic carotene."
@@ -342,7 +342,7 @@ Class: TO:0002698
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:35163 ## cyclic carotene
-## {"attribute": "PATO:0000025", "entity": "CHEBI:35163"}
+## {"entity": "CHEBI:35163", "attribute": "PATO:0000025"}
 Class: TO:0002697
  Annotations: rdfs:label "cyclic carotene content"
  Annotations: IAO:0000115 "The composition of a cyclic carotene."
@@ -350,7 +350,7 @@ Class: TO:0002697
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:35218 ## anthocyanin cation
-## {"attribute": "PATO:0000025", "entity": "CHEBI:35218"}
+## {"entity": "CHEBI:35218", "attribute": "PATO:0000025"}
 Class: TO:0000071
  Annotations: rdfs:label "anthocyanin content"
  Annotations: IAO:0000115 "The composition of a anthocyanin cation."
@@ -358,7 +358,7 @@ Class: TO:0000071
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:35381 ## monosaccharide
-## {"attribute": "PATO:0000025", "entity": "CHEBI:35381"}
+## {"entity": "CHEBI:35381", "attribute": "PATO:0000025"}
 Class: TO:0006006
  Annotations: rdfs:label "monosaccharide content"
  Annotations: IAO:0000115 "The composition of a monosaccharide."
@@ -366,7 +366,7 @@ Class: TO:0006006
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:37684 ## mannose
-## {"attribute": "PATO:0000025", "entity": "CHEBI:37684"}
+## {"entity": "CHEBI:37684", "attribute": "PATO:0000025"}
 Class: TO:0000932
  Annotations: rdfs:label "mannose content"
  Annotations: IAO:0000115 "The composition of a mannose."
@@ -374,7 +374,7 @@ Class: TO:0000932
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:50699 ## oligosaccharide
-## {"attribute": "PATO:0000025", "entity": "CHEBI:50699"}
+## {"entity": "CHEBI:50699", "attribute": "PATO:0000025"}
 Class: TO:0006003
  Annotations: rdfs:label "oligosaccharide content"
  Annotations: IAO:0000115 "The composition of a oligosaccharide."
@@ -382,7 +382,7 @@ Class: TO:0006003
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:60952 ## diterpene phytoalexin
-## {"attribute": "PATO:0000025", "entity": "CHEBI:60952"}
+## {"entity": "CHEBI:60952", "attribute": "PATO:0000025"}
 Class: TO:0002669
  Annotations: rdfs:label "diterpenoid phytoalexin content"
  Annotations: IAO:0000115 "The composition of a diterpene phytoalexin."
@@ -390,7 +390,7 @@ Class: TO:0002669
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:6457 ## lignin
-## {"attribute": "PATO:0000025", "entity": "CHEBI:6457"}
+## {"entity": "CHEBI:6457", "attribute": "PATO:0000025"}
 Class: TO:0000731
  Annotations: rdfs:label "lignin content"
  Annotations: IAO:0000115 "The composition of a lignin."
@@ -398,7 +398,7 @@ Class: TO:0000731
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:70206 ## maysin
-## {"attribute": "PATO:0000025", "entity": "CHEBI:70206"}
+## {"entity": "CHEBI:70206", "attribute": "PATO:0000025"}
 Class: TO:0000690
  Annotations: rdfs:label "maysin content"
  Annotations: IAO:0000115 "The composition of a maysin."
@@ -406,7 +406,7 @@ Class: TO:0000690
 
 Class: PATO:0000025 ## composition
 Class: CHEBI:8027 ## Peroxidase
-## {"attribute": "PATO:0000025", "entity": "CHEBI:8027"}
+## {"entity": "CHEBI:8027", "attribute": "PATO:0000025"}
 Class: TO:0000313
  Annotations: rdfs:label "perodidase-71 content"
  Annotations: IAO:0000115 "The composition of a Peroxidase."
@@ -414,7 +414,7 @@ Class: TO:0000313
 
 Class: PATO:0000025 ## composition
 Class: PO:0025034 ## leaf
-## {"attribute": "PATO:0000025", "entity": "PO:0025034"}
+## {"entity": "PO:0025034", "attribute": "PATO:0000025"}
 Class: TO:0000493
  Annotations: rdfs:label "leaf composition trait"
  Annotations: IAO:0000115 "The composition of a leaf."
