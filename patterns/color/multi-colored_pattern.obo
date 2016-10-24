@@ -1,10 +1,10 @@
 format-version: 1.2
-ontology: patterns/eq/multi-colored_pattern
+ontology: patterns/color/multi-colored_pattern
 
 [Term]
 id: TO:0000069
 name: variegated leaf
-def: "The multi-colored of a leaf." []
+def: "A leaf that is multi-colored." []
 intersection_of: PATO:0001533
 intersection_of: RO:0000052 PO:0025034
 

@@ -3,27 +3,27 @@ Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 
  ## Auto-generated
 
-Ontology: <http://purl.obolibrary.org/obo/patterns/eq/purple_pattern.owl>
+Ontology: <http://purl.obolibrary.org/obo/patterns/color/green_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/attribute
-AnnotationProperty: to/eq/entity
+AnnotationProperty: to/color/attribute
+AnnotationProperty: to/color/entity
 AnnotationProperty: DOSDP:applies-pattern
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: PATO:0000951 ## purple
+Class: PATO:0000320 ## green
 Class: PO:0025291 ## seedling hypocotyl
-## {"attribute": "PATO:0000951", "entity": "PO:0025291"}
-Class: TO:0000762
- Annotations: rdfs:label "seedling hypocotyl purple"
- Annotations: IAO:0000115 "The purple of a seedling hypocotyl."
- EquivalentTo: PATO:0000951 and RO_0000052 some PO:0025291 ## purple and 'inheres in' some seedling hypocotyl
+## {"entity": "PO:0025291", "attribute": "PATO:0000320"}
+Class: TO:0000760
+ Annotations: rdfs:label "seedling hypocotyl green"
+ Annotations: IAO:0000115 "A seedling hypocotyl that is green."
+ EquivalentTo: PATO:0000320 and RO_0000052 some PO:0025291 ## green and 'inheres in' some seedling hypocotyl

@@ -1,10 +1,10 @@
 format-version: 1.2
-ontology: patterns/eq/dark_purple_pattern
+ontology: patterns/color/dark_purple_pattern
 
 [Term]
 id: TO:0000763
 name: seedling hypocotyl dark purple
-def: "The dark purple of a seedling hypocotyl." []
+def: "A seedling hypocotyl that is dark purple." []
 intersection_of: PATO:0001259
 intersection_of: RO:0000052 PO:0025291
 

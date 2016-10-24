@@ -51,9 +51,11 @@ PATTERNS_EQ_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/eq/*.tsv)
 PATTERNS_MORPH_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/morphology/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/morphology/*.tsv))
 PATTERNS_RESPONSE_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/response/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/response/*.tsv))
 PATTERNS_COMPOSITION_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/composition/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/composition/*.tsv))
+PATTERNS_COLOR_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/color/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/color/*.tsv))
 
 
-all_patterns: $(PATTERNS_COMPOSITION_OWL) $(PATTERNS_MORPH_OWL) $(PATTERNS_EQ_OWL) $(PATTERNS_RESPONSE_OWL)
+all_patterns: $(PATTERNS_COLOR_OWL)
+	#$(PATTERNS_COMPOSITION_OWL) $(PATTERNS_MORPH_OWL) $(PATTERNS_EQ_OWL) $(PATTERNS_RESPONSE_OWL)
 
 patterns/eq/%_pattern.owl: patterns/eq/%.tsv
 	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/eq/$*.tsv -p patterns/eq.yaml -n $@ > $@
@@ -79,12 +81,19 @@ patterns/composition/%_pattern.owl: patterns/composition/%.tsv
 patterns/composition/%_pattern.obo: patterns/composition/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 
+patterns/color/%_pattern.owl: patterns/color/%.tsv
+	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/color/$*.tsv -p patterns/color.yaml -n $@ > $@
+
+patterns/color/%_pattern.obo: patterns/color/%_pattern.owl
+	$(OWLTOOLS) $< -o -f obo $@
+
 
 #merge pattern files
 PATTERNS = $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/eq/*.tsv)) 
 PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/morphology/*.tsv)) 
 PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/response/*.tsv)) 
 PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/composition/*.tsv)) 
+PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/color/*.tsv)) 
 
 merge:
 	$(ROBOT) merge $(PATTERNS) --output patterns/merge_patterns.owl

@@ -1,14 +1,18 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/patterns/eq/age_pattern.owl#"
      xml:base="http://purl.obolibrary.org/obo/patterns/eq/age_pattern.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:morphology="http://purl.obolibrary.org/obo/to/morphology/"
+     xmlns:color="http://purl.obolibrary.org/obo/to/color/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:foo="http://geneontology.org/foo/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:eq="http://purl.obolibrary.org/obo/to/eq/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:composition="http://purl.obolibrary.org/obo/to/composition/"
+     xmlns:response="http://purl.obolibrary.org/obo/to/response/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/patterns/eq/age_pattern.owl"/>
     
@@ -37,6 +41,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/to/color/attribute -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/color/attribute"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/color/entity -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/color/entity"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/composition/attribute -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/composition/attribute"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/composition/entity -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/composition/entity"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/to/eq/attribute -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/eq/attribute"/>
@@ -46,6 +74,30 @@
     <!-- http://purl.obolibrary.org/obo/to/eq/entity -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/eq/entity"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/morphology/attribute -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/morphology/attribute"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/morphology/entity -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/morphology/entity"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/response/attribute -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/response/attribute"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/response/entity -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/response/entity"/>
     
 
 
@@ -2131,7 +2183,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The multi-colored of a leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A leaf that is multi-colored.</obo:IAO_0000115>
         <rdfs:label>variegated leaf</rdfs:label>
     </owl:Class>
     
@@ -2143,7 +2195,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35218"/>
@@ -2151,7 +2203,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a anthocyanin cation.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of anthocyanin cation.</obo:IAO_0000115>
         <rdfs:label>anthocyanin content</rdfs:label>
     </owl:Class>
     
@@ -2270,7 +2322,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28057"/>
@@ -2278,7 +2330,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a amylopectin.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of amylopectin.</obo:IAO_0000115>
         <rdfs:label>amylopectin content</rdfs:label>
     </owl:Class>
     
@@ -3280,7 +3332,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25212"/>
@@ -3288,7 +3340,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of metabolite.</obo:IAO_0000115>
         <rdfs:label>metabolite content trait</rdfs:label>
     </owl:Class>
     
@@ -3360,7 +3412,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18230"/>
@@ -3368,7 +3420,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a chlorophyll a.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of chlorophyll a.</obo:IAO_0000115>
         <rdfs:label>chlorophyll-a content</rdfs:label>
     </owl:Class>
     
@@ -3400,7 +3452,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27888"/>
@@ -3408,7 +3460,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a chlorophyll b.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of chlorophyll b.</obo:IAO_0000115>
         <rdfs:label>chlorophyll-b content</rdfs:label>
     </owl:Class>
     
@@ -3440,7 +3492,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17234"/>
@@ -3448,7 +3500,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a glucose.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of glucose.</obo:IAO_0000115>
         <rdfs:label>glucose content</rdfs:label>
     </owl:Class>
     
@@ -3460,7 +3512,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27325"/>
@@ -3468,7 +3520,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a xanthophyll.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of xanthophyll.</obo:IAO_0000115>
         <rdfs:label>xanthophyll content</rdfs:label>
     </owl:Class>
     
@@ -3541,7 +3593,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18133"/>
@@ -3549,7 +3601,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a hexose.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of hexose.</obo:IAO_0000115>
         <rdfs:label>hexose content</rdfs:label>
     </owl:Class>
     
@@ -3581,7 +3633,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8027"/>
@@ -3589,7 +3641,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a Peroxidase.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of Peroxidase.</obo:IAO_0000115>
         <rdfs:label>perodidase-71 content</rdfs:label>
     </owl:Class>
     
@@ -3621,7 +3673,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17992"/>
@@ -3629,7 +3681,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a sucrose.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of sucrose.</obo:IAO_0000115>
         <rdfs:label>sucrose content</rdfs:label>
     </owl:Class>
     
@@ -4070,7 +4122,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The amount of a carbon atom.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of carbon atom.</obo:IAO_0000115>
         <rdfs:label>carbon content</rdfs:label>
     </owl:Class>
     
@@ -4122,7 +4174,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22152"/>
@@ -4130,7 +4182,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a 2-cis-abscisic acid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of 2-cis-abscisic acid.</obo:IAO_0000115>
         <rdfs:label>abscisic acid concentration</rdfs:label>
     </owl:Class>
     
@@ -4202,7 +4254,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
@@ -4210,7 +4262,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a carbohydrate.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of carbohydrate.</obo:IAO_0000115>
         <rdfs:label>carbohydrate composition related trait</rdfs:label>
     </owl:Class>
     
@@ -4242,7 +4294,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
@@ -4250,7 +4302,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of leaf.</obo:IAO_0000115>
         <rdfs:label>leaf composition trait</rdfs:label>
     </owl:Class>
     
@@ -4270,7 +4322,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The amount of a biological pigment.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of biological pigment.</obo:IAO_0000115>
         <rdfs:label>pigment content</rdfs:label>
     </owl:Class>
     
@@ -4282,7 +4334,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28966"/>
@@ -4290,7 +4342,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a chlorophyll.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of chlorophyll.</obo:IAO_0000115>
         <rdfs:label>chlorophyll content</rdfs:label>
     </owl:Class>
     
@@ -4302,7 +4354,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
@@ -4310,7 +4362,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a carotenoid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of carotenoid.</obo:IAO_0000115>
         <rdfs:label>carotenoid content</rdfs:label>
     </owl:Class>
     
@@ -4422,7 +4474,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26216"/>
@@ -4430,7 +4482,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a potassium atom.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of potassium atom.</obo:IAO_0000115>
         <rdfs:label>potassium concentration</rdfs:label>
     </owl:Class>
     
@@ -4482,7 +4534,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26708"/>
@@ -4490,7 +4542,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a sodium atom.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of sodium atom.</obo:IAO_0000115>
         <rdfs:label>sodium concentration</rdfs:label>
     </owl:Class>
     
@@ -5088,7 +5140,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17855"/>
@@ -5096,7 +5148,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a triglyceride.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of triglyceride.</obo:IAO_0000115>
         <rdfs:label>total fat content</rdfs:label>
     </owl:Class>
     
@@ -5108,7 +5160,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16240"/>
@@ -5116,7 +5168,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a hydrogen peroxide.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of hydrogen peroxide.</obo:IAO_0000115>
         <rdfs:label>hydrogen peroxide content</rdfs:label>
     </owl:Class>
     
@@ -5136,7 +5188,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The amount of a sodium atom.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of sodium atom.</obo:IAO_0000115>
         <rdfs:label>sodium content</rdfs:label>
     </owl:Class>
     
@@ -5156,7 +5208,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The amount of a potassium atom.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of potassium atom.</obo:IAO_0000115>
         <rdfs:label>potassium content</rdfs:label>
     </owl:Class>
     
@@ -5468,7 +5520,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25442"/>
@@ -5476,7 +5528,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a mycotoxin.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of mycotoxin.</obo:IAO_0000115>
         <rdfs:label>mycotoxin content</rdfs:label>
     </owl:Class>
     
@@ -5488,7 +5540,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10022"/>
@@ -5496,7 +5548,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a Vomitoxin.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of Vomitoxin.</obo:IAO_0000115>
         <rdfs:label>deoxynivalenol content</rdfs:label>
     </owl:Class>
     
@@ -5508,7 +5560,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17620"/>
@@ -5516,7 +5568,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a ferulic acid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of ferulic acid.</obo:IAO_0000115>
         <rdfs:label>ferulic acid content</rdfs:label>
     </owl:Class>
     
@@ -5648,7 +5700,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_70206"/>
@@ -5656,7 +5708,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a maysin.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of maysin.</obo:IAO_0000115>
         <rdfs:label>maysin content</rdfs:label>
     </owl:Class>
     
@@ -5668,7 +5720,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28017"/>
@@ -5676,7 +5728,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a starch.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of starch.</obo:IAO_0000115>
         <rdfs:label>starch content</rdfs:label>
     </owl:Class>
     
@@ -5708,7 +5760,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000033"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28017"/>
@@ -5716,7 +5768,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The concentration of of a starch.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of starch.</obo:IAO_0000115>
         <rdfs:label>starch concentration</rdfs:label>
     </owl:Class>
     
@@ -5988,7 +6040,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6457"/>
@@ -5996,7 +6048,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a lignin.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of lignin.</obo:IAO_0000115>
         <rdfs:label>lignin content</rdfs:label>
     </owl:Class>
     
@@ -6396,7 +6448,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The green of a seedling hypocotyl.</obo:IAO_0000115>
+        <obo:IAO_0000115>A seedling hypocotyl that is green.</obo:IAO_0000115>
         <rdfs:label>seedling hypocotyl green</rdfs:label>
     </owl:Class>
     
@@ -6416,7 +6468,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The purple of a seedling hypocotyl.</obo:IAO_0000115>
+        <obo:IAO_0000115>A seedling hypocotyl that is purple.</obo:IAO_0000115>
         <rdfs:label>seedling hypocotyl purple</rdfs:label>
     </owl:Class>
     
@@ -6436,7 +6488,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The dark purple of a seedling hypocotyl.</obo:IAO_0000115>
+        <obo:IAO_0000115>A seedling hypocotyl that is dark purple.</obo:IAO_0000115>
         <rdfs:label>seedling hypocotyl dark purple</rdfs:label>
     </owl:Class>
     
@@ -8428,7 +8480,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37684"/>
@@ -8436,7 +8488,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a mannose.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of mannose.</obo:IAO_0000115>
         <rdfs:label>mannose content</rdfs:label>
     </owl:Class>
     
@@ -8628,7 +8680,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17514"/>
@@ -8636,7 +8688,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a cyanide.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of cyanide.</obo:IAO_0000115>
         <rdfs:label>cyanide content</rdfs:label>
     </owl:Class>
     
@@ -8868,7 +8920,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18246"/>
@@ -8876,7 +8928,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a (1-&gt;4)-beta-D-glucan.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of (1-&gt;4)-beta-D-glucan.</obo:IAO_0000115>
         <rdfs:label>cellulose content</rdfs:label>
     </owl:Class>
     
@@ -9708,7 +9760,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23530"/>
@@ -9716,7 +9768,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a cytokinin.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of cytokinin.</obo:IAO_0000115>
         <rdfs:label>cytokinin content</rdfs:label>
     </owl:Class>
     
@@ -9748,7 +9800,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18292"/>
@@ -9756,7 +9808,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a jasmonic acid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of jasmonic acid.</obo:IAO_0000115>
         <rdfs:label>jasmonic acid content</rdfs:label>
     </owl:Class>
     
@@ -9768,7 +9820,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60952"/>
@@ -9776,7 +9828,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a diterpene phytoalexin.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of diterpene phytoalexin.</obo:IAO_0000115>
         <rdfs:label>diterpenoid phytoalexin content</rdfs:label>
     </owl:Class>
     
@@ -9796,7 +9848,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The amount of a momilactone A.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of momilactone A.</obo:IAO_0000115>
         <rdfs:label>momilactone A content</rdfs:label>
     </owl:Class>
     
@@ -9808,7 +9860,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
@@ -9816,7 +9868,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a amino acid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of amino acid.</obo:IAO_0000115>
         <rdfs:label>amino acid content</rdfs:label>
     </owl:Class>
     
@@ -9828,7 +9880,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27897"/>
@@ -9836,7 +9888,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a tryptophan.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of tryptophan.</obo:IAO_0000115>
         <rdfs:label>tryptophan content</rdfs:label>
     </owl:Class>
     
@@ -9848,7 +9900,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28833"/>
@@ -9856,7 +9908,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a gibberellin A3.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of gibberellin A3.</obo:IAO_0000115>
         <rdfs:label>gibberellic acid content</rdfs:label>
     </owl:Class>
     
@@ -9868,7 +9920,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22921"/>
@@ -9876,7 +9928,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a brassinosteroid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of brassinosteroid.</obo:IAO_0000115>
         <rdfs:label>brassinosteroid content</rdfs:label>
     </owl:Class>
     
@@ -10069,7 +10121,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17579"/>
@@ -10077,7 +10129,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a beta-carotene.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of beta-carotene.</obo:IAO_0000115>
         <rdfs:label>beta-carotene content</rdfs:label>
     </owl:Class>
     
@@ -10089,7 +10141,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28425"/>
@@ -10097,7 +10149,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a alpha-carotene.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of alpha-carotene.</obo:IAO_0000115>
         <rdfs:label>alpha carotene content</rdfs:label>
     </owl:Class>
     
@@ -10109,7 +10161,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35163"/>
@@ -10117,7 +10169,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a cyclic carotene.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of cyclic carotene.</obo:IAO_0000115>
         <rdfs:label>cyclic carotene content</rdfs:label>
     </owl:Class>
     
@@ -10129,7 +10181,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35162"/>
@@ -10137,7 +10189,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a acyclic carotene.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of acyclic carotene.</obo:IAO_0000115>
         <rdfs:label>acyclic carotene content</rdfs:label>
     </owl:Class>
     
@@ -10149,7 +10201,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15948"/>
@@ -10157,7 +10209,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a lycopene.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of lycopene.</obo:IAO_0000115>
         <rdfs:label>lycopene content</rdfs:label>
     </owl:Class>
     
@@ -10169,7 +10221,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28838"/>
@@ -10177,7 +10229,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a lutein.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of lutein.</obo:IAO_0000115>
         <rdfs:label>lutein content</rdfs:label>
     </owl:Class>
     
@@ -10499,7 +10551,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The amount of a awn.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of awn.</obo:IAO_0000115>
         <rdfs:label>awn presence</rdfs:label>
     </owl:Class>
     
@@ -10651,7 +10703,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17351"/>
@@ -10659,7 +10711,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a linoleic acid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of linoleic acid.</obo:IAO_0000115>
         <rdfs:label>linoleic acid content</rdfs:label>
     </owl:Class>
     
@@ -10671,7 +10723,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16196"/>
@@ -10679,7 +10731,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a oleic acid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of oleic acid.</obo:IAO_0000115>
         <rdfs:label>oleic acid content</rdfs:label>
     </owl:Class>
     
@@ -10691,7 +10743,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28842"/>
@@ -10699,7 +10751,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a stearic acid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of stearic acid.</obo:IAO_0000115>
         <rdfs:label>stearic acid content</rdfs:label>
     </owl:Class>
     
@@ -10711,7 +10763,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25681"/>
@@ -10719,7 +10771,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a omega-3 fatty acid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of omega-3 fatty acid.</obo:IAO_0000115>
         <rdfs:label>omega-3 fatty acid content</rdfs:label>
     </owl:Class>
     
@@ -10731,7 +10783,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27432"/>
@@ -10739,7 +10791,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a alpha-linolenic acid.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of alpha-linolenic acid.</obo:IAO_0000115>
         <rdfs:label>alpha-linolenic acid content</rdfs:label>
     </owl:Class>
     
@@ -10814,7 +10866,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26271"/>
@@ -10822,7 +10874,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a proline.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of proline.</obo:IAO_0000115>
         <rdfs:label>proline content</rdfs:label>
     </owl:Class>
     
@@ -10834,7 +10886,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
@@ -10842,7 +10894,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a oligosaccharide.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of oligosaccharide.</obo:IAO_0000115>
         <rdfs:label>oligosaccharide content</rdfs:label>
     </owl:Class>
     
@@ -10854,7 +10906,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16634"/>
@@ -10862,7 +10914,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a raffinose.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of raffinose.</obo:IAO_0000115>
         <rdfs:label>raffinose content</rdfs:label>
     </owl:Class>
     
@@ -10874,7 +10926,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28757"/>
@@ -10882,7 +10934,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a fructose.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of fructose.</obo:IAO_0000115>
         <rdfs:label>fructose content</rdfs:label>
     </owl:Class>
     
@@ -10894,7 +10946,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
@@ -10902,7 +10954,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a monosaccharide.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of monosaccharide.</obo:IAO_0000115>
         <rdfs:label>monosaccharide content</rdfs:label>
     </owl:Class>
     
@@ -10914,7 +10966,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
@@ -10922,7 +10974,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a polysaccharide.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of polysaccharide.</obo:IAO_0000115>
         <rdfs:label>polysaccharide content</rdfs:label>
     </owl:Class>
     
@@ -11474,7 +11526,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000025"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000070"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28793"/>
@@ -11482,7 +11534,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The composition of a beta-D-glucan.</obo:IAO_0000115>
+        <obo:IAO_0000115>The amount of beta-D-glucan.</obo:IAO_0000115>
         <rdfs:label>beta-glucan content</rdfs:label>
     </owl:Class>
     
