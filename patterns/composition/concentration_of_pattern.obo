@@ -1,31 +1,31 @@
 format-version: 1.2
-ontology: patterns/eq/concentration_of_pattern
+ontology: patterns/composition/concentration_of_pattern
 
 [Term]
 id: TO:0000478
 name: abscisic acid concentration
-def: "The concentration of of a 2-cis-abscisic acid." []
-intersection_of: PATO:0000033
+def: "The amount of 2-cis-abscisic acid." []
+intersection_of: PATO:0000070
 intersection_of: RO:0000052 CHEBI:22152
 
 [Term]
 id: TO:0000513
 name: potassium concentration
-def: "The concentration of of a potassium atom." []
-intersection_of: PATO:0000033
+def: "The amount of potassium atom." []
+intersection_of: PATO:0000070
 intersection_of: RO:0000052 CHEBI:26216
 
 [Term]
 id: TO:0000526
 name: sodium concentration
-def: "The concentration of of a sodium atom." []
-intersection_of: PATO:0000033
+def: "The amount of sodium atom." []
+intersection_of: PATO:0000070
 intersection_of: RO:0000052 CHEBI:26708
 
 [Term]
 id: TO:0000702
 name: starch concentration
-def: "The concentration of of a starch." []
-intersection_of: PATO:0000033
+def: "The amount of starch." []
+intersection_of: PATO:0000070
 intersection_of: RO:0000052 CHEBI:28017
 

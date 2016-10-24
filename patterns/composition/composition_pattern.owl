@@ -1,0 +1,422 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/composition/composition_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/composition/attribute
+AnnotationProperty: to/composition/entity
+AnnotationProperty: DOSDP:applies-pattern
+Class: PATO_0000070 ## amount
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:10022 ## Vomitoxin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:10022"}
+Class: TO:0000669
+ Annotations: rdfs:label "deoxynivalenol content"
+ Annotations: IAO:0000115 "The amount of Vomitoxin."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:10022 ## 'amount' and 'inheres in' some Vomitoxin
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:15948 ## lycopene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:15948"}
+Class: TO:0002699
+ Annotations: rdfs:label "lycopene content"
+ Annotations: IAO:0000115 "The amount of lycopene."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:15948 ## 'amount' and 'inheres in' some lycopene
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:16196 ## oleic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:16196"}
+Class: TO:0005002
+ Annotations: rdfs:label "oleic acid content"
+ Annotations: IAO:0000115 "The amount of oleic acid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:16196 ## 'amount' and 'inheres in' some oleic acid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:16240 ## hydrogen peroxide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:16240"}
+Class: TO:0000605
+ Annotations: rdfs:label "hydrogen peroxide content"
+ Annotations: IAO:0000115 "The amount of hydrogen peroxide."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:16240 ## 'amount' and 'inheres in' some hydrogen peroxide
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:16634 ## raffinose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:16634"}
+Class: TO:0006004
+ Annotations: rdfs:label "raffinose content"
+ Annotations: IAO:0000115 "The amount of raffinose."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:16634 ## 'amount' and 'inheres in' some raffinose
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:16646 ## carbohydrate
+## {"attribute": "PATO:0000025", "entity": "CHEBI:16646"}
+Class: TO:0000489
+ Annotations: rdfs:label "carbohydrate composition related trait"
+ Annotations: IAO:0000115 "The amount of carbohydrate."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:16646 ## 'amount' and 'inheres in' some carbohydrate
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:17234 ## glucose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17234"}
+Class: TO:0000300
+ Annotations: rdfs:label "glucose content"
+ Annotations: IAO:0000115 "The amount of glucose."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:17234 ## 'amount' and 'inheres in' some glucose
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:17351 ## linoleic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17351"}
+Class: TO:0005001
+ Annotations: rdfs:label "linoleic acid content"
+ Annotations: IAO:0000115 "The amount of linoleic acid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:17351 ## 'amount' and 'inheres in' some linoleic acid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:17514 ## cyanide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17514"}
+Class: TO:0000955
+ Annotations: rdfs:label "cyanide content"
+ Annotations: IAO:0000115 "The amount of cyanide."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:17514 ## 'amount' and 'inheres in' some cyanide
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:17579 ## beta-carotene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17579"}
+Class: TO:0002695
+ Annotations: rdfs:label "beta-carotene content"
+ Annotations: IAO:0000115 "The amount of beta-carotene."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:17579 ## 'amount' and 'inheres in' some beta-carotene
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:17620 ## ferulic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17620"}
+Class: TO:0000675
+ Annotations: rdfs:label "ferulic acid content"
+ Annotations: IAO:0000115 "The amount of ferulic acid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:17620 ## 'amount' and 'inheres in' some ferulic acid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:17855 ## triglyceride
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17855"}
+Class: TO:0000602
+ Annotations: rdfs:label "total fat content"
+ Annotations: IAO:0000115 "The amount of triglyceride."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:17855 ## 'amount' and 'inheres in' some triglyceride
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:17992 ## sucrose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:17992"}
+Class: TO:0000328
+ Annotations: rdfs:label "sucrose content"
+ Annotations: IAO:0000115 "The amount of sucrose."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:17992 ## 'amount' and 'inheres in' some sucrose
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:18133 ## hexose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18133"}
+Class: TO:0000307
+ Annotations: rdfs:label "hexose content"
+ Annotations: IAO:0000115 "The amount of hexose."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:18133 ## 'amount' and 'inheres in' some hexose
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:18154 ## polysaccharide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18154"}
+Class: TO:0006007
+ Annotations: rdfs:label "polysaccharide content"
+ Annotations: IAO:0000115 "The amount of polysaccharide."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:18154 ## 'amount' and 'inheres in' some polysaccharide
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:18230 ## chlorophyll a
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18230"}
+Class: TO:0000293
+ Annotations: rdfs:label "chlorophyll-a content"
+ Annotations: IAO:0000115 "The amount of chlorophyll a."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:18230 ## 'amount' and 'inheres in' some chlorophyll a
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:18246 ## (1->4)-beta-D-glucan
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18246"}
+Class: TO:0000993
+ Annotations: rdfs:label "cellulose content"
+ Annotations: IAO:0000115 "The amount of (1->4)-beta-D-glucan."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:18246 ## 'amount' and 'inheres in' some (1->4)-beta-D-glucan
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:18292 ## jasmonic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:18292"}
+Class: TO:0002668
+ Annotations: rdfs:label "jasmonic acid content"
+ Annotations: IAO:0000115 "The amount of jasmonic acid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:18292 ## 'amount' and 'inheres in' some jasmonic acid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:22921 ## brassinosteroid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:22921"}
+Class: TO:0002676
+ Annotations: rdfs:label "brassinosteroid content"
+ Annotations: IAO:0000115 "The amount of brassinosteroid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:22921 ## 'amount' and 'inheres in' some brassinosteroid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:23044 ## carotenoid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:23044"}
+Class: TO:0000496
+ Annotations: rdfs:label "carotenoid content"
+ Annotations: IAO:0000115 "The amount of carotenoid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:23044 ## 'amount' and 'inheres in' some carotenoid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:23530 ## cytokinin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:23530"}
+Class: TO:0002660
+ Annotations: rdfs:label "cytokinin content"
+ Annotations: IAO:0000115 "The amount of cytokinin."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:23530 ## 'amount' and 'inheres in' some cytokinin
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:25212 ## metabolite
+## {"attribute": "PATO:0000025", "entity": "CHEBI:25212"}
+Class: TO:0000281
+ Annotations: rdfs:label "metabolite content trait"
+ Annotations: IAO:0000115 "The amount of metabolite."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:25212 ## 'amount' and 'inheres in' some metabolite
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:25442 ## mycotoxin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:25442"}
+Class: TO:0000668
+ Annotations: rdfs:label "mycotoxin content"
+ Annotations: IAO:0000115 "The amount of mycotoxin."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:25442 ## 'amount' and 'inheres in' some mycotoxin
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:25681 ## omega-3 fatty acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:25681"}
+Class: TO:0005004
+ Annotations: rdfs:label "omega-3 fatty acid content"
+ Annotations: IAO:0000115 "The amount of omega-3 fatty acid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:25681 ## 'amount' and 'inheres in' some omega-3 fatty acid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:26271 ## proline
+## {"attribute": "PATO:0000025", "entity": "CHEBI:26271"}
+Class: TO:0006002
+ Annotations: rdfs:label "proline content"
+ Annotations: IAO:0000115 "The amount of proline."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:26271 ## 'amount' and 'inheres in' some proline
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:27325 ## xanthophyll
+## {"attribute": "PATO:0000025", "entity": "CHEBI:27325"}
+Class: TO:0000301
+ Annotations: rdfs:label "xanthophyll content"
+ Annotations: IAO:0000115 "The amount of xanthophyll."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:27325 ## 'amount' and 'inheres in' some xanthophyll
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:27432 ## alpha-linolenic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:27432"}
+Class: TO:0005005
+ Annotations: rdfs:label "alpha-linolenic acid content"
+ Annotations: IAO:0000115 "The amount of alpha-linolenic acid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:27432 ## 'amount' and 'inheres in' some alpha-linolenic acid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:27888 ## chlorophyll b
+## {"attribute": "PATO:0000025", "entity": "CHEBI:27888"}
+Class: TO:0000295
+ Annotations: rdfs:label "chlorophyll-b content"
+ Annotations: IAO:0000115 "The amount of chlorophyll b."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:27888 ## 'amount' and 'inheres in' some chlorophyll b
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:27897 ## tryptophan
+## {"attribute": "PATO:0000025", "entity": "CHEBI:27897"}
+Class: TO:0002674
+ Annotations: rdfs:label "tryptophan content"
+ Annotations: IAO:0000115 "The amount of tryptophan."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:27897 ## 'amount' and 'inheres in' some tryptophan
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:28017 ## starch
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28017"}
+Class: TO:0000696
+ Annotations: rdfs:label "starch content"
+ Annotations: IAO:0000115 "The amount of starch."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28017 ## 'amount' and 'inheres in' some starch
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:28057 ## amylopectin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28057"}
+Class: TO:0000097
+ Annotations: rdfs:label "amylopectin content"
+ Annotations: IAO:0000115 "The amount of amylopectin."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28057 ## 'amount' and 'inheres in' some amylopectin
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:28425 ## alpha-carotene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28425"}
+Class: TO:0002696
+ Annotations: rdfs:label "alpha carotene content"
+ Annotations: IAO:0000115 "The amount of alpha-carotene."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28425 ## 'amount' and 'inheres in' some alpha-carotene
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:28757 ## fructose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28757"}
+Class: TO:0006005
+ Annotations: rdfs:label "fructose content"
+ Annotations: IAO:0000115 "The amount of fructose."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28757 ## 'amount' and 'inheres in' some fructose
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:28793 ## beta-D-glucan
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28793"}
+Class: TO:0020068
+ Annotations: rdfs:label "beta-glucan content"
+ Annotations: IAO:0000115 "The amount of beta-D-glucan."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28793 ## 'amount' and 'inheres in' some beta-D-glucan
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:28833 ## gibberellin A3
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28833"}
+Class: TO:0002675
+ Annotations: rdfs:label "gibberellic acid content"
+ Annotations: IAO:0000115 "The amount of gibberellin A3."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28833 ## 'amount' and 'inheres in' some gibberellin A3
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:28838 ## lutein
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28838"}
+Class: TO:0002701
+ Annotations: rdfs:label "lutein content"
+ Annotations: IAO:0000115 "The amount of lutein."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28838 ## 'amount' and 'inheres in' some lutein
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:28842 ## stearic acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28842"}
+Class: TO:0005003
+ Annotations: rdfs:label "stearic acid content"
+ Annotations: IAO:0000115 "The amount of stearic acid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28842 ## 'amount' and 'inheres in' some stearic acid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:28966 ## chlorophyll
+## {"attribute": "PATO:0000025", "entity": "CHEBI:28966"}
+Class: TO:0000495
+ Annotations: rdfs:label "chlorophyll content"
+ Annotations: IAO:0000115 "The amount of chlorophyll."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28966 ## 'amount' and 'inheres in' some chlorophyll
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:33709 ## amino acid
+## {"attribute": "PATO:0000025", "entity": "CHEBI:33709"}
+Class: TO:0002673
+ Annotations: rdfs:label "amino acid content"
+ Annotations: IAO:0000115 "The amount of amino acid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:33709 ## 'amount' and 'inheres in' some amino acid
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:35162 ## acyclic carotene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:35162"}
+Class: TO:0002698
+ Annotations: rdfs:label "acyclic carotene content"
+ Annotations: IAO:0000115 "The amount of acyclic carotene."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:35162 ## 'amount' and 'inheres in' some acyclic carotene
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:35163 ## cyclic carotene
+## {"attribute": "PATO:0000025", "entity": "CHEBI:35163"}
+Class: TO:0002697
+ Annotations: rdfs:label "cyclic carotene content"
+ Annotations: IAO:0000115 "The amount of cyclic carotene."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:35163 ## 'amount' and 'inheres in' some cyclic carotene
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:35218 ## anthocyanin cation
+## {"attribute": "PATO:0000025", "entity": "CHEBI:35218"}
+Class: TO:0000071
+ Annotations: rdfs:label "anthocyanin content"
+ Annotations: IAO:0000115 "The amount of anthocyanin cation."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:35218 ## 'amount' and 'inheres in' some anthocyanin cation
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:35381 ## monosaccharide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:35381"}
+Class: TO:0006006
+ Annotations: rdfs:label "monosaccharide content"
+ Annotations: IAO:0000115 "The amount of monosaccharide."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:35381 ## 'amount' and 'inheres in' some monosaccharide
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:37684 ## mannose
+## {"attribute": "PATO:0000025", "entity": "CHEBI:37684"}
+Class: TO:0000932
+ Annotations: rdfs:label "mannose content"
+ Annotations: IAO:0000115 "The amount of mannose."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:37684 ## 'amount' and 'inheres in' some mannose
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:50699 ## oligosaccharide
+## {"attribute": "PATO:0000025", "entity": "CHEBI:50699"}
+Class: TO:0006003
+ Annotations: rdfs:label "oligosaccharide content"
+ Annotations: IAO:0000115 "The amount of oligosaccharide."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:50699 ## 'amount' and 'inheres in' some oligosaccharide
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:60952 ## diterpene phytoalexin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:60952"}
+Class: TO:0002669
+ Annotations: rdfs:label "diterpenoid phytoalexin content"
+ Annotations: IAO:0000115 "The amount of diterpene phytoalexin."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:60952 ## 'amount' and 'inheres in' some diterpene phytoalexin
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:6457 ## lignin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:6457"}
+Class: TO:0000731
+ Annotations: rdfs:label "lignin content"
+ Annotations: IAO:0000115 "The amount of lignin."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:6457 ## 'amount' and 'inheres in' some lignin
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:70206 ## maysin
+## {"attribute": "PATO:0000025", "entity": "CHEBI:70206"}
+Class: TO:0000690
+ Annotations: rdfs:label "maysin content"
+ Annotations: IAO:0000115 "The amount of maysin."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:70206 ## 'amount' and 'inheres in' some maysin
+
+Class: PATO:0000025 ## composition
+Class: CHEBI:8027 ## Peroxidase
+## {"attribute": "PATO:0000025", "entity": "CHEBI:8027"}
+Class: TO:0000313
+ Annotations: rdfs:label "perodidase-71 content"
+ Annotations: IAO:0000115 "The amount of Peroxidase."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:8027 ## 'amount' and 'inheres in' some Peroxidase
+
+Class: PATO:0000025 ## composition
+Class: PO:0025034 ## leaf
+## {"attribute": "PATO:0000025", "entity": "PO:0025034"}
+Class: TO:0000493
+ Annotations: rdfs:label "leaf composition trait"
+ Annotations: IAO:0000115 "The amount of leaf."
+ EquivalentTo: PATO_0000070 and RO_0000052 some PO:0025034 ## 'amount' and 'inheres in' some leaf

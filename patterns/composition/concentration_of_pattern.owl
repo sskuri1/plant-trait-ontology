@@ -3,21 +3,22 @@ Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 
  ## Auto-generated
 
-Ontology: <http://purl.obolibrary.org/obo/patterns/eq/concentration_of_pattern.owl>
+Ontology: <http://purl.obolibrary.org/obo/patterns/composition/concentration_of_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/entity
-AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/composition/entity
+AnnotationProperty: to/composition/attribute
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: BFO_0000050 ## part of
+Class: PATO_0000070 ## amount
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
 ## Auto-generated classes
 
 Class: CHEBI:22152 ## 2-cis-abscisic acid
@@ -25,29 +26,29 @@ Class: PATO:0000033 ## concentration of
 ## {"entity": "CHEBI:22152", "attribute": "PATO:0000033"}
 Class: TO:0000478
  Annotations: rdfs:label "abscisic acid concentration"
- Annotations: IAO:0000115 "The concentration of of a 2-cis-abscisic acid."
- EquivalentTo: PATO:0000033 and RO_0000052 some CHEBI:22152 ## concentration of and 'inheres in' some 2-cis-abscisic acid
+ Annotations: IAO:0000115 "The amount of 2-cis-abscisic acid."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:22152 ## 'amount' and 'inheres in' some 2-cis-abscisic acid
 
 Class: CHEBI:26216 ## potassium atom
 Class: PATO:0000033 ## concentration of
 ## {"entity": "CHEBI:26216", "attribute": "PATO:0000033"}
 Class: TO:0000513
  Annotations: rdfs:label "potassium concentration"
- Annotations: IAO:0000115 "The concentration of of a potassium atom."
- EquivalentTo: PATO:0000033 and RO_0000052 some CHEBI:26216 ## concentration of and 'inheres in' some potassium atom
+ Annotations: IAO:0000115 "The amount of potassium atom."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:26216 ## 'amount' and 'inheres in' some potassium atom
 
 Class: CHEBI:26708 ## sodium atom
 Class: PATO:0000033 ## concentration of
 ## {"entity": "CHEBI:26708", "attribute": "PATO:0000033"}
 Class: TO:0000526
  Annotations: rdfs:label "sodium concentration"
- Annotations: IAO:0000115 "The concentration of of a sodium atom."
- EquivalentTo: PATO:0000033 and RO_0000052 some CHEBI:26708 ## concentration of and 'inheres in' some sodium atom
+ Annotations: IAO:0000115 "The amount of sodium atom."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:26708 ## 'amount' and 'inheres in' some sodium atom
 
 Class: CHEBI:28017 ## starch
 Class: PATO:0000033 ## concentration of
 ## {"entity": "CHEBI:28017", "attribute": "PATO:0000033"}
 Class: TO:0000702
  Annotations: rdfs:label "starch concentration"
- Annotations: IAO:0000115 "The concentration of of a starch."
- EquivalentTo: PATO:0000033 and RO_0000052 some CHEBI:28017 ## concentration of and 'inheres in' some starch
+ Annotations: IAO:0000115 "The amount of starch."
+ EquivalentTo: PATO_0000070 and RO_0000052 some CHEBI:28017 ## 'amount' and 'inheres in' some starch
