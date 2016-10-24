@@ -1,0 +1,17 @@
+format-version: 1.2
+ontology: patterns/color/branched_pattern
+
+[Term]
+id: TO:0000050
+name: inflorescence branching
+def: "A inflorescence that is branched." []
+intersection_of: PATO:0000402
+intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000257
+name: root branching
+def: "A root that is branched." []
+intersection_of: PATO:0000402
+intersection_of: RO:0000052 PO:0009005
+

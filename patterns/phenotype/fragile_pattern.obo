@@ -1,0 +1,17 @@
+format-version: 1.2
+ontology: patterns/color/fragile_pattern
+
+[Term]
+id: TO:0000200
+name: brittle culm
+def: "A stem that is fragile." []
+intersection_of: PATO:0001362
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0000713
+name: brittle endosperm
+def: "A endosperm that is fragile." []
+intersection_of: PATO:0001362
+intersection_of: RO:0000052 PO:0009089
+

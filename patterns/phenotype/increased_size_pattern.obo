@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/color/increased_size_pattern
+
+[Term]
+id: TO:0000113
+name: giant embryo
+def: "A plant embryo that is increased size." []
+intersection_of: PATO:0000586
+intersection_of: RO:0000052 PO:0009009
+

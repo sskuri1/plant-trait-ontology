@@ -2023,7 +2023,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The branched of a inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A inflorescence that is branched.</obo:IAO_0000115>
         <rdfs:label>inflorescence branching</rdfs:label>
     </owl:Class>
     
@@ -2063,7 +2063,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The pubescent of a leaf lamina.</obo:IAO_0000115>
+        <obo:IAO_0000115>A leaf lamina that is pubescent.</obo:IAO_0000115>
         <rdfs:label>leaf lamina pubescence</rdfs:label>
     </owl:Class>
     
@@ -2350,7 +2350,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The glutinous of a endosperm.</obo:IAO_0000115>
+        <obo:IAO_0000115>A endosperm that is glutinous.</obo:IAO_0000115>
         <rdfs:label>glutinous endosperm</rdfs:label>
     </owl:Class>
     
@@ -2370,7 +2370,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The hypotrophic of a endosperm.</obo:IAO_0000115>
+        <obo:IAO_0000115>A endosperm that is hypotrophic.</obo:IAO_0000115>
         <rdfs:label>shrunken endosperm</rdfs:label>
     </owl:Class>
     
@@ -2411,7 +2411,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The low saturation of a endosperm.</obo:IAO_0000115>
+        <obo:IAO_0000115>A endosperm that is low saturation.</obo:IAO_0000115>
         <rdfs:label>dull endosperm</rdfs:label>
     </owl:Class>
     
@@ -2451,7 +2451,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The increased size of a plant embryo.</obo:IAO_0000115>
+        <obo:IAO_0000115>A plant embryo that is increased size.</obo:IAO_0000115>
         <rdfs:label>giant embryo</rdfs:label>
     </owl:Class>
     
@@ -2798,7 +2798,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The spherical of a plant embryo.</obo:IAO_0000115>
+        <obo:IAO_0000115>A plant embryo that is spherical.</obo:IAO_0000115>
         <rdfs:label>globular embryo</rdfs:label>
     </owl:Class>
     
@@ -2838,7 +2838,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The fragile of a stem.</obo:IAO_0000115>
+        <obo:IAO_0000115>A stem that is fragile.</obo:IAO_0000115>
         <rdfs:label>brittle culm</rdfs:label>
     </owl:Class>
     
@@ -3139,7 +3139,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The branched of a root.</obo:IAO_0000115>
+        <obo:IAO_0000115>A root that is branched.</obo:IAO_0000115>
         <rdfs:label>root branching</rdfs:label>
     </owl:Class>
     
@@ -3962,7 +3962,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The pubescent hair of a flower bract.</obo:IAO_0000115>
+        <obo:IAO_0000115>A flower bract that is pubescent hair.</obo:IAO_0000115>
         <rdfs:label>lemma and palea pubescence</rdfs:label>
     </owl:Class>
     
@@ -5888,7 +5888,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The fragile of a endosperm.</obo:IAO_0000115>
+        <obo:IAO_0000115>A endosperm that is fragile.</obo:IAO_0000115>
         <rdfs:label>brittle endosperm</rdfs:label>
     </owl:Class>
     
@@ -5908,7 +5908,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The fasciculated of a ear inflorescence.</obo:IAO_0000115>
+        <obo:IAO_0000115>A ear inflorescence that is fasciculated.</obo:IAO_0000115>
         <rdfs:label>fascicled ear</rdfs:label>
     </owl:Class>
     
@@ -5928,7 +5928,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The rough of a endosperm.</obo:IAO_0000115>
+        <obo:IAO_0000115>A endosperm that is rough.</obo:IAO_0000115>
         <rdfs:label>rough endosperm</rdfs:label>
     </owl:Class>
     
@@ -5948,7 +5948,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The wrinkled of a seed.</obo:IAO_0000115>
+        <obo:IAO_0000115>A seed that is wrinkled.</obo:IAO_0000115>
         <rdfs:label>wrinkled seed</rdfs:label>
     </owl:Class>
     
@@ -8008,7 +8008,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The erect of a leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A leaf that is erect.</obo:IAO_0000115>
         <rdfs:label>leaf erect</rdfs:label>
     </owl:Class>
     
@@ -8028,7 +8028,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The prostrate of a leaf.</obo:IAO_0000115>
+        <obo:IAO_0000115>A leaf that is prostrate.</obo:IAO_0000115>
         <rdfs:label>leaf prostrate</rdfs:label>
     </owl:Class>
     
@@ -8388,7 +8388,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The clavate of a trichome.</obo:IAO_0000115>
+        <obo:IAO_0000115>A trichome that is clavate.</obo:IAO_0000115>
         <rdfs:label>trichome clavate</rdfs:label>
     </owl:Class>
     

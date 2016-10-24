@@ -32,7 +32,7 @@ intersection_of: RO:0000052 PO:0009005
 [Term]
 id: TO:0000050
 name: inflorescence branching
-def: "The branched of a inflorescence." []
+def: "A inflorescence that is branched." []
 intersection_of: PATO:0000402
 intersection_of: RO:0000052 PO:0009049
 
@@ -46,7 +46,7 @@ intersection_of: RO:0000052 PO:0009047
 [Term]
 id: TO:0000055
 name: leaf lamina pubescence
-def: "The pubescent of a leaf lamina." []
+def: "A leaf lamina that is pubescent." []
 intersection_of: PATO:0000455
 intersection_of: RO:0000052 PO:0020039
 
@@ -145,14 +145,14 @@ intersection_of: RO:0000052 CHEBI:28057
 [Term]
 id: TO:0000098
 name: glutinous endosperm
-def: "The glutinous of a endosperm." []
+def: "A endosperm that is glutinous." []
 intersection_of: PATO:0001540
 intersection_of: RO:0000052 PO:0009089
 
 [Term]
 id: TO:0000100
 name: shrunken endosperm
-def: "The hypotrophic of a endosperm." []
+def: "A endosperm that is hypotrophic." []
 intersection_of: PATO:0000585
 intersection_of: RO:0000052 PO:0009089
 
@@ -167,7 +167,7 @@ intersection_of: RO:0000052 EO:0007396
 [Term]
 id: TO:0000105
 name: dull endosperm
-def: "The low saturation of a endosperm." []
+def: "A endosperm that is low saturation." []
 intersection_of: PATO:0000328
 intersection_of: RO:0000052 PO:0009089
 
@@ -181,7 +181,7 @@ intersection_of: RO:0000052 PO:0009025
 [Term]
 id: TO:0000113
 name: giant embryo
-def: "The increased size of a plant embryo." []
+def: "A plant embryo that is increased size." []
 intersection_of: PATO:0000586
 intersection_of: RO:0000052 PO:0009009
 
@@ -301,7 +301,7 @@ intersection_of: RO:0000052 PO:0009009
 [Term]
 id: TO:0000194
 name: globular embryo
-def: "The spherical of a plant embryo." []
+def: "A plant embryo that is spherical." []
 intersection_of: PATO:0001499
 intersection_of: RO:0000052 PO:0009009
 
@@ -315,7 +315,7 @@ intersection_of: RO:0000052 PO:0020105
 [Term]
 id: TO:0000200
 name: brittle culm
-def: "The fragile of a stem." []
+def: "A stem that is fragile." []
 intersection_of: PATO:0001362
 intersection_of: RO:0000052 PO:0009047
 
@@ -421,7 +421,7 @@ intersection_of: RO:0000052 PO:0009025
 [Term]
 id: TO:0000257
 name: root branching
-def: "The branched of a root." []
+def: "A root that is branched." []
 intersection_of: PATO:0000402
 intersection_of: RO:0000052 PO:0009005
 
@@ -711,7 +711,7 @@ intersection_of: RO:0000052 CHEBI:37848
 [Term]
 id: TO:0000417
 name: lemma and palea pubescence
-def: "The pubescent hair of a flower bract." []
+def: "A flower bract that is pubescent hair." []
 intersection_of: PATO:0001320
 intersection_of: RO:0000052 PO:0009034
 
@@ -1383,28 +1383,28 @@ intersection_of: RO:0000052 PO:0000003
 [Term]
 id: TO:0000713
 name: brittle endosperm
-def: "The fragile of a endosperm." []
+def: "A endosperm that is fragile." []
 intersection_of: PATO:0001362
 intersection_of: RO:0000052 PO:0009089
 
 [Term]
 id: TO:0000715
 name: fascicled ear
-def: "The fasciculated of a ear inflorescence." []
+def: "A ear inflorescence that is fasciculated." []
 intersection_of: PATO:0001861
 intersection_of: RO:0000052 PO:0020136
 
 [Term]
 id: TO:0000717
 name: rough endosperm
-def: "The rough of a endosperm." []
+def: "A endosperm that is rough." []
 intersection_of: PATO:0000700
 intersection_of: RO:0000052 PO:0009089
 
 [Term]
 id: TO:0000718
 name: wrinkled seed
-def: "The wrinkled of a seed." []
+def: "A seed that is wrinkled." []
 intersection_of: PATO:0001810
 intersection_of: RO:0000052 PO:0009010
 
@@ -2125,14 +2125,14 @@ intersection_of: RO:0000052 PO:0009039
 [Term]
 id: TO:0000872
 name: leaf erect
-def: "The erect of a leaf." []
+def: "A leaf that is erect." []
 intersection_of: PATO:0000622
 intersection_of: RO:0000052 PO:0025034
 
 [Term]
 id: TO:0000873
 name: leaf prostrate
-def: "The prostrate of a leaf." []
+def: "A leaf that is prostrate." []
 intersection_of: PATO:0000631
 intersection_of: RO:0000052 PO:0025034
 
@@ -2258,7 +2258,7 @@ intersection_of: RO:0000052 PO:0000282
 [Term]
 id: TO:0000916
 name: trichome clavate
-def: "The clavate of a trichome." []
+def: "A trichome that is clavate." []
 intersection_of: PATO:0001883
 intersection_of: RO:0000052 PO:0000282
 

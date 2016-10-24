@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/color/low_saturation_pattern
+
+[Term]
+id: TO:0000105
+name: dull endosperm
+def: "A endosperm that is low saturation." []
+intersection_of: PATO:0000328
+intersection_of: RO:0000052 PO:0009089
+
