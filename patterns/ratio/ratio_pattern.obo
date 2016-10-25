@@ -1,0 +1,19 @@
+format-version: 1.2
+ontology: patterns/ratio/
+
+[Term]
+id: TO:0000538
+name: large vascular bundle number to leaf area ratio
+def: "The proportion of large vascular bundle number in leaf area trait." []
+intersection_of: PATO:0001470
+intersection_of: http://purl.obolibrary.org/obo/TO_relative_to TO:0000540
+intersection_of: RO:0000052 TO:0000539
+
+[Term]
+id: TO:0000579
+name: root dry weight to tiller number ratio
+def: "The proportion of root dry weight in tiller number." []
+intersection_of: PATO:0001470
+intersection_of: http://purl.obolibrary.org/obo/TO_relative_to TO:0000346
+intersection_of: RO:0000052 TO:0000078
+
