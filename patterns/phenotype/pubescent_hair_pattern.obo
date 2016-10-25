@@ -1,5 +1,12 @@
 format-version: 1.2
-ontology: patterns/color/pubescent_hair_pattern
+ontology: patterns/phenotype/pubescent_hair_pattern
+
+[Term]
+id: TO:0000055
+name: leaf lamina pubescence
+def: "A leaf lamina that is pubescent hair." []
+intersection_of: PATO:0001320
+intersection_of: RO:0000052 PO:0020039
 
 [Term]
 id: TO:0000417

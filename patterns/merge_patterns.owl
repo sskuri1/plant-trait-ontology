@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/patterns/eq/age_pattern.owl#"
      xml:base="http://purl.obolibrary.org/obo/patterns/eq/age_pattern.owl"
+     xmlns:phenotype="http://purl.obolibrary.org/obo/to/phenotype/"
      xmlns:morphology="http://purl.obolibrary.org/obo/to/morphology/"
-     xmlns:color="http://purl.obolibrary.org/obo/to/color/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:foo="http://geneontology.org/foo/"
@@ -41,18 +41,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/to/color/attribute -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/color/attribute"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/to/color/entity -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/color/entity"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/to/composition/attribute -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/composition/attribute"/>
@@ -86,6 +74,18 @@
     <!-- http://purl.obolibrary.org/obo/to/morphology/entity -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/morphology/entity"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/phenotype/attribute -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/phenotype/attribute"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/phenotype/entity -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/phenotype/entity"/>
     
 
 
@@ -852,12 +852,6 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0000402 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000402"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000455 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000455"/>
     
 
 
@@ -2055,7 +2049,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000455"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001320"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0020039"/>
@@ -2063,7 +2057,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>A leaf lamina that is pubescent.</obo:IAO_0000115>
+        <obo:IAO_0000115>A leaf lamina that is pubescent hair.</obo:IAO_0000115>
         <rdfs:label>leaf lamina pubescence</rdfs:label>
     </owl:Class>
     
