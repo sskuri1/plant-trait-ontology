@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: patterns/color/prostrate_pattern
+ontology: patterns/phenotype/prostrate_pattern
 
 [Term]
 id: TO:0000873

@@ -1,4 +1,5 @@
 iri	iri label	attribute	attribute label	entity	entity label	
+TO:0000730	mitotic cell cycle trait	PATO:0001236	process quality	GO:0000278	mitotic cell cycle
 TO:0000728	cell cycle trait	PATO:0001236	process quality	GO:0007049	cell cycle
 TO:0000283	biological process trait	PATO:0001236	process quality	GO:0008150	biological_process
 TO:0002633	fruit ripening trait	PATO:0001236	process quality	GO:0009835	fruit ripening
@@ -6,5 +7,6 @@ TO:0000622	flower development trait	PATO:0001236	process quality	GO:0009908	flow
 TO:0000621	inflorescence development trait	PATO:0001236	process quality	GO:0010229	inflorescence development
 TO:0006022	floral organ development trait	PATO:0001236	process quality	GO:0048437	floral organ development
 TO:0020110	gynoecium development trait	PATO:0001236	process quality	GO:0048467	gynoecium development
+TO:0000729	meiotic cell cycle trait	PATO:0001236	process quality	GO:0051321	meiotic cell cycle
 TO:0000656	root development trait	PATO:0001236	process quality	PO:0007520	root development stage
 TO:0006015	plant tissue development trait	PATO:0001236	process quality	PO:0025423	plant tissue development stage

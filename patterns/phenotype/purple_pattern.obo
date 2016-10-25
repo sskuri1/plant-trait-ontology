@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: patterns/color/purple_pattern
+ontology: patterns/phenotype/purple_pattern
 
 [Term]
 id: TO:0000762

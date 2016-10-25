@@ -1,0 +1,10 @@
+format-version: 1.2
+ontology: patterns/phenotype/serrated_pattern
+
+[Term]
+id: TO:0006063
+name: leaf margin serrated
+def: "A leaf margin that is serrated." []
+intersection_of: PATO:0001206
+intersection_of: RO:0000052 PO:0020128
+

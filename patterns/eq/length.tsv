@@ -46,4 +46,5 @@ TO:0000554	rhizome internode length	PATO:0000122	length	PO:0025204	rhizome inter
 TO:0000808	pseudostem length	PATO:0000122	length	PO:0025248	pseudostem
 TO:0006065	seedling hypocotyl length	PATO:0000122	length	PO:0025291	seedling hypocotyl
 TO:0000072	awn length	PATO:0000122	length	PO:0025349	awn
+TO:1000014	leaf lamina lobe length	PATO:0000122	length	PO:0025517	leaf lamina lobe
 TO:0000431	ear length	PATO:0000122	length	PO:0025597	ear infructescence

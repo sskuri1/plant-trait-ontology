@@ -3,27 +3,27 @@ Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 
  ## Auto-generated
 
-Ontology: <http://purl.obolibrary.org/obo/patterns/phenotype/multi-colored_pattern.owl>
+Ontology: <http://purl.obolibrary.org/obo/patterns/phenotype/serrated_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/phenotype/entity
 AnnotationProperty: to/phenotype/attribute
+AnnotationProperty: to/phenotype/entity
 AnnotationProperty: DOSDP:applies-pattern
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
-Class: PO:0025034 ## leaf
-Class: PATO:0001533 ## multi-colored
-## {"entity": "PO:0025034", "attribute": "PATO:0001533"}
-Class: TO:0000069
- Annotations: rdfs:label "variegated leaf"
- Annotations: IAO:0000115 "A leaf that is multi-colored."
- EquivalentTo: PATO:0001533 and RO_0000052 some PO:0025034 ## multi-colored and 'inheres in' some leaf
+Class: PATO:0001206 ## serrated
+Class: PO:0020128 ## leaf margin
+## {"attribute": "PATO:0001206", "entity": "PO:0020128"}
+Class: TO:0006063
+ Annotations: rdfs:label "leaf margin serrated"
+ Annotations: IAO:0000115 "A leaf margin that is serrated."
+ EquivalentTo: PATO:0001206 and RO_0000052 some PO:0020128 ## serrated and 'inheres in' some leaf margin

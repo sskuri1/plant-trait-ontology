@@ -543,6 +543,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000278"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0003824 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003824"/>
@@ -672,6 +678,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0048467 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048467"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0051321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051321"/>
     
 
 
@@ -924,6 +936,12 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0001046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001046"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001206"/>
     
 
 
@@ -1671,6 +1689,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0020128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020128"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0020136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020136"/>
@@ -1701,6 +1725,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025001"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025002"/>
@@ -1728,6 +1758,12 @@
     <!-- http://purl.obolibrary.org/obo/PO_0025009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025009"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025018"/>
     
 
 
@@ -1869,6 +1905,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025395"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025423 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025423"/>
@@ -1902,6 +1944,12 @@
     <!-- http://purl.obolibrary.org/obo/PO_0025497 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025497"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025517"/>
     
 
 
@@ -5708,6 +5756,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000695">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0020128"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The color of a leaf margin.</obo:IAO_0000115>
+        <rdfs:label>leaf margin color</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000696 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000696">
@@ -6028,6 +6096,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000729">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001236"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0051321"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The process quality of a meiotic cell cycle.</obo:IAO_0000115>
+        <rdfs:label>meiotic cell cycle trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000730">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001236"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0000278"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The process quality of a mitotic cell cycle.</obo:IAO_0000115>
+        <rdfs:label>mitotic cell cycle trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000731">
@@ -6344,6 +6452,26 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>The morphological quality of a coleoptile.</obo:IAO_0000115>
         <rdfs:label>coleoptile morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000754">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001241"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The morphological quality of a cardinal organ part.</obo:IAO_0000115>
+        <rdfs:label>cardinal organ part morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -7548,6 +7676,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000834 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000834">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001241"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025018"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The morphological quality of a phyllome margin.</obo:IAO_0000115>
+        <rdfs:label>phyllome margin morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000835 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000835">
@@ -7844,6 +7992,26 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>The length of a flower.</obo:IAO_0000115>
         <rdfs:label>flower length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000862 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000862">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001241"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025395"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The morphological quality of a floral organ.</obo:IAO_0000115>
+        <rdfs:label>floral organ morphology trait</rdfs:label>
     </owl:Class>
     
 
@@ -9648,6 +9816,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0002635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002635">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001241"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0020128"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The morphological quality of a leaf margin.</obo:IAO_0000115>
+        <rdfs:label>leaf margin morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0002636 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002636">
@@ -11274,6 +11462,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0006063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0006063">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001206"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0020128"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A leaf margin that is serrated.</obo:IAO_0000115>
+        <rdfs:label>leaf margin serrated</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0006065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0006065">
@@ -11830,6 +12038,66 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>The size of a whole plant.</obo:IAO_0000115>
         <rdfs:label>whole plant size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_1000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_1000013">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001241"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025517"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The morphological quality of a leaf lamina lobe.</obo:IAO_0000115>
+        <rdfs:label>leaf lamina lobe morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_1000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_1000014">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025517"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The length of a leaf lamina lobe.</obo:IAO_0000115>
+        <rdfs:label>leaf lamina lobe length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_1000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_1000015">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000921"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025517"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The width of a leaf lamina lobe.</obo:IAO_0000115>
+        <rdfs:label>leaf lamina lobe width</rdfs:label>
     </owl:Class>
     
 

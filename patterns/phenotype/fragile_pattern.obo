@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: patterns/color/fragile_pattern
+ontology: patterns/phenotype/fragile_pattern
 
 [Term]
 id: TO:0000200

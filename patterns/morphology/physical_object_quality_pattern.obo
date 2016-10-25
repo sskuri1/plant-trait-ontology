@@ -205,6 +205,13 @@ intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020033
 
 [Term]
+id: TO:0000754
+name: cardinal organ part morphology trait
+def: "The morphological quality of a cardinal organ part." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0025001
+
+[Term]
 id: TO:0000756
 name: stem internode morphology trait
 def: "The morphological quality of a stem internode." []
@@ -387,6 +394,13 @@ intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025005
 
 [Term]
+id: TO:0000834
+name: phyllome margin morphology trait
+def: "The morphological quality of a phyllome margin." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0025018
+
+[Term]
 id: TO:0000835
 name: leaf sheath morphology trait
 def: "The morphological quality of a leaf sheath." []
@@ -455,6 +469,13 @@ name: collective phyllome structure morphology trait
 def: "The morphological quality of a collective phyllome structure." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025023
+
+[Term]
+id: TO:0000862
+name: floral organ morphology trait
+def: "The morphological quality of a floral organ." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0025395
 
 [Term]
 id: TO:0000863
@@ -653,6 +674,13 @@ intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009001
 
 [Term]
+id: TO:0002635
+name: leaf margin morphology trait
+def: "The morphological quality of a leaf margin." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0020128
+
+[Term]
 id: TO:0002683
 name: plant cell morphology trait
 def: "The morphological quality of a plant cell." []
@@ -700,6 +728,13 @@ name: tuberous root tuber morphology trait
 def: "The morphological quality of a tuberous root tuber." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025476
+
+[Term]
+id: TO:1000013
+name: leaf lamina lobe morphology trait
+def: "The morphological quality of a leaf lamina lobe." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0025517
 
 [Term]
 id: TO:1000021

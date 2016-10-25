@@ -99,3 +99,10 @@ def: "The width of a glume." []
 intersection_of: PATO:0000921
 intersection_of: RO:0000052 PO:0009039
 
+[Term]
+id: TO:1000015
+name: leaf lamina lobe width
+def: "The width of a leaf lamina lobe." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0025517
+

@@ -2,403 +2,411 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/eq/length_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/entity
 AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/eq/entity
 AnnotationProperty: DOSDP:applies-pattern
 ObjectProperty: RO_0000052 ## inheres in
 ObjectProperty: BFO_0000050 ## part of
 ## Auto-generated classes
 
-Class: PO:0000046 ## seminal root
 Class: PATO:0000122 ## length
-## {"entity": "PO:0000046", "attribute": "PATO:0000122"}
+Class: PO:0000046 ## seminal root
+## {"attribute": "PATO:0000122", "entity": "PO:0000046"}
 Class: TO:0000586
  Annotations: rdfs:label "seminal root length"
  Annotations: IAO:0000115 "The length of a seminal root."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0000046 ## length and 'inheres in' some seminal root
 
-Class: PO:0000256 ## root hair cell
 Class: PATO:0000122 ## length
-## {"entity": "PO:0000256", "attribute": "PATO:0000122"}
+Class: PO:0000256 ## root hair cell
+## {"attribute": "PATO:0000122", "entity": "PO:0000256"}
 Class: TO:0002665
  Annotations: rdfs:label "root hair length"
  Annotations: IAO:0000115 "The length of a root hair cell."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0000256 ## length and 'inheres in' some root hair cell
 
-Class: PO:0004542 ## rhizome
 Class: PATO:0000122 ## length
-## {"entity": "PO:0004542", "attribute": "PATO:0000122"}
+Class: PO:0004542 ## rhizome
+## {"attribute": "PATO:0000122", "entity": "PO:0004542"}
 Class: TO:0000553
  Annotations: rdfs:label "rhizome length"
  Annotations: IAO:0000115 "The length of a rhizome."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0004542 ## length and 'inheres in' some rhizome
 
-Class: PO:0005001 ## basal axillary shoot system
 Class: PATO:0000122 ## length
-## {"entity": "PO:0005001", "attribute": "PATO:0000122"}
+Class: PO:0005001 ## basal axillary shoot system
+## {"attribute": "PATO:0000122", "entity": "PO:0005001"}
 Class: TO:0001005
  Annotations: rdfs:label "basal tiller length"
  Annotations: IAO:0000115 "The length of a basal axillary shoot system."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0005001 ## length and 'inheres in' some basal axillary shoot system
 
-Class: PO:0009001 ## fruit
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009001", "attribute": "PATO:0000122"}
+Class: PO:0009001 ## fruit
+## {"attribute": "PATO:0000122", "entity": "PO:0009001"}
 Class: TO:0002626
  Annotations: rdfs:label "fruit length"
  Annotations: IAO:0000115 "The length of a fruit."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009001 ## length and 'inheres in' some fruit
 
-Class: PO:0009002 ## plant cell
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009002", "attribute": "PATO:0000122"}
+Class: PO:0009002 ## plant cell
+## {"attribute": "PATO:0000122", "entity": "PO:0009002"}
 Class: TO:0020107
  Annotations: rdfs:label "plant cell length"
  Annotations: IAO:0000115 "The length of a plant cell."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009002 ## length and 'inheres in' some plant cell
 
-Class: PO:0009005 ## root
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009005", "attribute": "PATO:0000122"}
+Class: PO:0009005 ## root
+## {"attribute": "PATO:0000122", "entity": "PO:0009005"}
 Class: TO:0000227
  Annotations: rdfs:label "root length"
  Annotations: IAO:0000115 "The length of a root."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009005 ## length and 'inheres in' some root
 
-Class: PO:0009010 ## seed
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009010", "attribute": "PATO:0000122"}
+Class: PO:0009010 ## seed
+## {"attribute": "PATO:0000122", "entity": "PO:0009010"}
 Class: TO:0000146
  Annotations: rdfs:label "seed length"
  Annotations: IAO:0000115 "The length of a seed."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009010 ## length and 'inheres in' some seed
 
-Class: PO:0009029 ## stamen
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009029", "attribute": "PATO:0000122"}
+Class: PO:0009029 ## stamen
+## {"attribute": "PATO:0000122", "entity": "PO:0009029"}
 Class: TO:0002609
  Annotations: rdfs:label "stamen length"
  Annotations: IAO:0000115 "The length of a stamen."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009029 ## length and 'inheres in' some stamen
 
-Class: PO:0009031 ## sepal
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009031", "attribute": "PATO:0000122"}
+Class: PO:0009031 ## sepal
+## {"attribute": "PATO:0000122", "entity": "PO:0009031"}
 Class: TO:0002607
  Annotations: rdfs:label "sepal length"
  Annotations: IAO:0000115 "The length of a sepal."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009031 ## length and 'inheres in' some sepal
 
-Class: PO:0009032 ## petal
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009032", "attribute": "PATO:0000122"}
+Class: PO:0009032 ## petal
+## {"attribute": "PATO:0000122", "entity": "PO:0009032"}
 Class: TO:0002605
  Annotations: rdfs:label "petal length"
  Annotations: IAO:0000115 "The length of a petal."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009032 ## length and 'inheres in' some petal
 
-Class: PO:0009036 ## lodicule
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009036", "attribute": "PATO:0000122"}
+Class: PO:0009036 ## lodicule
+## {"attribute": "PATO:0000122", "entity": "PO:0009036"}
 Class: TO:0000856
  Annotations: rdfs:label "lodicule length"
  Annotations: IAO:0000115 "The length of a lodicule."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009036 ## length and 'inheres in' some lodicule
 
-Class: PO:0009037 ## lemma
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009037", "attribute": "PATO:0000122"}
+Class: PO:0009037 ## lemma
+## {"attribute": "PATO:0000122", "entity": "PO:0009037"}
 Class: TO:0000650
  Annotations: rdfs:label "lemma length"
  Annotations: IAO:0000115 "The length of a lemma."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009037 ## length and 'inheres in' some lemma
 
-Class: PO:0009039 ## glume
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009039", "attribute": "PATO:0000122"}
+Class: PO:0009039 ## glume
+## {"attribute": "PATO:0000122", "entity": "PO:0009039"}
 Class: TO:0020033
  Annotations: rdfs:label "glume length"
  Annotations: IAO:0000115 "The length of a glume."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009039 ## length and 'inheres in' some glume
 
-Class: PO:0009040 ## sterile lemma
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009040", "attribute": "PATO:0000122"}
+Class: PO:0009040 ## sterile lemma
+## {"attribute": "PATO:0000122", "entity": "PO:0009040"}
 Class: TO:0000240
  Annotations: rdfs:label "sterile lemma length"
  Annotations: IAO:0000115 "The length of a sterile lemma."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009040 ## length and 'inheres in' some sterile lemma
 
-Class: PO:0009046 ## flower
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009046", "attribute": "PATO:0000122"}
+Class: PO:0009046 ## flower
+## {"attribute": "PATO:0000122", "entity": "PO:0009046"}
 Class: TO:0000860
  Annotations: rdfs:label "flower length"
  Annotations: IAO:0000115 "The length of a flower."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009046 ## length and 'inheres in' some flower
 
-Class: PO:0009047 ## stem
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009047", "attribute": "PATO:0000122"}
+Class: PO:0009047 ## stem
+## {"attribute": "PATO:0000122", "entity": "PO:0009047"}
 Class: TO:0000576
  Annotations: rdfs:label "stem length"
  Annotations: IAO:0000115 "The length of a stem."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009047 ## length and 'inheres in' some stem
 
-Class: PO:0009049 ## inflorescence
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009049", "attribute": "PATO:0000122"}
+Class: PO:0009049 ## inflorescence
+## {"attribute": "PATO:0000122", "entity": "PO:0009049"}
 Class: TO:0000271
  Annotations: rdfs:label "inflorescence length"
  Annotations: IAO:0000115 "The length of a inflorescence."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009049 ## length and 'inheres in' some inflorescence
 
-Class: PO:0009051 ## spikelet
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009051", "attribute": "PATO:0000122"}
+Class: PO:0009051 ## spikelet
+## {"attribute": "PATO:0000122", "entity": "PO:0009051"}
 Class: TO:0002768
  Annotations: rdfs:label "spikelet length"
  Annotations: IAO:0000115 "The length of a spikelet."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009051 ## length and 'inheres in' some spikelet
 
-Class: PO:0009052 ## flower pedicel
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009052", "attribute": "PATO:0000122"}
+Class: PO:0009052 ## flower pedicel
+## {"attribute": "PATO:0000122", "entity": "PO:0009052"}
 Class: TO:0000630
  Annotations: rdfs:label "pedicel length"
  Annotations: IAO:0000115 "The length of a flower pedicel."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009052 ## length and 'inheres in' some flower pedicel
 
-Class: PO:0009053 ## peduncle
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009053", "attribute": "PATO:0000122"}
+Class: PO:0009053 ## peduncle
+## {"attribute": "PATO:0000122", "entity": "PO:0009053"}
 Class: TO:0002691
  Annotations: rdfs:label "peduncle length"
  Annotations: IAO:0000115 "The length of a peduncle."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009053 ## length and 'inheres in' some peduncle
 
-Class: PO:0009054 ## inflorescence bract
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009054", "attribute": "PATO:0000122"}
+Class: PO:0009054 ## inflorescence bract
+## {"attribute": "PATO:0000122", "entity": "PO:0009054"}
 Class: TO:0000817
  Annotations: rdfs:label "inflorescence bract length"
  Annotations: IAO:0000115 "The length of a inflorescence bract."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009054 ## length and 'inheres in' some inflorescence bract
 
-Class: PO:0009062 ## gynoecium
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009062", "attribute": "PATO:0000122"}
+Class: PO:0009062 ## gynoecium
+## {"attribute": "PATO:0000122", "entity": "PO:0009062"}
 Class: TO:0002610
  Annotations: rdfs:label "pistil length"
  Annotations: IAO:0000115 "The length of a gynoecium."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009062 ## length and 'inheres in' some gynoecium
 
-Class: PO:0009066 ## anther
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009066", "attribute": "PATO:0000122"}
+Class: PO:0009066 ## anther
+## {"attribute": "PATO:0000122", "entity": "PO:0009066"}
 Class: TO:0000531
  Annotations: rdfs:label "anther length"
  Annotations: IAO:0000115 "The length of a anther."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009066 ## length and 'inheres in' some anther
 
-Class: PO:0009073 ## stigma
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009073", "attribute": "PATO:0000122"}
+Class: PO:0009073 ## stigma
+## {"attribute": "PATO:0000122", "entity": "PO:0009073"}
 Class: TO:0011008
  Annotations: rdfs:label "stigma length"
  Annotations: IAO:0000115 "The length of a stigma."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009073 ## length and 'inheres in' some stigma
 
-Class: PO:0009074 ## style
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009074", "attribute": "PATO:0000122"}
+Class: PO:0009074 ## style
+## {"attribute": "PATO:0000122", "entity": "PO:0009074"}
 Class: TO:0011009
  Annotations: rdfs:label "style length"
  Annotations: IAO:0000115 "The length of a style."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009074 ## length and 'inheres in' some style
 
-Class: PO:0009080 ## spikelet rachilla
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009080", "attribute": "PATO:0000122"}
+Class: PO:0009080 ## spikelet rachilla
+## {"attribute": "PATO:0000122", "entity": "PO:0009080"}
 Class: TO:0000972
  Annotations: rdfs:label "spikelet rachilla length"
  Annotations: IAO:0000115 "The length of a spikelet rachilla."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009080 ## length and 'inheres in' some spikelet rachilla
 
-Class: PO:0009081 ## inflorescence branch
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009081", "attribute": "PATO:0000122"}
+Class: PO:0009081 ## inflorescence branch
+## {"attribute": "PATO:0000122", "entity": "PO:0009081"}
 Class: TO:0000641
  Annotations: rdfs:label "inflorescence primary branch length"
  Annotations: IAO:0000115 "The length of a inflorescence branch."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009081 ## length and 'inheres in' some inflorescence branch
 
-Class: PO:0009088 ## seed coat
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009088", "attribute": "PATO:0000122"}
+Class: PO:0009088 ## seed coat
+## {"attribute": "PATO:0000122", "entity": "PO:0009088"}
 Class: TO:0000880
  Annotations: rdfs:label "seed coat length"
  Annotations: IAO:0000115 "The length of a seed coat."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009088 ## length and 'inheres in' some seed coat
 
-Class: PO:0009100 ## involucre
 Class: PATO:0000122 ## length
-## {"entity": "PO:0009100", "attribute": "PATO:0000122"}
+Class: PO:0009100 ## involucre
+## {"attribute": "PATO:0000122", "entity": "PO:0009100"}
 Class: TO:0000623
  Annotations: rdfs:label "involucre bristle length"
  Annotations: IAO:0000115 "The length of a involucre."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0009100 ## length and 'inheres in' some involucre
 
-Class: PO:0020033 ## coleoptile
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020033", "attribute": "PATO:0000122"}
+Class: PO:0020033 ## coleoptile
+## {"attribute": "PATO:0000122", "entity": "PO:0020033"}
 Class: TO:0001007
  Annotations: rdfs:label "coleoptile length"
  Annotations: IAO:0000115 "The length of a coleoptile."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020033 ## length and 'inheres in' some coleoptile
 
-Class: PO:0020037 ## mesocotyl
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020037", "attribute": "PATO:0000122"}
+Class: PO:0020037 ## mesocotyl
+## {"attribute": "PATO:0000122", "entity": "PO:0020037"}
 Class: TO:0000544
  Annotations: rdfs:label "mesocotyl length"
  Annotations: IAO:0000115 "The length of a mesocotyl."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020037 ## length and 'inheres in' some mesocotyl
 
-Class: PO:0020038 ## petiole
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020038", "attribute": "PATO:0000122"}
+Class: PO:0020038 ## petiole
+## {"attribute": "PATO:0000122", "entity": "PO:0020038"}
 Class: TO:0000766
  Annotations: rdfs:label "petiole length"
  Annotations: IAO:0000115 "The length of a petiole."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020038 ## length and 'inheres in' some petiole
 
-Class: PO:0020039 ## leaf lamina
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020039", "attribute": "PATO:0000122"}
+Class: PO:0020039 ## leaf lamina
+## {"attribute": "PATO:0000122", "entity": "PO:0020039"}
 Class: TO:0002690
  Annotations: rdfs:label "leaf lamina length"
  Annotations: IAO:0000115 "The length of a leaf lamina."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020039 ## length and 'inheres in' some leaf lamina
 
-Class: PO:0020041 ## stipule
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020041", "attribute": "PATO:0000122"}
+Class: PO:0020041 ## stipule
+## {"attribute": "PATO:0000122", "entity": "PO:0020041"}
 Class: TO:1000020
  Annotations: rdfs:label "stipule length"
  Annotations: IAO:0000115 "The length of a stipule."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020041 ## length and 'inheres in' some stipule
 
-Class: PO:0020050 ## petiolule
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020050", "attribute": "PATO:0000122"}
+Class: PO:0020050 ## petiolule
+## {"attribute": "PATO:0000122", "entity": "PO:0020050"}
 Class: TO:0000887
  Annotations: rdfs:label "petiolule length"
  Annotations: IAO:0000115 "The length of a petiolule."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020050 ## length and 'inheres in' some petiolule
 
-Class: PO:0020103 ## flag leaf
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020103", "attribute": "PATO:0000122"}
+Class: PO:0020103 ## flag leaf
+## {"attribute": "PATO:0000122", "entity": "PO:0020103"}
 Class: TO:0002757
  Annotations: rdfs:label "flag leaf length"
  Annotations: IAO:0000115 "The length of a flag leaf."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020103 ## length and 'inheres in' some flag leaf
 
-Class: PO:0020104 ## leaf sheath
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020104", "attribute": "PATO:0000122"}
+Class: PO:0020104 ## leaf sheath
+## {"attribute": "PATO:0000122", "entity": "PO:0020104"}
 Class: TO:0002689
  Annotations: rdfs:label "leaf sheath length"
  Annotations: IAO:0000115 "The length of a leaf sheath."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020104 ## length and 'inheres in' some leaf sheath
 
-Class: PO:0020105 ## ligule
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020105", "attribute": "PATO:0000122"}
+Class: PO:0020105 ## ligule
+## {"attribute": "PATO:0000122", "entity": "PO:0020105"}
 Class: TO:0000024
  Annotations: rdfs:label "ligule length"
  Annotations: IAO:0000115 "The length of a ligule."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020105 ## length and 'inheres in' some ligule
 
-Class: PO:0020121 ## lateral root
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020121", "attribute": "PATO:0000122"}
+Class: PO:0020121 ## lateral root
+## {"attribute": "PATO:0000122", "entity": "PO:0020121"}
 Class: TO:0001012
  Annotations: rdfs:label "lateral root length"
  Annotations: IAO:0000115 "The length of a lateral root."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020121 ## length and 'inheres in' some lateral root
 
-Class: PO:0020126 ## tassel inflorescence
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020126", "attribute": "PATO:0000122"}
+Class: PO:0020126 ## tassel inflorescence
+## {"attribute": "PATO:0000122", "entity": "PO:0020126"}
 Class: TO:0000798
  Annotations: rdfs:label "tassel inflorescence length"
  Annotations: IAO:0000115 "The length of a tassel inflorescence."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020126 ## length and 'inheres in' some tassel inflorescence
 
-Class: PO:0020142 ## stem internode
 Class: PATO:0000122 ## length
-## {"entity": "PO:0020142", "attribute": "PATO:0000122"}
+Class: PO:0020142 ## stem internode
+## {"attribute": "PATO:0000122", "entity": "PO:0020142"}
 Class: TO:0000145
  Annotations: rdfs:label "internode length"
  Annotations: IAO:0000115 "The length of a stem internode."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0020142 ## length and 'inheres in' some stem internode
 
-Class: PO:0025034 ## leaf
 Class: PATO:0000122 ## length
-## {"entity": "PO:0025034", "attribute": "PATO:0000122"}
+Class: PO:0025034 ## leaf
+## {"attribute": "PATO:0000122", "entity": "PO:0025034"}
 Class: TO:0000135
  Annotations: rdfs:label "leaf length"
  Annotations: IAO:0000115 "The length of a leaf."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0025034 ## length and 'inheres in' some leaf
 
-Class: PO:0025204 ## rhizome internode
 Class: PATO:0000122 ## length
-## {"entity": "PO:0025204", "attribute": "PATO:0000122"}
+Class: PO:0025204 ## rhizome internode
+## {"attribute": "PATO:0000122", "entity": "PO:0025204"}
 Class: TO:0000554
  Annotations: rdfs:label "rhizome internode length"
  Annotations: IAO:0000115 "The length of a rhizome internode."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0025204 ## length and 'inheres in' some rhizome internode
 
-Class: PO:0025248 ## pseudostem
 Class: PATO:0000122 ## length
-## {"entity": "PO:0025248", "attribute": "PATO:0000122"}
+Class: PO:0025248 ## pseudostem
+## {"attribute": "PATO:0000122", "entity": "PO:0025248"}
 Class: TO:0000808
  Annotations: rdfs:label "pseudostem length"
  Annotations: IAO:0000115 "The length of a pseudostem."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0025248 ## length and 'inheres in' some pseudostem
 
-Class: PO:0025291 ## seedling hypocotyl
 Class: PATO:0000122 ## length
-## {"entity": "PO:0025291", "attribute": "PATO:0000122"}
+Class: PO:0025291 ## seedling hypocotyl
+## {"attribute": "PATO:0000122", "entity": "PO:0025291"}
 Class: TO:0006065
  Annotations: rdfs:label "seedling hypocotyl length"
  Annotations: IAO:0000115 "The length of a seedling hypocotyl."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0025291 ## length and 'inheres in' some seedling hypocotyl
 
-Class: PO:0025349 ## awn
 Class: PATO:0000122 ## length
-## {"entity": "PO:0025349", "attribute": "PATO:0000122"}
+Class: PO:0025349 ## awn
+## {"attribute": "PATO:0000122", "entity": "PO:0025349"}
 Class: TO:0000072
  Annotations: rdfs:label "awn length"
  Annotations: IAO:0000115 "The length of a awn."
  EquivalentTo: PATO:0000122 and RO_0000052 some PO:0025349 ## length and 'inheres in' some awn
 
-Class: PO:0025597 ## ear infructescence
 Class: PATO:0000122 ## length
-## {"entity": "PO:0025597", "attribute": "PATO:0000122"}
+Class: PO:0025517 ## leaf lamina lobe
+## {"attribute": "PATO:0000122", "entity": "PO:0025517"}
+Class: TO:1000014
+ Annotations: rdfs:label "leaf lamina lobe length"
+ Annotations: IAO:0000115 "The length of a leaf lamina lobe."
+ EquivalentTo: PATO:0000122 and RO_0000052 some PO:0025517 ## length and 'inheres in' some leaf lamina lobe
+
+Class: PATO:0000122 ## length
+Class: PO:0025597 ## ear infructescence
+## {"attribute": "PATO:0000122", "entity": "PO:0025597"}
 Class: TO:0000431
  Annotations: rdfs:label "ear length"
  Annotations: IAO:0000115 "The length of a ear infructescence."

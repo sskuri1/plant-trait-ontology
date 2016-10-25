@@ -191,6 +191,13 @@ intersection_of: PATO:0000014
 intersection_of: RO:0000052 PO:0009074
 
 [Term]
+id: TO:0000695
+name: leaf margin color
+def: "The color of a leaf margin." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020128
+
+[Term]
 id: TO:0000707
 name: pericarp color
 def: "The color of a pericarp." []

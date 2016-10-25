@@ -11,13 +11,13 @@ Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 
  ## Auto-generated
 
-Ontology: <http://purl.obolibrary.org/obo/patterns/color/hypotrophic_pattern.owl>
+Ontology: <http://purl.obolibrary.org/obo/patterns/phenotype/hypotrophic_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/color/attribute
-AnnotationProperty: to/color/entity
+AnnotationProperty: to/phenotype/attribute
+AnnotationProperty: to/phenotype/entity
 AnnotationProperty: DOSDP:applies-pattern
-ObjectProperty: RO_0000052 ## inheres in
 ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
 Class: PATO:0000585 ## hypotrophic

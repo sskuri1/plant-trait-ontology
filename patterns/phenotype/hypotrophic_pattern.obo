@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: patterns/color/hypotrophic_pattern
+ontology: patterns/phenotype/hypotrophic_pattern
 
 [Term]
 id: TO:0000100

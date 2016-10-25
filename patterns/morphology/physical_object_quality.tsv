@@ -71,13 +71,16 @@ TO:0002748	ligule morphology trait	PATO:0001241	physical object quality	PO:00201
 TO:0002717	leaf sheath auricle morphology trait	PATO:0001241	physical object quality	PO:0020106	leaf sheath auricle
 TO:0000782	inflorescence axis morphology trait	PATO:0001241	physical object quality	PO:0020122	inflorescence axis
 TO:0000788	tassel inflorescence morphology trait	PATO:0001241	physical object quality	PO:0020126	tassel inflorescence
+TO:0002635	leaf margin morphology trait	PATO:0001241	physical object quality	PO:0020128	leaf margin
 TO:0000969	ear inflorescence morphology trait	PATO:0001241	physical object quality	PO:0020136	ear inflorescence
 TO:0000822	leaf midvein morphology trait	PATO:0001241	physical object quality	PO:0020139	leaf midvein
 TO:0000756	stem internode morphology trait	PATO:0001241	physical object quality	PO:0020142	stem internode
+TO:0000754	cardinal organ part morphology trait	PATO:0001241	physical object quality	PO:0025001	cardinal organ part
 TO:0000738	plant axis morphology trait	PATO:0001241	physical object quality	PO:0025004	plant axis
 TO:0000833	organ margin morphology trait	PATO:0001241	physical object quality	PO:0025005	organ margin
 TO:0000842	collective plant organ structure morphology trait	PATO:0001241	physical object quality	PO:0025007	collective plant organ structure
 TO:0000830	leaf lamina margin morphology trait	PATO:0001241	physical object quality	PO:0025009	leaf lamina margin
+TO:0000834	phyllome margin morphology trait	PATO:0001241	physical object quality	PO:0025018	phyllome margin
 TO:0000845	collective phyllome structure morphology trait	PATO:0001241	physical object quality	PO:0025023	collective phyllome structure
 TO:0000985	root system morphology trait	PATO:0001241	physical object quality	PO:0025025	root system
 TO:0000739	shoot axis morphology trait	PATO:0001241	physical object quality	PO:0025029	shoot axis
@@ -96,10 +99,12 @@ TO:0000769	seedling hypocotyl morphology trait	PATO:0001241	physical object qual
 TO:0000773	embryo mesocotyl morphology trait	PATO:0001241	physical object quality	PO:0025294	embryo mesocotyl
 TO:0000772	seedling mesocotyl morphology trait	PATO:0001241	physical object quality	PO:0025295	seedling mesocotyl
 TO:0002718	awn morphology trait	PATO:0001241	physical object quality	PO:0025349	awn
+TO:0000862	floral organ morphology trait	PATO:0001241	physical object quality	PO:0025395	floral organ
 TO:0000775	plant embryo cotyledon morphology trait	PATO:0001241	physical object quality	PO:0025470	plant embryo cotyledon
 TO:0000774	seedling cotyledon morphology trait	PATO:0001241	physical object quality	PO:0025471	seedling cotyledon
 TO:1000007	tuberous root tuber morphology trait	PATO:0001241	physical object quality	PO:0025476	tuberous root tuber
 TO:0000836	multi-tissue plant structure morphology trait	PATO:0001241	physical object quality	PO:0025496	multi-tissue plant structure
 TO:0000840	collective plant structure morphology trait	PATO:0001241	physical object quality	PO:0025497	collective plant structure
+TO:1000013	leaf lamina lobe morphology trait	PATO:0001241	physical object quality	PO:0025517	leaf lamina lobe
 TO:0000741	tuber morphology trait	PATO:0001241	physical object quality	PO:0025522	tuber
 TO:0000976	ear infructescence morphology trait	PATO:0001241	physical object quality	PO:0025597	ear infructescence

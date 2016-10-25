@@ -45,6 +45,7 @@ TO:0000197	ligule color	PATO:0000014	color	PO:0020105	ligule
 TO:0000294	leaf sheath auricle color	PATO:0000014	color	PO:0020106	leaf sheath auricle
 TO:0011003	inflorescence axis color	PATO:0000014	color	PO:0020122	inflorescence axis
 TO:0000795	tassel inflorescence color	PATO:0000014	color	PO:0020126	tassel inflorescence
+TO:0000695	leaf margin color	PATO:0000014	color	PO:0020128	leaf margin
 TO:0000719	leaf vein color	PATO:0000014	color	PO:0020138	leaf lamina vein
 TO:0000059	node color	PATO:0000014	color	PO:0020141	stem node
 TO:0000534	culm color	PATO:0000014	color	PO:0020142	stem internode

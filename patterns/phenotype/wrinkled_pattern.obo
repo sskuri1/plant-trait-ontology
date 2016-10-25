@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: patterns/color/wrinkled_pattern
+ontology: patterns/phenotype/wrinkled_pattern
 
 [Term]
 id: TO:0000718

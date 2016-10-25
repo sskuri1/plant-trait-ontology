@@ -1325,6 +1325,13 @@ intersection_of: PATO:0000070
 intersection_of: RO:0000052 CHEBI:70206
 
 [Term]
+id: TO:0000695
+name: leaf margin color
+def: "The color of a leaf margin." []
+intersection_of: PATO:0000014
+intersection_of: RO:0000052 PO:0020128
+
+[Term]
 id: TO:0000696
 name: starch content
 def: "The amount of starch." []
@@ -1437,6 +1444,20 @@ intersection_of: PATO:0001236
 intersection_of: RO:0000052 GO:0007049
 
 [Term]
+id: TO:0000729
+name: meiotic cell cycle trait
+def: "The process quality of a meiotic cell cycle." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0051321
+
+[Term]
+id: TO:0000730
+name: mitotic cell cycle trait
+def: "The process quality of a mitotic cell cycle." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0000278
+
+[Term]
 id: TO:0000731
 name: lignin content
 def: "The amount of lignin." []
@@ -1547,6 +1568,13 @@ name: coleoptile morphology trait
 def: "The morphological quality of a coleoptile." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0020033
+
+[Term]
+id: TO:0000754
+name: cardinal organ part morphology trait
+def: "The morphological quality of a cardinal organ part." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0025001
 
 [Term]
 id: TO:0000756
@@ -1969,6 +1997,13 @@ intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025005
 
 [Term]
+id: TO:0000834
+name: phyllome margin morphology trait
+def: "The morphological quality of a phyllome margin." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0025018
+
+[Term]
 id: TO:0000835
 name: leaf sheath morphology trait
 def: "The morphological quality of a leaf sheath." []
@@ -2072,6 +2107,13 @@ name: flower length
 def: "The length of a flower." []
 intersection_of: PATO:0000122
 intersection_of: RO:0000052 PO:0009046
+
+[Term]
+id: TO:0000862
+name: floral organ morphology trait
+def: "The morphological quality of a floral organ." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0025395
 
 [Term]
 id: TO:0000863
@@ -2704,6 +2746,13 @@ intersection_of: PATO:0000037
 intersection_of: RO:0000052 PO:0009001
 
 [Term]
+id: TO:0002635
+name: leaf margin morphology trait
+def: "The morphological quality of a leaf margin." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0020128
+
+[Term]
 id: TO:0002636
 name: leaflet number
 def: "The has number of of a leaflet." []
@@ -3277,6 +3326,13 @@ intersection_of: PATO:0001555
 intersection_of: RO:0000052 PO:0009033
 
 [Term]
+id: TO:0006063
+name: leaf margin serrated
+def: "A leaf margin that is serrated." []
+intersection_of: PATO:0001206
+intersection_of: RO:0000052 PO:0020128
+
+[Term]
 id: TO:0006065
 name: seedling hypocotyl length
 def: "The length of a seedling hypocotyl." []
@@ -3471,6 +3527,27 @@ name: whole plant size
 def: "The size of a whole plant." []
 intersection_of: PATO:0000117
 intersection_of: RO:0000052 PO:0000003
+
+[Term]
+id: TO:1000013
+name: leaf lamina lobe morphology trait
+def: "The morphological quality of a leaf lamina lobe." []
+intersection_of: PATO:0001241
+intersection_of: RO:0000052 PO:0025517
+
+[Term]
+id: TO:1000014
+name: leaf lamina lobe length
+def: "The length of a leaf lamina lobe." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0025517
+
+[Term]
+id: TO:1000015
+name: leaf lamina lobe width
+def: "The width of a leaf lamina lobe." []
+intersection_of: PATO:0000921
+intersection_of: RO:0000052 PO:0025517
 
 [Term]
 id: TO:1000016

@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: patterns/color/increased_size_pattern
+ontology: patterns/phenotype/increased_size_pattern
 
 [Term]
 id: TO:0000113

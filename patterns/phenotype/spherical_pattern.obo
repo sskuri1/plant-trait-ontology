@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: patterns/color/spherical_pattern
+ontology: patterns/phenotype/spherical_pattern
 
 [Term]
 id: TO:0000194

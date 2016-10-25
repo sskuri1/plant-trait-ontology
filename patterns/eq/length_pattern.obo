@@ -331,6 +331,13 @@ intersection_of: PATO:0000122
 intersection_of: RO:0000052 PO:0009002
 
 [Term]
+id: TO:1000014
+name: leaf lamina lobe length
+def: "The length of a leaf lamina lobe." []
+intersection_of: PATO:0000122
+intersection_of: RO:0000052 PO:0025517
+
+[Term]
 id: TO:1000020
 name: stipule length
 def: "The length of a stipule." []

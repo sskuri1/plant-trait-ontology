@@ -37,6 +37,20 @@ intersection_of: PATO:0001236
 intersection_of: RO:0000052 GO:0007049
 
 [Term]
+id: TO:0000729
+name: meiotic cell cycle trait
+def: "The process quality of a meiotic cell cycle." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0051321
+
+[Term]
+id: TO:0000730
+name: mitotic cell cycle trait
+def: "The process quality of a mitotic cell cycle." []
+intersection_of: PATO:0001236
+intersection_of: RO:0000052 GO:0000278
+
+[Term]
 id: TO:0002633
 name: fruit ripening trait
 def: "The process quality of a fruit ripening." []
