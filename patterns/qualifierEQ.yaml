@@ -17,9 +17,10 @@ name:
     - attribute
 
 def: 
-  text: "The %s of a %s."
+  text: "The %s of a %s %s."
   vars:
     - attribute
+    - qualifier
     - entity
     
 equivalentTo: 

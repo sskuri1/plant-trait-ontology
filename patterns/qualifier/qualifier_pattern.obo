@@ -5,15 +5,15 @@ owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://w
 [Term]
 id: TO:0000279
 name: root weight
-def: "The weight of a root." []
+def: "The weight of a dry root." []
 
 [Term]
 id: TO:0000831
 name: adult leaf morphology trait
-def: "The physical object quality of a leaf." []
+def: "The physical object quality of a mature leaf." []
 
 [Term]
 id: TO:0000952
 name: stem weight
-def: "The weight of a stem." []
+def: "The weight of a dry stem." []
 
