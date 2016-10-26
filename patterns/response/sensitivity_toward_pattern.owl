@@ -3,83 +3,78 @@ Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: OWL: <http://www.w3.org/2002/07/owl#>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/response/sensitivity_toward_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/entity
-AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/response/environment
 AnnotationProperty: DOSDP:applies-pattern
 AnnotationProperty: oio:hasExactSynonym
-ObjectProperty: RO_0000052 ## inheres in
+Class: PATO_0000077 ## response
+ObjectProperty: BFO_0000066 ## occurs in
 ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
 Class: CHEBI:27744 ## glyphosate
-Class: PATO:0000085 ## sensitivity toward
-## {"entity": "CHEBI:27744", "attribute": "PATO:0000085"}
+## {"environment": "CHEBI:27744"}
 Class: TO:0005006
  Annotations: rdfs:label "glyphosate response trait"
- Annotations: IAO:0000115 "The response to glyphosate stress."
+ Annotations: IAO:0000115 "The response to glyphosate."
  Annotations: oio:hasExactSynonym "glyphosate sensitivity"
- EquivalentTo: PATO:0000085 and RO_0000052 some CHEBI:27744 ## sensitivity toward and 'inheres in' some glyphosate
+ EquivalentTo: PATO_0000077 and BFO_0000066 some CHEBI:27744 ## 'response' and 'occurs in' some glyphosate
 
 Class: CHEBI:37848 ## plant hormone
-Class: PATO:0000085 ## sensitivity toward
-## {"entity": "CHEBI:37848", "attribute": "PATO:0000085"}
+## {"environment": "CHEBI:37848"}
 Class: TO:0000401
  Annotations: rdfs:label "plant hormone response trait"
- Annotations: IAO:0000115 "The response to plant hormone stress."
+ Annotations: IAO:0000115 "The response to plant hormone."
  Annotations: oio:hasExactSynonym "plant growth hormone sensitivity"
- EquivalentTo: PATO:0000085 and RO_0000052 some CHEBI:37848 ## sensitivity toward and 'inheres in' some plant hormone
+ EquivalentTo: PATO_0000077 and BFO_0000066 some CHEBI:37848 ## 'response' and 'occurs in' some plant hormone
 
 Class: CHEBI:52136 ## phosphinothricin
-Class: PATO:0000085 ## sensitivity toward
-## {"entity": "CHEBI:52136", "attribute": "PATO:0000085"}
+## {"environment": "CHEBI:52136"}
 Class: TO:0005007
  Annotations: rdfs:label "phosphinothricin response trait"
- Annotations: IAO:0000115 "The response to phosphinothricin stress."
+ Annotations: IAO:0000115 "The response to phosphinothricin."
  Annotations: oio:hasExactSynonym "glufosinate sensitivity"
- EquivalentTo: PATO:0000085 and RO_0000052 some CHEBI:52136 ## sensitivity toward and 'inheres in' some phosphinothricin
+ EquivalentTo: PATO_0000077 and BFO_0000066 some CHEBI:52136 ## 'response' and 'occurs in' some phosphinothricin
 
 Class: EO:0007180 ## 2,4-dichlorophenoxyacetic acid treatment
-Class: PATO:0000085 ## sensitivity toward
-## {"entity": "EO:0007180", "attribute": "PATO:0000085"}
+## {"environment": "EO:0007180"}
 Class: TO:0000177
  Annotations: rdfs:label "2,4-dichlorophenoxyacetic acid treatment response trait"
- Annotations: IAO:0000115 "The response to 2,4-dichlorophenoxyacetic acid treatment stress."
+ Annotations: IAO:0000115 "The response to 2,4-dichlorophenoxyacetic acid treatment."
  Annotations: oio:hasExactSynonym "2,4-dichlorophenoxyacetic acid sensitivity"
- EquivalentTo: PATO:0000085 and RO_0000052 some EO:0007180 ## sensitivity toward and 'inheres in' some 2,4-dichlorophenoxyacetic acid treatment
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007180 ## 'response' and 'occurs in' some 2,4-dichlorophenoxyacetic acid treatment
 
 Class: EO:0007396 ## flood prone region
-Class: PATO:0000085 ## sensitivity toward
-## {"entity": "EO:0007396", "attribute": "PATO:0000085"}
+## {"environment": "EO:0007396"}
 Class: TO:0000103
  Annotations: rdfs:label "flood prone region response trait"
- Annotations: IAO:0000115 "The response to flood prone region stress."
+ Annotations: IAO:0000115 "The response to flood prone region."
  Annotations: oio:hasExactSynonym "deepwater stress"
- EquivalentTo: PATO:0000085 and RO_0000052 some EO:0007396 ## sensitivity toward and 'inheres in' some flood prone region
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007396 ## 'response' and 'occurs in' some flood prone region
 
 Class: EO:0007409 ## brassinosteroid treatment
-Class: PATO:0000085 ## sensitivity toward
-## {"entity": "EO:0007409", "attribute": "PATO:0000085"}
+## {"environment": "EO:0007409"}
 Class: TO:0002677
  Annotations: rdfs:label "brassinosteroid treatment response trait"
- Annotations: IAO:0000115 "The response to brassinosteroid treatment stress."
+ Annotations: IAO:0000115 "The response to brassinosteroid treatment."
  Annotations: oio:hasExactSynonym "brassinosteroid sensitivity"
- EquivalentTo: PATO:0000085 and RO_0000052 some EO:0007409 ## sensitivity toward and 'inheres in' some brassinosteroid treatment
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007409 ## 'response' and 'occurs in' some brassinosteroid treatment
 
 Class: GO:0006970 ## response to osmotic stress
-Class: PATO:0000085 ## sensitivity toward
-## {"entity": "GO:0006970", "attribute": "PATO:0000085"}
+## {"environment": "GO:0006970"}
 Class: TO:0000095
  Annotations: rdfs:label "response to osmotic stress response trait"
- Annotations: IAO:0000115 "The response to response to osmotic stress stress."
+ Annotations: IAO:0000115 "The response to response to osmotic stress."
  Annotations: oio:hasExactSynonym "osmotic response sensitivity"
- EquivalentTo: PATO:0000085 and RO_0000052 some GO:0006970 ## sensitivity toward and 'inheres in' some response to osmotic stress
+ EquivalentTo: PATO_0000077 and BFO_0000066 some GO:0006970 ## 'response' and 'occurs in' some response to osmotic stress

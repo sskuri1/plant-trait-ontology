@@ -4,56 +4,56 @@ ontology: patterns/response/sensitivity_toward_pattern
 [Term]
 id: TO:0000095
 name: response to osmotic stress response trait
-def: "The response to response to osmotic stress stress." []
+def: "The response to response to osmotic stress." []
 synonym: "osmotic response sensitivity" EXACT []
-intersection_of: PATO:0000085
-intersection_of: RO:0000052 GO:0006970
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 GO:0006970
 
 [Term]
 id: TO:0000103
 name: flood prone region response trait
-def: "The response to flood prone region stress." []
+def: "The response to flood prone region." []
 synonym: "deepwater stress" EXACT []
-intersection_of: PATO:0000085
-intersection_of: RO:0000052 EO:0007396
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007396
 
 [Term]
 id: TO:0000177
 name: 2,4-dichlorophenoxyacetic acid treatment response trait
-def: "The response to 2,4-dichlorophenoxyacetic acid treatment stress." []
+def: "The response to 2,4-dichlorophenoxyacetic acid treatment." []
 synonym: "2,4-dichlorophenoxyacetic acid sensitivity" EXACT []
-intersection_of: PATO:0000085
-intersection_of: RO:0000052 EO:0007180
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007180
 
 [Term]
 id: TO:0000401
 name: plant hormone response trait
-def: "The response to plant hormone stress." []
+def: "The response to plant hormone." []
 synonym: "plant growth hormone sensitivity" EXACT []
-intersection_of: PATO:0000085
-intersection_of: RO:0000052 CHEBI:37848
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 CHEBI:37848
 
 [Term]
 id: TO:0002677
 name: brassinosteroid treatment response trait
-def: "The response to brassinosteroid treatment stress." []
+def: "The response to brassinosteroid treatment." []
 synonym: "brassinosteroid sensitivity" EXACT []
-intersection_of: PATO:0000085
-intersection_of: RO:0000052 EO:0007409
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007409
 
 [Term]
 id: TO:0005006
 name: glyphosate response trait
-def: "The response to glyphosate stress." []
+def: "The response to glyphosate." []
 synonym: "glyphosate sensitivity" EXACT []
-intersection_of: PATO:0000085
-intersection_of: RO:0000052 CHEBI:27744
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 CHEBI:27744
 
 [Term]
 id: TO:0005007
 name: phosphinothricin response trait
-def: "The response to phosphinothricin stress." []
+def: "The response to phosphinothricin." []
 synonym: "glufosinate sensitivity" EXACT []
-intersection_of: PATO:0000085
-intersection_of: RO:0000052 CHEBI:52136
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 CHEBI:52136
 

@@ -4,16 +4,16 @@ ontology: patterns/response/resistance_to_pattern
 [Term]
 id: TO:0002704
 name: Meloidogyne incognita response trait
-def: "The response to Meloidogyne incognita stress." []
+def: "The response to Meloidogyne incognita." []
 synonym: "Meloidogyne incognita resistance" EXACT []
-intersection_of: PATO:0001046
-intersection_of: RO:0000052 EO:0007372
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007372
 
 [Term]
 id: TO:0002706
 name: Meloidogyne javanica response trait
-def: "The response to Meloidogyne javanica stress." []
+def: "The response to Meloidogyne javanica." []
 synonym: "Meloidogyne javanica resistance" EXACT []
-intersection_of: PATO:0001046
-intersection_of: RO:0000052 EO:0007371
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007371
 

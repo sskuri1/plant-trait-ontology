@@ -2,48 +2,47 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: OWL: <http://www.w3.org/2002/07/owl#>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 
  ## Auto-generated
 
 Ontology: <http://purl.obolibrary.org/obo/patterns/response/tolerant_to_pattern.owl>
 AnnotationProperty: IAO:0000115
-AnnotationProperty: to/eq/entity
-AnnotationProperty: to/eq/attribute
+AnnotationProperty: to/response/environment
 AnnotationProperty: DOSDP:applies-pattern
 AnnotationProperty: oio:hasExactSynonym
-ObjectProperty: BFO_0000050 ## part of
+Class: PATO_0000077 ## response
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: BFO_0000066 ## occurs in
 ## Auto-generated classes
 
 Class: CHEBI:24866 ## salt
-Class: PATO:0000515 ## tolerant to
-## {"entity": "CHEBI:24866", "attribute": "PATO:0000515"}
+## {"environment": "CHEBI:24866"}
 Class: TO:0006001
  Annotations: rdfs:label "salt response trait"
- Annotations: IAO:0000115 "The response to salt stress."
+ Annotations: IAO:0000115 "The response to salt."
  Annotations: oio:hasExactSynonym "salt tolerance"
- EquivalentTo: PATO:0000515 and RO_0000052 some CHEBI:24866 ## tolerant to and 'inheres in' some salt
+ EquivalentTo: PATO_0000077 and BFO_0000066 some CHEBI:24866 ## 'response' and 'occurs in' some salt
 
 Class: EO:0007173 ## warm/hot temperature regimen
-Class: PATO:0000515 ## tolerant to
-## {"entity": "EO:0007173", "attribute": "PATO:0000515"}
+## {"environment": "EO:0007173"}
 Class: TO:0000259
  Annotations: rdfs:label "warm/hot temperature regimen response trait"
- Annotations: IAO:0000115 "The response to warm/hot temperature regimen stress."
+ Annotations: IAO:0000115 "The response to warm/hot temperature regimen."
  Annotations: oio:hasExactSynonym "heat tolerance"
- EquivalentTo: PATO:0000515 and RO_0000052 some EO:0007173 ## tolerant to and 'inheres in' some warm/hot temperature regimen
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007173 ## 'response' and 'occurs in' some warm/hot temperature regimen
 
 Class: EO:0007174 ## cold temperature regimen
-Class: PATO:0000515 ## tolerant to
-## {"entity": "EO:0007174", "attribute": "PATO:0000515"}
+## {"environment": "EO:0007174"}
 Class: TO:0000303
  Annotations: rdfs:label "cold temperature regimen response trait"
- Annotations: IAO:0000115 "The response to cold temperature regimen stress."
+ Annotations: IAO:0000115 "The response to cold temperature regimen."
  Annotations: oio:hasExactSynonym "cold tolerance"
- EquivalentTo: PATO:0000515 and RO_0000052 some EO:0007174 ## tolerant to and 'inheres in' some cold temperature regimen
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007174 ## 'response' and 'occurs in' some cold temperature regimen

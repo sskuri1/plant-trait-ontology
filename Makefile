@@ -55,8 +55,7 @@ PATTERNS_PHENOTYPE_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/ph
 PATTERNS_RATIO_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/ratio/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/ratio/*.tsv))
 
 
-all_patterns: $(PATTERNS_RATIO_OWL)
-	#$(PATTERNS_PHENOTYPE_OWL) $(PATTERNS_COMPOSITION_OWL) $(PATTERNS_MORPH_OWL) $(PATTERNS_EQ_OWL) $(PATTERNS_RESPONSE_OWL)
+all_patterns: $(PATTERNS_RATIO_OWL) $(PATTERNS_PHENOTYPE_OWL) $(PATTERNS_COMPOSITION_OWL) $(PATTERNS_MORPH_OWL) $(PATTERNS_EQ_OWL) $(PATTERNS_RESPONSE_OWL)
 
 patterns/eq/%_pattern.owl: patterns/eq/%.tsv
 	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/eq/$*.tsv -p patterns/eq.yaml -n $@ > $@

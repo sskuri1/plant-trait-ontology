@@ -1,18 +1,19 @@
 pattern_name: to/response
-classes: []
+classes:
+  response: PATO_0000077
 
 relations:
   part of: BFO_0000050
   inheres in: RO_0000052
+  occurs in: BFO_0000066
     
 vars: 
-  attribute: "'Thing'"
-  entity: "'Thing'"
+  environment: "'Thing'"
 
 name:
   text: "%s response trait"
   vars:
-    - entity
+    - environment
     
 annotations: 
   - property: oio:hasExactSynonym
@@ -21,12 +22,11 @@ annotations:
       - iri name
 
 def: 
-  text: "The response to %s stress."
+  text: "The response to %s."
   vars:
-    - entity
+    - environment
     
 equivalentTo: 
-  text: "%s and 'inheres in' some %s"
+  text: "'response' and 'occurs in' some %s"
   vars:
-    - attribute
-    - entity
+    - environment

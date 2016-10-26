@@ -108,15 +108,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/to/response/attribute -->
+    <!-- http://purl.obolibrary.org/obo/to/response/environment -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/response/attribute"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/to/response/entity -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/response/entity"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/response/environment"/>
     
 
 
@@ -140,6 +134,12 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
     
 
 
@@ -790,9 +790,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0000085 -->
+    <!-- http://purl.obolibrary.org/obo/PATO_0000077 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000085"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
     
 
 
@@ -898,12 +898,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0000515 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000515"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/PATO_0000585 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000585"/>
@@ -961,12 +955,6 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0001019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001019"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001046 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001046"/>
     
 
 
@@ -2386,15 +2374,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000085"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006970"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to response to osmotic stress stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to response to osmotic stress.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>osmotic response sensitivity</oboInOwl:hasExactSynonym>
         <rdfs:label>response to osmotic stress response trait</rdfs:label>
     </owl:Class>
@@ -2467,15 +2455,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000085"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007396"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to flood prone region stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to flood prone region.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>deepwater stress</oboInOwl:hasExactSynonym>
         <rdfs:label>flood prone region response trait</rdfs:label>
     </owl:Class>
@@ -2702,27 +2690,21 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/TO_0000164 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000164"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/TO_0000177 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000177">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000085"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007180"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to 2,4-dichlorophenoxyacetic acid treatment stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to 2,4-dichlorophenoxyacetic acid treatment.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>2,4-dichlorophenoxyacetic acid sensitivity</oboInOwl:hasExactSynonym>
         <rdfs:label>2,4-dichlorophenoxyacetic acid treatment response trait</rdfs:label>
     </owl:Class>
@@ -3135,15 +3117,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TO_0000164"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15377"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to water stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to water.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>water stress trait</oboInOwl:hasExactSynonym>
         <rdfs:label>water response trait</rdfs:label>
     </owl:Class>
@@ -3256,15 +3238,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000515"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007173"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to warm/hot temperature regimen stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to warm/hot temperature regimen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>heat tolerance</oboInOwl:hasExactSynonym>
         <rdfs:label>warm/hot temperature regimen response trait</rdfs:label>
     </owl:Class>
@@ -3617,15 +3599,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000515"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007174"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to cold temperature regimen stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to cold temperature regimen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>cold tolerance</oboInOwl:hasExactSynonym>
         <rdfs:label>cold temperature regimen response trait</rdfs:label>
     </owl:Class>
@@ -4024,15 +4006,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000085"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37848"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to plant hormone stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to plant hormone.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>plant growth hormone sensitivity</oboInOwl:hasExactSynonym>
         <rdfs:label>plant hormone response trait</rdfs:label>
     </owl:Class>
@@ -10225,15 +10207,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000085"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007409"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to brassinosteroid treatment stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to brassinosteroid treatment.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>brassinosteroid sensitivity</oboInOwl:hasExactSynonym>
         <rdfs:label>brassinosteroid treatment response trait</rdfs:label>
     </owl:Class>
@@ -10526,15 +10508,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001046"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007372"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to Meloidogyne incognita stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to Meloidogyne incognita.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Meloidogyne incognita resistance</oboInOwl:hasExactSynonym>
         <rdfs:label>Meloidogyne incognita response trait</rdfs:label>
     </owl:Class>
@@ -10547,15 +10529,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001046"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007371"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to Meloidogyne javanica stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to Meloidogyne javanica.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Meloidogyne javanica resistance</oboInOwl:hasExactSynonym>
         <rdfs:label>Meloidogyne javanica response trait</rdfs:label>
     </owl:Class>
@@ -11088,15 +11070,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000085"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27744"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to glyphosate stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to glyphosate.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>glyphosate sensitivity</oboInOwl:hasExactSynonym>
         <rdfs:label>glyphosate response trait</rdfs:label>
     </owl:Class>
@@ -11109,15 +11091,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000085"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52136"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to phosphinothricin stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to phosphinothricin.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>glufosinate sensitivity</oboInOwl:hasExactSynonym>
         <rdfs:label>phosphinothricin response trait</rdfs:label>
     </owl:Class>
@@ -11130,15 +11112,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000515"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24866"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <obo:IAO_0000115>The response to salt stress.</obo:IAO_0000115>
+        <obo:IAO_0000115>The response to salt.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>salt tolerance</oboInOwl:hasExactSynonym>
         <rdfs:label>salt response trait</rdfs:label>
     </owl:Class>

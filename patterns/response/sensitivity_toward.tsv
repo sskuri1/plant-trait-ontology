@@ -1,4 +1,4 @@
-iri	iri name	attribute	attribute label	entity	entity label	
+iri	iri name	attribute	attribute label	environment	environment label
 TO:0005006	glyphosate sensitivity	PATO:0000085	sensitivity toward	CHEBI:27744	glyphosate
 TO:0000401	plant growth hormone sensitivity	PATO:0000085	sensitivity toward	CHEBI:37848	plant hormone
 TO:0005007	glufosinate sensitivity	PATO:0000085	sensitivity toward	CHEBI:52136	phosphinothricin
