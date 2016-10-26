@@ -52,9 +52,11 @@ PATTERNS_MORPH_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/morpho
 PATTERNS_RESPONSE_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/response/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/response/*.tsv))
 PATTERNS_COMPOSITION_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/composition/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/composition/*.tsv))
 PATTERNS_PHENOTYPE_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/phenotype/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/phenotype/*.tsv))
+PATTERNS_RATIO_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/ratio/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/ratio/*.tsv))
 
 
-all_patterns: $(PATTERNS_PHENOTYPE_OWL) $(PATTERNS_COMPOSITION_OWL) $(PATTERNS_MORPH_OWL) $(PATTERNS_EQ_OWL) $(PATTERNS_RESPONSE_OWL)
+all_patterns: $(PATTERNS_RATIO_OWL)
+	#$(PATTERNS_PHENOTYPE_OWL) $(PATTERNS_COMPOSITION_OWL) $(PATTERNS_MORPH_OWL) $(PATTERNS_EQ_OWL) $(PATTERNS_RESPONSE_OWL)
 
 patterns/eq/%_pattern.owl: patterns/eq/%.tsv
 	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/eq/$*.tsv -p patterns/eq.yaml -n $@ > $@
@@ -86,6 +88,12 @@ patterns/phenotype/%_pattern.owl: patterns/phenotype/%.tsv
 patterns/phenotype/%_pattern.obo: patterns/phenotype/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 
+patterns/ratio/%_pattern.owl: patterns/ratio/%.tsv
+	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/ratio/$*.tsv -p patterns/ratio.yaml -n $@ > $@
+
+patterns/ratio/%_pattern.obo: patterns/ratio/%_pattern.owl
+	$(OWLTOOLS) $< -o -f obo $@
+
 
 #merge pattern files
 PATTERNS = $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/eq/*.tsv)) 
@@ -93,6 +101,7 @@ PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/morphol
 PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/response/*.tsv)) 
 PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/composition/*.tsv)) 
 PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/phenotype/*.tsv)) 
+PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/ratio/*.tsv)) 
 
 merge:
 	$(ROBOT) merge $(PATTERNS) --output patterns/merge_patterns.owl

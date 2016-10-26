@@ -13,7 +13,8 @@
      xmlns:composition="http://purl.obolibrary.org/obo/to/composition/"
      xmlns:response="http://purl.obolibrary.org/obo/to/response/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:ratio="http://purl.obolibrary.org/obo/to/ratio/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/patterns/eq/age_pattern.owl"/>
     
 
@@ -89,6 +90,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/to/ratio/attribute -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/ratio/attribute"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/ratio/dividend -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/ratio/dividend"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/ratio/divisor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/ratio/divisor"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/to/response/attribute -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/response/attribute"/>
@@ -127,6 +146,18 @@
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_has_dividend_quality -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TO_has_dividend_quality"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_has_divisor_quality -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/TO_has_divisor_quality"/>
     
 
 
@@ -1002,6 +1033,12 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0001362 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001362"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001470"/>
     
 
 
@@ -2288,6 +2325,12 @@
         <obo:IAO_0000115>The morphological quality of a shoot system.</obo:IAO_0000115>
         <rdfs:label>shoot system morphology trait</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000078"/>
     
 
 
@@ -3829,6 +3872,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000346"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000361">
@@ -4670,6 +4719,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000538 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000538">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001470"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TO_has_dividend_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TO_0000539"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TO_has_divisor_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TO_0000540"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The proportion of large vascular bundle number in leaf area trait.</obo:IAO_0000115>
+        <rdfs:label>large vascular bundle number to leaf area ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000539 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000539"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000540 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000540">
@@ -5046,6 +5125,30 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>The orientation of a stem.</obo:IAO_0000115>
         <rdfs:label>stem angle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000579">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001470"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TO_has_dividend_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TO_0000078"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/TO_has_divisor_quality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/TO_0000346"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The proportion of root dry weight in tiller number.</obo:IAO_0000115>
+        <rdfs:label>root dry weight to tiller number ratio</rdfs:label>
     </owl:Class>
     
 

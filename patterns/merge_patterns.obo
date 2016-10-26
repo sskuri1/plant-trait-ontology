@@ -947,6 +947,14 @@ intersection_of: PATO:0000014
 intersection_of: RO:0000052 PO:0009046
 
 [Term]
+id: TO:0000538
+name: large vascular bundle number to leaf area ratio
+def: "The proportion of large vascular bundle number in leaf area trait." []
+intersection_of: PATO:0001470
+intersection_of: http://purl.obolibrary.org/obo/TO_has_dividend_quality TO:0000539
+intersection_of: http://purl.obolibrary.org/obo/TO_has_divisor_quality TO:0000540 ! leaf area trait
+
+[Term]
 id: TO:0000540
 name: leaf area trait
 def: "The area of a leaf." []
@@ -1078,6 +1086,14 @@ name: stem angle
 def: "The orientation of a stem." []
 intersection_of: PATO:0000133
 intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0000579
+name: root dry weight to tiller number ratio
+def: "The proportion of root dry weight in tiller number." []
+intersection_of: PATO:0001470
+intersection_of: http://purl.obolibrary.org/obo/TO_has_dividend_quality TO:0000078
+intersection_of: http://purl.obolibrary.org/obo/TO_has_divisor_quality TO:0000346
 
 [Term]
 id: TO:0000581
