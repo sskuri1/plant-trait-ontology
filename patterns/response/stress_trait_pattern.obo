@@ -3,9 +3,9 @@ ontology: patterns/response/stress_trait_pattern
 
 [Term]
 id: TO:0000237
-name: water response trait
-def: "The response to water." []
+name: response to water environment
+def: "The response to water environment." []
 synonym: "water stress trait" EXACT []
 intersection_of: PATO:0000077
-intersection_of: BFO:0000066 CHEBI:15377
+intersection_of: BFO:0000066 EO:0007198
 

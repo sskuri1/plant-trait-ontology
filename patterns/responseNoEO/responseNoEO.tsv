@@ -1,0 +1,4 @@
+iri	iri name	attribute	attribute label	stressor	stressor label
+TO:0005006	glyphosate sensitivity	PATO:0000085	sensitivity toward	CHEBI:27744	glyphosate
+TO:0000012	hydrogen sensitivity	PATO:0000085	sensitivity toward	CHEBI:49637	hydrogen atom
+TO:0005007	glufosinate sensitivity	PATO:0000085	sensitivity toward	CHEBI:52136	phosphinothricin

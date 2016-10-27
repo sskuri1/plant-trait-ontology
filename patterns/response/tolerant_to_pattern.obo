@@ -3,7 +3,7 @@ ontology: patterns/response/tolerant_to_pattern
 
 [Term]
 id: TO:0000259
-name: warm/hot temperature regimen response trait
+name: response to warm/hot temperature regimen
 def: "The response to warm/hot temperature regimen." []
 synonym: "heat tolerance" EXACT []
 intersection_of: PATO:0000077
@@ -11,7 +11,7 @@ intersection_of: BFO:0000066 EO:0007173
 
 [Term]
 id: TO:0000303
-name: cold temperature regimen response trait
+name: response to cold temperature regimen
 def: "The response to cold temperature regimen." []
 synonym: "cold tolerance" EXACT []
 intersection_of: PATO:0000077
@@ -19,9 +19,9 @@ intersection_of: BFO:0000066 EO:0007174
 
 [Term]
 id: TO:0006001
-name: salt response trait
-def: "The response to salt." []
+name: response to salt treatment
+def: "The response to salt treatment." []
 synonym: "salt tolerance" EXACT []
 intersection_of: PATO:0000077
-intersection_of: BFO:0000066 CHEBI:24866
+intersection_of: BFO:0000066 EO:0007185
 

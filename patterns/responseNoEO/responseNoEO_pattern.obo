@@ -1,0 +1,22 @@
+format-version: 1.2
+ontology: patterns/responseNoEO/responseNoEO_pattern
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0000012> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_49637>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0005006> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_27744>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0005007> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_52136>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\n)
+
+[Term]
+id: TO:0000012
+name: response to hydrogen atom experiemental condition
+def: "The response to an environment containing hydrogen atom." []
+synonym: "hydrogen sensitivity" EXACT []
+
+[Term]
+id: TO:0005006
+name: response to glyphosate experiemental condition
+def: "The response to an environment containing glyphosate." []
+synonym: "glyphosate sensitivity" EXACT []
+
+[Term]
+id: TO:0005007
+name: response to phosphinothricin experiemental condition
+def: "The response to an environment containing phosphinothricin." []
+synonym: "glufosinate sensitivity" EXACT []
+

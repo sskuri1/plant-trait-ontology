@@ -2,13 +2,13 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: OWL: <http://www.w3.org/2002/07/owl#>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 
  ## Auto-generated
 
@@ -18,63 +18,383 @@ AnnotationProperty: to/response/environment
 AnnotationProperty: DOSDP:applies-pattern
 AnnotationProperty: oio:hasExactSynonym
 Class: PATO_0000077 ## response
-ObjectProperty: BFO_0000066 ## occurs in
-ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: BFO_0000066 ## occurs in
 ## Auto-generated classes
 
-Class: CHEBI:27744 ## glyphosate
-## {"environment": "CHEBI:27744"}
-Class: TO:0005006
- Annotations: rdfs:label "glyphosate response trait"
- Annotations: IAO:0000115 "The response to glyphosate."
- Annotations: oio:hasExactSynonym "glyphosate sensitivity"
- EquivalentTo: PATO_0000077 and BFO_0000066 some CHEBI:27744 ## 'response' and 'occurs in' some glyphosate
+Class: EO:0007406 ## nitrate regimen
+## {"environment": "EO:0007406"}
+Class: TO:0020098
+ Annotations: rdfs:label "response to nitrate regimen"
+ Annotations: IAO:0000115 "The response to nitrate regimen."
+ Annotations: oio:hasExactSynonym "nitrate sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007406 ## 'response' and 'occurs in' some nitrate regimen
 
-Class: CHEBI:37848 ## plant hormone
-## {"environment": "CHEBI:37848"}
+Class: EO:0007068 ## ethylene treatment
+## {"environment": "EO:0007068"}
+Class: TO:0000173
+ Annotations: rdfs:label "response to ethylene treatment"
+ Annotations: IAO:0000115 "The response to ethylene treatment."
+ Annotations: oio:hasExactSynonym "ethylene sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007068 ## 'response' and 'occurs in' some ethylene treatment
+
+Class: EO:0007242 ## iron nutrient regimen
+## {"environment": "EO:0007242"}
+Class: TO:0000224
+ Annotations: rdfs:label "response to iron nutrient regimen"
+ Annotations: IAO:0000115 "The response to iron nutrient regimen."
+ Annotations: oio:hasExactSynonym "iron sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007242 ## 'response' and 'occurs in' some iron nutrient regimen
+
+Class: EO:0007387 ## manganese nutrient regimen
+## {"environment": "EO:0007387"}
+Class: TO:0000073
+ Annotations: rdfs:label "response to manganese nutrient regimen"
+ Annotations: IAO:0000115 "The response to manganese nutrient regimen."
+ Annotations: oio:hasExactSynonym "manganese sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007387 ## 'response' and 'occurs in' some manganese nutrient regimen
+
+Class: EO:0007080 ## jasmonic acid treatment
+## {"environment": "EO:0007080"}
+Class: TO:0000172
+ Annotations: rdfs:label "response to jasmonic acid treatment"
+ Annotations: IAO:0000115 "The response to jasmonic acid treatment."
+ Annotations: oio:hasExactSynonym "jasmonic acid sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007080 ## 'response' and 'occurs in' some jasmonic acid treatment
+
+Class: EO:0007105 ## abscisic acid treatment
+## {"environment": "EO:0007105"}
+Class: TO:0000615
+ Annotations: rdfs:label "response to abscisic acid treatment"
+ Annotations: IAO:0000115 "The response to abscisic acid treatment."
+ Annotations: oio:hasExactSynonym "abscisic acid sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007105 ## 'response' and 'occurs in' some abscisic acid treatment
+
+Class: EO:0007074 ## auxin treatment
+## {"environment": "EO:0007074"}
+Class: TO:0000163
+ Annotations: rdfs:label "response to auxin treatment"
+ Annotations: IAO:0000115 "The response to auxin treatment."
+ Annotations: oio:hasExactSynonym "auxin sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007074 ## 'response' and 'occurs in' some auxin treatment
+
+Class: EO:0007297 ## calcium nutrient regimen
+## {"environment": "EO:0007297"}
+Class: TO:0000006
+ Annotations: rdfs:label "response to calcium nutrient regimen"
+ Annotations: IAO:0000115 "The response to calcium nutrient regimen."
+ Annotations: oio:hasExactSynonym "calcium sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007297 ## 'response' and 'occurs in' some calcium nutrient regimen
+
+Class: EO:0007244 ## chlorine nutrient regimen
+## {"environment": "EO:0007244"}
+Class: TO:0000029
+ Annotations: rdfs:label "response to chlorine nutrient regimen"
+ Annotations: IAO:0000115 "The response to chlorine nutrient regimen."
+ Annotations: oio:hasExactSynonym "chlorine sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007244 ## 'response' and 'occurs in' some chlorine nutrient regimen
+
+Class: EO:0007066 ## cytokinin treatment
+## {"environment": "EO:0007066"}
+Class: TO:0000167
+ Annotations: rdfs:label "response to cytokinin treatment"
+ Annotations: IAO:0000115 "The response to cytokinin treatment."
+ Annotations: oio:hasExactSynonym "cytokinin sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007066 ## 'response' and 'occurs in' some cytokinin treatment
+
+Class: EO:0007225 ## fluorine nutrient regimen
+## {"environment": "EO:0007225"}
+Class: TO:0000038
+ Annotations: rdfs:label "response to fluorine nutrient regimen"
+ Annotations: IAO:0000115 "The response to fluorine nutrient regimen."
+ Annotations: oio:hasExactSynonym "fluorine sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007225 ## 'response' and 'occurs in' some fluorine nutrient regimen
+
+Class: EO:0007183 ## herbicide treatment
+## {"environment": "EO:0007183"}
+Class: TO:0000058
+ Annotations: rdfs:label "response to herbicide treatment"
+ Annotations: IAO:0000115 "The response to herbicide treatment."
+ Annotations: oio:hasExactSynonym "herbicide sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007183 ## 'response' and 'occurs in' some herbicide treatment
+
+Class: EO:0007633 ## imidazolinone treatment
+## {"environment": "EO:0007633"}
+Class: TO:0000711
+ Annotations: rdfs:label "response to imidazolinone treatment"
+ Annotations: IAO:0000115 "The response to imidazolinone treatment."
+ Annotations: oio:hasExactSynonym "imidazolinone sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007633 ## 'response' and 'occurs in' some imidazolinone treatment
+
+Class: EO:0007632 ## insecticide treatment
+## {"environment": "EO:0007632"}
+Class: TO:0000182
+ Annotations: rdfs:label "response to insecticide treatment"
+ Annotations: IAO:0000115 "The response to insecticide treatment."
+ Annotations: oio:hasExactSynonym "insecticide sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007632 ## 'response' and 'occurs in' some insecticide treatment
+
+Class: EO:0007230 ## iodine nutrient regimen
+## {"environment": "EO:0007230"}
+Class: TO:0000033
+ Annotations: rdfs:label "response to iodine nutrient regimen"
+ Annotations: IAO:0000115 "The response to iodine nutrient regimen."
+ Annotations: oio:hasExactSynonym "iodine sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007230 ## 'response' and 'occurs in' some iodine nutrient regimen
+
+Class: EO:0007185 ## salt treatment
+## {"environment": "EO:0007185"}
+Class: TO:0000429
+ Annotations: rdfs:label "response to salt treatment"
+ Annotations: IAO:0000115 "The response to salt treatment."
+ Annotations: oio:hasExactSynonym "salt sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007185 ## 'response' and 'occurs in' some salt treatment
+
+Class: EO:0007288 ## magnesium nutrient regimen
+## {"environment": "EO:0007288"}
+Class: TO:0000010
+ Annotations: rdfs:label "response to magnesium nutrient regimen"
+ Annotations: IAO:0000115 "The response to magnesium nutrient regimen."
+ Annotations: oio:hasExactSynonym "magnesium sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007288 ## 'response' and 'occurs in' some magnesium nutrient regimen
+
+Class: EO:0007284 ## nitrogen macronutrient regimen
+## {"environment": "EO:0007284"}
+Class: TO:0000011
+ Annotations: rdfs:label "response to nitrogen macronutrient regimen"
+ Annotations: IAO:0000115 "The response to nitrogen macronutrient regimen."
+ Annotations: oio:hasExactSynonym "nitrogen sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007284 ## 'response' and 'occurs in' some nitrogen macronutrient regimen
+
+Class: EO:0007278 ## oxygen regimen
+## {"environment": "EO:0007278"}
+Class: TO:0000015
+ Annotations: rdfs:label "response to oxygen regimen"
+ Annotations: IAO:0000115 "The response to oxygen regimen."
+ Annotations: oio:hasExactSynonym "oxygen sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007278 ## 'response' and 'occurs in' some oxygen regimen
+
+Class: EO:0007167 ## pesticide treatment
+## {"environment": "EO:0007167"}
+Class: TO:0002649
+ Annotations: rdfs:label "response to pesticide treatment"
+ Annotations: IAO:0000115 "The response to pesticide treatment."
+ Annotations: oio:hasExactSynonym "pesticide sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007167 ## 'response' and 'occurs in' some pesticide treatment
+
+Class: EO:0007293 ## potassium nutrient regimen
+## {"environment": "EO:0007293"}
+Class: TO:0000008
+ Annotations: rdfs:label "response to potassium nutrient regimen"
+ Annotations: IAO:0000115 "The response to potassium nutrient regimen."
+ Annotations: oio:hasExactSynonym "potassium sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007293 ## 'response' and 'occurs in' some potassium nutrient regimen
+
+Class: EO:0007295 ## sulfur nutrient regimen
+## {"environment": "EO:0007295"}
+Class: TO:0000007
+ Annotations: rdfs:label "response to sulfur nutrient regimen"
+ Annotations: IAO:0000115 "The response to sulfur nutrient regimen."
+ Annotations: oio:hasExactSynonym "sulfur sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007295 ## 'response' and 'occurs in' some sulfur nutrient regimen
+
+Class: EO:0007309 ## zinc nutrient regimen
+## {"environment": "EO:0007309"}
+Class: TO:0000351
+ Annotations: rdfs:label "response to zinc nutrient regimen"
+ Annotations: IAO:0000115 "The response to zinc nutrient regimen."
+ Annotations: oio:hasExactSynonym "zinc sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007309 ## 'response' and 'occurs in' some zinc nutrient regimen
+
+Class: EO:0007273 ## boron nutrient regimen
+## {"environment": "EO:0007273"}
+Class: TO:0000018
+ Annotations: rdfs:label "response to boron nutrient regimen"
+ Annotations: IAO:0000115 "The response to boron nutrient regimen."
+ Annotations: oio:hasExactSynonym "boron sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007273 ## 'response' and 'occurs in' some boron nutrient regimen
+
+Class: EO:0007232 ## selenium nutrient regimen
+## {"environment": "EO:0007232"}
+Class: TO:0000032
+ Annotations: rdfs:label "response to selenium nutrient regimen"
+ Annotations: IAO:0000115 "The response to selenium nutrient regimen."
+ Annotations: oio:hasExactSynonym "selenium sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007232 ## 'response' and 'occurs in' some selenium nutrient regimen
+
+Class: EO:0007235 ## silicon nutrient regimen
+## {"environment": "EO:0007235"}
+Class: TO:0000031
+ Annotations: rdfs:label "response to silicon nutrient regimen"
+ Annotations: IAO:0000115 "The response to silicon nutrient regimen."
+ Annotations: oio:hasExactSynonym "silicon sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007235 ## 'response' and 'occurs in' some silicon nutrient regimen
+
+Class: EO:0007303 ## carbon nutrient regimen
+## {"environment": "EO:0007303"}
+Class: TO:0000001
+ Annotations: rdfs:label "response to carbon nutrient regimen"
+ Annotations: IAO:0000115 "The response to carbon nutrient regimen."
+ Annotations: oio:hasExactSynonym "carbon sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007303 ## 'response' and 'occurs in' some carbon nutrient regimen
+
+Class: EO:0007276 ## cobalt nutrient regimen
+## {"environment": "EO:0007276"}
+Class: TO:0000016
+ Annotations: rdfs:label "response to cobalt nutrient regimen"
+ Annotations: IAO:0000115 "The response to cobalt nutrient regimen."
+ Annotations: oio:hasExactSynonym "cobalt sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007276 ## 'response' and 'occurs in' some cobalt nutrient regimen
+
+Class: EO:0007228 ## chromium nutrient regimen
+## {"environment": "EO:0007228"}
+Class: TO:0000034
+ Annotations: rdfs:label "response to chromium nutrient regimen"
+ Annotations: IAO:0000115 "The response to chromium nutrient regimen."
+ Annotations: oio:hasExactSynonym "chromium sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007228 ## 'response' and 'occurs in' some chromium nutrient regimen
+
+Class: EO:0007397 ## phosphorus nutrient regimen
+## {"environment": "EO:0007397"}
+Class: TO:0000102
+ Annotations: rdfs:label "response to phosphorus nutrient regimen"
+ Annotations: IAO:0000115 "The response to phosphorus nutrient regimen."
+ Annotations: oio:hasExactSynonym "phosphorus sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007397 ## 'response' and 'occurs in' some phosphorus nutrient regimen
+
+Class: EO:0007253 ## molybdenum nutrient regimen
+## {"environment": "EO:0007253"}
+Class: TO:0000025
+ Annotations: rdfs:label "response to molybdenum nutrient regimen"
+ Annotations: IAO:0000115 "The response to molybdenum nutrient regimen."
+ Annotations: oio:hasExactSynonym "molybdenum sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007253 ## 'response' and 'occurs in' some molybdenum nutrient regimen
+
+Class: EO:0007261 ## copper nutrient regimen
+## {"environment": "EO:0007261"}
+Class: TO:0000021
+ Annotations: rdfs:label "response to copper nutrient regimen"
+ Annotations: IAO:0000115 "The response to copper nutrient regimen."
+ Annotations: oio:hasExactSynonym "copper sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007261 ## 'response' and 'occurs in' some copper nutrient regimen
+
+Class: EO:0007306 ## aluminum nutrient regimen
+## {"environment": "EO:0007306"}
+Class: TO:0000354
+ Annotations: rdfs:label "response to aluminum nutrient regimen"
+ Annotations: IAO:0000115 "The response to aluminum nutrient regimen."
+ Annotations: oio:hasExactSynonym "aluminum sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007306 ## 'response' and 'occurs in' some aluminum nutrient regimen
+
+Class: EO:0007134 ## acidic pH growth media environment
+## {"environment": "EO:0007134"}
+Class: TO:0000479
+ Annotations: rdfs:label "response to acidic pH growth media environment"
+ Annotations: IAO:0000115 "The response to acidic pH growth media environment."
+ Annotations: oio:hasExactSynonym "acid sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007134 ## 'response' and 'occurs in' some acidic pH growth media environment
+
+Class: EO:0007165 ## growth hormone treatment
+## {"environment": "EO:0007165"}
 Class: TO:0000401
- Annotations: rdfs:label "plant hormone response trait"
- Annotations: IAO:0000115 "The response to plant hormone."
+ Annotations: rdfs:label "response to growth hormone treatment"
+ Annotations: IAO:0000115 "The response to growth hormone treatment."
  Annotations: oio:hasExactSynonym "plant growth hormone sensitivity"
- EquivalentTo: PATO_0000077 and BFO_0000066 some CHEBI:37848 ## 'response' and 'occurs in' some plant hormone
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007165 ## 'response' and 'occurs in' some growth hormone treatment
 
-Class: CHEBI:52136 ## phosphinothricin
-## {"environment": "CHEBI:52136"}
-Class: TO:0005007
- Annotations: rdfs:label "phosphinothricin response trait"
- Annotations: IAO:0000115 "The response to phosphinothricin."
- Annotations: oio:hasExactSynonym "glufosinate sensitivity"
- EquivalentTo: PATO_0000077 and BFO_0000066 some CHEBI:52136 ## 'response' and 'occurs in' some phosphinothricin
+Class: EO:0007059 ## acidic pH soil environment
+## {"environment": "EO:0007059"}
+Class: TO:0000178
+ Annotations: rdfs:label "response to acidic pH soil environment"
+ Annotations: IAO:0000115 "The response to acidic pH soil environment."
+ Annotations: oio:hasExactSynonym "acid soil sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007059 ## 'response' and 'occurs in' some acidic pH soil environment
+
+Class: EO:0007062 ## basic pH soil environment
+## {"environment": "EO:0007062"}
+Class: TO:0000003
+ Annotations: rdfs:label "response to basic pH soil environment"
+ Annotations: IAO:0000115 "The response to basic pH soil environment."
+ Annotations: oio:hasExactSynonym "alkali soil sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007062 ## 'response' and 'occurs in' some basic pH soil environment
+
+Class: EO:0007151 ## radiation treatment
+## {"environment": "EO:0007151"}
+Class: TO:0000161
+ Annotations: rdfs:label "response to radiation treatment"
+ Annotations: IAO:0000115 "The response to radiation treatment."
+ Annotations: oio:hasExactSynonym "radiation response trait"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007151 ## 'response' and 'occurs in' some radiation treatment
 
 Class: EO:0007180 ## 2,4-dichlorophenoxyacetic acid treatment
 ## {"environment": "EO:0007180"}
 Class: TO:0000177
- Annotations: rdfs:label "2,4-dichlorophenoxyacetic acid treatment response trait"
+ Annotations: rdfs:label "response to 2,4-dichlorophenoxyacetic acid treatment"
  Annotations: IAO:0000115 "The response to 2,4-dichlorophenoxyacetic acid treatment."
  Annotations: oio:hasExactSynonym "2,4-dichlorophenoxyacetic acid sensitivity"
  EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007180 ## 'response' and 'occurs in' some 2,4-dichlorophenoxyacetic acid treatment
 
+Class: EO:0007196 ## light regimen
+## {"environment": "EO:0007196"}
+Class: TO:0000075
+ Annotations: rdfs:label "response to light regimen"
+ Annotations: IAO:0000115 "The response to light regimen."
+ Annotations: oio:hasExactSynonym "light sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007196 ## 'response' and 'occurs in' some light regimen
+
+Class: EO:0007207 ## red light regimen
+## {"environment": "EO:0007207"}
+Class: TO:0000158
+ Annotations: rdfs:label "response to red light regimen"
+ Annotations: IAO:0000115 "The response to red light regimen."
+ Annotations: oio:hasExactSynonym "red light sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007207 ## 'response' and 'occurs in' some red light regimen
+
+Class: EO:0007218 ## blue light regimen
+## {"environment": "EO:0007218"}
+Class: TO:0000159
+ Annotations: rdfs:label "response to blue light regimen"
+ Annotations: IAO:0000115 "The response to blue light regimen."
+ Annotations: oio:hasExactSynonym "blue light sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007218 ## 'response' and 'occurs in' some blue light regimen
+
+Class: EO:0007222 ## UV light regimen
+## {"environment": "EO:0007222"}
+Class: TO:0000160
+ Annotations: rdfs:label "response to UV light regimen"
+ Annotations: IAO:0000115 "The response to UV light regimen."
+ Annotations: oio:hasExactSynonym "UV light sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007222 ## 'response' and 'occurs in' some UV light regimen
+
 Class: EO:0007396 ## flood prone region
 ## {"environment": "EO:0007396"}
 Class: TO:0000103
- Annotations: rdfs:label "flood prone region response trait"
+ Annotations: rdfs:label "response to flood prone region"
  Annotations: IAO:0000115 "The response to flood prone region."
  Annotations: oio:hasExactSynonym "deepwater stress"
  EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007396 ## 'response' and 'occurs in' some flood prone region
 
+Class: EO:0007404 ## drought environment
+## {"environment": "EO:0007404"}
+Class: TO:0000188
+ Annotations: rdfs:label "response to drought environment"
+ Annotations: IAO:0000115 "The response to drought environment."
+ Annotations: oio:hasExactSynonym "drought sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007404 ## 'response' and 'occurs in' some drought environment
+
 Class: EO:0007409 ## brassinosteroid treatment
 ## {"environment": "EO:0007409"}
 Class: TO:0002677
- Annotations: rdfs:label "brassinosteroid treatment response trait"
+ Annotations: rdfs:label "response to brassinosteroid treatment"
  Annotations: IAO:0000115 "The response to brassinosteroid treatment."
  Annotations: oio:hasExactSynonym "brassinosteroid sensitivity"
  EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007409 ## 'response' and 'occurs in' some brassinosteroid treatment
 
-Class: GO:0006970 ## response to osmotic stress
-## {"environment": "GO:0006970"}
+Class: EO:0001038 ## osmotic stress treatment
+## {"environment": "EO:0001038"}
 Class: TO:0000095
- Annotations: rdfs:label "response to osmotic stress response trait"
- Annotations: IAO:0000115 "The response to response to osmotic stress."
+ Annotations: rdfs:label "response to osmotic stress treatment"
+ Annotations: IAO:0000115 "The response to osmotic stress treatment."
  Annotations: oio:hasExactSynonym "osmotic response sensitivity"
- EquivalentTo: PATO_0000077 and BFO_0000066 some GO:0006970 ## 'response' and 'occurs in' some response to osmotic stress
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0001038 ## 'response' and 'occurs in' some osmotic stress treatment

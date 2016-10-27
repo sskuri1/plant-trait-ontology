@@ -11,7 +11,7 @@ vars:
   environment: "'Thing'"
 
 name:
-  text: "%s response trait"
+  text: "response to %s"
   vars:
     - environment
     

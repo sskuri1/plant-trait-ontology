@@ -1,8 +1,48 @@
 iri	iri name	attribute	attribute label	environment	environment label
-TO:0005006	glyphosate sensitivity	PATO:0000085	sensitivity toward	CHEBI:27744	glyphosate
-TO:0000401	plant growth hormone sensitivity	PATO:0000085	sensitivity toward	CHEBI:37848	plant hormone
-TO:0005007	glufosinate sensitivity	PATO:0000085	sensitivity toward	CHEBI:52136	phosphinothricin
+TO:0020098	nitrate sensitivity	PATO:0000085	sensitivity toward	EO:0007406	nitrate regimen
+TO:0000173	ethylene sensitivity	PATO:0000085	sensitivity toward	EO:0007068	ethylene treatment
+TO:0000224	iron sensitivity	PATO:0000085	sensitivity toward	EO:0007242	iron nutrient regimen
+TO:0000073	manganese sensitivity	PATO:0000085	sensitivity toward	EO:0007387	manganese nutrient regimen
+TO:0000172	jasmonic acid sensitivity	PATO:0000085	sensitivity toward	EO:0007080	jasmonic acid treatment
+TO:0000615	abscisic acid sensitivity	PATO:0000085	sensitivity toward	EO:0007105	abscisic acid treatment
+TO:0000163	auxin sensitivity	PATO:0000085	sensitivity toward	EO:0007074	auxin treatment
+TO:0000006	calcium sensitivity	PATO:0000085	sensitivity toward	EO:0007297	calcium nutrient regimen
+TO:0000029	chlorine sensitivity	PATO:0000085	sensitivity toward	EO:0007244	chlorine nutrient regimen
+TO:0000167	cytokinin sensitivity	PATO:0000085	sensitivity toward	EO:0007066	cytokinin treatment
+TO:0000038	fluorine sensitivity	PATO:0000085	sensitivity toward	EO:0007225	fluorine nutrient regimen
+TO:0000058	herbicide sensitivity	PATO:0000085	sensitivity toward	EO:0007183	herbicide treatment
+TO:0000711	imidazolinone sensitivity	PATO:0000085	sensitivity toward	EO:0007633	imidazolinone treatment
+TO:0000182	insecticide sensitivity	PATO:0000085	sensitivity toward	EO:0007632	insecticide treatment
+TO:0000033	iodine sensitivity	PATO:0000085	sensitivity toward	EO:0007230	iodine nutrient regimen
+TO:0000429	salt sensitivity	PATO:0000085	sensitivity toward	EO:0007185	salt treatment
+TO:0000010	magnesium sensitivity	PATO:0000085	sensitivity toward	EO:0007288	magnesium nutrient regimen
+TO:0000011	nitrogen sensitivity	PATO:0000085	sensitivity toward	EO:0007284	nitrogen macronutrient regimen
+TO:0000015	oxygen sensitivity	PATO:0000085	sensitivity toward	EO:0007278	oxygen regimen
+TO:0002649	pesticide sensitivity	PATO:0000085	sensitivity toward	EO:0007167	pesticide treatment
+TO:0000008	potassium sensitivity	PATO:0000085	sensitivity toward	EO:0007293	potassium nutrient regimen
+TO:0000007	sulfur sensitivity	PATO:0000085	sensitivity toward	EO:0007295	sulfur nutrient regimen
+TO:0000351	zinc sensitivity	PATO:0000085	sensitivity toward	EO:0007309	zinc nutrient regimen
+TO:0000018	boron sensitivity	PATO:0000085	sensitivity toward	EO:0007273	boron nutrient regimen
+TO:0000032	selenium sensitivity	PATO:0000085	sensitivity toward	EO:0007232	selenium nutrient regimen
+TO:0000031	silicon sensitivity	PATO:0000085	sensitivity toward	EO:0007235	silicon nutrient regimen
+TO:0000001	carbon sensitivity	PATO:0000085	sensitivity toward	EO:0007303	carbon nutrient regimen
+TO:0000016	cobalt sensitivity	PATO:0000085	sensitivity toward	EO:0007276	cobalt nutrient regimen
+TO:0000034	chromium sensitivity	PATO:0000085	sensitivity toward	EO:0007228	chromium nutrient regimen
+TO:0000102	phosphorus sensitivity	PATO:0000085	sensitivity toward	EO:0007397	phosphorus nutrient regimen
+TO:0000025	molybdenum sensitivity	PATO:0000085	sensitivity toward	EO:0007253	molybdenum nutrient regimen
+TO:0000021	copper sensitivity	PATO:0000085	sensitivity toward	EO:0007261	copper nutrient regimen
+TO:0000354	aluminum sensitivity	PATO:0000085	sensitivity toward	EO:0007306	aluminum nutrient regimen
+TO:0000479	acid sensitivity	PATO:0000085	sensitivity toward	EO:0007134	acidic pH growth media environment
+TO:0000401	plant growth hormone sensitivity	PATO:0000085	sensitivity toward	EO:0007165	growth hormone treatment
+TO:0000178	acid soil sensitivity	PATO:0000085	sensitivity toward	EO:0007059	acidic pH soil environment
+TO:0000003	alkali soil sensitivity	PATO:0000085	sensitivity toward	EO:0007062	basic pH soil environment
+TO:0000161	radiation response trait	PATO:0000085	sensitivity toward	EO:0007151	radiation treatment
 TO:0000177	2,4-dichlorophenoxyacetic acid sensitivity	PATO:0000085	sensitivity toward	EO:0007180	2,4-dichlorophenoxyacetic acid treatment
+TO:0000075	light sensitivity	PATO:0000085	sensitivity toward	EO:0007196	light regimen
+TO:0000158	red light sensitivity	PATO:0000085	sensitivity toward	EO:0007207	red light regimen
+TO:0000159	blue light sensitivity	PATO:0000085	sensitivity toward	EO:0007218	blue light regimen
+TO:0000160	UV light sensitivity	PATO:0000085	sensitivity toward	EO:0007222	UV light regimen
 TO:0000103	deepwater stress	PATO:0000085	sensitivity toward	EO:0007396	flood prone region
+TO:0000188	drought sensitivity	PATO:0000085	sensitivity toward	EO:0007404	drought environment
 TO:0002677	brassinosteroid sensitivity	PATO:0000085	sensitivity toward	EO:0007409	brassinosteroid treatment
-TO:0000095	osmotic response sensitivity	PATO:0000085	sensitivity toward	GO:0006970	response to osmotic stress
+TO:0000095	osmotic response sensitivity	PATO:0000085	sensitivity toward	EO:0001038	osmotic stress treatment

@@ -2,8 +2,24 @@ format-version: 1.2
 ontology: patterns/response/resistance_to_pattern
 
 [Term]
+id: TO:0000088
+name: response to rice yellow mottle virus
+def: "The response to rice yellow mottle virus." []
+synonym: "rice yellow mottle virus resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007318
+
+[Term]
+id: TO:0000386
+name: response to rice ragged stunt virus
+def: "The response to rice ragged stunt virus." []
+synonym: "rice ragged stunt virus resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007195
+
+[Term]
 id: TO:0002704
-name: Meloidogyne incognita response trait
+name: response to Meloidogyne incognita
 def: "The response to Meloidogyne incognita." []
 synonym: "Meloidogyne incognita resistance" EXACT []
 intersection_of: PATO:0000077
@@ -11,7 +27,7 @@ intersection_of: BFO:0000066 EO:0007372
 
 [Term]
 id: TO:0002706
-name: Meloidogyne javanica response trait
+name: response to Meloidogyne javanica
 def: "The response to Meloidogyne javanica." []
 synonym: "Meloidogyne javanica resistance" EXACT []
 intersection_of: PATO:0000077

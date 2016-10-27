@@ -2,13 +2,13 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: OWL: <http://www.w3.org/2002/07/owl#>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: OWL: <http://www.w3.org/2002/07/owl#>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 
  ## Auto-generated
 
@@ -18,15 +18,15 @@ AnnotationProperty: to/response/environment
 AnnotationProperty: DOSDP:applies-pattern
 AnnotationProperty: oio:hasExactSynonym
 Class: PATO_0000077 ## response
+ObjectProperty: RO_0000052 ## inheres in
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: BFO_0000066 ## occurs in
-ObjectProperty: RO_0000052 ## inheres in
 ## Auto-generated classes
 
 Class: EO:0007371 ## Meloidogyne javanica
 ## {"environment": "EO:0007371"}
 Class: TO:0002706
- Annotations: rdfs:label "Meloidogyne javanica response trait"
+ Annotations: rdfs:label "response to Meloidogyne javanica"
  Annotations: IAO:0000115 "The response to Meloidogyne javanica."
  Annotations: oio:hasExactSynonym "Meloidogyne javanica resistance"
  EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007371 ## 'response' and 'occurs in' some Meloidogyne javanica
@@ -34,7 +34,23 @@ Class: TO:0002706
 Class: EO:0007372 ## Meloidogyne incognita
 ## {"environment": "EO:0007372"}
 Class: TO:0002704
- Annotations: rdfs:label "Meloidogyne incognita response trait"
+ Annotations: rdfs:label "response to Meloidogyne incognita"
  Annotations: IAO:0000115 "The response to Meloidogyne incognita."
  Annotations: oio:hasExactSynonym "Meloidogyne incognita resistance"
  EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007372 ## 'response' and 'occurs in' some Meloidogyne incognita
+
+Class: EO:0007195 ## rice ragged stunt virus
+## {"environment": "EO:0007195"}
+Class: TO:0000386
+ Annotations: rdfs:label "response to rice ragged stunt virus"
+ Annotations: IAO:0000115 "The response to rice ragged stunt virus."
+ Annotations: oio:hasExactSynonym "rice ragged stunt virus resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007195 ## 'response' and 'occurs in' some rice ragged stunt virus
+
+Class: EO:0007318 ## rice yellow mottle virus
+## {"environment": "EO:0007318"}
+Class: TO:0000088
+ Annotations: rdfs:label "response to rice yellow mottle virus"
+ Annotations: IAO:0000115 "The response to rice yellow mottle virus."
+ Annotations: oio:hasExactSynonym "rice yellow mottle virus resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007318 ## 'response' and 'occurs in' some rice yellow mottle virus

@@ -1,0 +1,49 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: OWL: <http://www.w3.org/2002/07/owl#>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/responseNoEO/responseNoEO_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/response/stressor
+AnnotationProperty: DOSDP:applies-pattern
+AnnotationProperty: oio:hasExactSynonym
+Class: PATO_0000077 ## response
+Class: EO_0007359 ## plant experimental condition
+ObjectProperty: RO_0001019 ## contains
+ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000066 ## occurs in
+## Auto-generated classes
+
+Class: CHEBI:27744 ## glyphosate
+## {"stressor": "CHEBI:27744"}
+Class: TO:0005006
+ Annotations: rdfs:label "response to glyphosate experiemental condition"
+ Annotations: IAO:0000115 "The response to an environment containing glyphosate."
+ Annotations: oio:hasExactSynonym "glyphosate sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some (EO_0007359 and RO_0001019 some CHEBI:27744) ## 'response' and 'occurs in' some ('plant experimental condition' and 'contains' some glyphosate)
+
+Class: CHEBI:49637 ## hydrogen atom
+## {"stressor": "CHEBI:49637"}
+Class: TO:0000012
+ Annotations: rdfs:label "response to hydrogen atom experiemental condition"
+ Annotations: IAO:0000115 "The response to an environment containing hydrogen atom."
+ Annotations: oio:hasExactSynonym "hydrogen sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some (EO_0007359 and RO_0001019 some CHEBI:49637) ## 'response' and 'occurs in' some ('plant experimental condition' and 'contains' some hydrogen atom)
+
+Class: CHEBI:52136 ## phosphinothricin
+## {"stressor": "CHEBI:52136"}
+Class: TO:0005007
+ Annotations: rdfs:label "response to phosphinothricin experiemental condition"
+ Annotations: IAO:0000115 "The response to an environment containing phosphinothricin."
+ Annotations: oio:hasExactSynonym "glufosinate sensitivity"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some (EO_0007359 and RO_0001019 some CHEBI:52136) ## 'response' and 'occurs in' some ('plant experimental condition' and 'contains' some phosphinothricin)

@@ -1,5 +1,84 @@
 format-version: 1.2
 ontology: patterns/eq/age_pattern
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0000012> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_49637>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0005006> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_27744>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0005007> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_52136>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\n)
+
+[Term]
+id: TO:0000001
+name: response to carbon nutrient regimen
+def: "The response to carbon nutrient regimen." []
+synonym: "carbon sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007303
+
+[Term]
+id: TO:0000003
+name: response to basic pH soil environment
+def: "The response to basic pH soil environment." []
+synonym: "alkali soil sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007062
+
+[Term]
+id: TO:0000006
+name: response to calcium nutrient regimen
+def: "The response to calcium nutrient regimen." []
+synonym: "calcium sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007297
+
+[Term]
+id: TO:0000007
+name: response to sulfur nutrient regimen
+def: "The response to sulfur nutrient regimen." []
+synonym: "sulfur sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007295
+
+[Term]
+id: TO:0000008
+name: response to potassium nutrient regimen
+def: "The response to potassium nutrient regimen." []
+synonym: "potassium sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007293
+
+[Term]
+id: TO:0000010
+name: response to magnesium nutrient regimen
+def: "The response to magnesium nutrient regimen." []
+synonym: "magnesium sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007288
+
+[Term]
+id: TO:0000011
+name: response to nitrogen macronutrient regimen
+def: "The response to nitrogen macronutrient regimen." []
+synonym: "nitrogen sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007284
+
+[Term]
+id: TO:0000012
+name: response to hydrogen atom experiemental condition
+def: "The response to an environment containing hydrogen atom." []
+synonym: "hydrogen sensitivity" EXACT []
+
+[Term]
+id: TO:0000015
+name: response to oxygen regimen
+def: "The response to oxygen regimen." []
+synonym: "oxygen sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007278
+
+[Term]
+id: TO:0000016
+name: response to cobalt nutrient regimen
+def: "The response to cobalt nutrient regimen." []
+synonym: "cobalt sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007276
 
 [Term]
 id: TO:0000017
@@ -9,6 +88,22 @@ intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0025131
 
 [Term]
+id: TO:0000018
+name: response to boron nutrient regimen
+def: "The response to boron nutrient regimen." []
+synonym: "boron sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007273
+
+[Term]
+id: TO:0000021
+name: response to copper nutrient regimen
+def: "The response to copper nutrient regimen." []
+synonym: "copper sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007261
+
+[Term]
 id: TO:0000024
 name: ligule length
 def: "The length of a ligule." []
@@ -16,11 +111,67 @@ intersection_of: PATO:0000122
 intersection_of: RO:0000052 PO:0020105
 
 [Term]
+id: TO:0000025
+name: response to molybdenum nutrient regimen
+def: "The response to molybdenum nutrient regimen." []
+synonym: "molybdenum sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007253
+
+[Term]
+id: TO:0000029
+name: response to chlorine nutrient regimen
+def: "The response to chlorine nutrient regimen." []
+synonym: "chlorine sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007244
+
+[Term]
+id: TO:0000031
+name: response to silicon nutrient regimen
+def: "The response to silicon nutrient regimen." []
+synonym: "silicon sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007235
+
+[Term]
+id: TO:0000032
+name: response to selenium nutrient regimen
+def: "The response to selenium nutrient regimen." []
+synonym: "selenium sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007232
+
+[Term]
+id: TO:0000033
+name: response to iodine nutrient regimen
+def: "The response to iodine nutrient regimen." []
+synonym: "iodine sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007230
+
+[Term]
+id: TO:0000034
+name: response to chromium nutrient regimen
+def: "The response to chromium nutrient regimen." []
+synonym: "chromium sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007228
+
+[Term]
 id: TO:0000035
 name: incompatibility trait
 def: "The incompatible of a whole plant." []
 intersection_of: PATO:0000345
 intersection_of: RO:0000052 PO:0000003
+
+[Term]
+id: TO:0000038
+name: response to fluorine nutrient regimen
+def: "The response to fluorine nutrient regimen." []
+synonym: "fluorine sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007225
 
 [Term]
 id: TO:0000043
@@ -56,6 +207,14 @@ name: stem color
 def: "The color of a stem." []
 intersection_of: PATO:0000014
 intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0000058
+name: response to herbicide treatment
+def: "The response to herbicide treatment." []
+synonym: "herbicide sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007183
 
 [Term]
 id: TO:0000059
@@ -107,6 +266,22 @@ intersection_of: PATO:0000122
 intersection_of: RO:0000052 PO:0025349
 
 [Term]
+id: TO:0000073
+name: response to manganese nutrient regimen
+def: "The response to manganese nutrient regimen." []
+synonym: "manganese sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007387
+
+[Term]
+id: TO:0000075
+name: response to light regimen
+def: "The response to light regimen." []
+synonym: "light sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007196
+
+[Term]
 id: TO:0000077
 name: shoot system morphology trait
 def: "The morphological quality of a shoot system." []
@@ -121,6 +296,14 @@ intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009034
 
 [Term]
+id: TO:0000088
+name: response to rice yellow mottle virus
+def: "The response to rice yellow mottle virus." []
+synonym: "rice yellow mottle virus resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007318
+
+[Term]
 id: TO:0000094
 name: basal root thickness
 def: "The thickness of a basal root." []
@@ -129,11 +312,11 @@ intersection_of: RO:0000052 PO:0025002
 
 [Term]
 id: TO:0000095
-name: response to osmotic stress response trait
-def: "The response to response to osmotic stress." []
+name: response to osmotic stress treatment
+def: "The response to osmotic stress treatment." []
 synonym: "osmotic response sensitivity" EXACT []
 intersection_of: PATO:0000077
-intersection_of: BFO:0000066 GO:0006970
+intersection_of: BFO:0000066 EO:0001038
 
 [Term]
 id: TO:0000097
@@ -157,8 +340,16 @@ intersection_of: PATO:0000585
 intersection_of: RO:0000052 PO:0009089
 
 [Term]
+id: TO:0000102
+name: response to phosphorus nutrient regimen
+def: "The response to phosphorus nutrient regimen." []
+synonym: "phosphorus sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007397
+
+[Term]
 id: TO:0000103
-name: flood prone region response trait
+name: response to flood prone region
 def: "The response to flood prone region." []
 synonym: "deepwater stress" EXACT []
 intersection_of: PATO:0000077
@@ -242,12 +433,84 @@ intersection_of: PATO:0000921
 intersection_of: RO:0000052 PO:0009010
 
 [Term]
+id: TO:0000158
+name: response to red light regimen
+def: "The response to red light regimen." []
+synonym: "red light sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007207
+
+[Term]
+id: TO:0000159
+name: response to blue light regimen
+def: "The response to blue light regimen." []
+synonym: "blue light sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007218
+
+[Term]
+id: TO:0000160
+name: response to UV light regimen
+def: "The response to UV light regimen." []
+synonym: "UV light sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007222
+
+[Term]
+id: TO:0000161
+name: response to radiation treatment
+def: "The response to radiation treatment." []
+synonym: "radiation response trait" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007151
+
+[Term]
+id: TO:0000163
+name: response to auxin treatment
+def: "The response to auxin treatment." []
+synonym: "auxin sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007074
+
+[Term]
+id: TO:0000167
+name: response to cytokinin treatment
+def: "The response to cytokinin treatment." []
+synonym: "cytokinin sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007066
+
+[Term]
+id: TO:0000172
+name: response to jasmonic acid treatment
+def: "The response to jasmonic acid treatment." []
+synonym: "jasmonic acid sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007080
+
+[Term]
+id: TO:0000173
+name: response to ethylene treatment
+def: "The response to ethylene treatment." []
+synonym: "ethylene sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007068
+
+[Term]
 id: TO:0000177
-name: 2,4-dichlorophenoxyacetic acid treatment response trait
+name: response to 2,4-dichlorophenoxyacetic acid treatment
 def: "The response to 2,4-dichlorophenoxyacetic acid treatment." []
 synonym: "2,4-dichlorophenoxyacetic acid sensitivity" EXACT []
 intersection_of: PATO:0000077
 intersection_of: BFO:0000066 EO:0007180
+
+[Term]
+id: TO:0000178
+name: response to acidic pH soil environment
+def: "The response to acidic pH soil environment." []
+synonym: "acid soil sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007059
 
 [Term]
 id: TO:0000180
@@ -262,6 +525,14 @@ name: seed weight
 def: "The weight of a seed." []
 intersection_of: PATO:0000128
 intersection_of: RO:0000052 PO:0009010
+
+[Term]
+id: TO:0000182
+name: response to insecticide treatment
+def: "The response to insecticide treatment." []
+synonym: "insecticide sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007632
 
 [Term]
 id: TO:0000184
@@ -283,6 +554,14 @@ name: anther color
 def: "The color of a anther." []
 intersection_of: PATO:0000014
 intersection_of: RO:0000052 PO:0009066
+
+[Term]
+id: TO:0000188
+name: response to drought environment
+def: "The response to drought environment." []
+synonym: "drought sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007404
 
 [Term]
 id: TO:0000190
@@ -376,6 +655,14 @@ intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009062
 
 [Term]
+id: TO:0000224
+name: response to iron nutrient regimen
+def: "The response to iron nutrient regimen." []
+synonym: "iron sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007242
+
+[Term]
 id: TO:0000227
 name: root length
 def: "The length of a root." []
@@ -391,11 +678,11 @@ intersection_of: RO:0000052 PO:0009005
 
 [Term]
 id: TO:0000237
-name: water response trait
-def: "The response to water." []
+name: response to water environment
+def: "The response to water environment." []
 synonym: "water stress trait" EXACT []
 intersection_of: PATO:0000077
-intersection_of: BFO:0000066 CHEBI:15377
+intersection_of: BFO:0000066 EO:0007198
 
 [Term]
 id: TO:0000240
@@ -434,7 +721,7 @@ intersection_of: RO:0000052 PO:0025034
 
 [Term]
 id: TO:0000259
-name: warm/hot temperature regimen response trait
+name: response to warm/hot temperature regimen
 def: "The response to warm/hot temperature regimen." []
 synonym: "heat tolerance" EXACT []
 intersection_of: PATO:0000077
@@ -561,7 +848,7 @@ intersection_of: RO:0000052 CHEBI:27325
 
 [Term]
 id: TO:0000303
-name: cold temperature regimen response trait
+name: response to cold temperature regimen
 def: "The response to cold temperature regimen." []
 synonym: "cold tolerance" EXACT []
 intersection_of: PATO:0000077
@@ -652,6 +939,22 @@ intersection_of: PATO:0000169
 intersection_of: RO:0000052 PO:0009010
 
 [Term]
+id: TO:0000351
+name: response to zinc nutrient regimen
+def: "The response to zinc nutrient regimen." []
+synonym: "zinc sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007309
+
+[Term]
+id: TO:0000354
+name: response to aluminum nutrient regimen
+def: "The response to aluminum nutrient regimen." []
+synonym: "aluminum sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007306
+
+[Term]
 id: TO:0000361
 name: stem morphology trait
 def: "The morphological quality of a stem." []
@@ -680,6 +983,14 @@ intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009049
 
 [Term]
+id: TO:0000386
+name: response to rice ragged stunt virus
+def: "The response to rice ragged stunt virus." []
+synonym: "rice ragged stunt virus resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007195
+
+[Term]
 id: TO:0000391
 name: seed size
 def: "The size of a seed." []
@@ -702,11 +1013,11 @@ intersection_of: RO:0000052 PO:0009040
 
 [Term]
 id: TO:0000401
-name: plant hormone response trait
-def: "The response to plant hormone." []
+name: response to growth hormone treatment
+def: "The response to growth hormone treatment." []
 synonym: "plant growth hormone sensitivity" EXACT []
 intersection_of: PATO:0000077
-intersection_of: BFO:0000066 CHEBI:37848
+intersection_of: BFO:0000066 EO:0007165
 
 [Term]
 id: TO:0000417
@@ -735,6 +1046,14 @@ name: pollen fertility
 def: "The fertility of a pollen." []
 intersection_of: PATO:0000274
 intersection_of: RO:0000052 PO:0025281
+
+[Term]
+id: TO:0000429
+name: response to salt treatment
+def: "The response to salt treatment." []
+synonym: "salt sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007185
 
 [Term]
 id: TO:0000431
@@ -791,6 +1110,14 @@ name: abscisic acid concentration
 def: "The amount of 2-cis-abscisic acid." []
 intersection_of: PATO:0000070
 intersection_of: RO:0000052 CHEBI:22152
+
+[Term]
+id: TO:0000479
+name: response to acidic pH growth media environment
+def: "The response to acidic pH growth media environment." []
+synonym: "acid sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007134
 
 [Term]
 id: TO:0000484
@@ -1180,6 +1507,14 @@ intersection_of: PATO:0000052
 intersection_of: RO:0000052 PO:0009037
 
 [Term]
+id: TO:0000615
+name: response to abscisic acid treatment
+def: "The response to abscisic acid treatment." []
+synonym: "abscisic acid sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007105
+
+[Term]
 id: TO:0000616
 name: leaf perimeter
 def: "The perimeter of a vascular leaf." []
@@ -1402,6 +1737,14 @@ name: plant color
 def: "The color of a whole plant." []
 intersection_of: PATO:0000014
 intersection_of: RO:0000052 PO:0000003
+
+[Term]
+id: TO:0000711
+name: response to imidazolinone treatment
+def: "The response to imidazolinone treatment." []
+synonym: "imidazolinone sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007633
 
 [Term]
 id: TO:0000713
@@ -2783,6 +3126,14 @@ intersection_of: PATO:0000117
 intersection_of: RO:0000052 PO:0025034
 
 [Term]
+id: TO:0002649
+name: response to pesticide treatment
+def: "The response to pesticide treatment." []
+synonym: "pesticide sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007167
+
+[Term]
 id: TO:0002655
 name: starch grain size
 def: "The size of a starch grain." []
@@ -2868,7 +3219,7 @@ intersection_of: RO:0000052 CHEBI:22921
 
 [Term]
 id: TO:0002677
-name: brassinosteroid treatment response trait
+name: response to brassinosteroid treatment
 def: "The response to brassinosteroid treatment." []
 synonym: "brassinosteroid sensitivity" EXACT []
 intersection_of: PATO:0000077
@@ -2974,7 +3325,7 @@ intersection_of: RO:0000052 CHEBI:28838
 
 [Term]
 id: TO:0002704
-name: Meloidogyne incognita response trait
+name: response to Meloidogyne incognita
 def: "The response to Meloidogyne incognita." []
 synonym: "Meloidogyne incognita resistance" EXACT []
 intersection_of: PATO:0000077
@@ -2982,7 +3333,7 @@ intersection_of: BFO:0000066 EO:0007372
 
 [Term]
 id: TO:0002706
-name: Meloidogyne javanica response trait
+name: response to Meloidogyne javanica
 def: "The response to Meloidogyne javanica." []
 synonym: "Meloidogyne javanica resistance" EXACT []
 intersection_of: PATO:0000077
@@ -3172,27 +3523,23 @@ intersection_of: RO:0000052 CHEBI:27432
 
 [Term]
 id: TO:0005006
-name: glyphosate response trait
-def: "The response to glyphosate." []
+name: response to glyphosate experiemental condition
+def: "The response to an environment containing glyphosate." []
 synonym: "glyphosate sensitivity" EXACT []
-intersection_of: PATO:0000077
-intersection_of: BFO:0000066 CHEBI:27744
 
 [Term]
 id: TO:0005007
-name: phosphinothricin response trait
-def: "The response to phosphinothricin." []
+name: response to phosphinothricin experiemental condition
+def: "The response to an environment containing phosphinothricin." []
 synonym: "glufosinate sensitivity" EXACT []
-intersection_of: PATO:0000077
-intersection_of: BFO:0000066 CHEBI:52136
 
 [Term]
 id: TO:0006001
-name: salt response trait
-def: "The response to salt." []
+name: response to salt treatment
+def: "The response to salt treatment." []
 synonym: "salt tolerance" EXACT []
 intersection_of: PATO:0000077
-intersection_of: BFO:0000066 CHEBI:24866
+intersection_of: BFO:0000066 EO:0007185
 
 [Term]
 id: TO:0006002
@@ -3452,6 +3799,14 @@ name: stem diameter
 def: "The diameter of a stem." []
 intersection_of: PATO:0001334
 intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0020098
+name: response to nitrate regimen
+def: "The response to nitrate regimen." []
+synonym: "nitrate sensitivity" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007406
 
 [Term]
 id: TO:0020107
