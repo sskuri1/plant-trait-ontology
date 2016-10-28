@@ -1,0 +1,7 @@
+iri	iri name	attribute	attribute label	environment	environment label	entity	entity label
+TO:0000192	leaf-roller resistance	PATO:0001046	resistance to	EO:0007305	Cnaphalocrocis medinalis	PO:0025034	leaf
+TO:0000468	leaf blast disease resistance	PATO:0001046	resistance to	EO:0007226	Magnaporthe grisea	PO:0025034	leaf
+TO:0000323	stem rot disease resistance	PATO:0001046	resistance to	EO:0007363	Magnaporthe salvinii	PO:0009047	stem
+TO:0000477	panicle blast disease resistance	PATO:0001046	resistance to	EO:0007226	Magnaporthe grisea	PO:0009049	inflorescence
+
+

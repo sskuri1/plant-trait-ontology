@@ -1,6 +1,6 @@
 format-version: 1.2
 ontology: patterns/eq/age_pattern
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0000012> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_49637>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0005006> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_27744>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0005007> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_52136>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0000012> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_49637>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0000378> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/NCBITaxon_87749>) <http://purl.obolibrary.org/obo/EO_0007359>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PO_0025034>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0002702> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/NCBITaxon_29002>) <http://purl.obolibrary.org/obo/EO_0007359>)) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/PO_0025034>)))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0005006> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_27744>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0005007> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/CHEBI_52136>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0005010> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/NCBITaxon_50385>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0020052> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/NCBITaxon_45130>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0020053> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/NCBITaxon_45130>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0020060> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/NCBITaxon_62688>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/TO_0020061> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001019> <http://purl.obolibrary.org/obo/NCBITaxon_62690>) <http://purl.obolibrary.org/obo/EO_0007359>)) <http://purl.obolibrary.org/obo/PATO_0000077>))\n)
 
 [Term]
 id: TO:0000001
@@ -181,6 +181,14 @@ intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009005
 
 [Term]
+id: TO:0000045
+name: response to Balansia oryzae-sativae
+def: "The response to Balansia oryzae-sativae." []
+synonym: "udbatta disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007362
+
+[Term]
 id: TO:0000050
 name: inflorescence branching
 def: "A inflorescence that is branched." []
@@ -272,6 +280,14 @@ def: "The response to manganese nutrient regimen." []
 synonym: "manganese sensitivity" EXACT []
 intersection_of: PATO:0000077
 intersection_of: BFO:0000066 EO:0007387
+
+[Term]
+id: TO:0000074
+name: response to Magnaporthe grisea
+def: "The response to Magnaporthe grisea." []
+synonym: "blast disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007226
 
 [Term]
 id: TO:0000075
@@ -571,6 +587,23 @@ intersection_of: PATO:0000014
 intersection_of: RO:0000052 PO:0009088
 
 [Term]
+id: TO:0000191
+name: response to Dicladispa armigera
+def: "The response to Dicladispa armigera." []
+synonym: "rice hispa resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007296
+
+[Term]
+id: TO:0000192
+name: leaf Cnaphalocrocis medinalis response trait
+def: "A leaf's response to Cnaphalocrocis medinalis." []
+synonym: "leaf-roller resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007305
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
 id: TO:0000193
 name: embryo shape
 def: "The shape of a plant embryo." []
@@ -627,6 +660,14 @@ intersection_of: PATO:0001555
 intersection_of: RO:0000052 PO:0009038
 
 [Term]
+id: TO:0000212
+name: response to Nephotettix spp
+def: "The response to Nephotettix spp." []
+synonym: "green leafhopper resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007308
+
+[Term]
 id: TO:0000214
 name: anther shape
 def: "The shape of a anther." []
@@ -639,6 +680,14 @@ name: stamen morphology trait
 def: "The morphological quality of a stamen." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009029
+
+[Term]
+id: TO:0000220
+name: response to Leptocorisa oratorius
+def: "The response to Leptocorisa oratorius." []
+synonym: "rice bug resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007300
 
 [Term]
 id: TO:0000221
@@ -805,6 +854,14 @@ intersection_of: PATO:0000001
 intersection_of: RO:0000052 GO:0004556
 
 [Term]
+id: TO:0000292
+name: response to Mycoplasma
+def: "The response to Mycoplasma." []
+synonym: "yellow dwarf disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007212
+
+[Term]
 id: TO:0000293
 name: chlorophyll-a content
 def: "The amount of chlorophyll a." []
@@ -890,6 +947,15 @@ intersection_of: PATO:0000070
 intersection_of: RO:0000052 CHEBI:8027
 
 [Term]
+id: TO:0000323
+name: stem Magnaporthe salvinii response trait
+def: "A stem's response to Magnaporthe salvinii." []
+synonym: "stem rot disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007363
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
 id: TO:0000326
 name: leaf color
 def: "The color of a leaf." []
@@ -909,6 +975,14 @@ name: sucrose phosphate synthase activity trait
 def: "The quality of a sucrose-phosphate synthase activity." []
 intersection_of: PATO:0000001
 intersection_of: RO:0000052 GO:0046524
+
+[Term]
+id: TO:0000332
+name: response to Hydrellia philippina
+def: "The response to Hydrellia philippina." []
+synonym: "rice whorl maggot resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007289
 
 [Term]
 id: TO:0000335
@@ -955,6 +1029,14 @@ intersection_of: PATO:0000077
 intersection_of: BFO:0000066 EO:0007306
 
 [Term]
+id: TO:0000356
+name: response to Cochliobolus miyabeanus
+def: "The response to Cochliobolus miyabeanus." []
+synonym: "brown spot disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007211
+
+[Term]
 id: TO:0000361
 name: stem morphology trait
 def: "The morphological quality of a stem." []
@@ -981,6 +1063,12 @@ name: inflorescence morphology trait
 def: "The morphological quality of a inflorescence." []
 intersection_of: PATO:0001241
 intersection_of: RO:0000052 PO:0009049
+
+[Term]
+id: TO:0000378
+name: response on leaf to an Monographella albescens experiemental condition
+def: "A leaf's response to an environment containing Monographella albescens." []
+synonym: "leaf scald disease resistance" EXACT []
 
 [Term]
 id: TO:0000386
@@ -1025,6 +1113,14 @@ name: lemma and palea pubescence
 def: "A flower bract that is pubescent hair." []
 intersection_of: PATO:0001320
 intersection_of: RO:0000052 PO:0009034
+
+[Term]
+id: TO:0000418
+name: response to Gibberella fujikuroi
+def: "The response to Gibberella fujikuroi." []
+synonym: "bakanae disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007229
 
 [Term]
 id: TO:0000419
@@ -1091,6 +1187,15 @@ intersection_of: PATO:0000070
 intersection_of: RO:0000052 CHEBI:27594
 
 [Term]
+id: TO:0000468
+name: leaf Magnaporthe grisea response trait
+def: "A leaf's response to Magnaporthe grisea." []
+synonym: "leaf blast disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007226
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
 id: TO:0000470
 name: vascular tissue morphology trait
 def: "The morphological quality of a portion of vascular tissue." []
@@ -1103,6 +1208,15 @@ name: vascular bundle number
 def: "The has number of of a vascular bundle." []
 intersection_of: PATO:0001555
 intersection_of: RO:0000052 PO:0005020
+
+[Term]
+id: TO:0000477
+name: inflorescence Magnaporthe grisea response trait
+def: "A inflorescence's response to Magnaporthe grisea." []
+synonym: "panicle blast disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007226
+intersection_of: RO:0000052 PO:0009049
 
 [Term]
 id: TO:0000478
@@ -3324,6 +3438,12 @@ intersection_of: PATO:0000070
 intersection_of: RO:0000052 CHEBI:28838
 
 [Term]
+id: TO:0002702
+name: response on leaf to an cercospora experiemental condition
+def: "A leaf's response to an environment containing cercospora." []
+synonym: "cercospora leaf spot resistance" EXACT []
+
+[Term]
 id: TO:0002704
 name: response to Meloidogyne incognita
 def: "The response to Meloidogyne incognita." []
@@ -3532,6 +3652,12 @@ id: TO:0005007
 name: response to phosphinothricin experiemental condition
 def: "The response to an environment containing phosphinothricin." []
 synonym: "glufosinate sensitivity" EXACT []
+
+[Term]
+id: TO:0005010
+name: response to Diabrotica experiemental condition
+def: "The response to an environment containing Diabrotica." []
+synonym: "rootworm resistance" EXACT []
 
 [Term]
 id: TO:0006001
@@ -3778,6 +3904,30 @@ name: glume waxiness
 def: "The waxiness of a glume." []
 intersection_of: PATO:0002381
 intersection_of: RO:0000052 PO:0009039
+
+[Term]
+id: TO:0020052
+name: response to Bipolaris sorokiniana experiemental condition
+def: "The response to an environment containing Bipolaris sorokiniana." []
+synonym: "barley spot blotch disease resistance" EXACT []
+
+[Term]
+id: TO:0020053
+name: response to Bipolaris sorokiniana experiemental condition
+def: "The response to an environment containing Bipolaris sorokiniana." []
+synonym: "wheat spot blotch disease resistance" EXACT []
+
+[Term]
+id: TO:0020060
+name: response to Blumeria graminis f. sp. hordei experiemental condition
+def: "The response to an environment containing Blumeria graminis f. sp. hordei." []
+synonym: "barley powdery mildew disease resistance" EXACT []
+
+[Term]
+id: TO:0020061
+name: response to Blumeria graminis f. sp. tritici experiemental condition
+def: "The response to an environment containing Blumeria graminis f. sp. tritici." []
+synonym: "wheat powdery mildew disease resistance" EXACT []
 
 [Term]
 id: TO:0020068

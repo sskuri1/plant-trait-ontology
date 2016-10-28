@@ -1,0 +1,37 @@
+pattern_name: to/response
+classes:
+  plant experimental condition: EO_0007359
+  response: PATO_0000077
+
+relations:
+  contains: RO_0001019
+  inheres in: RO_0000052
+  occurs in: BFO_0000066
+    
+vars: 
+  stressor: "'Thing'"
+  entity: "'Thing'"
+
+name:
+  text: "response on %s to an %s experiemental condition"
+  vars:
+    - entity
+    - stressor
+    
+annotations: 
+  - property: oio:hasExactSynonym
+    text: "%s"
+    vars:
+      - iri name
+
+def: 
+  text: "A %s's response to an environment containing %s."
+  vars:
+    - entity
+    - stressor
+    
+equivalentTo: 
+  text: "'response'  and 'inheres in' some %s and 'occurs in' some ('plant experimental condition' and 'contains' some %s)"
+  vars:
+    - entity
+    - stressor

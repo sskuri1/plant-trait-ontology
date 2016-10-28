@@ -1,0 +1,39 @@
+format-version: 1.2
+ontology: patterns/responseEntity/eoEntity_pattern
+
+[Term]
+id: TO:0000192
+name: leaf Cnaphalocrocis medinalis response trait
+def: "A leaf's response to Cnaphalocrocis medinalis." []
+synonym: "leaf-roller resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007305
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000323
+name: stem Magnaporthe salvinii response trait
+def: "A stem's response to Magnaporthe salvinii." []
+synonym: "stem rot disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007363
+intersection_of: RO:0000052 PO:0009047
+
+[Term]
+id: TO:0000468
+name: leaf Magnaporthe grisea response trait
+def: "A leaf's response to Magnaporthe grisea." []
+synonym: "leaf blast disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007226
+intersection_of: RO:0000052 PO:0025034
+
+[Term]
+id: TO:0000477
+name: inflorescence Magnaporthe grisea response trait
+def: "A inflorescence's response to Magnaporthe grisea." []
+synonym: "panicle blast disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007226
+intersection_of: RO:0000052 PO:0009049
+

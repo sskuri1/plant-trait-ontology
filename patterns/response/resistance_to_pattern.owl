@@ -2,13 +2,13 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
-Prefix: OWL: <http://www.w3.org/2002/07/owl#>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
 
  ## Auto-generated
 
@@ -18,8 +18,8 @@ AnnotationProperty: to/response/environment
 AnnotationProperty: DOSDP:applies-pattern
 AnnotationProperty: oio:hasExactSynonym
 Class: PATO_0000077 ## response
-ObjectProperty: RO_0000052 ## inheres in
 ObjectProperty: BFO_0000050 ## part of
+ObjectProperty: RO_0000052 ## inheres in
 ObjectProperty: BFO_0000066 ## occurs in
 ## Auto-generated classes
 
@@ -54,3 +54,75 @@ Class: TO:0000088
  Annotations: IAO:0000115 "The response to rice yellow mottle virus."
  Annotations: oio:hasExactSynonym "rice yellow mottle virus resistance"
  EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007318 ## 'response' and 'occurs in' some rice yellow mottle virus
+
+Class: EO:0007362 ## Balansia oryzae-sativae
+## {"environment": "EO:0007362"}
+Class: TO:0000045
+ Annotations: rdfs:label "response to Balansia oryzae-sativae"
+ Annotations: IAO:0000115 "The response to Balansia oryzae-sativae."
+ Annotations: oio:hasExactSynonym "udbatta disease resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007362 ## 'response' and 'occurs in' some Balansia oryzae-sativae
+
+Class: EO:0007211 ## Cochliobolus miyabeanus
+## {"environment": "EO:0007211"}
+Class: TO:0000356
+ Annotations: rdfs:label "response to Cochliobolus miyabeanus"
+ Annotations: IAO:0000115 "The response to Cochliobolus miyabeanus."
+ Annotations: oio:hasExactSynonym "brown spot disease resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007211 ## 'response' and 'occurs in' some Cochliobolus miyabeanus
+
+Class: EO:0007296 ## Dicladispa armigera
+## {"environment": "EO:0007296"}
+Class: TO:0000191
+ Annotations: rdfs:label "response to Dicladispa armigera"
+ Annotations: IAO:0000115 "The response to Dicladispa armigera."
+ Annotations: oio:hasExactSynonym "rice hispa resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007296 ## 'response' and 'occurs in' some Dicladispa armigera
+
+Class: EO:0007229 ## Gibberella fujikuroi
+## {"environment": "EO:0007229"}
+Class: TO:0000418
+ Annotations: rdfs:label "response to Gibberella fujikuroi"
+ Annotations: IAO:0000115 "The response to Gibberella fujikuroi."
+ Annotations: oio:hasExactSynonym "bakanae disease resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007229 ## 'response' and 'occurs in' some Gibberella fujikuroi
+
+Class: EO:0007289 ## Hydrellia philippina
+## {"environment": "EO:0007289"}
+Class: TO:0000332
+ Annotations: rdfs:label "response to Hydrellia philippina"
+ Annotations: IAO:0000115 "The response to Hydrellia philippina."
+ Annotations: oio:hasExactSynonym "rice whorl maggot resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007289 ## 'response' and 'occurs in' some Hydrellia philippina
+
+Class: EO:0007300 ## Leptocorisa oratorius
+## {"environment": "EO:0007300"}
+Class: TO:0000220
+ Annotations: rdfs:label "response to Leptocorisa oratorius"
+ Annotations: IAO:0000115 "The response to Leptocorisa oratorius."
+ Annotations: oio:hasExactSynonym "rice bug resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007300 ## 'response' and 'occurs in' some Leptocorisa oratorius
+
+Class: EO:0007226 ## Magnaporthe grisea
+## {"environment": "EO:0007226"}
+Class: TO:0000074
+ Annotations: rdfs:label "response to Magnaporthe grisea"
+ Annotations: IAO:0000115 "The response to Magnaporthe grisea."
+ Annotations: oio:hasExactSynonym "blast disease resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007226 ## 'response' and 'occurs in' some Magnaporthe grisea
+
+Class: EO:0007212 ## Mycoplasma
+## {"environment": "EO:0007212"}
+Class: TO:0000292
+ Annotations: rdfs:label "response to Mycoplasma"
+ Annotations: IAO:0000115 "The response to Mycoplasma."
+ Annotations: oio:hasExactSynonym "yellow dwarf disease resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007212 ## 'response' and 'occurs in' some Mycoplasma
+
+Class: EO:0007308 ## Nephotettix spp
+## {"environment": "EO:0007308"}
+Class: TO:0000212
+ Annotations: rdfs:label "response to Nephotettix spp"
+ Annotations: IAO:0000115 "The response to Nephotettix spp."
+ Annotations: oio:hasExactSynonym "green leafhopper resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some EO:0007308 ## 'response' and 'occurs in' some Nephotettix spp

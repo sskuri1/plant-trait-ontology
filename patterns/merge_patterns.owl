@@ -9,6 +9,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:eq="http://purl.obolibrary.org/obo/to/eq/"
+     xmlns:entityResponse="http://purl.obolibrary.org/obo/to/entityResponse/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:composition="http://purl.obolibrary.org/obo/to/composition/"
      xmlns:response="http://purl.obolibrary.org/obo/to/response/"
@@ -51,6 +52,18 @@
     <!-- http://purl.obolibrary.org/obo/to/composition/entity -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/composition/entity"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/entityResponse/entity -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/entityResponse/entity"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/entityResponse/environment -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/entityResponse/environment"/>
     
 
 
@@ -105,6 +118,12 @@
     <!-- http://purl.obolibrary.org/obo/to/ratio/divisor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/ratio/divisor"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/to/response/entity -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/to/response/entity"/>
     
 
 
@@ -658,6 +677,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EO_0007211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007211"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007212"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EO_0007218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007218"/>
@@ -676,9 +707,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EO_0007226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007226"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EO_0007228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007228"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007229"/>
     
 
 
@@ -754,6 +797,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EO_0007289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007289"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EO_0007293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007293"/>
@@ -766,9 +815,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EO_0007296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007296"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EO_0007297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007297"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007300"/>
     
 
 
@@ -778,9 +839,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/EO_0007305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007305"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/EO_0007306 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007306"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007308"/>
     
 
 
@@ -799,6 +872,18 @@
     <!-- http://purl.obolibrary.org/obo/EO_0007359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007359"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007362"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EO_0007363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007363"/>
     
 
 
@@ -1009,6 +1094,42 @@
     <!-- http://purl.obolibrary.org/obo/GO_0090332 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090332"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_29002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_29002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_45130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_45130"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_50385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_50385"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_62688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_62688"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_62690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_62690"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_87749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_87749"/>
     
 
 
@@ -2767,6 +2888,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000045">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007362"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to Balansia oryzae-sativae.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>udbatta disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Balansia oryzae-sativae</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000050">
@@ -3025,6 +3167,27 @@
         <obo:IAO_0000115>The response to manganese nutrient regimen.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>manganese sensitivity</oboInOwl:hasExactSynonym>
         <rdfs:label>response to manganese nutrient regimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000074">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007226"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to Magnaporthe grisea.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>blast disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Magnaporthe grisea</rdfs:label>
     </owl:Class>
     
 
@@ -3858,6 +4021,52 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000191">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007296"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to Dicladispa armigera.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>rice hispa resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Dicladispa armigera</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000192">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007305"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A leaf&apos;s response to Cnaphalocrocis medinalis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>leaf-roller resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>leaf Cnaphalocrocis medinalis response trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000193 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000193">
@@ -4018,6 +4227,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000212">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007308"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to Nephotettix spp.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>green leafhopper resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Nephotettix spp</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000214">
@@ -4054,6 +4284,27 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>The morphological quality of a stamen.</obo:IAO_0000115>
         <rdfs:label>stamen morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000220">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007300"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to Leptocorisa oratorius.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>rice bug resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Leptocorisa oratorius</rdfs:label>
     </owl:Class>
     
 
@@ -4521,6 +4772,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000292">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007212"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to Mycoplasma.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>yellow dwarf disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Mycoplasma</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000293">
@@ -4762,6 +5034,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000323">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007363"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A stem&apos;s response to Magnaporthe salvinii.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>stem rot disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>stem Magnaporthe salvinii response trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000326 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000326">
@@ -4818,6 +5115,27 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>The quality of a sucrose-phosphate synthase activity.</obo:IAO_0000115>
         <rdfs:label>sucrose phosphate synthase activity trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000332">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007289"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to Hydrellia philippina.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>rice whorl maggot resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Hydrellia philippina</rdfs:label>
     </owl:Class>
     
 
@@ -4950,6 +5268,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000356">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007211"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to Cochliobolus miyabeanus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>brown spot disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Cochliobolus miyabeanus</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000361 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000361">
@@ -5026,6 +5365,41 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>The morphological quality of a inflorescence.</obo:IAO_0000115>
         <rdfs:label>inflorescence morphology trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000378">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EO_0007359"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_87749"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A leaf&apos;s response to an environment containing Monographella albescens.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>leaf scald disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response on leaf to an Monographella albescens experiemental condition</rdfs:label>
     </owl:Class>
     
 
@@ -5148,6 +5522,27 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>A flower bract that is pubescent hair.</obo:IAO_0000115>
         <rdfs:label>lemma and palea pubescence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000418">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007229"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to Gibberella fujikuroi.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>bakanae disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Gibberella fujikuroi</rdfs:label>
     </owl:Class>
     
 
@@ -5333,6 +5728,31 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0000468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000468">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007226"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A leaf&apos;s response to Magnaporthe grisea.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>leaf blast disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>leaf Magnaporthe grisea response trait</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0000470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000470">
@@ -5369,6 +5789,31 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>The has number of of a vascular bundle.</obo:IAO_0000115>
         <rdfs:label>vascular bundle number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0000477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0000477">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/EO_0007226"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009049"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A inflorescence&apos;s response to Magnaporthe grisea.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>panicle blast disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>inflorescence Magnaporthe grisea response trait</rdfs:label>
     </owl:Class>
     
 
@@ -11718,6 +12163,41 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/TO_0002702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002702">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EO_0007359"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_29002"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A leaf&apos;s response to an environment containing cercospora.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>cercospora leaf spot resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response on leaf to an cercospora experiemental condition</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/TO_0002704 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0002704">
@@ -12338,6 +12818,37 @@
         <obo:IAO_0000115>The response to an environment containing phosphinothricin.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>glufosinate sensitivity</oboInOwl:hasExactSynonym>
         <rdfs:label>response to phosphinothricin experiemental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0005010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0005010">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EO_0007359"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_50385"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to an environment containing Diabrotica.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>rootworm resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Diabrotica experiemental condition</rdfs:label>
     </owl:Class>
     
 
@@ -13039,6 +13550,130 @@
         </owl:equivalentClass>
         <obo:IAO_0000115>The waxiness of a glume.</obo:IAO_0000115>
         <rdfs:label>glume waxiness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0020052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0020052">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EO_0007359"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_45130"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to an environment containing Bipolaris sorokiniana.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>barley spot blotch disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Bipolaris sorokiniana experiemental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0020053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0020053">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EO_0007359"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_45130"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to an environment containing Bipolaris sorokiniana.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>wheat spot blotch disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Bipolaris sorokiniana experiemental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0020060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0020060">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EO_0007359"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_62688"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to an environment containing Blumeria graminis f. sp. hordei.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>barley powdery mildew disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Blumeria graminis f. sp. hordei experiemental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TO_0020061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TO_0020061">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000077"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EO_0007359"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_62690"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The response to an environment containing Blumeria graminis f. sp. tritici.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>wheat powdery mildew disease resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>response to Blumeria graminis f. sp. tritici experiemental condition</rdfs:label>
     </owl:Class>
     
 

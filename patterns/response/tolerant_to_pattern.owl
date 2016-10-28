@@ -2,13 +2,13 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
-Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
 Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: OWL: <http://www.w3.org/2002/07/owl#>
-Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
 
  ## Auto-generated
 
@@ -18,9 +18,9 @@ AnnotationProperty: to/response/environment
 AnnotationProperty: DOSDP:applies-pattern
 AnnotationProperty: oio:hasExactSynonym
 Class: PATO_0000077 ## response
-ObjectProperty: BFO_0000066 ## occurs in
 ObjectProperty: BFO_0000050 ## part of
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: BFO_0000066 ## occurs in
 ## Auto-generated classes
 
 Class: EO:0007185 ## salt treatment

@@ -54,9 +54,11 @@ PATTERNS_PHENOTYPE_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/ph
 PATTERNS_RATIO_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/ratio/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/ratio/*.tsv))
 PATTERNS_RESPONSE_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/response/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/response/*.tsv))
 PATTERNS_RESPONSENOEO_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/responseNoEO/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/responseNoEO/*.tsv))
+PATTERNS_RESPONSEENTITY_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/responseEntity/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/responseEntity/*.tsv))
+PATTERNS_RESPONSEENTITYNOEO_OWL = $(patsubst %.tsv, %_pattern.owl, $(wildcard patterns/responseEntityNoEO/*.tsv)) $(patsubst %.tsv, %_pattern.obo, $(wildcard patterns/responseEntityNoEO/*.tsv))
 
 
-all_patterns: $(PATTERNS_RATIO_OWL) $(PATTERNS_PHENOTYPE_OWL) $(PATTERNS_COMPOSITION_OWL) $(PATTERNS_MORPH_OWL) $(PATTERNS_EQ_OWL) $(PATTERNS_RESPONSE_OWL) $(PATTERNS_RESPONSENOEO_OWL)
+all_patterns: $(PATTERNS_RATIO_OWL) $(PATTERNS_PHENOTYPE_OWL) $(PATTERNS_COMPOSITION_OWL) $(PATTERNS_MORPH_OWL) $(PATTERNS_EQ_OWL) $(PATTERNS_RESPONSE_OWL) $(PATTERNS_RESPONSENOEO_OWL) $(PATTERNS_RESPONSEENTITY_OWL) $(PATTERNS_RESPONSEENTITYNOEO_OWL)
 
 patterns/eq/%_pattern.owl: patterns/eq/%.tsv
 	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/eq/$*.tsv -p patterns/eq.yaml -n $@ > $@
@@ -100,6 +102,18 @@ patterns/responseNoEO/%_pattern.owl: patterns/responseNoEO/%.tsv
 patterns/responseNoEO/%_pattern.obo: patterns/responseNoEO/%_pattern.owl
 	$(OWLTOOLS) $< -o -f obo $@
 
+patterns/responseEntity/%_pattern.owl: patterns/responseEntity/%.tsv
+	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/responseEntity/$*.tsv -p patterns/responseEntity.yaml -n $@ > $@
+
+patterns/responseEntity/%_pattern.obo: patterns/responseEntity/%_pattern.owl
+	$(OWLTOOLS) $< -o -f obo $@
+
+patterns/responseEntityNoEO/%_pattern.owl: patterns/responseEntityNoEO/%.tsv
+	patterns/apply-pattern.py -P patterns/curie_map.yaml -i patterns/responseEntityNoEO/$*.tsv -p patterns/responseEntityNoEO.yaml -n $@ > $@
+
+patterns/responseEntityNoEO/%_pattern.obo: patterns/responseEntityNoEO/%_pattern.owl
+	$(OWLTOOLS) $< -o -f obo $@
+
 
 #merge pattern files
 PATTERNS = $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/eq/*.tsv)) 
@@ -108,7 +122,9 @@ PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/respons
 PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/composition/*.tsv)) 
 PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/phenotype/*.tsv)) 
 PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/ratio/*.tsv)) 
-PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/responseNoEO/*.tsv)) 
+PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/responseNoEO/*.tsv))
+PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/responseEntity/*.tsv)) 
+PATTERNS += $(patsubst %.tsv, --input %_pattern.owl, $(wildcard patterns/responseEntityNoEO/*.tsv)) 
 
 merge:
 	$(ROBOT) merge $(PATTERNS) --output patterns/merge_patterns.owl

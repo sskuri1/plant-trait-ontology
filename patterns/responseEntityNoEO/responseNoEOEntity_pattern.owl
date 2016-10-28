@@ -1,0 +1,44 @@
+Prefix: : <http://purl.obolibrary.org/obo/>
+Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
+Prefix: DOSDP: <http://geneontology.org/foo/>
+Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
+Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
+Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
+Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
+Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+
+ ## Auto-generated
+
+Ontology: <http://purl.obolibrary.org/obo/patterns/responseEntityNoEO/responseNoEOEntity_pattern.owl>
+AnnotationProperty: IAO:0000115
+AnnotationProperty: to/response/stressor
+AnnotationProperty: to/response/entity
+AnnotationProperty: DOSDP:applies-pattern
+AnnotationProperty: oio:hasExactSynonym
+Class: EO_0007359 ## plant experimental condition
+Class: PATO_0000077 ## response
+ObjectProperty: RO_0001019 ## contains
+ObjectProperty: BFO_0000066 ## occurs in
+ObjectProperty: RO_0000052 ## inheres in
+## Auto-generated classes
+
+Class: NCBITaxon:29002 ## cercospora
+Class: PO:0025034 ## leaf
+## {"stressor": "NCBITaxon:29002", "entity": "PO:0025034"}
+Class: TO:0002702
+ Annotations: rdfs:label "response on leaf to an cercospora experiemental condition"
+ Annotations: IAO:0000115 "A leaf's response to an environment containing cercospora."
+ Annotations: oio:hasExactSynonym "cercospora leaf spot resistance"
+ EquivalentTo: PATO_0000077  and RO_0000052 some PO:0025034 and BFO_0000066 some (EO_0007359 and RO_0001019 some NCBITaxon:29002) ## 'response'  and 'inheres in' some leaf and 'occurs in' some ('plant experimental condition' and 'contains' some cercospora)
+
+Class: NCBITaxon:87749 ## Monographella albescens
+Class: PO:0025034 ## leaf
+## {"stressor": "NCBITaxon:87749", "entity": "PO:0025034"}
+Class: TO:0000378
+ Annotations: rdfs:label "response on leaf to an Monographella albescens experiemental condition"
+ Annotations: IAO:0000115 "A leaf's response to an environment containing Monographella albescens."
+ Annotations: oio:hasExactSynonym "leaf scald disease resistance"
+ EquivalentTo: PATO_0000077  and RO_0000052 some PO:0025034 and BFO_0000066 some (EO_0007359 and RO_0001019 some NCBITaxon:87749) ## 'response'  and 'inheres in' some leaf and 'occurs in' some ('plant experimental condition' and 'contains' some Monographella albescens)

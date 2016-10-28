@@ -2,3 +2,8 @@ iri	iri name	attribute	attribute label	stressor	stressor label
 TO:0005006	glyphosate sensitivity	PATO:0000085	sensitivity toward	CHEBI:27744	glyphosate
 TO:0000012	hydrogen sensitivity	PATO:0000085	sensitivity toward	CHEBI:49637	hydrogen atom
 TO:0005007	glufosinate sensitivity	PATO:0000085	sensitivity toward	CHEBI:52136	phosphinothricin
+TO:0020060	barley powdery mildew disease resistance	PATO:0001046	resistance to	NCBITaxon:62688	Blumeria graminis f. sp. hordei
+TO:0020061	wheat powdery mildew disease resistance	PATO:0001046	resistance to	NCBITaxon:62690	Blumeria graminis f. sp. tritici
+TO:0020052	barley spot blotch disease resistance	PATO:0001046	resistance to	NCBITaxon:45130	Bipolaris sorokiniana
+TO:0020053	wheat spot blotch disease resistance	PATO:0001046	resistance to	NCBITaxon:45130	Bipolaris sorokiniana
+TO:0005010	rootworm resistance	PATO:0001046	resistance to	NCBITaxon:50385	Diabrotica

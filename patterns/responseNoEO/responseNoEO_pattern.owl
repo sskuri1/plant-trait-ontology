@@ -2,13 +2,13 @@ Prefix: : <http://purl.obolibrary.org/obo/>
 Prefix: IAO: <http://purl.obolibrary.org/obo/IAO_>
 Prefix: DOSDP: <http://geneontology.org/foo/>
 Prefix: oio: <http://www.geneontology.org/formats/oboInOwl#>
-Prefix: OWL: <http://www.w3.org/2002/07/owl#>
 Prefix: PO: <http://purl.obolibrary.org/obo/PO_>
-Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
-Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: PATO: <http://purl.obolibrary.org/obo/PATO_>
-Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: CHEBI: <http://purl.obolibrary.org/obo/CHEBI_>
 Prefix: EO: <http://purl.obolibrary.org/obo/EO_>
+Prefix: TO: <http://purl.obolibrary.org/obo/TO_>
+Prefix: GO: <http://purl.obolibrary.org/obo/GO_>
+Prefix: NCBITaxon: <http://purl.obolibrary.org/obo/NCBITaxon_>
 
  ## Auto-generated
 
@@ -19,8 +19,8 @@ AnnotationProperty: DOSDP:applies-pattern
 AnnotationProperty: oio:hasExactSynonym
 Class: PATO_0000077 ## response
 Class: EO_0007359 ## plant experimental condition
-ObjectProperty: RO_0001019 ## contains
 ObjectProperty: RO_0000052 ## inheres in
+ObjectProperty: RO_0001019 ## contains
 ObjectProperty: BFO_0000066 ## occurs in
 ## Auto-generated classes
 
@@ -47,3 +47,43 @@ Class: TO:0005007
  Annotations: IAO:0000115 "The response to an environment containing phosphinothricin."
  Annotations: oio:hasExactSynonym "glufosinate sensitivity"
  EquivalentTo: PATO_0000077 and BFO_0000066 some (EO_0007359 and RO_0001019 some CHEBI:52136) ## 'response' and 'occurs in' some ('plant experimental condition' and 'contains' some phosphinothricin)
+
+Class: NCBITaxon:62688 ## Blumeria graminis f. sp. hordei
+## {"stressor": "NCBITaxon:62688"}
+Class: TO:0020060
+ Annotations: rdfs:label "response to Blumeria graminis f. sp. hordei experiemental condition"
+ Annotations: IAO:0000115 "The response to an environment containing Blumeria graminis f. sp. hordei."
+ Annotations: oio:hasExactSynonym "barley powdery mildew disease resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some (EO_0007359 and RO_0001019 some NCBITaxon:62688) ## 'response' and 'occurs in' some ('plant experimental condition' and 'contains' some Blumeria graminis f. sp. hordei)
+
+Class: NCBITaxon:62690 ## Blumeria graminis f. sp. tritici
+## {"stressor": "NCBITaxon:62690"}
+Class: TO:0020061
+ Annotations: rdfs:label "response to Blumeria graminis f. sp. tritici experiemental condition"
+ Annotations: IAO:0000115 "The response to an environment containing Blumeria graminis f. sp. tritici."
+ Annotations: oio:hasExactSynonym "wheat powdery mildew disease resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some (EO_0007359 and RO_0001019 some NCBITaxon:62690) ## 'response' and 'occurs in' some ('plant experimental condition' and 'contains' some Blumeria graminis f. sp. tritici)
+
+Class: NCBITaxon:45130 ## Bipolaris sorokiniana
+## {"stressor": "NCBITaxon:45130"}
+Class: TO:0020052
+ Annotations: rdfs:label "response to Bipolaris sorokiniana experiemental condition"
+ Annotations: IAO:0000115 "The response to an environment containing Bipolaris sorokiniana."
+ Annotations: oio:hasExactSynonym "barley spot blotch disease resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some (EO_0007359 and RO_0001019 some NCBITaxon:45130) ## 'response' and 'occurs in' some ('plant experimental condition' and 'contains' some Bipolaris sorokiniana)
+
+Class: NCBITaxon:45130 ## Bipolaris sorokiniana
+## {"stressor": "NCBITaxon:45130"}
+Class: TO:0020053
+ Annotations: rdfs:label "response to Bipolaris sorokiniana experiemental condition"
+ Annotations: IAO:0000115 "The response to an environment containing Bipolaris sorokiniana."
+ Annotations: oio:hasExactSynonym "wheat spot blotch disease resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some (EO_0007359 and RO_0001019 some NCBITaxon:45130) ## 'response' and 'occurs in' some ('plant experimental condition' and 'contains' some Bipolaris sorokiniana)
+
+Class: NCBITaxon:50385 ## Diabrotica
+## {"stressor": "NCBITaxon:50385"}
+Class: TO:0005010
+ Annotations: rdfs:label "response to Diabrotica experiemental condition"
+ Annotations: IAO:0000115 "The response to an environment containing Diabrotica."
+ Annotations: oio:hasExactSynonym "rootworm resistance"
+ EquivalentTo: PATO_0000077 and BFO_0000066 some (EO_0007359 and RO_0001019 some NCBITaxon:50385) ## 'response' and 'occurs in' some ('plant experimental condition' and 'contains' some Diabrotica)

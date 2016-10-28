@@ -2,6 +2,22 @@ format-version: 1.2
 ontology: patterns/response/resistance_to_pattern
 
 [Term]
+id: TO:0000045
+name: response to Balansia oryzae-sativae
+def: "The response to Balansia oryzae-sativae." []
+synonym: "udbatta disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007362
+
+[Term]
+id: TO:0000074
+name: response to Magnaporthe grisea
+def: "The response to Magnaporthe grisea." []
+synonym: "blast disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007226
+
+[Term]
 id: TO:0000088
 name: response to rice yellow mottle virus
 def: "The response to rice yellow mottle virus." []
@@ -10,12 +26,68 @@ intersection_of: PATO:0000077
 intersection_of: BFO:0000066 EO:0007318
 
 [Term]
+id: TO:0000191
+name: response to Dicladispa armigera
+def: "The response to Dicladispa armigera." []
+synonym: "rice hispa resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007296
+
+[Term]
+id: TO:0000212
+name: response to Nephotettix spp
+def: "The response to Nephotettix spp." []
+synonym: "green leafhopper resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007308
+
+[Term]
+id: TO:0000220
+name: response to Leptocorisa oratorius
+def: "The response to Leptocorisa oratorius." []
+synonym: "rice bug resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007300
+
+[Term]
+id: TO:0000292
+name: response to Mycoplasma
+def: "The response to Mycoplasma." []
+synonym: "yellow dwarf disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007212
+
+[Term]
+id: TO:0000332
+name: response to Hydrellia philippina
+def: "The response to Hydrellia philippina." []
+synonym: "rice whorl maggot resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007289
+
+[Term]
+id: TO:0000356
+name: response to Cochliobolus miyabeanus
+def: "The response to Cochliobolus miyabeanus." []
+synonym: "brown spot disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007211
+
+[Term]
 id: TO:0000386
 name: response to rice ragged stunt virus
 def: "The response to rice ragged stunt virus." []
 synonym: "rice ragged stunt virus resistance" EXACT []
 intersection_of: PATO:0000077
 intersection_of: BFO:0000066 EO:0007195
+
+[Term]
+id: TO:0000418
+name: response to Gibberella fujikuroi
+def: "The response to Gibberella fujikuroi." []
+synonym: "bakanae disease resistance" EXACT []
+intersection_of: PATO:0000077
+intersection_of: BFO:0000066 EO:0007229
 
 [Term]
 id: TO:0002704

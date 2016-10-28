@@ -1,0 +1,36 @@
+pattern_name: to/entityResponse
+classes:
+  response: PATO_0000077
+
+relations:
+  part of: BFO_0000050
+  inheres in: RO_0000052
+  occurs in: BFO_0000066
+    
+vars: 
+  entity: "'Thing'"
+  environment: "'Thing'"
+
+name:
+  text: "%s %s response trait"
+  vars:
+    - entity
+    - environment
+    
+annotations: 
+  - property: oio:hasExactSynonym
+    text: "%s"
+    vars:
+      - iri name
+
+def: 
+  text: "A %s's response to %s."
+  vars:
+    - entity
+    - environment
+    
+equivalentTo: 
+  text: "'response' and 'occurs in' some %s and 'inheres in' some %s"
+  vars:
+    - environment
+    - entity

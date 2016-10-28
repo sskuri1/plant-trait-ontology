@@ -1,0 +1,4 @@
+iri	iri name	attribute	attribute label	stressor	stressor label	entity	entity label
+TO:0002702	cercospora leaf spot resistance	PATO:0001046	resistance to	NCBITaxon:29002	cercospora	PO:0025034	leaf
+TO:0000378	leaf scald disease resistance	PATO:0001046	resistance to	NCBITaxon:87749	Monographella albescens	PO:0025034	leaf
+
