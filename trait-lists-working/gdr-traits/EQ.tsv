@@ -1,30 +1,30 @@
-iri	iri label	entity	entity label	attribute	attribute label	definition
-TO:1000041	branch number	PO:0025073	branch	PATO:0001056	number	number of branches arising from the central leader
-TO:1000057	flower size	PO:0009046	flower	PATO:0000117	size	size of flower
-TO:1000070	fruit texture	PO:0009001	fruit	PATO:0000150	texture	combination of different features, all dependent on the anatomical properties of primary cell wall. Force applied to the apple cortex breaks the chemical bonding of either the middle lamella or the cell wall, resulting in a mealy or crispy apple flesh texture characteristic, respectively
-TO:1000083	leaf vein density	PO:0020138	leaf lamina vein	PATO:0001019	mass density	number of veins per unit area of a leaf
-TO:1000084	leaf vein number	PO:0020138	leaf lamina vein	PATO:0001056	number	number of veins per leaf
-TO:1000086	linalool content	CHEBI:17580	linalool	PATO:0000025	composition	amount of volatile compound linalool
-TO:1000087	malic acid content	CHEBI:6650	malic acid	PATO:0000025	composition	amount of malic acid
-TO:1000088	methyl benzoate content	CHEBI:72775	methyl benzoate	PATO:0000025	composition	amount of volatile compound methyl benzoate
-TO:1000089	methyl hexanoate content	CHEBI:77322	methyl hexanoate	PATO:0000025	composition	amount of volatile compound methyl hexanoate
-TO:1000090	methyl octanoate content	CHEBI:87432	methyl octanoate	PATO:0000025	composition	amount of volatile compound methyl octanoate
-TO:1000091	myrtenol content	CHEBI:25460	myrtenol	PATO:0000025	composition	amount of volatile compound myrtenol
-TO:1000092	nerol content	CHEBI:29452	nerol	PATO:0000025	composition	amount of nerol
-TO:1000093	nerolidol content	CHEBI:7524	nerolidol	PATO:0000025	composition	amount of volatile compound nerolidol
-TO:1000094	nonanal content	CHEBI:84268	nonanal	PATO:0000025	composition	amount of volatile compound nonanal
-TO:1000095	nonyl acetate content	CHEBI:87511	nonyl acetate	PATO:0000025	composition	amount of volatile compound nonyl acetate
-TO:1000106	palmitic acid content	CHEBI:15756	hexadecanoic acid	PATO:0000025	composition	amount of palmitic acid in the kernel, an important part of kernal transport and quality evaluation
-TO:1000107	palmitoleic acid content	CHEBI:28716	palmitoleic acid	PATO:0000025	composition	amount of palmitoleic acid in the kernel, an important part of kernel transport and qulaity evaluation
-TO:1000108	pentyl acetate content	CHEBI:87362	pentyl acetate	PATO:0000025	composition	amount of pentyl acetate
-TO:1000111	presence of prickles	PO:0025169	prickle	PATO:0000070	amount	presence of prickles, thorns, or spines
-TO:1000112	prickle density	PO:0025169	prickle	PATO:0001019	mass density	density of prickles, number of prickles per unit area
-TO:1000113	propyl acetate content	CHEBI:40116	propyl acetate	PATO:0000025	composition	amount of volatile compound propyl acetate
-TO:1000114	propyl hexanoate content	CHEBI:87365	propyl hexanoate	PATO:0000025	composition	amount of volatile compound propyl hexanoate
-TO:1000115	quinic acid content	CHEBI:26493	quinic acid	PATO:0000025	composition	amount of quinic acid
-TO:1000122	terpineol content	CHEBI:26876	terpineol	PATO:0000025	composition	amount of volatile compound terpineol
-TO:1000133	sucrose content	CHEBI:17992	sucrose	PATO:0000025	composition	amount of sucrose
-TO:1000064	fruit hardness	PO:0009001	fruit	PATO:0000048	hardness	sensory perception of hardness of fruit
-TO:1000065	fruit height	PO:0009001	fruit	PATO:0000119	height	height of fruit , measured with digital calipers
-TO:1000066	fruit number	PO:0009001	fruit	PATO:0001056	number	number of fruits per plant
-TO:1000130	fruit dry weight	PO:0009001	fruit	PATO:0000128	weight	weight of fruit after drying
+iri	iri name	entity	entity label	attribute	attribute label	definition
+TO:1000025	presence of prickles	PO:0025169	prickle	PATO:0000070	amount	presence of prickles, thorns, or spines
+TO:1000026	prickle density	PO:0025169	prickle	PATO:0001019	mass density	density of prickles, number of prickles per unit area
+TO:1000027	branch number	PO:0025073	branch	PATO:0001056	number	number of branches arising from the central leader
+TO:1000028	leaf vein density	PO:0020138	leaf lamina vein	PATO:0001019	mass density	number of veins per unit area of a leaf
+TO:1000029	leaf vein number	PO:0020138	leaf lamina vein	PATO:0001056	number	number of veins per leaf
+TO:1000030	flower size	PO:0009046	flower	PATO:0000117	size	size of flower
+TO:1000031	fruit texture	PO:0009001	fruit	PATO:0000150	texture	combination of different features, all dependent on the anatomical properties of primary cell wall. Force applied to the apple cortex breaks the chemical bonding of either the middle lamella or the cell wall, resulting in a mealy or crispy apple flesh texture characteristic, respectively
+TO:1000032	fruit hardness	PO:0009001	fruit	PATO:0000048	hardness	sensory perception of hardness of fruit
+TO:1000033	fruit height	PO:0009001	fruit	PATO:0000119	height	height of fruit , measured with digital calipers
+TO:1000034	fruit number	PO:0009001	fruit	PATO:0001056	number	number of fruits per plant
+TO:1000035	fruit dry weight	PO:0009001	fruit	PATO:0000128	weight	weight of fruit after drying
+TO:1000036	nonyl acetate content	CHEBI:87511	nonyl acetate	PATO:0000025	composition	amount of volatile compound nonyl acetate
+TO:1000037	methyl octanoate content	CHEBI:87432	methyl octanoate	PATO:0000025	composition	amount of volatile compound methyl octanoate
+TO:1000038	propyl hexanoate content	CHEBI:87365	propyl hexanoate	PATO:0000025	composition	amount of volatile compound propyl hexanoate
+TO:1000039	pentyl acetate content	CHEBI:87362	pentyl acetate	PATO:0000025	composition	amount of pentyl acetate
+TO:1000040	nonanal content	CHEBI:84268	nonanal	PATO:0000025	composition	amount of volatile compound nonanal
+TO:1000041	methyl hexanoate content	CHEBI:77322	methyl hexanoate	PATO:0000025	composition	amount of volatile compound methyl hexanoate
+TO:1000042	nerolidol content	CHEBI:7524	nerolidol	PATO:0000025	composition	amount of volatile compound nerolidol
+TO:1000043	methyl benzoate content	CHEBI:72775	methyl benzoate	PATO:0000025	composition	amount of volatile compound methyl benzoate
+TO:1000044	malic acid content	CHEBI:6650	malic acid	PATO:0000025	composition	amount of malic acid
+TO:1000045	propyl acetate content	CHEBI:40116	propyl acetate	PATO:0000025	composition	amount of volatile compound propyl acetate
+TO:1000046	nerol content	CHEBI:29452	nerol	PATO:0000025	composition	amount of nerol
+TO:1000047	palmitoleic acid content	CHEBI:28716	palmitoleic acid	PATO:0000025	composition	amount of palmitoleic acid in the kernel, an important part of kernel transport and qulaity evaluation
+TO:1000048	terpineol content	CHEBI:26876	terpineol	PATO:0000025	composition	amount of volatile compound terpineol
+TO:1000049	quinic acid content	CHEBI:26493	quinic acid	PATO:0000025	composition	amount of quinic acid
+TO:1000050	myrtenol content	CHEBI:25460	myrtenol	PATO:0000025	composition	amount of volatile compound myrtenol
+TO:1000051	sucrose content	CHEBI:17992	sucrose	PATO:0000025	composition	amount of sucrose
+TO:1000052	linalool content	CHEBI:17580	linalool	PATO:0000025	composition	amount of volatile compound linalool
+TO:1000053	palmitic acid content	CHEBI:15756	hexadecanoic acid	PATO:0000025	composition	amount of palmitic acid in the kernel, an important part of kernal transport and quality evaluation

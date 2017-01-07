@@ -1,0 +1,36 @@
+pattern_name: to/eq
+classes:
+  fruit:  PO_0009001
+
+relations:
+  part of: BFO_0000050
+  inheres in: RO_0000052
+  occurs in: BFO:0000066
+    
+vars: 
+  attribute: "'Thing'"
+  entity: "'Thing'"
+
+name:
+  text: "fruit %s %s"
+  vars:
+    - entity
+    - attribute
+
+annotations: 
+  - property: oio:hasExactSynonym
+    text: "%s"
+    vars:
+      - iri name
+
+def: 
+  text: "The %s of %s in fruit."
+  vars:
+    - attribute
+    - entity
+    
+equivalentTo: 
+  text: "%s and 'inheres in' some %s and 'occurs in' some 'fruit'"
+  vars:
+    - attribute
+    - entity

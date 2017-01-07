@@ -1,0 +1,730 @@
+format-version: 1.2
+ontology: eq_pattern
+
+[Term]
+id: TO:1000025
+name: prickle amount
+def: "The amount of prickle." []
+subset: GDR
+synonym: "presence of prickles" EXACT []
+is_a: PATO:0000070 ! amount
+intersection_of: PATO:0000070 ! amount
+intersection_of: inheres_in PO:0025169 ! prickle
+
+[Term]
+id: TO:1000026
+name: prickle mass density
+def: "The mass density of prickle." []
+subset: GDR
+synonym: "prickle density" EXACT []
+is_a: PATO:0001019 ! mass density
+is_a: TO:0000843 ! portion of plant tissue morphology trait
+intersection_of: PATO:0001019 ! mass density
+intersection_of: inheres_in PO:0025169 ! prickle
+
+[Term]
+id: TO:1000027
+name: branch number
+def: "The number of branch." []
+subset: GDR
+synonym: "branch number" EXACT []
+is_a: PATO:0001056
+intersection_of: PATO:0001056
+intersection_of: inheres_in PO:0025073 ! branch
+
+[Term]
+id: TO:1000028
+name: leaf lamina vein mass density
+def: "The mass density of leaf lamina vein." []
+subset: GDR
+synonym: "leaf vein density" EXACT []
+is_a: PATO:0001019 ! mass density
+is_a: TO:0000470 ! vascular tissue morphology trait
+intersection_of: PATO:0001019 ! mass density
+intersection_of: inheres_in PO:0020138 ! leaf lamina vein
+
+[Term]
+id: TO:1000029
+name: leaf lamina vein number
+def: "The number of leaf lamina vein." []
+subset: GDR
+synonym: "leaf vein number" EXACT []
+is_a: PATO:0001056
+intersection_of: PATO:0001056
+intersection_of: inheres_in PO:0020138 ! leaf lamina vein
+
+[Term]
+id: TO:1000030
+name: flower size
+def: "The size of a flower." []
+subset: GDR
+synonym: "flower size" EXACT []
+is_a: PATO:0000117 ! size
+is_a: TO:0000499 ! flower morphology trait
+intersection_of: PATO:0000117 ! size
+intersection_of: inheres_in PO:0009046 ! flower
+
+[Term]
+id: TO:1000031
+name: fruit texture
+def: "The texture of a fruit." []
+subset: GDR
+synonym: "fruit texture" EXACT []
+is_a: PATO:0000150 ! texture
+is_a: TO:0002629 ! fruit morphology trait
+intersection_of: PATO:0000150 ! texture
+intersection_of: inheres_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000032
+name: fruit hardness
+def: "The hardness of a fruit." []
+subset: GDR
+synonym: "fruit hardness" EXACT []
+is_a: PATO:0000048 ! hardness
+is_a: TO:0002629 ! fruit morphology trait
+intersection_of: PATO:0000048 ! hardness
+intersection_of: inheres_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000033
+name: fruit height
+def: "The height of a fruit." []
+subset: GDR
+synonym: "fruit height" EXACT []
+is_a: PATO:0000119 ! height
+is_a: TO:0002625 ! fruit size
+intersection_of: PATO:0000119 ! height
+intersection_of: inheres_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000034
+name: fruit number
+def: "The number of fruit." []
+subset: GDR
+synonym: "fruit number" EXACT []
+is_a: PATO:0001056
+intersection_of: PATO:0001056
+intersection_of: inheres_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000035
+name: fruit weight
+def: "The weight of a fruit." []
+subset: GDR
+synonym: "fruit dry weight" EXACT []
+is_a: PATO:0000128 ! weight
+is_a: TO:0002629 ! fruit morphology trait
+intersection_of: PATO:0000128 ! weight
+intersection_of: inheres_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000036
+name: nonyl acetate composition
+def: "The composition of nonyl acetate." []
+subset: GDR
+synonym: "nonyl acetate content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87511
+
+[Term]
+id: TO:1000037
+name: methyl octanoate composition
+def: "The composition of methyl octanoate." []
+subset: GDR
+synonym: "methyl octanoate content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87432
+
+[Term]
+id: TO:1000038
+name: propyl hexanoate composition
+def: "The composition of propyl hexanoate." []
+subset: GDR
+synonym: "propyl hexanoate content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87365
+
+[Term]
+id: TO:1000039
+name: pentyl acetate composition
+def: "The composition of pentyl acetate." []
+subset: GDR
+synonym: "pentyl acetate content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87362
+
+[Term]
+id: TO:1000040
+name: nonanal composition
+def: "The composition of nonanal." []
+subset: GDR
+synonym: "nonanal content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:84268
+
+[Term]
+id: TO:1000041
+name: methyl hexanoate composition
+def: "The composition of methyl hexanoate." []
+subset: GDR
+synonym: "methyl hexanoate content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:77322
+
+[Term]
+id: TO:1000042
+name: nerolidol composition
+def: "The composition of nerolidol." []
+subset: GDR
+synonym: "nerolidol content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:7524
+
+[Term]
+id: TO:1000043
+name: methyl benzoate composition
+def: "The composition of methyl benzoate." []
+subset: GDR
+synonym: "methyl benzoate content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:72775
+
+[Term]
+id: TO:1000044
+name: malic acid composition
+def: "The composition of malic acid." []
+subset: GDR
+synonym: "malic acid content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:6650
+
+[Term]
+id: TO:1000045
+name: propyl acetate composition
+def: "The composition of propyl acetate." []
+subset: GDR
+synonym: "propyl acetate content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:40116
+
+[Term]
+id: TO:1000046
+name: nerol composition
+def: "The composition of nerol." []
+subset: GDR
+synonym: "nerol content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:29452
+
+[Term]
+id: TO:1000047
+name: palmitoleic acid composition
+def: "The composition of palmitoleic acid." []
+subset: GDR
+synonym: "palmitoleic acid content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:28716
+
+[Term]
+id: TO:1000048
+name: terpineol composition
+def: "The composition of terpineol." []
+subset: GDR
+synonym: "terpineol content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:26876
+
+[Term]
+id: TO:1000049
+name: quinic acid composition
+def: "The composition of quinic acid." []
+subset: GDR
+synonym: "quinic acid content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:26493
+
+[Term]
+id: TO:1000050
+name: myrtenol composition
+def: "The composition of myrtenol." []
+subset: GDR
+synonym: "myrtenol content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:25460
+
+[Term]
+id: TO:1000051
+name: sucrose composition
+def: "The composition of sucrose." []
+subset: GDR
+synonym: "sucrose content" EXACT []
+is_a: TO:0006003 ! oligosaccharide content
+is_a: TO:0006007 ! polysaccharide content
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:17992 ! sucrose
+
+[Term]
+id: TO:1000052
+name: linalool composition
+def: "The composition of linalool." []
+subset: GDR
+synonym: "linalool content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:17580
+
+[Term]
+id: TO:1000053
+name: hexadecanoic acid composition
+def: "The composition of hexadecanoic acid." []
+subset: GDR
+synonym: "palmitic acid content" EXACT []
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:15756
+
+[Term]
+id: TO:1000054
+name: fruit decan-1-ol composition
+def: "The composition of decan-1-ol in fruit." []
+subset: GDR
+synonym: "1-decanol content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:28903
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000055
+name: fruit octan-1-ol composition
+def: "The composition of octan-1-ol in fruit." []
+subset: GDR
+synonym: "1-octanol content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:16188
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000056
+name: fruit dec-2-enal composition
+def: "The composition of dec-2-enal in fruit." []
+subset: GDR
+synonym: "2-decenal content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:61727
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000057
+name: fruit hept-2-enal composition
+def: "The composition of hept-2-enal in fruit." []
+subset: GDR
+synonym: "2-heptenal content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:61724
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000058
+name: fruit 2-methylbutyl acetate composition
+def: "The composition of 2-methylbutyl acetate in fruit." []
+subset: GDR
+synonym: "2-methyl butyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:50585
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000059
+name: fruit 2-methylbutyl acetate composition
+def: "The composition of 2-methylbutyl acetate in fruit." []
+subset: GDR
+synonym: "2-methylbutyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:50585
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000060
+name: fruit nonan-2-one composition
+def: "The composition of nonan-2-one in fruit." []
+subset: GDR
+synonym: "2-nonanone content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:77927
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000061
+name: fruit oct-2-enal composition
+def: "The composition of oct-2-enal in fruit." []
+subset: GDR
+synonym: "2-octenal content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:61725
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000062
+name: fruit 2-pentenal composition
+def: "The composition of 2-pentenal in fruit." []
+subset: GDR
+synonym: "2-pentenal content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:61722
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000063
+name: fruit isoamyl acetate composition
+def: "The composition of isoamyl acetate in fruit." []
+subset: GDR
+synonym: "3-methylbutyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:31725
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000064
+name: fruit 3-octanol composition
+def: "The composition of 3-octanol in fruit." []
+subset: GDR
+synonym: "3-octanol content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:80945
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000065
+name: fruit sulcatone composition
+def: "The composition of sulcatone in fruit." []
+subset: GDR
+synonym: "6-methyl-5-hepten-2-one content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:16310
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000066
+name: fruit benzaldehyde composition
+def: "The composition of benzaldehyde in fruit." []
+subset: GDR
+synonym: "benzaldehyde content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:17169
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000067
+name: fruit benzyl acetate composition
+def: "The composition of benzyl acetate in fruit." []
+subset: GDR
+synonym: "benzyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:52051
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000068
+name: fruit butyl acetate composition
+def: "The composition of butyl acetate in fruit." []
+subset: GDR
+synonym: "butyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:31328
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000069
+name: fruit butyl butanoate composition
+def: "The composition of butyl butanoate in fruit." []
+subset: GDR
+synonym: "butyl butanoate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87429
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000070
+name: fruit Butyl hexanoate composition
+def: "The composition of Butyl hexanoate in fruit." []
+subset: GDR
+synonym: "butyl hexanoate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:89561
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000071
+name: fruit catechin composition
+def: "The composition of catechin in fruit." []
+subset: GDR
+synonym: "catechin content" EXACT []
+is_a: TO:0000290 ! flavonoid content
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:23053
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000072
+name: fruit chlorogenic acid composition
+def: "The composition of chlorogenic acid in fruit." []
+subset: GDR
+synonym: "chlorogenic acid content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:16112
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000073
+name: fruit cinnamyl  acetate composition
+def: "The composition of cinnamyl  acetate in fruit." []
+subset: GDR
+synonym: "cinnamyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:31402
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000074
+name: fruit citric acid composition
+def: "The composition of citric acid in fruit." []
+subset: GDR
+synonym: "citric acid content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:30769
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000075
+name: fruit L-dehydroascorbate composition
+def: "The composition of L-dehydroascorbate in fruit." []
+subset: GDR
+synonym: "dehydroascorbate content in fruit flesh" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:58539
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000076
+name: fruit ethyl acetate composition
+def: "The composition of ethyl acetate in fruit." []
+subset: GDR
+synonym: "ethyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:27750
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000077
+name: fruit ethyl decanoate composition
+def: "The composition of ethyl decanoate in fruit." []
+subset: GDR
+synonym: "ethyl decanoate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87430
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000078
+name: fruit ethyl hexanoate composition
+def: "The composition of ethyl hexanoate in fruit." []
+subset: GDR
+synonym: "ethyl hexanoate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:86055
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000079
+name: fruit eugenol composition
+def: "The composition of eugenol in fruit." []
+subset: GDR
+synonym: "eugenol content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:4917
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000080
+name: fruit geranyl acetate composition
+def: "The composition of geranyl acetate in fruit." []
+subset: GDR
+synonym: "geranyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:5331
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000081
+name: fruit Heptanal composition
+def: "The composition of Heptanal in fruit." []
+subset: GDR
+synonym: "heptanal content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:34787
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000082
+name: fruit hexan-1-ol composition
+def: "The composition of hexan-1-ol in fruit." []
+subset: GDR
+synonym: "hexanol content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87393
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000083
+name: fruit hexyl acetate composition
+def: "The composition of hexyl acetate in fruit." []
+subset: GDR
+synonym: "hexyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87510
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000084
+name: fruit hexyl butyrate composition
+def: "The composition of hexyl butyrate in fruit." []
+subset: GDR
+synonym: "hexyl butanoate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87559
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000085
+name: fruit octyl acetate composition
+def: "The composition of octyl acetate in fruit." []
+subset: GDR
+synonym: "octyl acetate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87495
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000086
+name: fruit Octyl butanoate composition
+def: "The composition of Octyl butanoate in fruit." []
+subset: GDR
+synonym: "octyl butanoate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:89726
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000087
+name: fruit glucitol composition
+def: "The composition of glucitol in fruit." []
+subset: GDR
+synonym: "sorbitol content" EXACT []
+is_a: TO:0000291 ! carbohydrate content
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:30911
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000088
+name: fruit heptan-2-one composition
+def: "The composition of heptan-2-one in fruit." []
+subset: GDR
+synonym: "2-heptanone content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:5672
+intersection_of: occurs_in PO:0009001 ! fruit
+
+[Term]
+id: TO:1000089
+name: fruit hexyl butyrate composition
+def: "The composition of hexyl butyrate in fruit." []
+subset: GDR
+synonym: "hexyl hexanoate content" EXACT []
+is_a: BFO:0000003
+is_a: PATO:0000025 ! composition
+intersection_of: PATO:0000025 ! composition
+intersection_of: inheres_in CHEBI:87559
+intersection_of: occurs_in PO:0009001 ! fruit

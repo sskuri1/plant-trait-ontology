@@ -1,37 +1,37 @@
-iri	iri label	entity	entity label	attribute	attribute label	definition
-TO:1000025	1-decanol content	CHEBI:28903	decan-1-ol	PATO:0000025	composition	amount of volatile compound 1-decanol in fruit
-TO:1000026	1-octanol content	CHEBI:16188	octan-1-ol	PATO:0000025	composition	amount of volatile compound 1-octanol in fruit
-TO:1000027	2-decenal content	CHEBI:61727	dec-2-enal	PATO:0000025	composition	amount of volatile compound 2-decenal in fruit
-TO:1000028	2-heptenal content	CHEBI:61724	hept-2-enal	PATO:0000025	composition	amount of volatile compound 2-heptenal in fruit
-TO:1000029	2-methyl butyl acetate content	CHEBI:50585	2-methylbutyl acetate	PATO:0000025	composition	amount of volatile compund 2-methyl butyl acetate in fruit
-TO:1000030	2-methylbutyl acetate content	CHEBI:50585	2-methylbutyl acetate	PATO:0000025	composition	amount of volatile compound 2-methylbutyl acetate in fruit
-TO:1000031	2-nonanone content	CHEBI:77927	nonan-2-one	PATO:0000025	composition	amount of volatile compound 2-nonanone in fruit
-TO:1000032	2-octenal content	CHEBI:61725	oct-2-enal	PATO:0000025	composition	amount of volatile compound 2-octenal in fruit
-TO:1000033	2-pentenal content	CHEBI:61722	2-pentenal	PATO:0000025	composition	amount of volatile compound 2-pentenal in fruit
-TO:1000034	3-methylbutyl acetate content	CHEBI:31725	isoamyl acetate	PATO:0000025	composition	amount of volatile compound 3-methylbutyl acetate in fruit
-TO:1000035	3-octanol content	CHEBI:80945	3-octanol	PATO:0000025	composition	amount of volatile compound 3-octanol in fruit
-TO:1000036	6-methyl-5-hepten-2-one content	CHEBI:16310	sulcatone	PATO:0000025	composition	amount of volatile compound 6-methyl-5-hepten-2-one in fruit
-TO:1000039	benzaldehyde content	CHEBI:17169	benzaldehyde	PATO:0000025	composition	amount of volatile compound benzaldehyde in fruit
-TO:1000040	benzyl acetate content	CHEBI:52051	benzyl acetate	PATO:0000025	composition	amount of volatile compound benzyl acetate in fruit
-TO:1000042	butyl acetate content	CHEBI:31328	butyl acetate	PATO:0000025	composition	amount of volatile compound butyl acetate in fruit
-TO:1000043	butyl butanoate content	CHEBI:87429	butyl butanoate	PATO:0000025	composition	amount of volatile compound butyl butanoate in fruit
-TO:1000044	butyl hexanoate content	CHEBI:89561	Butyl hexanoate	PATO:0000025	composition	amount of volatile compound butyl hexanoate in fruit
-TO:1000046	catechin content	CHEBI:23053	catechin	PATO:0000025	composition	amount of polyphenolic compound catechin in fruit
-TO:1000047	chlorogenic acid content	CHEBI:16112	chlorogenic acid	PATO:0000025	composition	amount of polyphenolic compound chlorogenic acid in fruit
-TO:1000048	cinnamyl acetate content	CHEBI:31402	cinnamyl  acetate	PATO:0000025	composition	amount of volatile compound cinnamyl acetate in fruit
-TO:1000049	citric acid content	CHEBI:30769	citric acid	PATO:0000025	composition	amount of citric acid n fruits
-TO:1000050	dehydroascorbate content in fruit flesh	CHEBI:58539	L-dehydroascorbate	PATO:0000025	composition	amount of dehydroascorbate in fruit flesh
-TO:1000051	ethyl acetate content	CHEBI:27750	ethyl acetate	PATO:0000025	composition	amount of volatile compound ethyl acetate in fruit
-TO:1000052	ethyl decanoate content	CHEBI:87430	ethyl decanoate	PATO:0000025	composition	amount of volatile compound ethyl decanoate in fruit
-TO:1000053	ethyl hexanoate content	CHEBI:86055	ethyl hexanoate	PATO:0000025	composition	amount of volatile compound ethyl hexanoate in fruit
-TO:1000054	eugenol content	CHEBI:4917	eugenol	PATO:0000025	composition	amount of volatile compound eugenol in fruit
-TO:1000071	geranyl acetate content	CHEBI:5331	geranyl acetate	PATO:0000025	composition	amount of volatile compound geranyl acetate in fruit
-TO:1000072	heptanal content	CHEBI:34787	Heptanal	PATO:0000025	composition	amount of volatile compound heptanal in fruit
-TO:1000073	hexanol content	CHEBI:87393	hexan-1-ol	PATO:0000025	composition	amount of volatile compound hexanol in fruit
-TO:1000074	hexyl acetate content	CHEBI:87510	hexyl acetate	PATO:0000025	composition	amount of volatile compound hexyl acetate in fruit
-TO:1000075	hexyl butanoate content	CHEBI:87559	hexyl butyrate	PATO:0000025	composition	amount of volatile compound hexyl butanoate in fruit
-TO:1000104	octyl acetate content	CHEBI:87495	octyl acetate	PATO:0000025	composition	amount of volatile compound octyl acetate in fruit
-TO:1000105	octyl butanoate content	CHEBI:89726	Octyl butanoate	PATO:0000025	composition	amount of volatile compound octyl butanoate in fruit
-TO:1000119	sorbitol content	CHEBI:30911	glucitol	PATO:0000025	composition	amount of sorbitol in fruit flesh
-TO:1000128	2-heptanone content	CHEBI:5672	heptan-2-one	PATO:0000025	composition	amount of volatile compound 2-heptanone in fruit
-TO:1000131	hexyl hexanoate content	CHEBI:87559	hexyl butyrate	PATO:0000025	composition	amount of volatile compound hexyl hexanoate in fruit
+iri	iri name	entity	entity label	attribute	attribute label	definition
+TO:1000054	1-decanol content	CHEBI:28903	decan-1-ol	PATO:0000025	composition	amount of volatile compound 1-decanol in fruit
+TO:1000055	1-octanol content	CHEBI:16188	octan-1-ol	PATO:0000025	composition	amount of volatile compound 1-octanol in fruit
+TO:1000056	2-decenal content	CHEBI:61727	dec-2-enal	PATO:0000025	composition	amount of volatile compound 2-decenal in fruit
+TO:1000057	2-heptenal content	CHEBI:61724	hept-2-enal	PATO:0000025	composition	amount of volatile compound 2-heptenal in fruit
+TO:1000058	2-methyl butyl acetate content	CHEBI:50585	2-methylbutyl acetate	PATO:0000025	composition	amount of volatile compund 2-methyl butyl acetate in fruit
+TO:1000059	2-methylbutyl acetate content	CHEBI:50585	2-methylbutyl acetate	PATO:0000025	composition	amount of volatile compound 2-methylbutyl acetate in fruit
+TO:1000060	2-nonanone content	CHEBI:77927	nonan-2-one	PATO:0000025	composition	amount of volatile compound 2-nonanone in fruit
+TO:1000061	2-octenal content	CHEBI:61725	oct-2-enal	PATO:0000025	composition	amount of volatile compound 2-octenal in fruit
+TO:1000062	2-pentenal content	CHEBI:61722	2-pentenal	PATO:0000025	composition	amount of volatile compound 2-pentenal in fruit
+TO:1000063	3-methylbutyl acetate content	CHEBI:31725	isoamyl acetate	PATO:0000025	composition	amount of volatile compound 3-methylbutyl acetate in fruit
+TO:1000064	3-octanol content	CHEBI:80945	3-octanol	PATO:0000025	composition	amount of volatile compound 3-octanol in fruit
+TO:1000065	6-methyl-5-hepten-2-one content	CHEBI:16310	sulcatone	PATO:0000025	composition	amount of volatile compound 6-methyl-5-hepten-2-one in fruit
+TO:1000066	benzaldehyde content	CHEBI:17169	benzaldehyde	PATO:0000025	composition	amount of volatile compound benzaldehyde in fruit
+TO:1000067	benzyl acetate content	CHEBI:52051	benzyl acetate	PATO:0000025	composition	amount of volatile compound benzyl acetate in fruit
+TO:1000068	butyl acetate content	CHEBI:31328	butyl acetate	PATO:0000025	composition	amount of volatile compound butyl acetate in fruit
+TO:1000069	butyl butanoate content	CHEBI:87429	butyl butanoate	PATO:0000025	composition	amount of volatile compound butyl butanoate in fruit
+TO:1000070	butyl hexanoate content	CHEBI:89561	Butyl hexanoate	PATO:0000025	composition	amount of volatile compound butyl hexanoate in fruit
+TO:1000071	catechin content	CHEBI:23053	catechin	PATO:0000025	composition	amount of polyphenolic compound catechin in fruit
+TO:1000072	chlorogenic acid content	CHEBI:16112	chlorogenic acid	PATO:0000025	composition	amount of polyphenolic compound chlorogenic acid in fruit
+TO:1000073	cinnamyl acetate content	CHEBI:31402	cinnamyl  acetate	PATO:0000025	composition	amount of volatile compound cinnamyl acetate in fruit
+TO:1000074	citric acid content	CHEBI:30769	citric acid	PATO:0000025	composition	amount of citric acid n fruits
+TO:1000075	dehydroascorbate content in fruit flesh	CHEBI:58539	L-dehydroascorbate	PATO:0000025	composition	amount of dehydroascorbate in fruit flesh
+TO:1000076	ethyl acetate content	CHEBI:27750	ethyl acetate	PATO:0000025	composition	amount of volatile compound ethyl acetate in fruit
+TO:1000077	ethyl decanoate content	CHEBI:87430	ethyl decanoate	PATO:0000025	composition	amount of volatile compound ethyl decanoate in fruit
+TO:1000078	ethyl hexanoate content	CHEBI:86055	ethyl hexanoate	PATO:0000025	composition	amount of volatile compound ethyl hexanoate in fruit
+TO:1000079	eugenol content	CHEBI:4917	eugenol	PATO:0000025	composition	amount of volatile compound eugenol in fruit
+TO:1000080	geranyl acetate content	CHEBI:5331	geranyl acetate	PATO:0000025	composition	amount of volatile compound geranyl acetate in fruit
+TO:1000081	heptanal content	CHEBI:34787	Heptanal	PATO:0000025	composition	amount of volatile compound heptanal in fruit
+TO:1000082	hexanol content	CHEBI:87393	hexan-1-ol	PATO:0000025	composition	amount of volatile compound hexanol in fruit
+TO:1000083	hexyl acetate content	CHEBI:87510	hexyl acetate	PATO:0000025	composition	amount of volatile compound hexyl acetate in fruit
+TO:1000084	hexyl butanoate content	CHEBI:87559	hexyl butyrate	PATO:0000025	composition	amount of volatile compound hexyl butanoate in fruit
+TO:1000085	octyl acetate content	CHEBI:87495	octyl acetate	PATO:0000025	composition	amount of volatile compound octyl acetate in fruit
+TO:1000086	octyl butanoate content	CHEBI:89726	Octyl butanoate	PATO:0000025	composition	amount of volatile compound octyl butanoate in fruit
+TO:1000087	sorbitol content	CHEBI:30911	glucitol	PATO:0000025	composition	amount of sorbitol in fruit flesh
+TO:1000088	2-heptanone content	CHEBI:5672	heptan-2-one	PATO:0000025	composition	amount of volatile compound 2-heptanone in fruit
+TO:1000089	hexyl hexanoate content	CHEBI:87559	hexyl butyrate	PATO:0000025	composition	amount of volatile compound hexyl hexanoate in fruit
